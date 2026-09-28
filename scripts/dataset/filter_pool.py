@@ -148,7 +148,7 @@ def report(out, rows, funnel, kept, args):
     n = len(rows)
     out.write("# Repository selection funnel\n\n")
     out.write(f"Sources unioned into {n} name-unique candidates; gates as fixed in "
-              f"plan.md §3, applied {date.today()}.\n\n")
+              "plan.md §3.\n\n")
     out.write("| Stage | Rejected here | Remaining |\n| --- | --- | --- |\n")
     out.write(f"| raw union | — | {n} |\n")
     for name, dropped, left in funnel:

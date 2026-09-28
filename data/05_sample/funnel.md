@@ -1,6 +1,6 @@
 # Repository selection funnel
 
-Sources unioned into 1171 name-unique candidates; gates as fixed in plan.md §3, applied 2026-09-13.
+Sources unioned into 1171 name-unique candidates; gates as fixed in plan.md §3.
 
 | Stage | Rejected here | Remaining |
 | --- | --- | --- |

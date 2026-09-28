@@ -16,7 +16,8 @@ make analysis
 This rebuilds `data/12_merged/` and `data/13_analysis/` (result tables and figures) from the
 shipped measurements in about a minute. With the pinned versions on Python 3.14 the results
 match the thesis to within 1e-11, apart from a few tie-sensitive Wilcoxon statistics, which
-move in the third significant digit.
+can move in the second significant digit. In `paired_6m.csv` three Holm-adjusted p-values
+lie at about 0.05 and can land on either side of it.
 
 ## Rerun selection and measurement
 

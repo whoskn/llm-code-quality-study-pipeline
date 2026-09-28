@@ -1,7 +1,7 @@
 # Dataset & repository-selection across related papers
 
 Per-paper: **year · gathering (markers/approach) · filtering · scale · url**.
-URLs checked 2026-07-05 (HTTP 200 unless noted).
+URLs checked (HTTP 200 unless noted).
 
 **Availability:** published & reusable — 02, 08, 09, 11, 13, 14, 15, 16 · reuse AIDev — 14, 15 (source: 16) · not usable — 06 (proprietary), 12 (unreleased), 10 (announced, no url), 03 (no repo mining).
 
