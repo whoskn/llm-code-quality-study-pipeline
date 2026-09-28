@@ -1,0 +1,2170 @@
+repo,sha,month,offset,period,commit_date,author_date,author_name,author_email,committer_name,committer_email,parents,is_merge,files,insertions,deletions,scope_files,scope_insertions,scope_deletions,agent_files,llm_family,llm_tools,llm_signals,bot,is_revert,pr,subject,message
+duckdb/dbt-duckdb,899f48e5f54692aa34f39a40fd0e4bb9fc0837aa,2024-03,-12,pre,2024-03-04T05:14:18Z,2024-03-04T05:14:18Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.7.8 to 1.7.9,"Bump dbt-tests-adapter from 1.7.8 to 1.7.9
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-core) from 1.7.8 to 1.7.9.
+- [Release notes](https://github.com/dbt-labs/dbt-core/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-core/blob/v1.7.9/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-core/compare/v1.7.8...v1.7.9)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,895e798d579f3da5ac5a4aec0cce71df7fd74028,2024-03,-12,pre,2024-03-04T12:52:16-08:00,2024-03-04T12:52:16-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,352,Merge pull request #352 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.9,"Merge pull request #352 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.9
+
+Bump dbt-tests-adapter from 1.7.8 to 1.7.9"
+duckdb/dbt-duckdb,2ba61dd60530cf6015a5cd21ea032a87184f75a5,2024-03,-12,pre,2024-03-05T16:34:08-08:00,2024-03-05T16:34:08-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,117,0,0,0,0,,,,,,0,,add release pipeline,add release pipeline
+duckdb/dbt-duckdb,2c463db0f29f0ead54e48bac83ed1d2207370237,2024-03,-12,pre,2024-03-05T17:53:11-08:00,2024-03-05T17:53:11-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,11,1,2,11,1,,,,,,0,,"fix: custom_user_agent does not work if motherduck plugin is not specified, add dbt-duckdb version","fix: custom_user_agent does not work if motherduck plugin is not specified, add dbt-duckdb version"
+duckdb/dbt-duckdb,eacfde4a3fed8b3cff07bd0b81c80e121909e545,2024-03,-12,pre,2024-03-05T17:57:35-08:00,2024-03-05T17:57:35-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,reorder imports,reorder imports
+duckdb/dbt-duckdb,53f9c44cce4273e8a445402e8e700653280d5c2e,2024-03,-12,pre,2024-03-05T18:25:01-08:00,2024-03-05T18:25:01-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,5,26,0,0,0,,,,,,0,,only run release pipeline on semver tag pushes,only run release pipeline on semver tag pushes
+duckdb/dbt-duckdb,b99796f7efeada1bef59b918f52ad035c2bd7be8,2024-03,-12,pre,2024-03-05T18:44:33-08:00,2024-03-05T18:44:33-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,354,Merge pull request #354 from h51cd4195de8449d8/guen/eco-73-dbt-duckdb-does-not-use-motherduck-plugin-by-default,"Merge pull request #354 from h51cd4195de8449d8/guen/eco-73-dbt-duckdb-does-not-use-motherduck-plugin-by-default
+
+Fix: custom_user_agent does not work if motherduck plugin is not specified in profiles.yml"
+duckdb/dbt-duckdb,c858985ce45287dba0b603a9248d3a66c0864dfc,2024-03,-12,pre,2024-03-06T12:23:29-08:00,2024-03-06T12:23:29-08:00,u41a2f131751372f2,u41a2f131751372f2@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,0,0,0,,,,,,0,,use --generate-notes in gh release,use --generate-notes in gh release
+duckdb/dbt-duckdb,0862dc4aa33df445761a7149b051df50d21dcc68,2024-03,-12,pre,2024-03-06T12:25:20-08:00,2024-03-06T12:25:20-08:00,u41a2f131751372f2,u41a2f131751372f2@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,,Update release.yml,Update release.yml
+duckdb/dbt-duckdb,9eedc6d5ef545208903734ed13d1eab3cc7537bb,2024-03,-12,pre,2024-03-07T09:32:29-08:00,2024-03-07T09:32:29-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,355,Merge pull request #355 from h51cd4195de8449d8/guen/eco-71-contribute-pypi-release-workflow-to-dbt-duckdb,"Merge pull request #355 from h51cd4195de8449d8/guen/eco-71-contribute-pypi-release-workflow-to-dbt-duckdb
+
+Add automated release pipeline"
+duckdb/dbt-duckdb,2978128a39638f280111178438b5d9b363335a4a,2024-03,-12,pre,2024-03-07T09:52:51-08:00,2024-03-07T09:52:51-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Prepare a 1.7.3 release,Prepare a 1.7.3 release
+duckdb/dbt-duckdb,0ef8383a6aa7bb79175e9decabae8ff78e5d1d30,2024-03,-12,pre,2024-03-07T10:02:01-08:00,2024-03-07T10:02:01-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Fix module field reference on PluginConfig for MD,Fix module field reference on PluginConfig for MD
+duckdb/dbt-duckdb,f076433f6009dc8c3ac5170203208f6b110b8a87,2024-03,-12,pre,2024-03-07T10:37:59-08:00,2024-03-07T10:37:59-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,2,1,0,0,0,,,,,,0,,fix that too,fix that too
+duckdb/dbt-duckdb,15fa28d9c7504a19c0777af2224341d1658ba9b6,2024-03,-12,pre,2024-03-07T10:50:50-08:00,2024-03-07T10:50:50-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,357,Merge pull request #357 from duckdb/jwills_fix_md_plugin_bug,"Merge pull request #357 from duckdb/jwills_fix_md_plugin_bug
+
+Fix module field reference on PluginConfig for MD"
+duckdb/dbt-duckdb,a688d082bc250f905901be05ffbdaf34eba6c468,2024-03,-12,pre,2024-03-07T10:53:48-08:00,2024-03-07T10:53:48-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,356,Merge pull request #356 from duckdb/jwills_v173,"Merge pull request #356 from duckdb/jwills_v173
+
+Prepare a 1.7.3 release"
+duckdb/dbt-duckdb,d0f45b4f53c44989eb439ccc11b4d115b0899d43,2024-03,-12,pre,2024-03-11T05:12:21Z,2024-03-11T05:12:21Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.8.0 to 1.9.0,"Bump mypy from 1.8.0 to 1.9.0
+
+Bumps [mypy](https://github.com/python/mypy) from 1.8.0 to 1.9.0.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.8.0...1.9.0)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,af4083d791edf836548048097fd5601d0be6c377,2024-03,-12,pre,2024-03-11T05:40:05Z,2024-03-11T05:40:05Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump actions/setup-python from 4 to 5,"Bump actions/setup-python from 4 to 5
+
+Bumps [actions/setup-python](https://github.com/actions/setup-python) from 4 to 5.
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-python
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,0603c39798f52fa3ee91ec429783bd6b53956dd1,2024-03,-12,pre,2024-03-11T05:40:08Z,2024-03-11T05:40:08Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump sigstore/gh-action-sigstore-python from 1.2.3 to 2.1.1,"Bump sigstore/gh-action-sigstore-python from 1.2.3 to 2.1.1
+
+Bumps [sigstore/gh-action-sigstore-python](https://github.com/sigstore/gh-action-sigstore-python) from 1.2.3 to 2.1.1.
+- [Release notes](https://github.com/sigstore/gh-action-sigstore-python/releases)
+- [Commits](https://github.com/sigstore/gh-action-sigstore-python/compare/v1.2.3...v2.1.1)
+
+---
+updated-dependencies:
+- dependency-name: sigstore/gh-action-sigstore-python
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,af5f989c66aa1a7cfb4962329ce431dc2b1e1917,2024-03,-12,pre,2024-03-15T15:46:54-04:00,2024-03-15T15:46:54-04:00,u1a4f68a8f3d91849,u1a4f68a8f3d91849@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,9c8113a4ccffc5bc1b8dfdeaef932f278f4e5f57,2024-03,-12,pre,2024-03-15T16:39:11-04:00,2024-03-15T16:39:11-04:00,u0815f4cf19d3fef1,u0815f4cf19d3fef1@users.invalid,u0815f4cf19d3fef1,u0815f4cf19d3fef1@users.invalid,1,0,1,2,3,1,2,3,,,,,,0,,use RelationConfig attributes in create_from_source,use RelationConfig attributes in create_from_source
+duckdb/dbt-duckdb,dd6eab937042d617df5afca1d869321a9349be06,2024-03,-12,pre,2024-03-17T09:10:05-07:00,2024-03-17T09:10:05-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,359,Merge pull request #359 from duckdb/dependabot/pip/mypy-1.9.0,"Merge pull request #359 from duckdb/dependabot/pip/mypy-1.9.0
+
+Bump mypy from 1.8.0 to 1.9.0"
+duckdb/dbt-duckdb,2bac1d6692ad4697ce4d9c79e10dd14e047583ca,2024-03,-12,pre,2024-03-17T09:10:48-07:00,2024-03-17T09:10:48-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,360,Merge pull request #360 from duckdb/dependabot/github_actions/actions/setup-python-5,"Merge pull request #360 from duckdb/dependabot/github_actions/actions/setup-python-5
+
+Bump actions/setup-python from 4 to 5"
+duckdb/dbt-duckdb,15177498298e3c5d24753fdd56d9a8e463b8bae0,2024-03,-12,pre,2024-03-17T09:11:15-07:00,2024-03-17T09:11:15-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,361,Merge pull request #361 from duckdb/dependabot/github_actions/sigstore/gh-action-sigstore-python-2.1.1,"Merge pull request #361 from duckdb/dependabot/github_actions/sigstore/gh-action-sigstore-python-2.1.1
+
+Bump sigstore/gh-action-sigstore-python from 1.2.3 to 2.1.1"
+duckdb/dbt-duckdb,3f696a7e74c8e6389fd564d09106e9c12a5694d4,2024-03,-12,pre,2024-03-18T05:50:36Z,2024-03-18T05:50:36Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.7.9 to 1.7.10,"Bump dbt-tests-adapter from 1.7.9 to 1.7.10
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-core) from 1.7.9 to 1.7.10.
+- [Release notes](https://github.com/dbt-labs/dbt-core/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-core/blob/v1.7.10/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-core/compare/v1.7.9...v1.7.10)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,095eab916b11efc503b2eaf519e1e7818ed5284c,2024-03,-12,pre,2024-03-18T09:51:47-07:00,2024-03-18T09:51:47-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,365,Merge pull request #365 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.10,"Merge pull request #365 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.10
+
+Bump dbt-tests-adapter from 1.7.9 to 1.7.10"
+duckdb/dbt-duckdb,80b709d3ce0d368e51e74783992419dec7e8a826,2024-03,-12,pre,2024-03-18T20:23:44-04:00,2024-03-18T20:23:44-04:00,u1a4f68a8f3d91849,u1a4f68a8f3d91849@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,b8fdca014c54db58a9ee2027fde15e6567a4f625,2024-03,-12,pre,2024-03-18T20:27:18-04:00,2024-03-18T20:27:18-04:00,u0815f4cf19d3fef1,u0815f4cf19d3fef1@users.invalid,u0815f4cf19d3fef1,u0815f4cf19d3fef1@users.invalid,1,0,2,10,10,2,10,10,,,,,,0,,formatting + initial mypy fixes,formatting + initial mypy fixes
+duckdb/dbt-duckdb,e4bc2d995e9f4b5c8c1bfb1ec9e1368224602f4c,2024-03,-12,pre,2024-03-21T10:33:16-07:00,2024-03-21T10:33:16-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,5,93,13,2,10,0,,,,,,0,,Add support for persist_docs-related functionality now that comments are fully supported in DuckDB 0.10.1,Add support for persist_docs-related functionality now that comments are fully supported in DuckDB 0.10.1
+duckdb/dbt-duckdb,8b9eae4a76380adc632d90e7a9ef3bb97719a0eb,2024-03,-12,pre,2024-03-21T10:39:41-07:00,2024-03-21T10:39:41-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix newline,fix newline
+duckdb/dbt-duckdb,1df3ad3fa2fc5a183b048b22db7fa63ed14cfd04,2024-03,-12,pre,2024-03-26T00:04:23-04:00,2024-03-26T00:04:23-04:00,u4b09673a0f95cb8e,u4b09673a0f95cb8e@users.invalid,u4b09673a0f95cb8e,u4b09673a0f95cb8e@users.invalid,1,0,2,11,5,2,11,5,,,,,,0,,lazy load agate,lazy load agate
+duckdb/dbt-duckdb,fc1b8df53a1c4ab77f2acf6b3fb5dd409d967cee,2024-03,-12,pre,2024-03-26T23:58:03-04:00,2024-03-26T23:58:03-04:00,u4b09673a0f95cb8e,u4b09673a0f95cb8e@users.invalid,u4b09673a0f95cb8e,u4b09673a0f95cb8e@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,run ruff,run ruff
+duckdb/dbt-duckdb,1531e35f64285397f5152dd1ed1cb19ab836b7c2,2024-03,-12,pre,2024-03-27T07:59:48-07:00,2024-03-27T07:59:48-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,370,Merge pull request #370 from hdb150917944f44b2/lazy-load-agate,"Merge pull request #370 from hdb150917944f44b2/lazy-load-agate
+
+lazy load agate"
+duckdb/dbt-duckdb,552158b33d760eea8ef42c45c17363ddb2cb207e,2024-03,-12,pre,2024-03-27T08:36:04-07:00,2024-03-27T08:36:04-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,7,1,1,7,1,,,,,,0,,Fix semver comparison logic,Fix semver comparison logic
+duckdb/dbt-duckdb,d21e8813eb5fdf1894d15b640d053ffed28502d8,2024-03,-12,pre,2024-03-27T08:43:47-07:00,2024-03-27T08:43:47-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,Fix unit tests,Fix unit tests
+duckdb/dbt-duckdb,73ee8242b321ced2d9e68bd4d053ea15d36b9060,2024-03,-12,pre,2024-03-27T11:29:25-07:00,2024-03-27T11:29:25-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,5,1,0,0,0,,,,,,0,,Skip persist_docs for MD,Skip persist_docs for MD
+duckdb/dbt-duckdb,29160a66892bff9477ffcfa2caf53d581b9afb5d,2024-03,-12,pre,2024-03-27T13:56:58-07:00,2024-03-27T13:56:58-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,367,Merge pull request #367 from duckdb/jwills_docs_again,"Merge pull request #367 from duckdb/jwills_docs_again
+
+Add support for persist_docs-related functionality"
+duckdb/dbt-duckdb,633c408b0a531b8a59ce7c62fd1254992d03be64,2024-04,-11,pre,2024-04-01T05:50:13Z,2024-04-01T05:50:13Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.7.10 to 1.7.11,"Bump dbt-tests-adapter from 1.7.10 to 1.7.11
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-core) from 1.7.10 to 1.7.11.
+- [Release notes](https://github.com/dbt-labs/dbt-core/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-core/blob/v1.7.11/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-core/compare/v1.7.10...v1.7.11)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,6527752bab24703e65f8f2ce9db83fc116e504fc,2024-04,-11,pre,2024-04-09T14:52:45+02:00,2024-04-09T14:52:45+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,9a0ba0296f0b59cd7a4e52df9a859376c8b0e6dc,2024-04,-11,pre,2024-04-10T10:18:43+02:00,2024-04-10T10:18:43+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,,1,,Revert dev-requirements,Revert dev-requirements
+duckdb/dbt-duckdb,6dcc39c83aee677406c889c49cdfdc8b884aba1f,2024-04,-11,pre,2024-04-10T10:19:51+02:00,2024-04-10T10:19:51+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,GitHub,noreply@github.com,1,0,1,2,0,0,0,0,,,,,,0,,Readd dbt-tests-adapter,Readd dbt-tests-adapter
+duckdb/dbt-duckdb,5967ee1c16d3726ef754f8c49ff7999fa0983a41,2024-04,-11,pre,2024-04-11T13:49:36-07:00,2024-04-11T13:49:36-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,19,7,1,14,7,,,,,,0,,Add pre-model hook for cleaning up remote temporary table (MotherDuck),Add pre-model hook for cleaning up remote temporary table (MotherDuck)
+duckdb/dbt-duckdb,adfdba24c6347a5b644b32a98f2bf13eeef93bcc,2024-04,-11,pre,2024-04-12T16:53:13-07:00,2024-04-12T16:53:13-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,run tests on master not main,run tests on master not main
+duckdb/dbt-duckdb,236cd44fe2b607cc4e9559ae9dbf8a5afceacdc3,2024-04,-11,pre,2024-04-12T17:16:31-07:00,2024-04-12T17:16:31-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,14,0,0,0,0,,,,,,0,,Check if token exists before running MotherDuck CI/CD job,Check if token exists before running MotherDuck CI/CD job
+duckdb/dbt-duckdb,36c70137715cf7bf9d2579b3fecc6de537821746,2024-04,-11,pre,2024-04-12T22:03:42-07:00,2024-04-12T22:03:42-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,378,Merge pull request #378 from h8b589118c9cc573e/guenp/md-integration-tests-fix,"Merge pull request #378 from h8b589118c9cc573e/guenp/md-integration-tests-fix
+
+Only run MotherDuck integration tests on master, skip for pull requests"
+duckdb/dbt-duckdb,f59b4dd49a2884c68269eba58a6c4796fe5b715b,2024-04,-11,pre,2024-04-12T22:04:18-07:00,2024-04-12T22:04:18-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,373,Merge pull request #373 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.11,"Merge pull request #373 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.11
+
+Bump dbt-tests-adapter from 1.7.10 to 1.7.11"
+duckdb/dbt-duckdb,ae89071e7134ee0ae5bf87ef13b405b714193908,2024-04,-11,pre,2024-04-12T22:06:08-07:00,2024-04-12T22:06:08-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,375,Merge pull request #375 from h51cd4195de8449d8/guenp/delete-temp-table-if-exists,"Merge pull request #375 from h51cd4195de8449d8/guenp/delete-temp-table-if-exists
+
+Add pre-model hook for cleaning up remote temporary table on MotherDuck"
+duckdb/dbt-duckdb,5f594c40292c3dd7a7266b9931e8a5cad9a5b736,2024-04,-11,pre,2024-04-16T11:27:01+02:00,2024-04-16T11:27:01+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,1,0,1,4,2,1,4,2,,,,,,0,,Readd dbt-core to setup.py for install back-compat,Readd dbt-core to setup.py for install back-compat
+duckdb/dbt-duckdb,8511b942d019a944650298d2e285c99c6c9f28cf,2024-04,-11,pre,2024-04-16T11:28:41+02:00,2024-04-16T11:28:41+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,e403c6c5d1d03a699a2241f599635dbf2965fe8a,2024-04,-11,pre,2024-04-16T09:19:00-07:00,2024-04-16T09:19:00-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,Skip this test in BV for the moment,Skip this test in BV for the moment
+duckdb/dbt-duckdb,cddab7aa7a33b0d8f2d7f282d0853e4d3b3869b8,2024-04,-11,pre,2024-04-16T09:41:21-07:00,2024-04-16T09:41:21-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,379,Merge pull request #379 from duckdb/jwills_hack_this_for_the_moment,"Merge pull request #379 from duckdb/jwills_hack_this_for_the_moment
+
+Skip this test in BV for the moment"
+duckdb/dbt-duckdb,0750e0c837c51c02f2d2a6e753921b5a8f1b1e8e,2024-04,-11,pre,2024-04-16T22:02:41+02:00,2024-04-16T22:02:41+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge remote-tracking branch 'origin/master' into jerco/migrate-dbt-common-adapters-interfaces,Merge remote-tracking branch 'origin/master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,84c177e601fdacf7581e17532525a09b5945079a,2024-04,-11,pre,2024-04-16T23:01:18-07:00,2024-04-16T23:01:18-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Prepare a 1.7.4 release,Prepare a 1.7.4 release
+duckdb/dbt-duckdb,da51d43cbd77dab2a63c36d47658a3ba7a78f429,2024-04,-11,pre,2024-04-16T23:20:27-07:00,2024-04-16T23:20:27-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,380,Merge pull request #380 from duckdb/jwills_release_174,"Merge pull request #380 from duckdb/jwills_release_174
+
+Prepare a 1.7.4 release"
+duckdb/dbt-duckdb,d19dbc67b7d6032f8ba39adb1aedfc2d48bca0c2,2024-04,-11,pre,2024-04-17T10:37:03-03:00,2024-04-17T10:37:03-03:00,ud028c10f6535caac,ud028c10f6535caac@users.invalid,GitHub,noreply@github.com,1,0,1,7,3,1,7,3,,,,,,0,,Added profile_name to boto3 Session,"Added profile_name to boto3 Session
+
+Needed when working with multiple S3 profiles on the same machine"
+duckdb/dbt-duckdb,14ce3a2354ae75da176e89ba0bae13e1552df7f3,2024-04,-11,pre,2024-04-17T17:02:33-04:00,2024-04-17T16:47:56-04:00,u3b56628afe550021,u3b56628afe550021@users.invalid,u3b56628afe550021,u3b56628afe550021@users.invalid,1,0,5,21,10,5,21,10,,,,,,0,,query cancellation,query cancellation
+duckdb/dbt-duckdb,15a413dbe439f481c7a252b55098ed321ebdae06,2024-04,-11,pre,2024-04-17T18:58:11-04:00,2024-04-17T18:58:11-04:00,u3b56628afe550021,u3b56628afe550021@users.invalid,u3b56628afe550021,u3b56628afe550021@users.invalid,1,0,5,18,2,5,18,2,,,,,,0,,address comments,address comments
+duckdb/dbt-duckdb,a85cef9f5d986a049fa69ac89105a10647a9abe1,2024-04,-11,pre,2024-04-19T15:37:34+02:00,2024-04-19T15:37:34+02:00,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,uc7bcb4895019b47c,uc7bcb4895019b47c@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,Skip BV for TestUnitTestingTypesDuckDB,Skip BV for TestUnitTestingTypesDuckDB
+duckdb/dbt-duckdb,134b1c2c37247b0cf8692ff0c84567bdd703d929,2024-04,-11,pre,2024-04-19T12:47:24-04:00,2024-04-19T12:47:24-04:00,u3b56628afe550021,u3b56628afe550021@users.invalid,u3b56628afe550021,u3b56628afe550021@users.invalid,1,0,5,22,15,5,22,15,,,,,,0,,precommit etc,precommit etc
+duckdb/dbt-duckdb,44a5468870dd054f7ec7b63d4e839b75983c75f9,2024-04,-11,pre,2024-04-22T09:42:01-07:00,2024-04-22T09:42:01-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,383,Merge pull request #383 from h35e790081b46d3b7/louisa/query-cancellation,"Merge pull request #383 from h35e790081b46d3b7/louisa/query-cancellation
+
+query cancellation attempt"
+duckdb/dbt-duckdb,fa6a3bdb723a9dd310e038b9061c9510913ef609,2024-04,-11,pre,2024-04-22T09:44:16-07:00,2024-04-22T09:44:16-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,8,7,0,0,0,,,,,,0,,Make this test not flaky,Make this test not flaky
+duckdb/dbt-duckdb,6a1c42c1e8c4f131184a82447f56b29a932cfc17,2024-04,-11,pre,2024-04-22T09:51:04-07:00,2024-04-22T09:51:04-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,Try whistling this,Try whistling this
+duckdb/dbt-duckdb,60446945179234d74a5340b4f79c52c93be349f8,2024-04,-11,pre,2024-04-23T08:09:38-07:00,2024-04-23T08:09:38-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,382,Merge pull request #382 from he666c26e83d79440/patch-1,"Merge pull request #382 from he666c26e83d79440/patch-1
+
+Added profile_name to boto3 Session"
+duckdb/dbt-duckdb,3a9a74a24fd8a1d015a7b6197ae7975aef75f692,2024-04,-11,pre,2024-04-23T13:03:38-07:00,2024-04-23T13:03:38-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,3,2,0,0,0,,,,,,0,,May just have to skip it in memory cause I think maybe it works in file-mode,May just have to skip it in memory cause I think maybe it works in file-mode
+duckdb/dbt-duckdb,175ce0cbfa80712036251485c9784a93311766d1,2024-04,-11,pre,2024-04-23T13:13:04-07:00,2024-04-23T13:13:04-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,386,Merge pull request #386 from duckdb/jwills_fix_flaky_attach_test,"Merge pull request #386 from duckdb/jwills_fix_flaky_attach_test
+
+Fix flaky attach test"
+duckdb/dbt-duckdb,37ed6a151d02a1182c27d6fed6b267ae9489c802,2024-04,-11,pre,2024-04-23T13:15:00-07:00,2024-04-23T13:15:00-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,3,3,5,1,1,3,,,,,,0,,Update the devcontainer/pre-commit to use Python 3.11,Update the devcontainer/pre-commit to use Python 3.11
+duckdb/dbt-duckdb,bbd63a11e2d0c6a931eec817d863a75049726cd7,2024-04,-11,pre,2024-04-23T13:18:55-07:00,2024-04-23T13:18:55-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,Setup python dep as well,Setup python dep as well
+duckdb/dbt-duckdb,8d33525d1ee8fe839e396ee08ab6f4e3fbeec262,2024-04,-11,pre,2024-04-23T13:33:32-07:00,2024-04-23T13:33:32-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,388,Merge pull request #388 from duckdb/jwills_linter_updates,"Merge pull request #388 from duckdb/jwills_linter_updates
+
+Update the devcontainer/pre-commit to use Python 3.11"
+duckdb/dbt-duckdb,1f5f7ba0e6798f58d76af42bb46c67c306e6929d,2024-04,-11,pre,2024-04-29T05:23:37Z,2024-04-29T05:23:37Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.9.0 to 1.10.0,"Bump mypy from 1.9.0 to 1.10.0
+
+Bumps [mypy](https://github.com/python/mypy) from 1.9.0 to 1.10.0.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/1.9.0...v1.10.0)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,fea2d7de62d7caae668251d81a228d62d7c25ad5,2024-04,-11,pre,2024-04-29T05:23:48Z,2024-04-29T05:23:48Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump freezegun from 1.4.0 to 1.5.0,"Bump freezegun from 1.4.0 to 1.5.0
+
+Bumps [freezegun](https://github.com/spulec/freezegun) from 1.4.0 to 1.5.0.
+- [Release notes](https://github.com/spulec/freezegun/releases)
+- [Changelog](https://github.com/spulec/freezegun/blob/master/CHANGELOG)
+- [Commits](https://github.com/spulec/freezegun/compare/1.4.0...1.5.0)
+
+---
+updated-dependencies:
+- dependency-name: freezegun
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,0a835e62a940535db72742fb491da2ceb3d18b08,2024-05,-10,pre,2024-05-03T12:21:34-07:00,2024-05-03T12:21:34-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,390,Merge pull request #390 from duckdb/dependabot/pip/freezegun-1.5.0,"Merge pull request #390 from duckdb/dependabot/pip/freezegun-1.5.0
+
+Bump freezegun from 1.4.0 to 1.5.0"
+duckdb/dbt-duckdb,55ba0ae6a8832962f79addb9c61719424b9e6fad,2024-05,-10,pre,2024-05-03T12:21:57-07:00,2024-05-03T12:21:57-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,389,Merge pull request #389 from duckdb/dependabot/pip/mypy-1.10.0,"Merge pull request #389 from duckdb/dependabot/pip/mypy-1.10.0
+
+Bump mypy from 1.9.0 to 1.10.0"
+duckdb/dbt-duckdb,298f27c561d0c555085fe0f0800058025f9acbd3,2024-05,-10,pre,2024-05-03T12:26:03-07:00,2024-05-03T12:26:03-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,1068b51acd15b0909f6bd8ebf0e52aae198ea36e,2024-05,-10,pre,2024-05-03T12:44:08-07:00,2024-05-03T12:44:08-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,4,4,0,0,0,,,,,,0,,Use different MD token,Use different MD token
+duckdb/dbt-duckdb,10d3cfa9ee74934d723e76977b39d6582ebb7ef8,2024-05,-10,pre,2024-05-03T12:44:37-07:00,2024-05-03T12:44:37-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,,Use duckdb 0.10.2,Use duckdb 0.10.2
+duckdb/dbt-duckdb,8e745e8cd52894d83bf35ddd919b46e573eea2cf,2024-05,-10,pre,2024-05-06T05:26:58Z,2024-05-06T05:26:58Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.7.11 to 1.7.14,"Bump dbt-tests-adapter from 1.7.11 to 1.7.14
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-core) from 1.7.11 to 1.7.14.
+- [Release notes](https://github.com/dbt-labs/dbt-core/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-core/blob/v1.7.14/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-core/compare/v1.7.11...v1.7.14)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,59556392a971a2947bcc4cc226608f239d449c91,2024-05,-10,pre,2024-05-06T09:35:32-07:00,2024-05-06T09:35:32-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,393,Merge pull request #393 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.14,"Merge pull request #393 from duckdb/dependabot/pip/dbt-tests-adapter-1.7.14
+
+Bump dbt-tests-adapter from 1.7.11 to 1.7.14"
+duckdb/dbt-duckdb,d5764c2e1a6c58bce9e1a0965ba68ddf3bb2c16a,2024-05,-10,pre,2024-05-07T07:05:55-07:00,2024-05-07T07:05:55-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,392,Merge pull request #392 from duckdb/guenp/bump_md_duckdb_version,"Merge pull request #392 from duckdb/guenp/bump_md_duckdb_version
+
+Bump md duckdb version to 0.10.2 and use new token"
+duckdb/dbt-duckdb,ab606c692605d27c01382bbfb7ab03c3402093de,2024-05,-10,pre,2024-05-07T22:09:03-07:00,2024-05-07T22:09:03-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,6,3,0,0,0,,,,,,0,,Update the README with examples of using either meta or config for setting up external sources,Update the README with examples of using either meta or config for setting up external sources
+duckdb/dbt-duckdb,ea576707be43abd2b4e134952d21842231e5399b,2024-05,-10,pre,2024-05-07T22:21:16-07:00,2024-05-07T22:21:16-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,394,Merge pull request #394 from duckdb/jwills_meta_vs_config,"Merge pull request #394 from duckdb/jwills_meta_vs_config
+
+Update the README with examples of using either meta or config for setting up external sources"
+duckdb/dbt-duckdb,ca0f3763d0194081547325bb9632127a50473b7f,2024-05,-10,pre,2024-05-07T22:22:06-07:00,2024-05-07T22:22:06-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Prep for the 1.7.5 release,Prep for the 1.7.5 release
+duckdb/dbt-duckdb,21bec2768521a9b960f51b3c95918f802ffad489,2024-05,-10,pre,2024-05-07T22:33:09-07:00,2024-05-07T22:33:09-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,395,Merge pull request #395 from duckdb/jwills_175,"Merge pull request #395 from duckdb/jwills_175
+
+Prep for the 1.7.5 release"
+duckdb/dbt-duckdb,08d553076eb955b9d0b68ad867497f9f1de27274,2024-05,-10,pre,2024-05-07T22:45:37-07:00,2024-05-07T22:45:37-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces,Merge branch 'master' into jerco/migrate-dbt-common-adapters-interfaces
+duckdb/dbt-duckdb,a42274a84900fb32a14663f93317a2f31d1fb841,2024-05,-10,pre,2024-05-07T22:56:26-07:00,2024-05-07T22:56:26-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,342,Merge pull request #342 from h0c60597a35bae54c/jerco/migrate-dbt-common-adapters-interfaces,"Merge pull request #342 from h0c60597a35bae54c/jerco/migrate-dbt-common-adapters-interfaces
+
+Migrate to dbt-common + dbt-adapters"
+duckdb/dbt-duckdb,7030aa5301df9d41f946d542bc560ac59e007e7d,2024-05,-10,pre,2024-05-09T21:36:52-07:00,2024-05-09T21:36:52-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,3,3,3,2,2,2,,,,,,0,,Prep for 1.8.0,Prep for 1.8.0
+duckdb/dbt-duckdb,3cb113c3950a42c4a340198442d0993049799005,2024-05,-10,pre,2024-05-09T21:41:34-07:00,2024-05-09T21:41:34-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Adjust this since we won't need to change it going forward anymore,Adjust this since we won't need to change it going forward anymore
+duckdb/dbt-duckdb,6dfe60f1a3150eeaf23487d7b46e0045a553d062,2024-05,-10,pre,2024-05-09T21:52:57-07:00,2024-05-09T21:52:57-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,396,Merge pull request #396 from duckdb/jwills_180,"Merge pull request #396 from duckdb/jwills_180
+
+Prep for 1.8.0"
+duckdb/dbt-duckdb,9157cc71bddd6eeaaac361ced0c5da9c6fc9e289,2024-05,-10,pre,2024-05-13T05:57:12Z,2024-05-13T05:57:12Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump freezegun from 1.5.0 to 1.5.1,"Bump freezegun from 1.5.0 to 1.5.1
+
+Bumps [freezegun](https://github.com/spulec/freezegun) from 1.5.0 to 1.5.1.
+- [Release notes](https://github.com/spulec/freezegun/releases)
+- [Changelog](https://github.com/spulec/freezegun/blob/master/CHANGELOG)
+- [Commits](https://github.com/spulec/freezegun/compare/1.5.0...1.5.1)
+
+---
+updated-dependencies:
+- dependency-name: freezegun
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,c07c0b1b13f5c1a36d0cf7ee5afa0a001cca6ebf,2024-05,-10,pre,2024-05-29T17:12:01-07:00,2024-05-29T17:12:01-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,1,2,2,,,,,,0,,Skip duckdb v0.10.3,"Skip duckdb v0.10.3
+
+Skip duckdb v0.10.3 to avoid issues with view dependency enforcement. This will be fixed in 0.10.4 by the enable_view_dependencies configuration setting (which is set to false by default)."
+duckdb/dbt-duckdb,a43d8830c258185240a47d4dea227bd41c9943e3,2024-05,-10,pre,2024-05-30T07:42:27-07:00,2024-05-30T07:42:27-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,397,Merge pull request #397 from duckdb/dependabot/pip/freezegun-1.5.1,"Merge pull request #397 from duckdb/dependabot/pip/freezegun-1.5.1
+
+Bump freezegun from 1.5.0 to 1.5.1"
+duckdb/dbt-duckdb,6bfd4970c0528a24222ebde733266dcee2816626,2024-05,-10,pre,2024-05-30T07:43:28-07:00,2024-05-30T07:43:28-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,,Fix version constraints,Fix version constraints
+duckdb/dbt-duckdb,36d3e4b84497ca2dc5f305df83d918ca84c4d701,2024-05,-10,pre,2024-05-30T09:06:10-07:00,2024-05-30T09:06:10-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,399,Merge pull request #399 from duckdb/guenp/fix-view-deps-10.3,"Merge pull request #399 from duckdb/guenp/fix-view-deps-10.3
+
+Pin to duckdb v0.10.2 to avoid view dependencies"
+duckdb/dbt-duckdb,f18d5b149737c37dd1137cd6c706cad8896d687a,2024-05,-10,pre,2024-05-30T10:27:57-07:00,2024-05-30T10:27:57-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,,Prep for 1.8.1,Prep for 1.8.1
+duckdb/dbt-duckdb,9afd4f1dad4cb080b8429b092b82b816475ff640,2024-05,-10,pre,2024-05-30T10:43:14-07:00,2024-05-30T10:43:14-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,400,Merge pull request #400 from duckdb/guenp/v1.8.1,"Merge pull request #400 from duckdb/guenp/v1.8.1
+
+Prep for 1.8.1"
+duckdb/dbt-duckdb,8ccfddefa87a0fb987e4324900d9b1117179ee36,2024-06,-9,pre,2024-06-10T05:47:14Z,2024-06-10T05:47:14Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,dependabot,0,,Bump duckdb from 0.10.2 to 1.0.0,"Bump duckdb from 0.10.2 to 1.0.0
+
+Bumps [duckdb](https://github.com/duckdb/duckdb) from 0.10.2 to 1.0.0.
+- [Release notes](https://github.com/duckdb/duckdb/releases)
+- [Changelog](https://github.com/duckdb/duckdb/blob/main/tools/release-pip.py)
+- [Commits](https://github.com/duckdb/duckdb/compare/v0.10.2...v1.0.0)
+
+---
+updated-dependencies:
+- dependency-name: duckdb
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,199a1b2a8dea4f85dea257dfbb8d87159e733379,2024-06,-9,pre,2024-06-13T23:19:13-07:00,2024-06-13T23:19:13-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,167,1,1,123,1,,,,,,0,,Add add_secret method to creds,Add add_secret method to creds
+duckdb/dbt-duckdb,824ad7999ea44bccf8c7e8d4236e4f598e08ea0b,2024-06,-9,pre,2024-06-14T13:15:42-07:00,2024-06-14T13:15:42-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,need this for Python 3.12,need this for Python 3.12
+duckdb/dbt-duckdb,d551db1c94834b1fb4b47b7a947aa52ed34c8fa1,2024-06,-9,pre,2024-06-14T13:38:10-07:00,2024-06-14T13:38:10-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,101,94,2,101,94,,,,,,0,,put secrets stuff in own module,put secrets stuff in own module
+duckdb/dbt-duckdb,1672e3838752ccc10bc03d9c2a0d3b87953085bf,2024-06,-9,pre,2024-06-14T13:38:17-07:00,2024-06-14T13:38:17-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,add .env to gitignore,add .env to gitignore
+duckdb/dbt-duckdb,51ed86fb5eac6784bcfaddd781ef867f3067682c,2024-06,-9,pre,2024-06-14T13:39:23-07:00,2024-06-14T13:39:23-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,0,0,0,0,0,,,,,,0,,rename test_connections to test_credentials,rename test_connections to test_credentials
+duckdb/dbt-duckdb,84829e65bdd4decf8cf0c85a24c00100e1dd01fa,2024-06,-9,pre,2024-06-14T14:54:29-07:00,2024-06-14T14:54:29-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,3,65,4,2,13,4,,,,,,0,,convert secrets dict to secrets in post constructor,convert secrets dict to secrets in post constructor
+duckdb/dbt-duckdb,68394e8c7b3c4a15ba12257a2f6320bf93408f53,2024-06,-9,pre,2024-06-14T15:07:00-07:00,2024-06-14T15:07:00-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,13,1,1,5,0,,,,,,0,,run create secret on cursor init,run create secret on cursor init
+duckdb/dbt-duckdb,171695999bd48a2914f8ebb8d17ba99a528d402c,2024-06,-9,pre,2024-06-14T15:18:50-07:00,2024-06-14T15:18:50-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,4,39,6,2,12,5,,,,,,0,,create or replace secret if a name is specified,create or replace secret if a name is specified
+duckdb/dbt-duckdb,c4dd7b8ebf42bee8af21cc3659903380d0b3a428,2024-06,-9,pre,2024-06-14T15:34:21-07:00,2024-06-14T15:34:21-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,35,47,1,0,25,,,,,,0,,remove add_secret method,remove add_secret method
+duckdb/dbt-duckdb,670274fba9115175038a51f0a6838fba53b8b3e8,2024-06,-9,pre,2024-06-14T15:38:50-07:00,2024-06-14T15:38:50-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,3,30,19,2,29,18,,,,,,0,,pre-commit,pre-commit
+duckdb/dbt-duckdb,ec92f03575d924d809b1c3f095146319f0f52eb1,2024-06,-9,pre,2024-06-14T15:41:11-07:00,2024-06-14T15:41:11-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,11,8,2,11,8,,,,,,0,,mypy fixes,mypy fixes
+duckdb/dbt-duckdb,5b2be623c6ffb67342e9f5e578b1d69ba4976a94,2024-06,-9,pre,2024-06-14T23:27:39-07:00,2024-06-14T23:27:39-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,4,20,23,2,5,6,,,,,,0,,prepared statements doesn't work for secrets,prepared statements doesn't work for secrets
+duckdb/dbt-duckdb,a0abb897cc0894b4aba0ee0c4acf0f6ac4d90181,2024-06,-9,pre,2024-06-14T23:33:24-07:00,2024-06-14T23:33:24-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,6,5,0,0,0,,,,,,0,,Update readme,Update readme
+duckdb/dbt-duckdb,547794daa7208bc90e990d50be35dae0106020db,2024-06,-9,pre,2024-06-14T23:34:04-07:00,2024-06-14T23:34:04-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,402,Merge pull request #402 from duckdb/dependabot/pip/duckdb-1.0.0,"Merge pull request #402 from duckdb/dependabot/pip/duckdb-1.0.0
+
+Bump duckdb from 0.10.2 to 1.0.0"
+duckdb/dbt-duckdb,34f446592d8516024ca5b6571ba2aa43431370b0,2024-06,-9,pre,2024-06-14T23:40:39-07:00,2024-06-14T23:40:39-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into guenp/secrets,Merge branch 'master' into guenp/secrets
+duckdb/dbt-duckdb,4928807cde72f8a9f4d08a63398f2f38c985f767,2024-06,-9,pre,2024-06-14T23:47:59-07:00,2024-06-14T23:47:59-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix typo in test,fix typo in test
+duckdb/dbt-duckdb,1a3ba122da806dbd487e48538e49f2543a80816d,2024-06,-9,pre,2024-06-14T23:48:50-07:00,2024-06-14T23:48:50-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,make test more useful,make test more useful
+duckdb/dbt-duckdb,5d9e0632e444befe17b6010f41988ec0163e3f91,2024-06,-9,pre,2024-06-15T00:19:18-07:00,2024-06-15T00:19:18-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,68,3,1,35,3,,,,,,0,,add Azure secret,add Azure secret
+duckdb/dbt-duckdb,9325fec207651a0be40e0782d3ecf6d91ce71c64,2024-06,-9,pre,2024-06-15T00:20:19-07:00,2024-06-15T00:20:19-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,fix typo,fix typo
+duckdb/dbt-duckdb,6be0283e77725403b2ed04bd2c5dae1dab1aa7e9,2024-06,-9,pre,2024-06-15T00:31:47-07:00,2024-06-15T00:31:47-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,0,1,1,0,,,,,,0,,add scope,add scope
+duckdb/dbt-duckdb,9f681ab370813dbd9b758af7d1da846a95b99ccd,2024-06,-9,pre,2024-06-15T00:36:54-07:00,2024-06-15T00:36:54-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,33,3,1,11,3,,,,,,0,,add HF secret,add HF secret
+duckdb/dbt-duckdb,d44e1d64f0c98d4d791636c2ecb0556153014956,2024-06,-9,pre,2024-06-15T00:47:57-07:00,2024-06-15T00:47:57-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,9,9,1,9,9,,,,,,0,,"clean up code, add docstrings","clean up code, add docstrings"
+duckdb/dbt-duckdb,a0f706c110222e965e60648694579e7e3e5ea9e0,2024-06,-9,pre,2024-06-17T15:38:12+02:00,2024-06-17T15:38:12+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,5,44,69,3,20,55,,,,,,0,,"Deprecate using settings for secrets, bump duckdb version requirement to 0.10.0","Deprecate using settings for secrets, bump duckdb version requirement to 0.10.0"
+duckdb/dbt-duckdb,42df1dd40e99f467802faf34b2b0133ed3b3a684,2024-06,-9,pre,2024-06-17T16:26:20+02:00,2024-06-17T16:26:20+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,6,10,2,6,10,,,,,,0,,"formatting, mypy fix","formatting, mypy fix"
+duckdb/dbt-duckdb,3dd50e74e5ca93842343ea3d92f8d50516217fc9,2024-06,-9,pre,2024-06-21T13:45:48+02:00,2024-06-21T13:45:48+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,3,27,6,3,27,6,,,,,,0,,"pass credentials to plugin, get creds in glue plugin","pass credentials to plugin, get creds in glue plugin"
+duckdb/dbt-duckdb,2234bbdcb18ba82394f3781224c902255cc490bc,2024-06,-9,pre,2024-06-24T05:31:33Z,2024-06-24T05:31:33Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.8.0 to 1.9.1,"Bump dbt-tests-adapter from 1.8.0 to 1.9.1
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.8.0 to 1.9.1.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,0a1a2f6a22493a9a4d1bc39cbf4679dfa9f1131f,2024-06,-9,pre,2024-06-25T08:26:05+02:00,2024-06-25T08:26:05+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,4,27,14,4,27,14,,,,,,0,,Formatting and types,Formatting and types
+duckdb/dbt-duckdb,93b4cf908c5368dcbaaf5e2f1b96d8875905141a,2024-06,-9,pre,2024-06-25T08:38:31+02:00,2024-06-25T08:38:31+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,11,3,2,11,3,,,,,,0,,type fixes,type fixes
+duckdb/dbt-duckdb,ab16970ba9f616205dcae52a9dcb661c6d8836c6,2024-06,-9,pre,2024-06-25T23:07:59-07:00,2024-06-25T23:07:59-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,408,Merge pull request #408 from duckdb/dependabot/pip/dbt-tests-adapter-1.9.1,"Merge pull request #408 from duckdb/dependabot/pip/dbt-tests-adapter-1.9.1
+
+Bump dbt-tests-adapter from 1.8.0 to 1.9.1"
+duckdb/dbt-duckdb,89ccf32859b07484eb2d2af2a42f3f699e13e2f8,2024-07,-8,pre,2024-07-01T05:19:00Z,2024-07-01T05:19:00Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.10.0 to 1.10.1,"Bump mypy from 1.10.0 to 1.10.1
+
+Bumps [mypy](https://github.com/python/mypy) from 1.10.0 to 1.10.1.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.10.0...v1.10.1)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,5d680c19676975f6f3ce5ca097b5218a23e95e53,2024-07,-8,pre,2024-07-01T08:59:29-07:00,2024-07-01T08:59:29-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,410,Merge pull request #410 from duckdb/dependabot/pip/mypy-1.10.1,"Merge pull request #410 from duckdb/dependabot/pip/mypy-1.10.1
+
+Bump mypy from 1.10.0 to 1.10.1"
+duckdb/dbt-duckdb,7cee3f86543b0812f977c191f629e5624c753a28,2024-07,-8,pre,2024-07-11T09:16:27-07:00,2024-07-11T09:16:27-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,2,10,0,1,1,0,,,,,,0,,Fixes #412 by not requiring aliases for limit 0 clauses in dbt-duckdb,Fixes #412 by not requiring aliases for limit 0 clauses in dbt-duckdb
+duckdb/dbt-duckdb,cdf0e8235615582a23a21adce83857fe47252ff1,2024-07,-8,pre,2024-07-11T09:52:39-07:00,2024-07-11T09:52:39-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,413,Merge pull request #413 from duckdb/jwills_dont_require_alias,"Merge pull request #413 from duckdb/jwills_dont_require_alias
+
+Fixes #412 by not requiring aliases for limit 0 clauses in dbt-duckdb"
+duckdb/dbt-duckdb,e84fce7fce998fb95023513eaf4ba46a9c1a3b68,2024-07,-8,pre,2024-07-15T05:50:25Z,2024-07-15T05:50:25Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.9.1 to 1.9.2,"Bump dbt-tests-adapter from 1.9.1 to 1.9.2
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.9.1 to 1.9.2.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,593683bade106f34f649a3b42b95991f5d548c5a,2024-07,-8,pre,2024-07-15T14:24:55-07:00,2024-07-15T14:24:55-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into guenp/secrets,Merge branch 'master' into guenp/secrets
+duckdb/dbt-duckdb,a8350a625e5286c6a13e93ed32be060a0ce2bab5,2024-07,-8,pre,2024-07-15T16:24:32-07:00,2024-07-15T16:24:32-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,4,1,0,0,0,,,,,,0,,add scope to test,add scope to test
+duckdb/dbt-duckdb,0d71fb6a89ed3688db2b73260ac2894d1d299057,2024-07,-8,pre,2024-07-15T18:06:12-07:00,2024-07-15T18:06:12-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,3,89,182,2,30,140,,,,,,0,,Let duckdb handle the validation logic,Let duckdb handle the validation logic
+duckdb/dbt-duckdb,9532524a636324473bd78256201121b093a2b960,2024-07,-8,pre,2024-07-16T10:05:14-07:00,2024-07-16T10:05:14-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,5,43,43,3,13,13,,,,,,0,,dataclasses don't like extra kwargs so let's move List[Secret] to a private attribute,dataclasses don't like extra kwargs so let's move List[Secret] to a private attribute
+duckdb/dbt-duckdb,cd0b9b2c3c63c3f84e9fee307a8b936418b6556d,2024-07,-8,pre,2024-07-16T11:04:37-07:00,2024-07-16T11:04:37-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,4,6,5,4,6,5,,,,,,0,,formatting and typing,formatting and typing
+duckdb/dbt-duckdb,79fa49b70744f4fa8f526961b9a5384673131cfd,2024-07,-8,pre,2024-07-22T09:53:43-07:00,2024-07-22T09:53:43-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,403,Merge pull request #403 from duckdb/guenp/secrets,"Merge pull request #403 from duckdb/guenp/secrets
+
+Add support for new DuckDB Secrets manager"
+duckdb/dbt-duckdb,e131d1fa04f7b5c02ab12226619a106357457c51,2024-07,-8,pre,2024-07-22T09:53:58-07:00,2024-07-22T09:53:58-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,414,Merge pull request #414 from duckdb/dependabot/pip/dbt-tests-adapter-1.9.2,"Merge pull request #414 from duckdb/dependabot/pip/dbt-tests-adapter-1.9.2
+
+Bump dbt-tests-adapter from 1.9.1 to 1.9.2"
+duckdb/dbt-duckdb,caf5b0cdd118a28b1a117db193f733827c0d3bfa,2024-07,-8,pre,2024-07-22T17:00:39Z,2024-07-22T17:00:39Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.10.1 to 1.11.0,"Bump mypy from 1.10.1 to 1.11.0
+
+Bumps [mypy](https://github.com/python/mypy) from 1.10.1 to 1.11.0.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.10.1...v1.11)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,04876087d48a162b73c382be2152a4d2a346c81d,2024-07,-8,pre,2024-07-22T14:38:49-07:00,2024-07-22T14:38:49-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,416,Merge pull request #416 from duckdb/dependabot/pip/mypy-1.11.0,"Merge pull request #416 from duckdb/dependabot/pip/mypy-1.11.0
+
+Bump mypy from 1.10.1 to 1.11.0"
+duckdb/dbt-duckdb,78f3cb54395ad5f57a2eea969168b30422e542af,2024-07,-8,pre,2024-07-22T16:49:50-07:00,2024-07-22T16:49:50-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Bump DuckDB version to 1.0.0,Bump DuckDB version to 1.0.0
+duckdb/dbt-duckdb,e0e25aff3681b115afea04734524494c25acccf8,2024-07,-8,pre,2024-07-22T17:07:12-07:00,2024-07-22T17:07:12-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,417,Merge pull request #417 from duckdb/guenp/bump-duckdb-version,"Merge pull request #417 from duckdb/guenp/bump-duckdb-version
+
+Bump DuckDB version to 1.0.0"
+duckdb/dbt-duckdb,ec65e430bf387235924805a75585dda6ce3ede67,2024-07,-8,pre,2024-07-24T12:07:05-07:00,2024-07-24T12:07:05-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,418,Prep for 1.8.2 release (#418),"Prep for 1.8.2 release (#418)
+
+* Bump minor version"
+duckdb/dbt-duckdb,3bbc42b9842a2b07d02a813391db71a9eed9856e,2024-07,-8,pre,2024-07-31T12:04:32-07:00,2024-07-31T14:04:32-05:00,ud2a739463e9854e0,ud2a739463e9854e0@users.invalid,GitHub,noreply@github.com,1,0,3,17,17,1,1,1,,,,,,0,421,fix(secrets): value should be enclosed in quotes (#421),"fix(secrets): value should be enclosed in quotes (#421)
+
+* fix(secrets): value should be enclosed in quotes
+
+* add quotes when secret params are not type or provider
+
+* update tests
+
+---------
+
+Co-authored-by: uf56dedd5a77a022a <uf56dedd5a77a022a@users.invalid>"
+duckdb/dbt-duckdb,032868ef85d70bd311790aede94bd15a12bcbf6d,2024-08,-7,pre,2024-08-05T05:07:19Z,2024-08-05T05:07:19Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.11.0 to 1.11.1,"Bump mypy from 1.11.0 to 1.11.1
+
+Bumps [mypy](https://github.com/python/mypy) from 1.11.0 to 1.11.1.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.11...v1.11.1)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,566648f4ccbcb9dbcefa72abe39af875db9d7bd4,2024-08,-7,pre,2024-08-08T09:09:49-07:00,2024-08-08T09:09:49-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,423,Merge pull request #423 from duckdb/dependabot/pip/mypy-1.11.1,"Merge pull request #423 from duckdb/dependabot/pip/mypy-1.11.1
+
+Bump mypy from 1.11.0 to 1.11.1"
+duckdb/dbt-duckdb,39c51cf6e7cf881612ae333b5569237745dc4120,2024-08,-7,pre,2024-08-19T12:09:10-07:00,2024-08-19T12:09:10-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,3,61,55,2,11,55,,,,,,0,427,"(chore) Use pbr for packaging for automated versioning with git tag, move to setup.cfg (#427)","(chore) Use pbr for packaging for automated versioning with git tag, move to setup.cfg (#427)
+
+* move to setup.cfg with pbr, version from git tag
+* make compatible with Python-flavored SemVer"
+duckdb/dbt-duckdb,8c959845b69c51de89fe65b448166b21627caa5a,2024-08,-7,pre,2024-08-20T16:19:13-07:00,2024-08-20T16:19:13-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,428,author-email -> author_email (#428),author-email -> author_email (#428)
+duckdb/dbt-duckdb,469c2031df2e0b06ee72ddd4b0a0f458ef06bfe9,2024-08,-7,pre,2024-08-26T05:42:35Z,2024-08-26T05:42:35Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.11.1 to 1.11.2,"Bump mypy from 1.11.1 to 1.11.2
+
+Bumps [mypy](https://github.com/python/mypy) from 1.11.1 to 1.11.2.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.11.1...v1.11.2)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,737f19b14f936dca6f30ad00f34693e84e15e34b,2024-08,-7,pre,2024-08-28T09:47:00-07:00,2024-08-28T09:47:00-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,430,Merge pull request #430 from duckdb/dependabot/pip/mypy-1.11.2,"Merge pull request #430 from duckdb/dependabot/pip/mypy-1.11.2
+
+Bump mypy from 1.11.1 to 1.11.2"
+duckdb/dbt-duckdb,30b0e2fab33d6c1b4ef132663122bcd603a489b7,2024-09,-6,pre,2024-09-05T15:39:26-07:00,2024-09-05T15:39:26-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,5,165,1,3,46,0,,,,,,0,435,Disable Python models on MotherDuck when SaaS mode is on (#435),"Disable Python models on MotherDuck when SaaS mode is on (#435)
+
+* don't run Python models if saas_mode is turned on (for MotherDuck)
+* add new separate test for saas_mode"
+duckdb/dbt-duckdb,ef815fae141e78ec571890fe46c201535a45457c,2024-09,-6,pre,2024-09-06T18:37:40-04:00,2024-09-06T18:37:40-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,2,3,2,2,3,,,,,,0,,"pass credentials to Glue plugin constructor, secrets should always have a value","pass credentials to Glue plugin constructor, secrets should always have a value"
+duckdb/dbt-duckdb,1b67122a8b3b0ea7d4520c5732161efdccbd899b,2024-09,-6,pre,2024-09-06T18:41:27-04:00,2024-09-06T18:41:27-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,3,1,1,3,1,,,,,,0,,formatting,formatting
+duckdb/dbt-duckdb,de73ffff3041500239f06533c01ca3e99b2cc186,2024-09,-6,pre,2024-09-06T18:44:34-04:00,2024-09-06T18:44:34-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,add type hint for secrets,add type hint for secrets
+duckdb/dbt-duckdb,4057ac8db8c763e7373676c0ea24a8072e5fb2ac,2024-09,-6,pre,2024-09-06T18:57:15-04:00,2024-09-06T18:57:15-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,"not never, never","not never, never"
+duckdb/dbt-duckdb,e306905adbddc63e28d0f151f0062e320c9a4b38,2024-09,-6,pre,2024-09-06T18:57:41-04:00,2024-09-06T18:57:41-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,3,1,1,3,1,,,,,,0,,formatting,formatting
+duckdb/dbt-duckdb,aa806500be7d3917c01215b12d55926bb6bd4126,2024-09,-6,pre,2024-09-07T15:16:59+02:00,2024-09-07T15:16:59+02:00,u5d59e550c055a665,u5d59e550c055a665@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,,support preleases,support preleases
+duckdb/dbt-duckdb,bacf563eb696c992b5890d8adb873f48ed63e8db,2024-09,-6,pre,2024-09-07T09:19:24-07:00,2024-09-07T09:19:24-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,438,Merge pull request #438 from h139270c2f2555621/mrjsj/support-for-prereleases,"Merge pull request #438 from h139270c2f2555621/mrjsj/support-for-prereleases
+
+support preleases"
+duckdb/dbt-duckdb,8d0b50859652103c5a4add732795d81dfe7b5aff,2024-09,-6,pre,2024-09-08T02:06:51-04:00,2024-09-08T02:06:51-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,consistently use kwargs,consistently use kwargs
+duckdb/dbt-duckdb,9606addf23cb4ee223c77f75ab324e274a2a35c0,2024-09,-6,pre,2024-09-08T02:09:05-04:00,2024-09-08T02:09:05-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into guenp/fix-432-glue-creds,Merge branch 'master' into guenp/fix-432-glue-creds
+duckdb/dbt-duckdb,3143ad3307f57d02bfd843ec13a151f5a0f6ec5b,2024-09,-6,pre,2024-09-08T02:27:47-04:00,2024-09-08T02:27:47-04:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,2,2,1,2,2,,,,,,0,,remove deprecated functions,remove deprecated functions
+duckdb/dbt-duckdb,af643ad8561167cd767a37e69bf95184beeb37e3,2024-09,-6,pre,2024-09-08T08:17:57-07:00,2024-09-08T08:17:57-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,439,Merge pull request #439 from duckdb/guenp/fix-deltalake-load_version,"Merge pull request #439 from duckdb/guenp/fix-deltalake-load_version
+
+Remove deprecated DeltaLake functions"
+duckdb/dbt-duckdb,0bd8a90d5d13d7c7ae157b00d1bd5bca628231f8,2024-09,-6,pre,2024-09-08T08:20:08-07:00,2024-09-08T08:20:08-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,436,Merge pull request #436 from duckdb/guenp/fix-432-glue-creds,"Merge pull request #436 from duckdb/guenp/fix-432-glue-creds
+
+Pass credentials to Glue plugin constructor"
+duckdb/dbt-duckdb,6e9f90bc6ea47e17866dd48ba6b9bcf069c41ac3,2024-09,-6,pre,2024-09-09T10:42:06-07:00,2024-09-09T10:42:06-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,4,1,0,0,0,,,,,,0,,Add explicit register/unregister operations for python models,Add explicit register/unregister operations for python models
+duckdb/dbt-duckdb,5082d28d0703739074a8a0da41b0b532f241d514,2024-09,-6,pre,2024-09-09T11:13:59-07:00,2024-09-09T11:13:59-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,10,1,0,0,0,,,,,,0,,A version-independent fix for the datediff week handling in duckdb,A version-independent fix for the datediff week handling in duckdb
+duckdb/dbt-duckdb,b9c46e4fdaf03a4bb66519275373d9d0951e4954,2024-09,-6,pre,2024-09-09T12:56:57-07:00,2024-09-09T12:56:57-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,440,Merge pull request #440 from duckdb/jwills_110_updates,"Merge pull request #440 from duckdb/jwills_110_updates
+
+Fixes to dbt-duckdb to work with DuckDB 1.1.0"
+duckdb/dbt-duckdb,acf622d465b12cc1c98b2939dfd177b54a52b5d2,2024-09,-6,pre,2024-09-23T18:27:40-07:00,2024-09-23T18:27:40-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,6,240,35,3,74,28,,,,,,0,444,(fix) Add support for attaching a MotherDuck database with token in settings or config (#444),"(fix) Add support for attaching a MotherDuck database with token in settings or config (#444)
+
+* swap attach and plugin init, set motherduck_token if md: path in attach list, add UT
+* support getting token from settings and path, add UT
+* always add token to config and make path unique (because duckdb 1.1.0 cares)"
+duckdb/dbt-duckdb,47d447cb0c2855435b9593af31bfe4faadab818b,2024-09,-6,pre,2024-09-26T11:01:17-07:00,2024-09-26T11:01:17-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,9,251,159,3,55,47,,,,,,0,446,(fix): MotherDuck config should set SaaS mode at the end (#446),"(fix): MotherDuck config should set SaaS mode at the end (#446)
+
+* make sure to set saas_mode after the MD token is set
+* generalize how config settings are parsed from input
+* add tests to confirm that SaaS mode also works when I attach a MD database
+* pin DuckDB to 1.1.1 for MD tests"
+duckdb/dbt-duckdb,85862a1ee25ab727b0375284987cdb6c861976ff,2024-09,-6,pre,2024-09-26T12:11:03-07:00,2024-09-25T17:35:15-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,4,4,0,0,0,,,,,,0,,Update the versions of Python we run tests against from 3.9 through 3.12,Update the versions of Python we run tests against from 3.9 through 3.12
+duckdb/dbt-duckdb,1e838136c66e7264c1f53f48a163eb55c051112e,2024-09,-6,pre,2024-09-26T15:23:55-07:00,2024-09-26T15:23:55-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,2,14,5,1,11,2,,,,,,0,,Try out this hack,Try out this hack
+duckdb/dbt-duckdb,020e0ee42385d55b7302d36f249423b8d10575c4,2024-09,-6,pre,2024-09-26T15:54:02-07:00,2024-09-26T15:42:31-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,3,3,0,0,0,,,,,,0,,Put the dev-requirements back the way they were,Put the dev-requirements back the way they were
+duckdb/dbt-duckdb,c30c5487278c72821024c22c3d8e09332576bbc4,2024-09,-6,pre,2024-09-26T16:04:37-07:00,2024-09-26T16:04:37-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,447,Merge pull request #447 from duckdb/jwills_184_updates,"Merge pull request #447 from duckdb/jwills_184_updates
+
+Updates for dbt-duckdb 1.8.4"
+duckdb/dbt-duckdb,929b2b08753602d5181af6dcee268de0ba2d2971,2024-10,-5,pre,2024-10-01T22:36:31-06:00,2024-10-01T21:01:54-06:00,uc02d2bad1e900cd4,uc02d2bad1e900cd4@users.invalid,uc02d2bad1e900cd4,uc02d2bad1e900cd4@users.invalid,1,0,3,18,7,1,3,1,,,,,,0,,Test with dbt-core prereleases,Test with dbt-core prereleases
+duckdb/dbt-duckdb,51152b33ed1917a45b63b531baa0e34717980a58,2024-10,-5,pre,2024-10-03T15:07:53-07:00,2024-10-03T15:07:53-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,449,Merge pull request #449 from ha5b5b5e2910d45fe/dbt-prereleases,"Merge pull request #449 from ha5b5b5e2910d45fe/dbt-prereleases
+
+Fix Excel logger in dbt-core 1.9.0"
+duckdb/dbt-duckdb,d9da74fa4703fb79f7f7f7cab52873ba01188d23,2024-10,-5,pre,2024-10-03T16:04:02-07:00,2024-10-03T16:04:02-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,6,5,1,6,5,,,,,,0,451,check if config has model attr (#451),check if config has model attr (#451)
+duckdb/dbt-duckdb,a823db82fcadea214257ccb25ce834b106c8d5ac,2024-10,-5,pre,2024-10-03T16:07:38-07:00,2024-10-03T10:33:06-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,4,95,7,2,19,4,,,,,,0,,Add support for configuring community/nightly extensions in the profile directly,Add support for configuring community/nightly extensions in the profile directly
+duckdb/dbt-duckdb,bbd04ccc35855f60f0cdf4acd6079c003a682e17,2024-10,-5,pre,2024-10-03T17:20:52-07:00,2024-10-03T17:20:52-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,450,Merge pull request #450 from duckdb/jwills_install_from_support,"Merge pull request #450 from duckdb/jwills_install_from_support
+
+Add support for configuring community/nightly extensions in the profile directly"
+duckdb/dbt-duckdb,41794e3edc2dfb4237bee0167e4df07f581e5ba6,2024-10,-5,pre,2024-10-04T15:12:03-07:00,2024-10-04T15:12:03-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,3,157,8,0,0,0,,,,,,0,453,(fix) generate_database_name macro should be case insensitive (#453),"(fix) generate_database_name macro should be case insensitive (#453)
+
+* add macro test
+
+* force lowercase for quoted identifiers
+
+* extend behavior to generate_schema_name"
+duckdb/dbt-duckdb,9714864f53d3c5a9500fc5b355dfd5d1210f2264,2024-10,-5,pre,2024-10-07T07:29:25-07:00,2024-10-07T07:29:25-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,454,Bump dbt-tests-adapter from 1.9.2 to 1.10.2 (#454),"Bump dbt-tests-adapter from 1.9.2 to 1.10.2 (#454)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.9.2 to 1.10.2.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,52d9620a7996c0e30d5c425e2697b6d4aaa0b072,2024-10,-5,pre,2024-10-08T11:16:34+02:00,2024-10-08T11:16:34+02:00,u2f1eee337dcd4c07,u2f1eee337dcd4c07@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,,Support HTTP secret extra_http_headers,Support HTTP secret extra_http_headers
+duckdb/dbt-duckdb,c4dbce17175e963ab8b123eab99b84aa661b3d53,2024-10,-5,pre,2024-10-10T07:28:49-07:00,2024-10-10T07:28:49-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,7,0,0,0,0,,,,,,0,,Make grant configs a no-op for DuckDB,Make grant configs a no-op for DuckDB
+duckdb/dbt-duckdb,db95b91644430416fcdf7d68814a2259e732a3f5,2024-10,-5,pre,2024-10-10T07:41:11-07:00,2024-10-10T07:41:11-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,456,Merge pull request #456 from h3d129ce9d705cbb7/patch-1,"Merge pull request #456 from h3d129ce9d705cbb7/patch-1
+
+Support HTTP secret extra_http_headers"
+duckdb/dbt-duckdb,c70952652105d766733babb6f3df6750a58a68ba,2024-10,-5,pre,2024-10-10T07:44:06-07:00,2024-10-10T07:43:26-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,3,1,1,3,1,,,,,,0,,Linting fixes for PR #456,Linting fixes for PR #456
+duckdb/dbt-duckdb,b490f6ebc5ac299fa0d466cfe487f6e6eaad7b33,2024-10,-5,pre,2024-10-10T08:26:57-07:00,2024-10-10T08:26:57-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,460,Merge pull request #460 from duckdb/jwills_lint_for_456,"Merge pull request #460 from duckdb/jwills_lint_for_456
+
+Linting fixes for PR #456"
+duckdb/dbt-duckdb,bbe8b18295b575663c10f9c602cd4e59aad3636a,2024-10,-5,pre,2024-10-10T08:33:55-07:00,2024-10-10T08:33:55-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,Include the relation in question in the log message for the grant no-op,Include the relation in question in the log message for the grant no-op
+duckdb/dbt-duckdb,e39958d0ce18d6eccea1b0e8b04532c4ae070a9c,2024-10,-5,pre,2024-10-10T11:25:45-07:00,2024-10-10T11:25:45-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,Just send this to the dbt.log instead of to stdout to make it less noisy,Just send this to the dbt.log instead of to stdout to make it less noisy
+duckdb/dbt-duckdb,9011f115295ac8656844513f47e81b2fdfae49ae,2024-10,-5,pre,2024-10-10T13:34:04-07:00,2024-10-10T13:34:04-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,3,25,3,2,24,2,,,,,,0,,Move this message to a one-time warning function,Move this message to a one-time warning function
+duckdb/dbt-duckdb,e63d14cf54da13c39b34f4af698d6afba416c591,2024-10,-5,pre,2024-10-11T09:34:32-07:00,2024-10-11T09:34:32-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,459,Merge pull request #459 from duckdb/jwills_make_grants_a_harmless_noop,"Merge pull request #459 from duckdb/jwills_make_grants_a_harmless_noop
+
+Make grant configs a no-op for DuckDB"
+duckdb/dbt-duckdb,f62866d6b0cf4eea1f1ceed7013d66998da30f3e,2024-10,-5,pre,2024-10-12T12:14:43-07:00,2024-10-12T12:14:43-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,1,0,2,2,2,0,0,0,,,,,,0,,Update to Buena Vista 0.5.0,Update to Buena Vista 0.5.0
+duckdb/dbt-duckdb,dae3f383b6ae31f43a86d74fc2242c7d4b62e280,2024-10,-5,pre,2024-10-13T08:19:41-07:00,2024-10-13T08:19:41-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,462,Merge pull request #462 from duckdb/jwills_buenavista_050,"Merge pull request #462 from duckdb/jwills_buenavista_050
+
+Update to Buena Vista 0.5.0"
+duckdb/dbt-duckdb,00f2308d1ea81b3dc831cd0e2a8d3cde680e5f33,2024-10,-5,pre,2024-10-15T17:35:59+02:00,2024-10-15T17:35:59+02:00,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,2,43,3,1,11,1,,,,,,0,,added parquet & json read options + added struct field support for glue,added parquet & json read options + added struct field support for glue
+duckdb/dbt-duckdb,0fee2877f045178322610cf8c724f050c4bbba4c,2024-10,-5,pre,2024-10-15T17:42:46+02:00,2024-10-15T17:42:46+02:00,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,1,2,1,1,2,1,,,,,,0,,fixed ruff issues,fixed ruff issues
+duckdb/dbt-duckdb,65c7e471d19a46f8610890e270b1aac9ffc98b6f,2024-10,-5,pre,2024-10-15T15:44:33Z,2024-10-15T15:44:33Z,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,1,0,1,1,0,1,,,,,,0,,removed double inport,removed double inport
+duckdb/dbt-duckdb,5e3b1c35efa1ec7513f112e5022fc5ccceac9666,2024-10,-5,pre,2024-10-15T15:04:48-07:00,2024-10-15T15:04:48-07:00,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,GitHub,noreply@github.com,1,0,1,0,2,0,0,0,,,,,,0,,adding transaction support in md,adding transaction support in md
+duckdb/dbt-duckdb,9b34a9d79bf31d221b2c01e4df74385a9600bd14,2024-10,-5,pre,2024-10-15T15:40:22-07:00,2024-10-15T15:40:22-07:00,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,463,Merge pull request #463 from duckdb/update-readme,"Merge pull request #463 from duckdb/update-readme
+
+adding transaction support in md"
+duckdb/dbt-duckdb,c801217e1d95e34df0db339f0f02c4839869eae7,2024-10,-5,pre,2024-10-16T09:05:52Z,2024-10-16T09:05:52Z,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,2,23,8,0,0,0,,,,,,0,,set default values for csv/json/parquet read options,set default values for csv/json/parquet read options
+duckdb/dbt-duckdb,2a067efe28a00095704ce17b3e7e59e96db67614,2024-10,-5,pre,2024-10-16T09:13:42Z,2024-10-16T09:13:42Z,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,auto_detect=true default values for json and csv,auto_detect=true default values for json and csv
+duckdb/dbt-duckdb,fdf3987062e168e9e8bbabbec1a16b47e94c2c68,2024-10,-5,pre,2024-10-16T09:27:21Z,2024-10-16T09:27:21Z,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,1,1,0,1,1,0,,,,,,0,,removed empty line,removed empty line
+duckdb/dbt-duckdb,1a5155a2b25c4bf50e33f68816006c690198342f,2024-10,-5,pre,2024-10-16T14:53:47+02:00,2024-10-16T14:53:47+02:00,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,1,12,10,1,12,10,,,,,,0,,added glue client fix (local variable 'client' referenced before assignment),added glue client fix (local variable 'client' referenced before assignment)
+duckdb/dbt-duckdb,1cf821eb24b09a2bd7cf77ecede9f686ebca937b,2024-10,-5,pre,2024-10-17T14:08:25Z,2024-10-17T14:08:25Z,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,2,13,3,0,0,0,,,,,,0,,"infer type from location, default to parquet if not set","infer type from location, default to parquet if not set"
+duckdb/dbt-duckdb,26253ddbfa20e2138eeb13176c77f87f26b7323f,2024-10,-5,pre,2024-10-17T15:25:08Z,2024-10-17T15:25:08Z,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,u6c878aac22caa0c3,u6c878aac22caa0c3@users.invalid,1,0,1,7,10,0,0,0,,,,,,0,,resolved indentation & format issues,resolved indentation & format issues
+duckdb/dbt-duckdb,02b3b8644a8d1903ef37cec1bc5c3d2e4346e59f,2024-10,-5,pre,2024-10-17T08:46:34-07:00,2024-10-17T08:46:34-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,464,Merge pull request #464 from h8c7fb0a238b55a9e/feature/added_glue_struct_support_and_read_options,"Merge pull request #464 from h8c7fb0a238b55a9e/feature/added_glue_struct_support_and_read_options
+
+Added basic AWS Glue struct datatype support and JSON/CSV/PARQUET read_options"
+duckdb/dbt-duckdb,0958fa8ef848c2d8ac2ca3a63c488028a72bcd5a,2024-10,-5,pre,2024-10-18T10:00:02-07:00,2024-10-18T10:00:02-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,4,3,1,4,3,,,,,,0,,Move the secret creation to a connection-level operation instead of a cursor-level (aka per-thread) operation,Move the secret creation to a connection-level operation instead of a cursor-level (aka per-thread) operation
+duckdb/dbt-duckdb,0d9da24390cbddc7d9b5408a469e8073fd805aef,2024-10,-5,pre,2024-10-18T10:13:07-07:00,2024-10-18T10:13:07-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix,fix
+duckdb/dbt-duckdb,d0c409b0502d1b68fb57bbe6e3c318e172afce38,2024-10,-5,pre,2024-10-18T10:49:28-07:00,2024-10-18T10:49:28-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,468,Merge pull request #468 from duckdb/jwills_make_secret_construction_threadsafe,"Merge pull request #468 from duckdb/jwills_make_secret_construction_threadsafe
+
+Move the secret creation to a connection-level operation instead of a cursor-level operation"
+duckdb/dbt-duckdb,b391212352652ada055ffdae4b41d8a890f041e6,2024-10,-5,pre,2024-10-22T16:44:31+02:00,2024-10-22T16:44:31+02:00,uc5df5f114dbe2ff6,uc5df5f114dbe2ff6@users.invalid,uc5df5f114dbe2ff6,uc5df5f114dbe2ff6@users.invalid,1,0,1,1,2,0,0,0,,,,,,0,,Remove mention of outdated MotherDuck constraints,Remove mention of outdated MotherDuck constraints
+duckdb/dbt-duckdb,f96693de8034178f6c20eae3816097d8e2491375,2024-10,-5,pre,2024-10-29T12:39:48-04:00,2024-10-29T12:39:48-04:00,u79aebae10d6d6f93,u79aebae10d6d6f93@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,0,0,0,,,,,,0,,Add safety check for node in graph,"Add safety check for node in graph
+
+With dbt's unit-test feature, dbt may not populate the graph when running `dbt test -s model_to_test`. This will result in an error:
+
+```
+on-run-start failed, error:
+ 'dict object' has no attribute 'unit_test.project_name.model_name.test_name'
+```"
+duckdb/dbt-duckdb,5b4770fcf50c7b3597db42affe345a5e808d06d1,2024-10,-5,pre,2024-10-29T11:08:14-07:00,2024-10-29T11:08:14-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,472,Merge pull request #472 from h37e1e6f5ea9e808e/patch-1,"Merge pull request #472 from h37e1e6f5ea9e808e/patch-1
+
+Add safety check for node in graph"
+duckdb/dbt-duckdb,b6478f40a048a820c4eebd0aa3e0a9a3653d176a,2024-11,-4,pre,2024-11-04T05:25:29Z,2024-11-04T05:25:29Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.10.2 to 1.10.3,"Bump dbt-tests-adapter from 1.10.2 to 1.10.3
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.10.2 to 1.10.3.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,9b385703e93bfb67fd725eeaefab21e93f5e2a37,2024-11,-4,pre,2024-11-16T13:03:27+01:00,2024-11-16T13:03:27+01:00,u3cde5836baabf081,u3cde5836baabf081@users.invalid,GitHub,noreply@github.com,1,0,1,4,2,0,0,0,,,,,,0,,Update README.md to reflect postgres attachments,Update README.md to reflect postgres attachments
+duckdb/dbt-duckdb,a5be67a1070ad4140db58270c32407885669cf88,2024-11,-4,pre,2024-11-17T16:31:09-08:00,2024-11-17T16:31:09-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,476,Merge pull request #476 from he9ee045a4e681cc0/patch-1,"Merge pull request #476 from he9ee045a4e681cc0/patch-1
+
+Document Postgres attachment for read/write"
+duckdb/dbt-duckdb,1a1ff67a231fec2726aa7c2f8327ec4ff63a483c,2024-11,-4,pre,2024-11-17T16:31:38-08:00,2024-11-17T16:31:38-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,474,Merge pull request #474 from duckdb/dependabot/pip/dbt-tests-adapter-1.10.3,"Merge pull request #474 from duckdb/dependabot/pip/dbt-tests-adapter-1.10.3
+
+Bump dbt-tests-adapter from 1.10.2 to 1.10.3"
+duckdb/dbt-duckdb,b46db4d58e03edf161152d25a9a1b18406c5d801,2024-11,-4,pre,2024-11-18T00:32:50Z,2024-11-18T00:32:50Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.11.2 to 1.13.0,"Bump mypy from 1.11.2 to 1.13.0
+
+Bumps [mypy](https://github.com/python/mypy) from 1.11.2 to 1.13.0.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.11.2...v1.13.0)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,dfeef01ca178bcf7f9f7fe7a674f14ecc45c9403,2024-11,-4,pre,2024-11-18T05:33:50Z,2024-11-18T05:33:50Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.10.3 to 1.10.4,"Bump dbt-tests-adapter from 1.10.3 to 1.10.4
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.10.3 to 1.10.4.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,d2dfd048a5500d02c4c39a3fecebc16dc62f12e8,2024-11,-4,pre,2024-11-20T09:33:40Z,2024-11-20T09:33:40Z,u3bf5e118892c2661,u3bf5e118892c2661@users.invalid,u3bf5e118892c2661,u3bf5e118892c2661@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,adding default open dir to the dev container,adding default open dir to the dev container
+duckdb/dbt-duckdb,1fbecd5c45e29cd7cca6f21f8ec15d89220cfad5,2024-11,-4,pre,2024-11-20T09:37:44Z,2024-11-20T09:37:44Z,u3bf5e118892c2661,u3bf5e118892c2661@users.invalid,u3bf5e118892c2661,u3bf5e118892c2661@users.invalid,1,0,1,2,0,0,0,0,,,,,,0,,autodiscovery for pytest unit tests,autodiscovery for pytest unit tests
+duckdb/dbt-duckdb,b42b2dc8595120a862ae3e349302b664bd23065e,2024-11,-4,pre,2024-11-21T18:44:03-08:00,2024-11-21T18:44:03-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,471,Merge pull request #471 from duckdb/dependabot/pip/mypy-1.13.0,"Merge pull request #471 from duckdb/dependabot/pip/mypy-1.13.0
+
+Bump mypy from 1.11.2 to 1.13.0"
+duckdb/dbt-duckdb,b960d18a1f6ce0721e30bececb805894865a20d6,2024-11,-4,pre,2024-11-24T09:36:37+08:00,2024-11-24T09:36:37+08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,477,Merge pull request #477 from duckdb/dependabot/pip/dbt-tests-adapter-1.10.4,"Merge pull request #477 from duckdb/dependabot/pip/dbt-tests-adapter-1.10.4
+
+Bump dbt-tests-adapter from 1.10.3 to 1.10.4"
+duckdb/dbt-duckdb,fb0aa5ea21c7a8a95e4b3c641625f67a26986096,2024-11,-4,pre,2024-11-24T09:37:16+08:00,2024-11-24T09:37:16+08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,470,Merge pull request #470 from he0951765a4b5d1a9/fix-md-constraints,"Merge pull request #470 from he0951765a4b5d1a9/fix-md-constraints
+
+Remove mention of outdated MotherDuck constraints in Readme"
+duckdb/dbt-duckdb,5a342bbdf7619497ea27dd8f6f98db8ecfe73704,2024-11,-4,pre,2024-11-26T09:25:05Z,2024-11-26T09:25:05Z,u3bf5e118892c2661,u3bf5e118892c2661@users.invalid,u3bf5e118892c2661,u3bf5e118892c2661@users.invalid,1,0,5,493,54,1,119,22,,,,,,0,,"fix(postgres-plugin #478): Correct attribute access, plugin initialization, and test assertions; gitignore for a wsl development workflow","fix(postgres-plugin #478): Correct attribute access, plugin initialization, and test assertions; gitignore for a wsl development workflow"
+duckdb/dbt-duckdb,3650b4e07ff1bda165a4491abc432a5536a4efbd,2024-12,-3,pre,2024-12-02T11:51:43-08:00,2024-12-02T11:51:43-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,480,Merge pull request #480 from hfa32c20acc1f885b/gexar/update_pgsql_plugin_478,"Merge pull request #480 from hfa32c20acc1f885b/gexar/update_pgsql_plugin_478
+
+Update Postgres Plugin for dbt-duckdb to Use ATTACH Syntax and Improve Compatibility Gexar/update pgsql plugin #478"
+duckdb/dbt-duckdb,9f9cdb14762fdd1e002f67bb64847267191ed388,2024-12,-3,pre,2024-12-03T17:02:18-08:00,2024-12-03T17:02:18-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,6,1,1,6,1,,,,,,0,482,Add unique UUID to temp table name (#482),"Add unique UUID to temp table name (#482)
+
+* add unique UUID to temp table name
+
+* rename to uuid
+
+* make private variable
+
+* Add type annotation
+
+* formatting
+
+* remove dash, use only last part of uuid
+
+* fix type hint
+
+* remove unused import"
+duckdb/dbt-duckdb,443ca50b02a632110672fe52f1ed03bc744cca78,2024-12,-3,pre,2024-12-03T17:05:48-08:00,2024-12-03T17:04:44-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,use tmp_path instead of tmp_dir_factory.getbasetemp,use tmp_path instead of tmp_dir_factory.getbasetemp
+duckdb/dbt-duckdb,3d69c4de943c2ba09fb5167dffe689f102f34156,2024-12,-3,pre,2024-12-03T17:35:39-08:00,2024-12-03T17:35:39-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,use session scoped fixture,use session scoped fixture
+duckdb/dbt-duckdb,99e4e5392dff12f2b93df5801ea64f8852798c88,2024-12,-3,pre,2024-12-04T09:18:34-08:00,2024-12-04T09:18:34-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,483,Merge pull request #483 from duckdb/guenp/fix-flaky-test,"Merge pull request #483 from duckdb/guenp/fix-flaky-test
+
+Use tmp_path instead of tmp_path_factory to see if it helps fix flaky file-based test"
+duckdb/dbt-duckdb,0bd2319c3c801c8d22582c71cb9c89d3be09211c,2024-12,-3,pre,2024-12-04T13:43:21-08:00,2024-12-04T13:43:21-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,,0,486,bump github actions versions (#486),bump github actions versions (#486)
+duckdb/dbt-duckdb,430fd43cf27d709fc1fc2a314cea1e29195d838c,2024-12,-3,pre,2024-12-04T16:34:38-08:00,2024-12-04T16:34:38-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,,0,489,download-artifact should also be bumped to v4 (#489),download-artifact should also be bumped to v4 (#489)
+duckdb/dbt-duckdb,8c70e348e942086e7a708823d5b8008e246ea909,2024-12,-3,pre,2024-12-06T11:56:17-08:00,2024-12-06T11:56:17-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,,0,490,"Drop 3.8 support, add 3.12 (#490)","Drop 3.8 support, add 3.12 (#490)"
+duckdb/dbt-duckdb,6b539a6f8192e0ec1d4e9a310f4a6b64f53d830b,2024-12,-3,pre,2024-12-12T07:55:56-08:00,2024-12-12T07:55:56-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,2,4,0,0,0,,,,,,0,487,Fix out of date README comment about version support for dbt-core and duckdb (#487),Fix out of date README comment about version support for dbt-core and duckdb (#487)
+duckdb/dbt-duckdb,9238d85ac8fb024d3192c6f13ae538fd08a84ea0,2024-12,-3,pre,2024-12-17T14:26:15+01:00,2024-12-17T14:26:15+01:00,u1c46b5eb60406788,u1c46b5eb60406788@users.invalid,u1c46b5eb60406788,u1c46b5eb60406788@users.invalid,1,0,1,4,3,1,4,3,,,,,,0,,add support for per_thread_output in external materialization,add support for per_thread_output in external materialization
+duckdb/dbt-duckdb,0da066b4f7c4aa9287092944f15b16ebe0148c2a,2024-12,-3,pre,2024-12-18T10:40:31-08:00,2024-12-18T10:40:31-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,493,Merge pull request #493 from h0926219f8a35a3dd/elephantmetropolis/support-per_thread_output-parameter-for-external-materialization,"Merge pull request #493 from h0926219f8a35a3dd/elephantmetropolis/support-per_thread_output-parameter-for-external-materialization
+
+add support for per_thread_output in external materialization"
+duckdb/dbt-duckdb,7cceec26e632c0680f3df55526efd21b9b9b38d4,2025-01,-2,pre,2025-01-06T05:07:07Z,2025-01-06T05:07:07Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump mypy from 1.13.0 to 1.14.1,"Bump mypy from 1.13.0 to 1.14.1
+
+Bumps [mypy](https://github.com/python/mypy) from 1.13.0 to 1.14.1.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.13.0...v1.14.1)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,8702def6feadffed3d06439cea251fd7e25fcd72,2025-01,-2,pre,2025-01-08T16:24:48-08:00,2024-10-10T14:52:50-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,5,164,2,0,0,0,,,,,,0,,"add nightly tox env that installs duckdb nightly release, add github action for nightly tests","add nightly tox env that installs duckdb nightly release, add github action for nightly tests"
+duckdb/dbt-duckdb,3b04f7bfeee50ca603eb56fa06d162ea9ad5126e,2025-01,-2,pre,2025-01-08T17:11:12-08:00,2025-01-08T17:11:12-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,2,0,0,0,0,,,,,,0,,run on schedule,run on schedule
+duckdb/dbt-duckdb,f3a89b997c875ab53645f931857ceeb2f047633f,2025-01,-2,pre,2025-01-09T09:34:57-08:00,2025-01-09T09:34:57-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,497,Merge pull request #497 from h8b589118c9cc573e/guenp/test-duckdb-nightly,"Merge pull request #497 from h8b589118c9cc573e/guenp/test-duckdb-nightly
+
+Run tests with DuckDB nightly release every 24h"
+duckdb/dbt-duckdb,6d70cbcd7c9b8128d5645960933aae0f9a07c505,2025-01,-2,pre,2025-01-09T09:35:24-08:00,2025-01-09T09:35:24-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,495,Merge pull request #495 from duckdb/dependabot/pip/mypy-1.14.1,"Merge pull request #495 from duckdb/dependabot/pip/mypy-1.14.1
+
+Bump mypy from 1.13.0 to 1.14.1"
+duckdb/dbt-duckdb,18ebdc677f3018b144130bf48336bffb4ddaa33e,2025-01,-2,pre,2025-01-09T12:50:57-08:00,2025-01-09T12:50:57-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,0,82,0,0,0,,,,,,0,498,remove package build/test build steps (#498),remove package build/test build steps (#498)
+duckdb/dbt-duckdb,2634221c7e80de73c4a7df8f4251d34585833654,2025-01,-2,pre,2025-01-21T13:09:08-08:00,2025-01-21T13:09:08-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,2,2,4,1,1,3,,,,,,0,502,Make keep_open: true the default setting for dbt-duckdb going forward (#502),"Make keep_open: true the default setting for dbt-duckdb going forward (#502)
+
+* Make keep_open: true the default setting for dbt-duckdb going forward
+
+* Curious about some test updates here
+
+* Okay that does not seem keep_open-related, good"
+duckdb/dbt-duckdb,a6fbe6bf681b4cdf46b52bc05de3682bb3da1757,2025-02,-1,pre,2025-02-10T09:07:29-08:00,2025-02-10T09:07:29-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,3,12,12,0,0,0,,,,,,0,507,Update deprecated v3 -> v4 for upload-artifact and download-artifact (#507),"Update deprecated v3 -> v4 for upload-artifact and download-artifact (#507)
+
+* Update deprecated v3 -> v4 for upload-artifact and download-artifact
+
+* Try the plugins test on 3.11
+
+* Try pyarrow on an earlier version"
+duckdb/dbt-duckdb,41ff7622fb43086742070afc72014f166870cfb6,2025-02,-1,pre,2025-02-10T22:19:27-08:00,2025-02-10T22:19:27-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,4,157,22,0,0,0,,,,,,0,510,[Fix] External materialization to S3 does not work if table is empty (#510),"[Fix] External materialization to S3 does not work if table is empty (#510)
+
+* create failing unit test for external s3 write, add workaround for macro
+* add local vs s3 tests, add empty vs non-empty table"
+duckdb/dbt-duckdb,87540aa52c04472b551e503d495925cbb1c1ca8a,2025-02,-1,pre,2025-02-11T14:39:57-08:00,2025-02-11T14:39:57-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,2,13,0,0,0,0,,,,,,0,511,skip s3 tests if the secrets are not available (#511),"skip s3 tests if the secrets are not available (#511)
+
+* skip s3 tests if the secrets are not available"
+duckdb/dbt-duckdb,f7fb5766703be073970c0cb0a0240abe51ea0819,2025-02,-1,pre,2025-02-11T21:44:25-08:00,2025-02-11T21:44:25-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,508,Bump mypy from 1.14.1 to 1.15.0 (#508),"Bump mypy from 1.14.1 to 1.15.0 (#508)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.14.1 to 1.15.0.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.14.1...v1.15.0)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,cd8ddeb983577a3a5103753d41636a9cb636988d,2025-02,-1,pre,2025-02-11T21:44:53-08:00,2025-02-11T21:44:53-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,509,Bump dbt-tests-adapter from 1.10.4 to 1.11.0 (#509),"Bump dbt-tests-adapter from 1.10.4 to 1.11.0 (#509)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.10.4 to 1.11.0.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/v1.11.0/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/compare/v1.10.4...v1.11.0)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,822724126a420a7cd230cd2d1ae3169e05f91a51,2025-02,-1,pre,2025-02-24T12:01:18-08:00,2025-02-24T12:01:18-08:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,,0,517,"remove print statement, use empty string instead (#517)","remove print statement, use empty string instead (#517)"
+duckdb/dbt-duckdb,a755fc763098448a540745b4c3712982bc36e8ee,2025-03,0,m0,2025-03-13T18:18:34-07:00,2025-03-13T18:18:34-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,2,146,0,1,142,0,,,,,,0,,Vibe-claudeing a duckdbt CLI,Vibe-claudeing a duckdbt CLI
+duckdb/dbt-duckdb,88e395523aa801595cbac8e966bc883f9fb56696,2025-03,0,m0,2025-03-13T21:29:02-07:00,2025-03-13T21:29:02-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,27,23,1,27,23,,,,,,0,,linting etc,linting etc
+duckdb/dbt-duckdb,d26ae6fcf2466821ef986d5147a3e2c1dc92c211,2025-03,0,m0,2025-03-14T11:27:41-07:00,2025-03-14T11:27:41-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,520,Merge pull request #520 from duckdb/jwills_duckdbt_cli,"Merge pull request #520 from duckdb/jwills_duckdbt_cli
+
+Vibe-claudeing a duckdbt CLI"
+duckdb/dbt-duckdb,a2a1ef9ab4feaec644334175ed756964690c8db7,2025-03,0,m0,2025-03-22T08:36:55-07:00,2025-03-22T08:36:55-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,16,7,1,16,7,,B,claude,trailer;identity;message,,0,,Add manifest tracking to duckdbt shell,"Add manifest tracking to duckdbt shell
+
+Store the manifest object in the DuckdbtShell class to enable future
+features that need access to project information like model names.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,efd00f83a3905b0e18adbd83183fcf337d78bdc1,2025-03,0,m0,2025-03-22T08:49:56-07:00,2025-03-22T08:49:56-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,59,0,1,59,0,,B,claude,trailer;identity;message,,0,,Add model completion with fzf integration,"Add model completion with fzf integration
+
+Implemented a model name autocomplete feature that activates when
+typing '**' and pressing TAB. This allows users to quickly select
+models from the project. The feature:
+
+- Requires iterfzf to be installed
+- Caches model names from the manifest
+- Shows a helpful message if iterfzf is not available
+- Filters models based on text before the ** marker
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,8cf68010db5904ab1a381cb6f4964fee1662f119,2025-03,0,m0,2025-03-22T09:24:13-07:00,2025-03-22T09:24:13-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,23,33,1,23,33,,,,,,0,,Tweak this impl a bit,Tweak this impl a bit
+duckdb/dbt-duckdb,bb7604110d4851b8365d6c3b5ef1ea519e3442b6,2025-03,0,m0,2025-03-26T15:19:29-07:00,2025-03-26T15:19:29-07:00,u92e086c466b99991,u92e086c466b99991@users.invalid,u92e086c466b99991,u92e086c466b99991@users.invalid,1,0,3,212,0,0,0,0,,,,,,0,,parameterized_view custom materialization to avoid view recreation on schema change,parameterized_view custom materialization to avoid view recreation on schema change
+duckdb/dbt-duckdb,0415bf36c432a173e66b8d2172dcfd90cbe07f56,2025-03,0,m0,2025-03-26T15:29:52-07:00,2025-03-26T15:29:52-07:00,u92e086c466b99991,u92e086c466b99991@users.invalid,u92e086c466b99991,u92e086c466b99991@users.invalid,1,0,3,8,9,0,0,0,,,,,,0,,Formatting fixes. Missed the pre-commit hook!,Formatting fixes. Missed the pre-commit hook!
+duckdb/dbt-duckdb,72c89a0700bab05d530038da6713c2db2842bd4e,2025-03,0,m0,2025-03-27T15:39:12-07:00,2025-03-27T15:39:12-07:00,u92e086c466b99991,u92e086c466b99991@users.invalid,u92e086c466b99991,u92e086c466b99991@users.invalid,1,0,4,132,120,0,0,0,,,,,,0,,rename to table_function from parameterized_view,rename to table_function from parameterized_view
+duckdb/dbt-duckdb,7c95e4f63664de815a16fa1b3639715a143370c0,2025-03,0,m0,2025-03-27T15:42:38-07:00,2025-03-27T15:42:38-07:00,u92e086c466b99991,u92e086c466b99991@users.invalid,u92e086c466b99991,u92e086c466b99991@users.invalid,1,0,1,4,0,0,0,0,,,,,,0,,formatting fixes,formatting fixes
+duckdb/dbt-duckdb,039b341eb1499ca973489584e602a9470de4eaff,2025-03,0,m0,2025-03-27T16:25:31-07:00,2025-03-27T16:25:31-07:00,u92e086c466b99991,u92e086c466b99991@users.invalid,u92e086c466b99991,u92e086c466b99991@users.invalid,1,0,1,32,11,0,0,0,,,,,,0,,Test alter table add column works without recreate,Test alter table add column works without recreate
+duckdb/dbt-duckdb,c86ef326032bd10fed6e79c6b132d3cf32733543,2025-03,0,m0,2025-03-31T11:16:54-07:00,2025-03-31T11:16:54-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,524,Merge pull request #524 from duckdb/jwills_fzf_duckdbt,"Merge pull request #524 from duckdb/jwills_fzf_duckdbt
+
+Add fzf-based model autocomplete to duckdbt"
+duckdb/dbt-duckdb,7853d5e5acc0c52a44d0665a8e7c2b548af4250e,2025-03,0,m0,2025-03-31T12:01:09-07:00,2025-03-31T12:01:09-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,2,18,3,0,0,0,,,,,,0,,Support dbt_valid_to_current for snapshots,Support dbt_valid_to_current for snapshots
+duckdb/dbt-duckdb,42a35ac4e5982c74ce26ee1d48f6c432fba4a65e,2025-03,0,m0,2025-03-31T12:06:20-07:00,2025-03-31T12:06:20-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,0,5,0,0,0,,,,,,0,,Update test_basic.py,"Update test_basic.py
+
+just had to be clever, didn't you Josh"
+duckdb/dbt-duckdb,97b066aaa5f206da38aa27d31a3b86c189d1e344,2025-04,1,post,2025-04-01T13:37:20-07:00,2025-04-01T13:37:20-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,525,Merge pull request #525 from hfd4c0606a5f7a38b/parameterized-view,"Merge pull request #525 from hfd4c0606a5f7a38b/parameterized-view
+
+table_function materialization (skip view recreate on schema change)"
+duckdb/dbt-duckdb,eba010257e99469d8a842f121d0f47a1463eb068,2025-04,1,post,2025-04-02T07:28:03-07:00,2025-04-02T16:28:03+02:00,u33fb865f00b5ea95,u33fb865f00b5ea95@users.invalid,GitHub,noreply@github.com,1,0,3,138,64,1,30,6,,,,,,0,530,Add support for scoped secrets/credentials by storage prefix (#530),Add support for scoped secrets/credentials by storage prefix (#530)
+duckdb/dbt-duckdb,5906e37fdb33dfbe064d21709b85b289fb2992b6,2025-04,1,post,2025-04-03T14:53:01-07:00,2025-04-03T14:53:01-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,529,Merge pull request #529 from duckdb/jwills_current_valid_to,"Merge pull request #529 from duckdb/jwills_current_valid_to
+
+Support dbt_valid_to_current for snapshots"
+duckdb/dbt-duckdb,022ec85d29c9a3f07630d3a80f284c2b72b46b98,2025-04,1,post,2025-04-09T17:01:28-07:00,2025-04-09T17:01:28-07:00,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,1,0,1,2,1,0,0,0,,,,,,0,,Update README.md to clarify DuckDB file path behavior and automatic database creation,Update README.md to clarify DuckDB file path behavior and automatic database creation
+duckdb/dbt-duckdb,644436e53e50025b7192f07dc46b161ceb6816f3,2025-04,1,post,2025-04-10T09:11:20-07:00,2025-04-10T09:11:20-07:00,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,,- trailing whitespace,- trailing whitespace
+duckdb/dbt-duckdb,258a07c422f4f0215f2af76cbe6fd1375213c92b,2025-04,1,post,2025-04-10T09:21:10-07:00,2025-04-10T09:21:10-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,536,Merge pull request #536 from duckdb/add-path-note,"Merge pull request #536 from duckdb/add-path-note
+
+Update README.md to clarify DuckDB file path behavior and automatic database creation"
+duckdb/dbt-duckdb,b2c2eda10ccea539bc08aecc819d6c5e69627a5f,2025-04,1,post,2025-04-20T17:51:35-07:00,2025-04-21T02:02:05+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,2,74,0,0,0,0,,,,,,0,539,Fix: override `run_hooks` macro so we can run a post hook outside a txn without dangling `commit;` (#539),Fix: override `run_hooks` macro so we can run a post hook outside a txn without dangling `commit;` (#539)
+duckdb/dbt-duckdb,ea2087e59c5fdfaccdf804c96f1168ae44ba5108,2025-04,1,post,2025-04-21T08:42:15-07:00,2025-04-21T17:42:15+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,1,0,4,1,0,4,,,,,,0,540,Fix: turn transactions back on by default for MotherDuck (#540),Fix: turn transactions back on by default for MotherDuck (#540)
+duckdb/dbt-duckdb,b06054b74d0ac71914875f6b7ae0b58d7f489e42,2025-04,1,post,2025-04-21T08:50:24-07:00,2025-04-21T08:50:24-07:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,1,0,1,0,4,0,0,0,,,,,,0,,remove duckdbt entrypoint for now,remove duckdbt entrypoint for now
+duckdb/dbt-duckdb,612da77a37b6edeefb215c9d3b2a2c9786df0359,2025-04,1,post,2025-04-21T09:17:50-07:00,2025-04-21T09:17:50-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,541,Merge pull request #541 from duckdb/guenp/remove-duckdbt-entrypoint,"Merge pull request #541 from duckdb/guenp/remove-duckdbt-entrypoint
+
+Remove duckdbt entrypoint for now"
+duckdb/dbt-duckdb,c9d14ccfa0f0a791c0f28223b4c91fa761965572,2025-04,1,post,2025-04-21T10:54:23-07:00,2025-04-21T19:54:23+02:00,uf56dedd5a77a022a,uf56dedd5a77a022a@users.invalid,GitHub,noreply@github.com,1,0,2,14,2,0,0,0,,,,,,0,542,"bump duckdb version, patch test (#542)","bump duckdb version, patch test (#542)"
+duckdb/dbt-duckdb,61581efb6074bf19ca25f5b4358d9b3f3a70a2cd,2025-04,1,post,2025-04-21T11:06:04-07:00,2025-04-21T11:06:04-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,47,0,0,0,0,,,,,,0,,Add info on the interactive shell for the DuckDB UI,Add info on the interactive shell for the DuckDB UI
+duckdb/dbt-duckdb,5d61856ec19f2bd09b2f2977a8721a21d387f1d4,2025-04,1,post,2025-04-21T11:43:33-07:00,2025-04-21T11:43:33-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,543,Merge pull request #543 from duckdb/jwills_readme_docs_for_cli,"Merge pull request #543 from duckdb/jwills_readme_docs_for_cli
+
+Add info on the interactive shell for the DuckDB UI to the README"
+duckdb/dbt-duckdb,c2dea44989583df9f1f36c6712668b3a01abe024,2025-05,2,post,2025-05-02T11:41:51-04:00,2025-05-02T11:41:51-04:00,u92d957d62938d7e7,u92d957d62938d7e7@users.invalid,u92d957d62938d7e7,u92d957d62938d7e7@users.invalid,1,0,2,114,3,0,0,0,,,,,,0,,add tests and quoting - reset to single commit,add tests and quoting - reset to single commit
+duckdb/dbt-duckdb,34ec6d68b763ac7a2267e57d0720e5e57f0aefe4,2025-05,2,post,2025-05-05T06:01:02Z,2025-05-05T06:01:02Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump dbt-tests-adapter from 1.11.0 to 1.15.0,"Bump dbt-tests-adapter from 1.11.0 to 1.15.0
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.11.0 to 1.15.0.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.15.0
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,4c19cc4b622eb8ef0f1628e7e6dea42caef7553d,2025-05,2,post,2025-05-05T08:06:29-07:00,2025-05-05T08:06:29-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,549,Merge pull request #549 from duckdb/dependabot/pip/dbt-tests-adapter-1.15.0,"Merge pull request #549 from duckdb/dependabot/pip/dbt-tests-adapter-1.15.0
+
+Bump dbt-tests-adapter from 1.11.0 to 1.15.0"
+duckdb/dbt-duckdb,4bd70b75d177b9be2e2369a53765f370ec27b019,2025-05,2,post,2025-05-05T09:36:42-07:00,2025-05-05T09:36:42-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,548,Merge pull request #548 from hf4866ec4125bcd00/quote_columns_add_remove,"Merge pull request #548 from hf4866ec4125bcd00/quote_columns_add_remove
+
+Apply project quoting setting to add/remove columns"
+duckdb/dbt-duckdb,c2fa84614657fb45c2372fab08bd25cf8d1de1cc,2025-05,2,post,2025-05-15T21:26:56+02:00,2025-05-15T21:26:56+02:00,u3cde5836baabf081,u3cde5836baabf081@users.invalid,GitHub,noreply@github.com,1,0,1,5,0,1,5,0,,,,,,0,,Add named secret parameter to attachment class,"Add named secret parameter to attachment class
+
+As per the [DuckDB docs](https://duckdb.org/docs/stable/extensions/postgres.html#managing-multiple-secrets), a secret can be given a name (which is already possible) and this secret can be referenced in the attach statement. This is convenient if you want to e.g. attach multiple postgres databases"
+duckdb/dbt-duckdb,d69913ac808e0a9507f4ed6d20bcab5c6475efa5,2025-05,2,post,2025-05-19T09:30:53+02:00,2025-05-19T09:30:53+02:00,uadb6ea6bdf9727af,uadb6ea6bdf9727af@users.invalid,uadb6ea6bdf9727af,uadb6ea6bdf9727af@users.invalid,1,0,1,15,0,1,15,0,,,,,,0,,Read .duckdbrc file on DuckDBT CLI startup,Read .duckdbrc file on DuckDBT CLI startup
+duckdb/dbt-duckdb,03b705083f1787806bc9a46139ec465f58decc05,2025-05,2,post,2025-05-19T08:53:20-07:00,2025-05-19T08:53:20-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,550,Merge pull request #550 from he9ee045a4e681cc0/patch-2,"Merge pull request #550 from he9ee045a4e681cc0/patch-2
+
+Add named secret parameter to attachment class for profiles.yml"
+duckdb/dbt-duckdb,506758aeb3fbfd4584b2bf5c594953db03cb3a52,2025-05,2,post,2025-05-19T19:48:25-07:00,2025-05-19T19:48:25-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,See if this is related to the mysterious doc test failures that popped up all of a sudden,See if this is related to the mysterious doc test failures that popped up all of a sudden
+duckdb/dbt-duckdb,18f69ead4017e4209e41cbd6c6694d79cac6613a,2025-05,2,post,2025-05-20T09:37:04-07:00,2025-05-20T09:37:04-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,553,Merge pull request #553 from h0926219f8a35a3dd/elephantmetropolis/read-.duckdbrc-file-on-duckdbt-cli-startup,"Merge pull request #553 from h0926219f8a35a3dd/elephantmetropolis/read-.duckdbrc-file-on-duckdbt-cli-startup
+
+Read .duckdbrc file on DuckDBT CLI startup"
+duckdb/dbt-duckdb,9513f40a840743f861c2d63be4f791fc8613fe6f,2025-05,2,post,2025-05-20T10:54:05-07:00,2025-05-20T10:54:05-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,554,Merge pull request #554 from duckdb/jwills_mysterious_doc_test_failures,"Merge pull request #554 from duckdb/jwills_mysterious_doc_test_failures
+
+See if this is related to the mysterious doc test failures that popped up on master"
+duckdb/dbt-duckdb,197b9f15bdd9204ef22a524775b885fb02b3a25d,2025-05,2,post,2025-05-26T06:00:03Z,2025-05-26T06:00:03Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,,Bump freezegun from 1.5.1 to 1.5.2,"Bump freezegun from 1.5.1 to 1.5.2
+
+Bumps [freezegun](https://github.com/spulec/freezegun) from 1.5.1 to 1.5.2.
+- [Release notes](https://github.com/spulec/freezegun/releases)
+- [Changelog](https://github.com/spulec/freezegun/blob/master/CHANGELOG)
+- [Commits](https://github.com/spulec/freezegun/compare/1.5.1...1.5.2)
+
+---
+updated-dependencies:
+- dependency-name: freezegun
+  dependency-version: 1.5.2
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+duckdb/dbt-duckdb,bc4c2a14ec11467051e98c8b4fd2b6a2af541501,2025-05,2,post,2025-05-27T13:51:17-07:00,2025-05-27T13:51:17-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,3,162,9,1,52,6,,B,claude,trailer;identity;message,,0,,Add support for arbitrary key-value pairs in Attachment ATTACH options,"Add support for arbitrary key-value pairs in Attachment ATTACH options
+
+Enhances the Attachment dataclass to support arbitrary ATTACH statement options via an options dict, enabling users to leverage new DuckDB attachment features without waiting for explicit dbt-duckdb support.
+
+Key changes:
+- Add optional options field to Attachment dataclass for arbitrary key-value pairs
+- Update to_sql method to handle options dict with conflict detection
+- Maintain full backward compatibility with existing type, secret, read_only fields
+- Add comprehensive tests covering new functionality and edge cases
+- Update README with documentation and examples of the new feature
+- Remove outdated information about DuckDB 0.7.0 and run hooks from docs
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,4e2102fdc0b7ba02746205c1bb7d8207c9af467d,2025-05,2,post,2025-05-27T13:51:58-07:00,2025-05-27T13:51:58-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,2,12,12,1,9,9,,,,,,0,,lint stuff,lint stuff
+duckdb/dbt-duckdb,6a65e9af098db1b3fd7aa4071a333232ae30f308,2025-05,2,post,2025-05-27T14:05:52-07:00,2025-05-27T14:05:52-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,555,Merge pull request #555 from duckdb/dependabot/pip/freezegun-1.5.2,"Merge pull request #555 from duckdb/dependabot/pip/freezegun-1.5.2
+
+Bump freezegun from 1.5.1 to 1.5.2"
+duckdb/dbt-duckdb,894299d397e52b8c4b545ed62089bbb29a1511dc,2025-05,2,post,2025-05-27T15:02:49-07:00,2025-05-27T15:02:49-07:00,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,ua3b6ae741cc25c60,ua3b6ae741cc25c60@users.invalid,1,0,2,58,1,1,12,1,,B,claude,trailer;identity;message,,0,,Support using attached database aliases as primary database name,"Support using attached database aliases as primary database name
+
+Allow the database field in credentials to match any alias from the attach list,
+enabling users to specify an attached database as their primary database instead
+of being restricted to the path-derived database name.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,eccb165fe023e7ff1fa30fc95007bea0c95b027a,2025-05,2,post,2025-05-27T16:24:47-07:00,2025-05-27T16:24:47-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,556,Merge pull request #556 from duckdb/jwills_attach_with_arbitrary_kv,"Merge pull request #556 from duckdb/jwills_attach_with_arbitrary_kv
+
+Add support for arbitrary key-value pairs in Attachment ATTACH options"
+duckdb/dbt-duckdb,2c9fa8cc96b86c1674d4e9c01c5eea87050fe325,2025-05,2,post,2025-05-28T09:46:55-07:00,2025-05-28T12:46:55-04:00,u78aea9175de56b1e,u78aea9175de56b1e@users.invalid,GitHub,noreply@github.com,1,0,4,207,1,2,21,0,,B,claude,trailer;identity;message,,0,557,Update macros for dropping schema and relations when using ducklake (#557),"Update macros for dropping schema and relations when using ducklake (#557)
+
+* feat: add conditional cascade removal for ducklake relations with logging
+
+* Remove cascade for testing
+
+* Introduce error for testing
+
+* fix: correct drop_relation macro with proper syntax and cascade handling
+
+* refactor: update duckdb drop_relation macro to handle path object safely
+
+* refactor: simplify ducklake relation detection in drop_relation macro
+
+* refactor: update drop_relation macro to check ducklake path directly
+
+* fix: modify ducklake path detection in drop_relation macro
+
+* The changes look good. I'll summarize the key modifications:
+
+1. For both `duckdb__drop_relation` and `duckdb__drop_schema` macros:
+   - Added a namespace approach to track whether the relation/schema is associated with a ducklake attachment
+   - Check if the relation's database matches an attachment's alias
+   - Check if the attachment path contains 'ducklake:'
+   - If a ducklake attachment is found, drop without cascade
+   - Otherwise, drop with cascade
+
+2. Removed previous hardcoded checks for 'ducklake:' in the database name
+3. Used a more robust method to detect ducklake-related relations/schemas
+
+The implementation ensures that:
+- Ducklake-attached databases are handled differently
+- The check is performed dynamically based on the profile configuration
+- The existing cascade behavior is preserved for non-ducklake databases
+
+Commit message: refactor: improve ducklake detection in drop relation and schema macros
+
+* refactor: remove log statements from drop macros
+
+* refactor: extract ducklake detection into reusable helper macro
+
+- Create is_ducklake_database() helper macro to centralize ducklake detection logic
+- Eliminate code duplication between drop_schema and drop_relation macros
+- Improve maintainability by having single source of truth for ducklake checks
+- Use early return optimization in helper macro for better performance
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* refactor: move ducklake detection to adapter class with @hddd9818abacfde7a decorator
+
+- Add is_ducklake() method to DuckDBAdapter class as @hddd9818abacfde7a method
+- Remove Jinja macro approach in favor of proper Python implementation
+- Pass full relation object to adapter method for better type safety
+- Improve testability by moving logic to adapter class
+- Follow dbt-duckdb conventions for adapter functionality
+
+Addresses maintainer feedback to use @hddd9818abacfde7a adapter methods for complex logic.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* test: add comprehensive unit tests for is_ducklake adapter method
+
+- Test all scenarios: no attach config, empty config, ducklake paths, regular paths
+- Test edge cases: None relation, missing database, missing alias, empty path
+- Test mixed attachment configurations with multiple database types
+- All 9 test cases pass, ensuring robust ducklake detection logic
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* fix: update tests to use correct ducklake path format
+
+- Change test paths from ""ducklake:s3://..."" to ""ducklake:sqlite:storage/metadata.sqlite""
+- Use proper ducklake format as shown in real profiles.yml examples
+- All 9 tests still pass with corrected path formats
+- Ensures tests match actual ducklake usage patterns
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Revert drop schema
+
+* perf: optimize is_ducklake with efficient set lookup
+
+- Add _ducklake_dbs set to DuckDBCredentials.__post_init__ for O(1) lookup
+- Simplify is_ducklake method to use set membership instead of O(n) iteration
+- Maintains same functionality while minimizing overhead for non-ducklake projects
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,1f1f6d7f14344f35026712e04717532a01bfef37,2025-06,3,post,2025-06-02T09:44:58-07:00,2025-06-02T09:44:58-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,562,Bump dbt-tests-adapter from 1.15.0 to 1.15.1 (#562),"Bump dbt-tests-adapter from 1.15.0 to 1.15.1 (#562)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.15.0 to 1.15.1.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.15.1
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,f68935aaa853f10e7b6e3743309a2c5ddfeb946e,2025-06,3,post,2025-06-02T09:45:32-07:00,2025-06-02T09:45:32-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,561,Bump mypy from 1.15.0 to 1.16.0 (#561),"Bump mypy from 1.15.0 to 1.16.0 (#561)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.15.0 to 1.16.0.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.15.0...v1.16.0)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-version: 1.16.0
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,7b72b130345572a341943b3a6232fb00011d2463,2025-06,3,post,2025-06-06T13:22:28-07:00,2025-06-06T16:22:28-04:00,u39714b86c7b33f40,u39714b86c7b33f40@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,,0,563,FIX: Fixes issue caused by external materializations with column name contains spaces (#563),FIX: Fixes issue caused by external materializations with column name contains spaces (#563)
+duckdb/dbt-duckdb,afc39991158c0f719e5e57469ab466cfb63fbb8c,2025-06,3,post,2025-06-06T18:04:03-07:00,2025-06-06T18:04:03-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,3,141,3,1,12,1,,B,claude,trailer;identity;message,,0,566,Fix attachment option quoting to prevent SQL errors with path-like values (#566),"Fix attachment option quoting to prevent SQL errors with path-like values (#566)
+
+* Fix attachment option quoting to prevent SQL errors with path-like values
+
+When users specify attachment options like data_path: ""s3://bucket/path"" or
+data_path: ""C:\path"" in YAML, the values are parsed as literal strings but
+DuckDB ATTACH statements require them to be properly quoted. This change
+automatically quotes string values while preserving existing quotes and
+maintaining backward compatibility for legacy options.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Handle quoted strings with surrounding whitespace in attachment options
+
+Trim whitespace before checking for existing quotes to handle cases like
+""  'value'  "" which should be detected as already quoted.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,f500a62f89998bdd8f156b538fdfa3ce8e8f9c60,2025-06,3,post,2025-06-09T09:07:19-07:00,2025-06-09T09:07:19-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,570,Bump dbt-tests-adapter from 1.15.1 to 1.16.0 (#570),"Bump dbt-tests-adapter from 1.15.1 to 1.16.0 (#570)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.15.1 to 1.16.0.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.16.0
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,a35ee4fa6045430da2dc0d9bdc079eb92a2776f1,2025-06,3,post,2025-06-09T10:22:49-07:00,2025-06-09T10:22:49-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,3,3,19,2,0,16,,B,claude,trailer;identity;message,,0,571,Assume native comment support in DuckDB catalog queries (#571),"Assume native comment support in DuckDB catalog queries (#571)
+
+* Remove supports_comments stuff
+
+* Assume native comment support in DuckDB catalog queries
+
+Removes the custom catalog_comment adapter method and directly uses DuckDB's
+native comment field in catalog SQL macros, simplifying the codebase.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,ef277e6bc420cca0c7fcc58285275e61515c45ec,2025-06,3,post,2025-06-19T19:28:34+02:00,2025-06-19T13:28:34-04:00,u79aebae10d6d6f93,u79aebae10d6d6f93@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,577,Fix bug where schema's database not specified (#577),Fix bug where schema's database not specified (#577)
+duckdb/dbt-duckdb,f95af269001da7eee4a43e3c51462a36b998121e,2025-06,3,post,2025-06-21T09:37:04+02:00,2025-06-21T09:37:04+02:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,3,9,2,3,9,2,,B,claude;cursor,trailer;identity;message,,0,579,Fix error swallowing that hides DuckDB exception details (#579),"Fix error swallowing that hides DuckDB exception details (#579)
+
+* Fix error swallowing that hides DuckDB exception details
+
+Previously, RuntimeError exceptions from DuckDB were being swallowed or
+converted to generic error messages, causing users to see unhelpful
+""TransactionContext Error"" messages instead of the actual error details.
+
+This fix preserves the original exception context by:
+- Re-raising RuntimeError with full exception chain in exception_handler
+- Maintaining error context in DuckDBCursorWrapper with 'from e'
+- Adding debug logging for commit failures instead of silent swallowing
+
+Resolves issue where MotherDuck and DuckDB errors were masked by generic
+transaction error messages, making debugging difficult for users.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Improve error logging in commit_if_has_connection using logger.exception
+
+Switch from logger.debug to logger.exception to capture full traceback
+when DbtInternalError occurs during commit, improving debugging capabilities.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,df2957ff43c50d805cf599830710216933c3cf00,2025-06,3,post,2025-06-24T21:48:40+02:00,2025-06-24T15:48:40-04:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,585,bump duckdb to 1.3.1 (#585),bump duckdb to 1.3.1 (#585)
+duckdb/dbt-duckdb,27fc06258b95cda074d2d5545607b7d6a898cb48,2025-06,3,post,2025-06-24T16:01:16-04:00,2025-06-24T16:01:16-04:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,4,96,3,3,13,3,,,,,,0,584,fix write conflict when first creating dbt_temp schema (#584),"fix write conflict when first creating dbt_temp schema (#584)
+
+I believe this fixes the root cause of https://github.com/duckdb/dbt-duckdb/issues/513 
+
+## Problem
+Currently, when using MotherDuck with dbt-duckdb, a real temp schema and real tables will be created to store the staging tables, because temp tables are not yet supported. By default this schema is called `dbt_temp`. When running dbt with 2 or more threads, each incremental model will open a transaction that starts with the statement `CREATE SCHEMA IF NOT EXISTS dbt_temp`. The model that gets executed first will cause a catalog change with the `CREATE SCHEMA` statement while its transaction is still open, while the rest of the models will fail with a write-write conflict on that statement. 
+
+## Solution & Considerations
+If the schema `dbt_temp` already exists, then the `CREATE SCHEMA` statement will be a no-op, then all incremental models will succeed. 
+So ideally, the create schema statement should be run just once at the beginning of a dbt run. But the current implementation allows each model to configure their own temp schema. This means that we won't fully know the name of the schema that needs to be created until processing the model, also that the`CREATE SCHEMA IF NOT EXISTS {temp_schema_name}` statement in `macros/materializations/incremental.sql` needs to be preserved. 
+So the fix will just address the problem of creating the default temp schema `dbt_temp`, by running `CREATE SCHEMA IF NOT EXISTS  dbt_temp` when initializing the connection."
+duckdb/dbt-duckdb,b253a83276d8efcd2cf9a56325ab3147dffd2c59,2025-06,3,post,2025-06-25T21:06:23+02:00,2025-06-25T21:06:23+02:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,583,Bump sigstore/gh-action-sigstore-python from 3.0.0 to 3.0.1 (#583),"Bump sigstore/gh-action-sigstore-python from 3.0.0 to 3.0.1 (#583)
+
+---
+updated-dependencies:
+- dependency-name: sigstore/gh-action-sigstore-python
+  dependency-version: 3.0.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,1f7e6abc82442191b83ba49a0bee722b0d46c99c,2025-06,3,post,2025-06-25T21:06:46+02:00,2025-06-25T21:06:46+02:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,582,Bump mypy from 1.16.0 to 1.16.1 (#582),"Bump mypy from 1.16.0 to 1.16.1 (#582)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.16.0 to 1.16.1.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.16.0...v1.16.1)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-version: 1.16.1
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,3326bc82695bef57556600bcaa33e86ee44618f8,2025-07,4,post,2025-07-02T13:14:48-07:00,2025-07-02T13:14:48-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,3,1,0,0,0,,,,,,0,588,Make the adapter.commit call inside of upstream.sql dependent on the existence of upstream_nodes (#588),Make the adapter.commit call inside of upstream.sql dependent on the existence of upstream_nodes (#588)
+duckdb/dbt-duckdb,f8219eda80e267641faa8e9420251cf437e4a219,2025-07,4,post,2025-07-08T08:30:09-07:00,2025-07-08T17:30:09+02:00,u7791acca7ccf17ba,u7791acca7ccf17ba@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,591,Update incremental.sql (#591),Update incremental.sql (#591)
+duckdb/dbt-duckdb,1f2450d70b9afe9b0cbe67dbdf59f11a03b027c2,2025-07,4,post,2025-07-19T08:55:50-04:00,2025-07-19T08:55:50-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,595,Bump freezegun from 1.5.2 to 1.5.3 (#595),"Bump freezegun from 1.5.2 to 1.5.3 (#595)
+
+Bumps [freezegun](https://github.com/spulec/freezegun) from 1.5.2 to 1.5.3.
+- [Release notes](https://github.com/spulec/freezegun/releases)
+- [Changelog](https://github.com/spulec/freezegun/blob/master/CHANGELOG)
+- [Commits](https://github.com/spulec/freezegun/compare/1.5.2...1.5.3)
+
+---
+updated-dependencies:
+- dependency-name: freezegun
+  dependency-version: 1.5.3
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,1b8672efde4a6557e1ac65ec21cedbaa89aebcb7,2025-07,4,post,2025-07-21T09:06:03-07:00,2025-07-21T09:06:03-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,598,Bump pyarrow from 18.1.0 to 21.0.0 (#598),"Bump pyarrow from 18.1.0 to 21.0.0 (#598)
+
+---
+updated-dependencies:
+- dependency-name: pyarrow
+  dependency-version: 21.0.0
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,1c952e32cd2b70be62bb84c87b95dcbfed7b9ab1,2025-07,4,post,2025-07-21T09:41:45-07:00,2025-07-21T12:41:45-04:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,4,182,5,2,81,5,,B,claude,trailer;identity;message,,0,594,Add struct column support with flatten functionality (#594),"Add struct column support with flatten functionality (#594)
+
+* Add struct column support with BigQuery-style flatten functionality
+
+- Add fields property to DuckDBColumn to support nested struct columns
+- Implement create_from_dict and create factory methods for column creation
+- Add is_struct method to detect struct data types
+- Add flatten method to recursively flatten nested struct columns into dot-notation columns
+- Update tests to use new factory methods and add comprehensive struct tests
+- Fix return type annotation in get_column_schema_from_query method
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Simplify struct column implementation
+
+- Remove unnecessary factory methods and auto-conversion logic
+- Use direct constructor calls instead of create() methods
+- Eliminate __post_init__ and create_from_dict complexity
+- Simplify flatten() method to use basic constructor
+- Update tests to use simplified API
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Fix lint error: avoid shadowing 'field' import with loop variable
+
+* feat: Add struct flattening to get_column_schema_from_query
+
+This commit introduces automatic flattening of STRUCT data types within the `get_column_schema_from_query` method.
+
+Previously, when a query returned a STRUCT, it was treated as a single, opaque column. This change recursively unnests STRUCTs, creating a separate column for each field, with names reflecting their nested path (e.g., `struct_column.field_name`).
+
+Changes include:
+- A `__post_init__` method was added to the `DuckDBColumn` class to parse STRUCT type definitions and build a nested representation of their fields.
+- The `flatten` method in `DuckDBColumn` was updated to recursively traverse the nested structure and produce a flat list of columns.
+- The `get_column_schema_from_query` method in `DuckDBAdapter` was updated to use the new `DuckDBColumn` functionality.
+- Tests for `DuckDBColumn` were updated to reflect the new parsing logic and to be more concise.
+
+* undo those changes
+
+* rm print in test
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,5cde881099bfa11f207edeb54830b60bd264339e,2025-07,4,post,2025-07-21T10:56:18-07:00,2025-07-21T10:56:18-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,597,Bump mypy from 1.16.1 to 1.17.0 (#597),"Bump mypy from 1.16.1 to 1.17.0 (#597)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-version: 1.17.0
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,80ef7691b5efdd81ed3ec58ca59b28a656a381d0,2025-08,5,post,2025-08-11T13:08:51-07:00,2025-08-11T13:08:51-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,602,Bump dbt-tests-adapter from 1.16.0 to 1.17.0 (#602),"Bump dbt-tests-adapter from 1.16.0 to 1.17.0 (#602)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.16.0 to 1.17.0.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.17.0
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,9907c488086ce5ac907b1f7de56348e9f6a61c62,2025-08,5,post,2025-08-11T13:09:12-07:00,2025-08-11T13:09:12-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,604,Bump mypy from 1.17.0 to 1.17.1 (#604),"Bump mypy from 1.17.0 to 1.17.1 (#604)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.17.0 to 1.17.1.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.17.0...v1.17.1)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-version: 1.17.1
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,1ad88f01464dbe294a5787057a679f40ebe0039f,2025-08,5,post,2025-08-11T13:09:39-07:00,2025-08-11T13:09:39-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,3,0,0,0,,,,,dependabot,0,606,Bump actions/download-artifact from 4 to 5 (#606),"Bump actions/download-artifact from 4 to 5 (#606)
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 4 to 5.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,e64b7cc37f55b1d2cc1c206ccdcb7787da18c090,2025-08,5,post,2025-08-11T13:25:50-07:00,2025-08-11T13:25:50-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,607,Bump freezegun from 1.5.3 to 1.5.5 (#607),"Bump freezegun from 1.5.3 to 1.5.5 (#607)
+
+Bumps [freezegun](https://github.com/spulec/freezegun) from 1.5.3 to 1.5.5.
+- [Release notes](https://github.com/spulec/freezegun/releases)
+- [Changelog](https://github.com/spulec/freezegun/blob/master/CHANGELOG)
+- [Commits](https://github.com/spulec/freezegun/compare/1.5.3...1.5.5)
+
+---
+updated-dependencies:
+- dependency-name: freezegun
+  dependency-version: 1.5.5
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,afbf201e83f5b868098d2a8ece2e5dea7a699d13,2025-08,5,post,2025-08-14T11:54:33-07:00,2025-08-14T11:54:33-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,2,64,7,1,20,7,,B,claude,trailer;identity;message,,0,609,Fix secrets map/list type handling in DuckDB SQL generation (#609),"Fix secrets map/list type handling in DuckDB SQL generation (#609)
+
+* Fix secrets map/list type handling in DuckDB SQL generation
+
+Add support for proper DuckDB map and array syntax when converting
+dict and list types in secret parameters to SQL. Previously, these
+complex types were incorrectly wrapped in quotes, causing syntax
+errors like ""Parser Error: syntax error at or near 'TYPE'"".
+
+Changes:
+- Add _format_value() method to handle dict, list, and scalar types
+- Dict values now generate: map {'key': 'value', 'key2': 'value2'}
+- List values now generate: array ['item1', 'item2', 'item3']
+- Scalar values maintain existing behavior with proper quoting
+
+This fixes issues with ducklake secrets that use metadata_parameters
+as a map type, enabling proper conversion from YAML to DuckDB SQL.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Remove redundant test assertions for map/list secrets
+
+Removed trivial property access assertions in favor of focusing on the
+meaningful SQL generation verification.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,eb1ccf2aa916ca0e0f13fb338cb3310497b30f7e,2025-08,5,post,2025-08-18T06:52:41-07:00,2025-08-18T06:52:41-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,11,11,0,0,0,,,,,dependabot,0,610,Bump actions/checkout from 4 to 5 (#610),"Bump actions/checkout from 4 to 5 (#610)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,aca528d4adcc756e10b739633d77c87f282183e7,2025-08,5,post,2025-08-21T11:19:57-07:00,2025-08-21T11:19:57-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,1,2,1,,B,claude,trailer;identity;message,,0,612,Change logger.exception to logger.warning to fix orchestrator compatibility (#612),"Change logger.exception to logger.warning to fix orchestrator compatibility (#612)
+
+Replace logger.exception with logger.warning + traceback formatting to preserve
+stack trace information while using WARNING level instead of ERROR level.
+This prevents orchestrators like Dagster from treating the log entry as a fatal
+exception that requires process termination.
+
+🤖 Generated with [Claude Code](https://claude.ai/code)
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+duckdb/dbt-duckdb,76dd0f264959f24520d196a68b7a6af9a5c6e52f,2025-08,5,post,2025-08-28T14:17:44-07:00,2025-08-28T14:17:44-07:00,u7823408b6dea6e4f,u7823408b6dea6e4f@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,1,1,0,,,,,,0,615,Update excel plugin to filter all null rows (#615),Update excel plugin to filter all null rows (#615)
+duckdb/dbt-duckdb,a83794c097de0a3d139bd41604318015ae3af009,2025-09,6,post,2025-09-02T11:59:12-07:00,2025-09-02T11:59:12-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,613,Bump dbt-tests-adapter from 1.17.0 to 1.18.0 (#613),"Bump dbt-tests-adapter from 1.17.0 to 1.18.0 (#613)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.17.0 to 1.18.0.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.18.0
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,0d78e153a9b30cb50d294370305a408e0dababe9,2025-09,6,post,2025-09-02T12:37:17-07:00,2025-09-02T12:37:17-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,2,4,4,0,0,0,,,,,,0,618,tests: support DuckDB nightly IOException import (#618),"tests: support DuckDB nightly IOException import (#618)
+
+* tests: import duckdb.IOException from top-level with fallback for older wheels
+
+* tests: import duckdb.IOException directly; drop duckdb.duckdb fallback"
+duckdb/dbt-duckdb,73d15d34fc437d483649afa07eddcdf4032818e0,2025-09,6,post,2025-09-03T14:50:19-04:00,2025-09-03T11:50:19-07:00,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,GitHub,noreply@github.com,1,0,3,124,8,1,13,8,,,,,,0,620,add is_ducklake flag + tests (#620),add is_ducklake flag + tests (#620)
+duckdb/dbt-duckdb,a3d4b3fc65a9dea4eab3206f9566cfe2e2aa251d,2025-09,6,post,2025-09-03T15:37:14-07:00,2025-09-04T00:37:14+02:00,ue92aa4b590200e54,ue92aa4b590200e54@users.invalid,GitHub,noreply@github.com,1,0,1,4,1,1,4,1,,,,,,0,621,Display traceback when Python model raises exception (#621),"Display traceback when Python model raises exception (#621)
+
+* Display traceback when Python model raises exception
+
+When a Python model errors, only the error message would be displayed, not the traceback. That makes it more difficult to debug more complicated Python models. This commit makes sure that the entire traceback gets displayed.
+
+* linting: Split long DbtRuntimeError line
+
+* Use single quotes inside f-string for compatibility with more Python versions"
+duckdb/dbt-duckdb,5171ee38fcaf1518d211b26e998fcf110c3e69a2,2025-09,6,post,2025-09-05T11:57:52-07:00,2025-09-05T11:57:52-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,18,1,0,0,0,,,,,,0,624,duckdb: fix dateadd interval syntax for newer DuckDB versions (#624),"duckdb: fix dateadd interval syntax for newer DuckDB versions (#624)
+
+* duckdb: use INTERVAL n unit syntax in dateadd for compatibility with newer DuckDB versions
+
+* duckdb: make dateadd support expression intervals via n * INTERVAL 1 <unit>; handle quarter/week
+
+* duckdb: parenthesize dateadd expression so external casts apply to the whole expression"
+duckdb/dbt-duckdb,cdf74daf0789bf597abfd3c9582dc7d17a85efde,2025-09,6,post,2025-09-05T17:48:39-04:00,2025-09-05T17:48:39-04:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,3,72,45,1,49,25,,,,,,0,625,Support ducklake database in primary database and add is_ducklake flag to identify motherduck managed ducklake (#625),"Support ducklake database in primary database and add is_ducklake flag to identify motherduck managed ducklake (#625)
+
+Implements the approach mentioned in https://github.com/duckdb/dbt-duckdb/issues/619 to support motherduck-managed ducklake database, which cannot currently be detected because it does not use the `ducklake:` prefix. This is necessary because otherwise dbt treats the managed ducklake database as a regular database then we get ` Not implemented Error: Cascade Drop not supported in DuckLake`.
+
+Also make it possible to have a primary database that is ducklake (both regular `ducklake:...` and motherduck-managed ducklake db), because it is surprising that it didn't work. But since there's no aliasing, the database name will have to be inferred from the path and may not work for all paths. 
+
+## Testing plan
+- [x] Unit tests
+- [x] ran some example dbt projects with local and motherduck ducklakes. Here are some profiles I tested. When there are additional attached databases, some of the models are routed to those databases.
+
+```
+    ducklake_md:
+      type: duckdb
+      schema: main
+      path: 'md:my_ducklake'
+      threads: 1
+      is_ducklake: true
+      disable_transactions: false
+      extensions:
+        - httpfs
+
+    ducklake_local:
+      type: duckdb
+      schema: main
+      path: 'ducklake:my_ducklake.ddb'
+      threads: 1
+      disable_transactions: false
+      extensions:
+        - httpfs
+    
+    mixed_md:
+      type: duckdb
+      path: 'md:my_ducklake3'
+      is_ducklake: true
+      schema: test
+      threads: 1
+      attach:
+        - path: ""md:my_not_ducklake""
+        - path: ""md:my_other_ducklake""
+          is_ducklake: true
+    
+    mixed_local:
+      type: duckdb
+      path: 'ducklake:my_ducklake3.ddb'
+      schema: test
+      threads: 1
+      attach:
+        - path: ""my_not_ducklake.ddb""
+        - path: ""ducklake:my_other_ducklake.ddb""
+ ```
+
+The 3rd one needed this fix https://github.com/duckdb/dbt-duckdb/pull/626"
+duckdb/dbt-duckdb,fce4b845dbec53f64f13100b93fef27732a8f075,2025-09,6,post,2025-09-05T18:00:33-04:00,2025-09-05T18:00:33-04:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,2,9,9,1,1,1,,,,,,0,626,do ATTACH IF NOT EXISTS for attachments (#626),"do ATTACH IF NOT EXISTS for attachments (#626)
+
+* use attach if not exists
+
+* fix test"
+duckdb/dbt-duckdb,89c9671a7a6a09d6a762063868628935546ce2ea,2025-09,6,post,2025-09-07T10:41:49-07:00,2025-09-07T10:41:49-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,7,309,2,1,51,0,,,,,,0,522,An updated version of the code to add support for indexes to dbt-duckdb (#522),"An updated version of the code to add support for indexes to dbt-duckdb (#522)
+
+* An updated version of the code to add support for indexes to dbt-duckdb
+
+* lint
+
+* Hrm claude thinks this will work, let's see...
+
+* huh this might actually work now
+
+* duckdb: incremental materialization — create indexes before persist_docs to mirror table materialization and avoid MotherDuck alter conflicts
+
+* duckdb: skip index drop on MotherDuck temp cleanup; table drop cascades indexes and avoids catalog alter conflicts
+
+* duckdb: drop dependent indexes during table materialization swap; tests: run table materialization twice and remove unused helper"
+duckdb/dbt-duckdb,9bf2418117f6a3971fde4e397fd9ac61f6bf605a,2025-09,6,post,2025-09-08T07:56:04-07:00,2025-09-08T07:56:04-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,12,12,0,0,0,,,,,dependabot,0,628,Bump actions/setup-python from 5 to 6 (#628),"Bump actions/setup-python from 5 to 6 (#628)
+
+Bumps [actions/setup-python](https://github.com/actions/setup-python) from 5 to 6.
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-python
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,384e04706e24bd9ee05a17daa23a25da51d5413f,2025-09,6,post,2025-09-08T13:34:24-04:00,2025-09-08T13:34:24-04:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,629,bump duckdb to 1.3.2 (#629),bump duckdb to 1.3.2 (#629)
+duckdb/dbt-duckdb,7d586382c8f180e5add432768eb76767166be23b,2025-09,6,post,2025-09-08T15:32:16-04:00,2025-09-08T12:32:16-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,0,5,0,0,0,,,,,,0,630,Remove extraneous log() lines for index-related operations (#630),Remove extraneous log() lines for index-related operations (#630)
+duckdb/dbt-duckdb,8d58f3e512b145b3c018b260f4008f2ca9cbc6f7,2025-09,6,post,2025-09-10T13:44:47-07:00,2025-09-10T13:44:47-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,,,,,0,631,Fix for attach test failures in nightly (#631),Fix for attach test failures in nightly (#631)
+duckdb/dbt-duckdb,f1d274a4f758c34ece8d04bce2d8398571507843,2025-09,6,post,2025-09-10T16:34:31-07:00,2025-09-10T16:34:31-07:00,ub87cdabd820a9b95,ub87cdabd820a9b95@users.invalid,GitHub,noreply@github.com,1,0,1,20,0,0,0,0,,,,,,0,632,DuckLake connection instructions (#632),"DuckLake connection instructions (#632)
+
+* DuckLake connection instructions
+
+* clean up trailing whitespace"
+duckdb/dbt-duckdb,6ab29eac1e416f49ca7834f0a01b13e81b4960b1,2025-09,6,post,2025-09-16T10:50:31-07:00,2025-09-16T10:50:31-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,633,Bump mypy from 1.17.1 to 1.18.1 (#633),"Bump mypy from 1.17.1 to 1.18.1 (#633)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.17.1 to 1.18.1.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.17.1...v1.18.1)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-version: 1.18.1
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,2976e2c59cc760a9b50af03203704fc5c36804be,2025-09,6,post,2025-09-19T06:37:40-07:00,2025-09-19T06:37:40-07:00,u7823408b6dea6e4f,u7823408b6dea6e4f@users.invalid,GitHub,noreply@github.com,1,0,1,19,3,1,19,3,,,,,,0,635,Fix excel plugin skip_empty_sheets (#635),"Fix excel plugin skip_empty_sheets (#635)
+
+* Fix excel plugin skip_empty_sheets
+
+* Add null check
+
+* Fix formatting"
+duckdb/dbt-duckdb,4f131f6e0c7361ced246af87197e247f584dade7,2025-09,6,post,2025-09-22T11:09:51-07:00,2025-09-22T11:09:51-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,4,15,14,0,0,0,,,,,,0,634,Add Python 3.13 support in CI and metadata (#634),"Add Python 3.13 support in CI and metadata (#634)
+
+* CI: add Python 3.13 across classifiers, tox, and workflows
+
+* CI: keep code-quality on Python 3.11 to avoid mypy 1.3.0 issues; still test 3.13 in matrices
+
+* Update md to use 3.11 for tests"
+duckdb/dbt-duckdb,1a2406af7dbf6d7935e54c6e7f3384e465cce4ac,2025-09,6,post,2025-09-24T19:12:16-04:00,2025-09-24T19:12:16-04:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,3,61,14,1,4,0,,,,,,0,638,Break out create temp schema into its own transaction (#638),"Break out create temp schema into its own transaction (#638)
+
+addresses https://github.com/duckdb/dbt-duckdb/issues/636
+
+The default incremental Python model (intermediate result) materialization path will [use a new cursor to create a temp table](https://github.com/duckdb/dbt-duckdb/blob/ae5c63f3658f6c296030a07527f61473367e4d0f/dbt/adapters/duckdb/environments/__init__.py#L282-L289). 
+
+This does not work when connected to MotherDuck and with transaction enabled (the setting is `disable_transaction: false`- which is the default), because the incremental model transaction currently wraps all of (`create temp schema`, `delete from target table`, `insert into target table`, `drop temp table`) inside one transaction, and the result of the materialization query, which happens between `create temp schema` and `delete from target table`, will not be visible to the transaction. 
+
+The reason this works for local DuckDB is that local DuckDB uses a real temp table, which does not require a temp schema to be created, so the transaction starts after the materialiaztion query. 
+
+There's no strong reason to include the create temp schema query in the transaction, so we break it out of the main transaction, such that the main transaction starts after the materialization query for the MotherDuck code path."
+duckdb/dbt-duckdb,05cab45824117c33477129e577350223f8f4580b,2025-09,6,post,2025-09-29T14:21:07-07:00,2025-09-29T14:21:07-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,637,Bump mypy from 1.18.1 to 1.18.2 (#637),"Bump mypy from 1.18.1 to 1.18.2 (#637)
+
+Bumps [mypy](https://github.com/python/mypy) from 1.18.1 to 1.18.2.
+- [Changelog](https://github.com/python/mypy/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/python/mypy/compare/v1.18.1...v1.18.2)
+
+---
+updated-dependencies:
+- dependency-name: mypy
+  dependency-version: 1.18.2
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,0346c00583daa650529cb859b4ece4b3661a4d12,2025-10,7,post,2025-10-06T12:58:14-07:00,2025-10-06T12:58:14-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,642,Bump dbt-tests-adapter from 1.18.0 to 1.19.1 (#642),"Bump dbt-tests-adapter from 1.18.0 to 1.19.1 (#642)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.18.0 to 1.19.1.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.19.1
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,e7ea27b321d4a904478ba913b5eb67b715c2b308,2025-10,7,post,2025-10-08T17:40:48-04:00,2025-10-08T14:40:48-07:00,uaf48f3b90c5b682f,uaf48f3b90c5b682f@users.invalid,GitHub,noreply@github.com,1,0,3,45,0,0,0,0,,,,,,0,643,add slack notification to md eco ci channel on failure (#643),add slack notification to md eco ci channel on failure (#643)
+duckdb/dbt-duckdb,f2b1c3a0aa4e04f417df7051122ecf118742feea,2025-10,7,post,2025-10-25T11:14:39-07:00,2025-10-25T11:14:39-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,3,3,0,0,0,,,,,dependabot,0,645,Bump slackapi/slack-github-action from 2.0.0 to 2.1.1 (#645),"Bump slackapi/slack-github-action from 2.0.0 to 2.1.1 (#645)
+
+Bumps [slackapi/slack-github-action](https://github.com/slackapi/slack-github-action) from 2.0.0 to 2.1.1.
+- [Release notes](https://github.com/slackapi/slack-github-action/releases)
+- [Commits](https://github.com/slackapi/slack-github-action/compare/v2.0.0...v2.1.1)
+
+---
+updated-dependencies:
+- dependency-name: slackapi/slack-github-action
+  dependency-version: 2.1.1
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,feeb86e5f6e0626f87217359bab0fb3bbbdfa83c,2025-10,7,post,2025-10-29T13:56:59-07:00,2025-10-29T13:56:59-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,10,10,0,0,0,,,,,dependabot,0,649,Bump actions/upload-artifact from 4 to 5 (#649),"Bump actions/upload-artifact from 4 to 5 (#649)
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4 to 5.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,338ea11698c845d1471da493b8669112d9c45bf5,2025-10,7,post,2025-10-29T13:57:24-07:00,2025-10-29T13:57:24-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,651,Bump sigstore/gh-action-sigstore-python from 3.0.1 to 3.1.0 (#651),"Bump sigstore/gh-action-sigstore-python from 3.0.1 to 3.1.0 (#651)
+
+Bumps [sigstore/gh-action-sigstore-python](https://github.com/sigstore/gh-action-sigstore-python) from 3.0.1 to 3.1.0.
+- [Release notes](https://github.com/sigstore/gh-action-sigstore-python/releases)
+- [Changelog](https://github.com/sigstore/gh-action-sigstore-python/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/sigstore/gh-action-sigstore-python/compare/v3.0.1...v3.1.0)
+
+---
+updated-dependencies:
+- dependency-name: sigstore/gh-action-sigstore-python
+  dependency-version: 3.1.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,9beb5b36b823c5dc7673ba57e20adb8daaebd82d,2025-10,7,post,2025-10-29T13:57:51-07:00,2025-10-29T13:57:51-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,3,0,0,0,,,,,dependabot,0,650,Bump actions/download-artifact from 5 to 6 (#650),"Bump actions/download-artifact from 5 to 6 (#650)
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 5 to 6.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,44909ac67503776e84a19277a15b8b68fc4c2754,2025-10,7,post,2025-10-30T11:42:00-07:00,2025-10-30T19:42:00+01:00,ud64b4a334d163674,ud64b4a334d163674@users.invalid,GitHub,noreply@github.com,1,0,9,1123,5,2,44,2,,,,,,0,605,Add MERGE incremental strategy with DuckDB extensions support (#605),"Add MERGE incremental strategy with DuckDB extensions support (#605)
+
+* check if duckdb version supports the merge strategy (>= 1.4.0) and add merge to the valid incremental strategies for dbt
+
+* remove the incremental_helper to move the code to the incremental_strategy folder
+
+* merge macros for duckdb with additional duckdb merge into extensions
+
+* add tests for the merge incremental strategy with different configurations
+
+* add tests for the merge with update and exclude columns configurations
+
+* put the delete+insert merge code do a seperated module
+
+* validation module with merge validation macros for the merge configuration params
+
+* add the validations to the merge macro + some improvements
+
+* new test to check if the validations work
+
+* add documentation for the incremental strategies
+
+* improve the documentation for incremental strategy configurations
+
+* pre-commit all files
+
+* remove the logger lines
+
+* pre-commit
+
+* add validation for ducklake merge restrictions
+
+* add DuckDBVersion class for semantic version parsing and comparison
+
+* add duckdb incremental strategy and merge version constants
+
+* refactor incremental strategy logic to use cached duckdb version and constants for strategy selection
+
+* use the packaging version class for the duckdb version property
+
+* redesign the merge incremental strategy to make the configurations more user friendly
+
+* default merge clauses for the basic merge configurations
+
+* redesign the merge validations making with more modular approach
+
+* new tests for the merge incremental strategy
+
+* Adjust the merge incremental strategy documentation to describe the new three configuration options
+
+* linting stuff
+
+* Fix bug in WHEN NOT MATCHED explicit insert mode
+
+* refactor: centralize merge join clause rendering
+
+---------
+
+Co-authored-by: u9340cb69d36cc0ab <u9340cb69d36cc0ab@users.invalid>
+Co-authored-by: ud10308ced4c7e591 <ud10308ced4c7e591@users.invalid>
+Co-authored-by: ua3b6ae741cc25c60 <ua3b6ae741cc25c60@users.invalid>"
+duckdb/dbt-duckdb,31ddf55161b40960dbc5e85e5a1747a72712a1e7,2025-10,7,post,2025-10-30T13:52:38-07:00,2025-10-30T13:52:38-07:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,2,6,1,0,0,0,,,,,,0,653,Update MotherDuck duckdb pin to 1.4.1 (#653),"Update MotherDuck duckdb pin to 1.4.1 (#653)
+
+* Update MotherDuck duckdb pin to 1.4.1
+
+* Add duckdb generate_series macro"
+duckdb/dbt-duckdb,cf809a491bac4bafc70bbb1aff4e35d035648caa,2025-11,8,post,2025-11-06T20:47:59-05:00,2025-11-06T17:47:59-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,0,0,0,,,,,,0,656,pin logbook below 1.9 b/c pytest-logbook still relies on the compat module which was removed in logbook 1.9.x (#656),pin logbook below 1.9 b/c pytest-logbook still relies on the compat module which was removed in logbook 1.9.x (#656)
+duckdb/dbt-duckdb,f99e8c1a231db424b796c79306f052ae918da0d1,2025-11,8,post,2025-11-19T13:24:27-08:00,2025-11-19T13:24:27-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,5,16,17,0,0,0,,,,,,0,654,Drop support for Python 3.8 and 3.9 (#654),Drop support for Python 3.8 and 3.9 (#654)
+duckdb/dbt-duckdb,5f62d014974f19b983f27b363909f0d6ed2e02e8,2025-11,8,post,2025-11-19T13:25:43-08:00,2025-11-19T13:25:43-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,659,Bump dbt-tests-adapter from 1.19.1 to 1.19.3 (#659),"Bump dbt-tests-adapter from 1.19.1 to 1.19.3 (#659)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.19.1 to 1.19.3.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.19.3
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,11ee3235144263c737b4ade47a3e80a254bfe4a4,2025-11,8,post,2025-11-19T13:26:32-08:00,2025-11-19T13:26:32-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,652,Bump pyarrow from 21.0.0 to 22.0.0 (#652),"Bump pyarrow from 21.0.0 to 22.0.0 (#652)
+
+Bumps [pyarrow](https://github.com/apache/arrow) from 21.0.0 to 22.0.0.
+- [Release notes](https://github.com/apache/arrow/releases)
+- [Commits](https://github.com/apache/arrow/compare/apache-arrow-21.0.0...apache-arrow-22.0.0)
+
+---
+updated-dependencies:
+- dependency-name: pyarrow
+  dependency-version: 22.0.0
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,979f9327d041afbb1b4e9b1b33e7477e0fcb1ba7,2025-11,8,post,2025-11-19T18:07:18-05:00,2025-11-19T18:07:18-05:00,uaf48f3b90c5b682f,uaf48f3b90c5b682f@users.invalid,GitHub,noreply@github.com,1,0,3,6,3,0,0,0,,,,,,0,661,chore: fix and/or test slack notification (#661),chore: fix and/or test slack notification (#661)
+duckdb/dbt-duckdb,6615143cac205b51bd391562d3234f1c78857c57,2025-11,8,post,2025-11-21T09:21:43-05:00,2025-11-21T09:21:43-05:00,uaf48f3b90c5b682f,uaf48f3b90c5b682f@users.invalid,GitHub,noreply@github.com,1,0,4,80,73,0,0,0,,,,,,0,662,use a unique database for each pytest run (#662),use a unique database for each pytest run (#662)
+duckdb/dbt-duckdb,08035b9dfe6f43e30783b7918baa6f0e1226d840,2025-11,8,post,2025-11-26T07:33:40-08:00,2025-11-26T07:33:40-08:00,uabe43894d530104e,uabe43894d530104e@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,666,Bump md duckdb to 1.4.2 (#666),Bump md duckdb to 1.4.2 (#666)
+duckdb/dbt-duckdb,b04417dddac0266360cdde70943aead789eb16d0,2025-12,9,post,2025-12-03T14:27:34-08:00,2025-12-03T14:27:34-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,11,11,0,0,0,,,,,dependabot,0,664,Bump actions/checkout from 5 to 6 (#664),"Bump actions/checkout from 5 to 6 (#664)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 5 to 6.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,e8db466e5fa7ce7b9b66df2f392c46702616aedf,2025-12,9,post,2025-12-03T14:27:57-08:00,2025-12-03T14:27:57-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,665,Bump dbt-tests-adapter from 1.19.3 to 1.19.4 (#665),"Bump dbt-tests-adapter from 1.19.3 to 1.19.4 (#665)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.19.3 to 1.19.4.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.19.4
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,3d4649ecf2d4327cc69527b9e92d120298be7222,2025-12,9,post,2025-12-09T11:29:29-08:00,2025-12-09T11:29:29-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,669,Bump sigstore/gh-action-sigstore-python from 3.1.0 to 3.2.0 (#669),"Bump sigstore/gh-action-sigstore-python from 3.1.0 to 3.2.0 (#669)
+
+Bumps [sigstore/gh-action-sigstore-python](https://github.com/sigstore/gh-action-sigstore-python) from 3.1.0 to 3.2.0.
+- [Release notes](https://github.com/sigstore/gh-action-sigstore-python/releases)
+- [Changelog](https://github.com/sigstore/gh-action-sigstore-python/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/sigstore/gh-action-sigstore-python/compare/v3.1.0...v3.2.0)
+
+---
+updated-dependencies:
+- dependency-name: sigstore/gh-action-sigstore-python
+  dependency-version: 3.2.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,fb7928fc504a5ef67d153b1da5515baf389c4a60,2025-12,9,post,2025-12-12T00:40:53+08:00,2025-12-12T00:40:53+08:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,1,2,0,0,0,0,,,,,,0,671,pin duckdb version for motherduck tests (#671),"pin duckdb version for motherduck tests (#671)
+
+* pin duckdb version for motherduck tests
+
+* Update tox.ini
+
+* Update tox.ini for adapter tests"
+duckdb/dbt-duckdb,e8bd743d2d7bf75c26b2b2d6557f33c0ca522ed7,2025-12,9,post,2025-12-16T09:02:15-08:00,2025-12-16T09:02:15-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,10,10,0,0,0,,,,,dependabot,0,676,Bump actions/upload-artifact from 5 to 6 (#676),"Bump actions/upload-artifact from 5 to 6 (#676)
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 5 to 6.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,0a81859b6006540b6b337c8176b053aa886148b1,2025-12,9,post,2025-12-16T09:02:42-08:00,2025-12-16T09:02:42-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,674,Bump dbt-tests-adapter from 1.19.4 to 1.19.5 (#674),"Bump dbt-tests-adapter from 1.19.4 to 1.19.5 (#674)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.19.4 to 1.19.5.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.19.5
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,ba162085b97c227e244ea10cfa3f694845f80583,2025-12,9,post,2025-12-16T09:16:18-08:00,2025-12-16T09:16:18-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,3,0,0,0,,,,,dependabot,0,675,Bump actions/download-artifact from 6 to 7 (#675),"Bump actions/download-artifact from 6 to 7 (#675)
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 6 to 7.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,7a43282ddcbbd0293c96e2da4bdc2103fef4fdb2,2025-12,9,post,2025-12-17T06:43:02-08:00,2025-12-17T06:43:02-08:00,u482e6c9b1bd5932d,u482e6c9b1bd5932d@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,1,1,0,,,,,,0,677,added error handler (#677),"added error handler (#677)
+
+Co-authored-by: u33eef22578d24f70 <u33eef22578d24f70@users.invalid>"
+duckdb/dbt-duckdb,5de12068990736cc0b5f8e092aebdb3c0cbaf71d,2025-12,9,post,2025-12-19T10:59:14-08:00,2025-12-19T10:59:14-08:00,ud10308ced4c7e591,ud10308ced4c7e591@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,679,Fix transaction commit error when no upstream external models exist (#679),"Fix transaction commit error when no upstream external models exist (#679)
+
+Change upstream_nodes check to upstream_schemas in register_upstream_external_models macro.
+This ensures we only commit when schemas are actually created, preventing
+'Tried to commit transaction on connection ""master"", but it does not have one open!'
+errors when executing models without upstream external models.
+
+Fixes #678"
+duckdb/dbt-duckdb,481a80085a9e6d8eb10c908d6a40dd54a6798a02,2026-01,10,post,2026-01-05T13:12:44-08:00,2026-01-06T06:12:44+09:00,u20e42fc34a6f5e56,u20e42fc34a6f5e56@users.invalid,GitHub,noreply@github.com,1,0,2,5,5,1,1,1,,,,,,0,683,Update pre-commit hooks (#683),"Update pre-commit hooks (#683)
+
+Signed-off-by: u20e42fc34a6f5e56 <u20e42fc34a6f5e56@users.invalid>"
+duckdb/dbt-duckdb,10b1b904215e7da0ba5a8db5e09bcb67023f87a4,2026-01,10,post,2026-01-07T17:50:16-05:00,2026-01-07T14:50:16-08:00,u2d4aedc759b99dfa,u2d4aedc759b99dfa@users.invalid,GitHub,noreply@github.com,1,0,1,3,7,1,3,7,,,,,,0,684,fix: rollback transaction in exception handler (#684),"fix: rollback transaction in exception handler (#684)
+
+* fix: actually rollback transaction in exception handler
+
+The exception handler logged ""Rolling back transaction"" but never
+actually executed the rollback, leaving transactions open after errors.
+This could cause locks not being released and resource leaks.
+
+* merge 2 blocks
+
+---------
+
+Co-authored-by: u3b56628afe550021 <u3b56628afe550021@users.invalid>"
+duckdb/dbt-duckdb,c66c7b006480e158cd1e5619241807dd168b4c9f,2026-01,10,post,2026-01-22T11:22:58-05:00,2026-01-22T17:22:58+01:00,u3cde5836baabf081,u3cde5836baabf081@users.invalid,GitHub,noreply@github.com,1,0,7,750,25,1,20,3,,B,claude,trailer;identity;message,,0,681,Microbatch alternative (#681),"Microbatch alternative (#681)
+
+* check if duckdb version supports the merge strategy (>= 1.4.0) and add merge to the valid incremental strategies for dbt
+
+* remove the incremental_helper to move the code to the incremental_strategy folder
+
+* merge macros for duckdb with additional duckdb merge into extensions
+
+* add tests for the merge incremental strategy with different configurations
+
+* add tests for the merge with update and exclude columns configurations
+
+* put the delete+insert merge code do a seperated module
+
+* validation module with merge validation macros for the merge configuration params
+
+* add the validations to the merge macro + some improvements
+
+* new test to check if the validations work
+
+* add documentation for the incremental strategies
+
+* improve the documentation for incremental strategy configurations
+
+* pre-commit all files
+
+* remove the logger lines
+
+* pre-commit
+
+* add validation for ducklake merge restrictions
+
+* add DuckDBVersion class for semantic version parsing and comparison
+
+* add duckdb incremental strategy and merge version constants
+
+* refactor incremental strategy logic to use cached duckdb version and constants for strategy selection
+
+* use the packaging version class for the duckdb version property
+
+* redesign the merge incremental strategy to make the configurations more user friendly
+
+* default merge clauses for the basic merge configurations
+
+* redesign the merge validations making with more modular approach
+
+* new tests for the merge incremental strategy
+
+* Adjust the merge incremental strategy documentation to describe the new three configuration options
+
+* linting stuff
+
+* feat(duckdb): add MERGE support for incremental strategies
+
+Added version-aware support for MERGE statements in DuckDB adapter for versions 1.4.0 and above. Introduced `_supports_merge` property to check and cache version compatibility, enabling ""merge"" and ""microbatch"" incremental strategies alongside existing ""append"" and ""delete+insert"". Updated SQL macros to implement microbatch and merge logic for efficient batch processing and upserts.
+
+* refactor: move microbatch strategy to separate file with smart merge detection
+
+- Move microbatch macro from delete_insert.sql to dedicated microbatch.sql
+- Microbatch now uses MERGE when available (DuckDB >= 1.4.0) for better performance
+- Falls back to delete+insert on earlier DuckDB versions
+- Follows incremental_strategy directory organization pattern
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* fix: add @hddd9818abacfde7a decorator to valid_incremental_strategies for Jinja access
+
+* feat: implement DuckDB microbatch tests and ignore new file
+
+- Implement TestDuckDBMicrobatch class with fixtures overriding base timestamp formats to use DuckDB-compatible syntax, avoiding 'timestamp is not UTC' errors in DuckDB 1.4.0+
+
+* add newline
+
+* use microbatch specific delete+insert
+
+* remove outdated comment
+
+* linting
+
+* Add tests and errors
+
+* update README
+
+* microbatch testing and minor fixes
+
+* fix merge conflict
+
+* no casting for microbatch
+
+* merge master
+
+* merge master
+
+* disallow concurrent batches, add performance tip
+
+* predicates should only be applied to target
+
+* clarify how parallel processing works
+
+* add explicit microbatch concurrency support
+
+* add batch context to temp table names
+
+* add event_time for test input (as per docs: 'f your upstream models don't have event_time configured, dbt cannot automatically filter them during batch processing and will perform full table scans on every batch run'; add lookback test
+
+* add sane default filter on source where clause when event_time config is not set
+
+---------
+
+Co-authored-by: u9340cb69d36cc0ab <u9340cb69d36cc0ab@users.invalid>
+Co-authored-by: ud10308ced4c7e591 <ud10308ced4c7e591@users.invalid>
+Co-authored-by: ua3b6ae741cc25c60 <ua3b6ae741cc25c60@users.invalid>
+Co-authored-by: u3bc62aacaa5ade7d <u3bc62aacaa5ade7d@users.invalid>
+Co-authored-by: Claude <noreply@anthropic.com>
+Co-authored-by: ud4ec95969e0ed049 <ud4ec95969e0ed049@users.invalid>
+Co-authored-by: u3b56628afe550021 <u3b56628afe550021@users.invalid>"
+duckdb/dbt-duckdb,a8b9fd4e7963464bd24d0f9595070daa5a2bcadd,2026-01,10,post,2026-01-22T12:20:17-05:00,2026-01-22T12:20:17-05:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,689,pin pandas version (#689),pin pandas version (#689)
+duckdb/dbt-duckdb,66970adab881033941aca9a2abcee5940fdd83ec,2026-02,11,post,2026-02-03T14:28:19-08:00,2026-02-03T17:28:19-05:00,ua7a85388435deeaa,ua7a85388435deeaa@users.invalid,GitHub,noreply@github.com,1,0,3,4,4,0,0,0,,,,,,0,692,bump duckdb and pandas dev dependencies (#692),"bump duckdb and pandas dev dependencies (#692)
+
+* bump dev dependencies
+
+* just unpin pandas
+
+* add back pandas, unpinned"
+duckdb/dbt-duckdb,997a0d52da223c8be9677743e252dd761b619138,2026-02,11,post,2026-02-09T10:47:16-08:00,2026-02-09T10:47:16-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,688,Bump pyarrow from 22.0.0 to 23.0.0 (#688),"Bump pyarrow from 22.0.0 to 23.0.0 (#688)
+
+Bumps [pyarrow](https://github.com/apache/arrow) from 22.0.0 to 23.0.0.
+- [Release notes](https://github.com/apache/arrow/releases)
+- [Commits](https://github.com/apache/arrow/compare/apache-arrow-22.0.0...apache-arrow-23.0.0)
+
+---
+updated-dependencies:
+- dependency-name: pyarrow
+  dependency-version: 23.0.0
+  dependency-type: direct:development
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,c481213f6da37d9faf19662e8fb3039c88155d00,2026-03,12,post,2026-03-07T09:17:21-08:00,2026-03-07T09:17:21-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,3,0,0,0,,,,,dependabot,0,700,Bump actions/download-artifact from 7 to 8 (#700),"Bump actions/download-artifact from 7 to 8 (#700)
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 7 to 8.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v7...v8)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-version: '8'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,620237874b7e41253032c5d7b3ef0b76475292e9,2026-03,12,post,2026-03-07T09:17:32-08:00,2026-03-07T09:17:32-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,10,10,0,0,0,,,,,dependabot,0,699,Bump actions/upload-artifact from 6 to 7 (#699),"Bump actions/upload-artifact from 6 to 7 (#699)
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 6 to 7.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,3d09145bd939ac3640166fc2d2019284a7bd4df5,2026-03,12,post,2026-03-07T09:17:45-08:00,2026-03-07T09:17:45-08:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,695,Bump pyarrow from 23.0.0 to 23.0.1 (#695),"Bump pyarrow from 23.0.0 to 23.0.1 (#695)
+
+Bumps [pyarrow](https://github.com/apache/arrow) from 23.0.0 to 23.0.1.
+- [Release notes](https://github.com/apache/arrow/releases)
+- [Commits](https://github.com/apache/arrow/compare/apache-arrow-23.0.0...apache-arrow-23.0.1)
+
+---
+updated-dependencies:
+- dependency-name: pyarrow
+  dependency-version: 23.0.1
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,82761b46cb85d8374e8b63dd3f99a74923d628e3,2026-03,12,post,2026-03-09T07:50:46-07:00,2026-03-09T07:50:46-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,704,Bump dbt-tests-adapter from 1.19.5 to 1.19.7 (#704),"Bump dbt-tests-adapter from 1.19.5 to 1.19.7 (#704)
+
+Bumps [dbt-tests-adapter](https://github.com/dbt-labs/dbt-adapters) from 1.19.5 to 1.19.7.
+- [Release notes](https://github.com/dbt-labs/dbt-adapters/releases)
+- [Changelog](https://github.com/dbt-labs/dbt-adapters/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/dbt-labs/dbt-adapters/commits)
+
+---
+updated-dependencies:
+- dependency-name: dbt-tests-adapter
+  dependency-version: 1.19.7
+  dependency-type: direct:development
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,ef06e82848a3eb8c7890b6287b3ca9632ca6e662,2026-03,12,post,2026-03-11T16:51:59-07:00,2026-03-11T19:51:59-04:00,uef5593d549cc0d6e,uef5593d549cc0d6e@users.invalid,GitHub,noreply@github.com,1,0,3,267,40,1,4,0,,,,,,0,706,Add DuckDB catalog macro shims (#706),"Add DuckDB catalog macro shims (#706)
+
+* Add DuckDB catalog macro shims
+
+* Isolate catalog relations test schema
+
+---------
+
+Co-authored-by: ua3b6ae741cc25c60 <ua3b6ae741cc25c60@users.invalid>"
+duckdb/dbt-duckdb,bb972764133e415a52a82b272294d4edac2faa82,2026-03,12,post,2026-03-30T17:22:47-07:00,2026-03-31T02:22:47+02:00,ufc6f9dc2d584dff3,ufc6f9dc2d584dff3@users.invalid,GitHub,noreply@github.com,1,0,1,5,4,0,0,0,,,,,,0,713,Use capi_quack in community extension test (#713),Use capi_quack in community extension test (#713)
+duckdb/dbt-duckdb,1d6b05dc4789531c5a18e5fc5276db99fb5db495,2026-03,12,post,2026-03-31T08:05:04-07:00,2026-03-31T08:05:04-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,3,3,0,0,0,,,,,dependabot,0,708,Bump slackapi/slack-github-action from 2.1.1 to 3.0.1 (#708),"Bump slackapi/slack-github-action from 2.1.1 to 3.0.1 (#708)
+
+Bumps [slackapi/slack-github-action](https://github.com/slackapi/slack-github-action) from 2.1.1 to 3.0.1.
+- [Release notes](https://github.com/slackapi/slack-github-action/releases)
+- [Commits](https://github.com/slackapi/slack-github-action/compare/v2.1.1...v3.0.1)
+
+---
+updated-dependencies:
+- dependency-name: slackapi/slack-github-action
+  dependency-version: 3.0.1
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+duckdb/dbt-duckdb,1bb465dbaaeb18b691d591f2c65ffc4b795c2b0e,2026-03,12,post,2026-03-31T08:26:34-07:00,2026-03-31T08:26:34-07:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,712,Bump sigstore/gh-action-sigstore-python from 3.2.0 to 3.3.0 (#712),"Bump sigstore/gh-action-sigstore-python from 3.2.0 to 3.3.0 (#712)
+
+Bumps [sigstore/gh-action-sigstore-python](https://github.com/sigstore/gh-action-sigstore-python) from 3.2.0 to 3.3.0.
+- [Release notes](https://github.com/sigstore/gh-action-sigstore-python/releases)
+- [Changelog](https://github.com/sigstore/gh-action-sigstore-python/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/sigstore/gh-action-sigstore-python/compare/v3.2.0...v3.3.0)
+
+---
+updated-dependencies:
+- dependency-name: sigstore/gh-action-sigstore-python
+  dependency-version: 3.3.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"

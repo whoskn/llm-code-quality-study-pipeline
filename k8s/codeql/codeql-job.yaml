@@ -1,0 +1,196 @@
+# The CodeQL measurement stage (proposal §4.4) as one indexed Job per node.
+#
+# Shaped like k8s/scanner/scan-job.yaml -- one pod per repository, JOB_COMPLETION_INDEX
+# picks the sample row, per-index failure budget, code and sample mounted from the working
+# tree -- with one difference, which follows from CodeQL having no server: the rows have
+# nowhere to go but a volume, and this cluster cannot give the pods a shared one. The
+# cephfs class provisions ReadWriteMany claims but no node can mount them (`modprobe ceph`
+# fails on every worker), so the results volume has to be ReadWriteOnce.
+#
+# ReadWriteOnce means one node, not one pod: any number of pods on the same node may mount
+# the same claim. So the stage is deployed once per chosen node -- shard s gets its own
+# claim, its own slice of the sample, and a nodeSelector pinning its pods to the node that
+# claim belongs to. Several pods of a shard land on the same node on purpose, which is why
+# nothing here spreads them apart. The claim is also the resume marker: measures_<index>.csv
+# is reread on restart, so a pod that dies mid-repo continues at the month after its last
+# written row.
+#
+# The tool version cannot be pinned by an image tag either, because there is no official
+# CodeQL image. It is pinned as one bundle tarball carrying the CLI and the precompiled
+# query packs together; the init container puts it on the shard's claim once and every
+# later pod on that node reuses it, so no pack is resolved over the network at analysis
+# time and the whole sample is measured with one CLI and one rule set.
+#
+# This file is a template, applied once per node by `make codeql NODES="..."`. Never
+# `kubectl apply -f` it directly: the placeholders are unresolved and the mounted
+# ConfigMaps are rebuilt from the working tree.
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ba-codeql-out-__SHARD__
+  labels:
+    app: ba-codeql
+spec:
+  # one node's worth of pods share this, so RWO is what it has to be, and rbd is the
+  # class that actually mounts here
+  accessModes: ["ReadWriteOnce"]
+  storageClassName: fast
+  resources:
+    requests:
+      # the bundle is ~1 GiB unpacked; the rows of one shard are a few tens of MiB, since
+      # the SARIF itself is not kept
+      storage: 10Gi
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ba-codeql-__SHARD__
+  labels:
+    app: ba-codeql
+  # no namespace: `make codeql` supplies it, and the cluster, on the command line
+spec:
+  completionMode: Indexed
+  completions: __COMPLETIONS__
+  parallelism: __PARALLELISM__
+  backoffLimitPerIndex: 2
+  maxFailedIndexes: __MAXFAILED__
+  ttlSecondsAfterFinished: 172800
+  template:
+    metadata:
+      labels:
+        app: ba-codeql
+    spec:
+      restartPolicy: Never
+      # the pods have to run where their claim is mounted; two pods of this shard sharing
+      # the node is intended, so nothing keeps them apart
+      nodeSelector:
+        kubernetes.io/hostname: __NODE__
+      initContainers:
+        # unpack the pinned bundle onto the shard's claim, once per node. The mkdir of the
+        # marker directory is the lock: it is atomic, so of the pods that start together
+        # exactly one downloads and the rest wait for the unpacked tree to appear.
+        - name: bundle
+          image: python:3.13
+          command: ["/bin/sh", "-ec"]
+          args:
+            - |
+              b=/state/$CODEQL_BUNDLE
+              if [ -x "$b/codeql/codeql" ]; then echo "$CODEQL_BUNDLE present"; exit 0; fi
+              if mkdir "$b.lock" 2>/dev/null; then
+                rm -rf "$b.part"; mkdir -p "$b.part"
+                if curl -fsSL "https://github.com/github/codeql-action/releases/download/$CODEQL_BUNDLE/codeql-bundle-linux64.tar.gz" | tar -xz -C "$b.part"; then
+                  mv "$b.part" "$b"
+                  echo "$CODEQL_BUNDLE unpacked"
+                  exit 0
+                fi
+                # release the lock, or every later pod waits on a download that failed
+                rm -rf "$b.part" "$b.lock"
+                echo "bundle download failed"
+                exit 1
+              fi
+              # a sibling pod holds the lock; 20 minutes is far longer than the unpack
+              # takes and still shorter than one repo's analysis
+              i=0
+              while [ ! -x "$b/codeql/codeql" ]; do
+                i=$((i + 1))
+                [ "$i" -le 240 ] || { echo "bundle did not appear"; exit 1; }
+                sleep 5
+              done
+              echo "$CODEQL_BUNDLE ready"
+          env:
+            - name: CODEQL_BUNDLE
+              value: __BUNDLE__
+          volumeMounts:
+            - name: state
+              mountPath: /state
+          resources:
+            requests:
+              cpu: "500m"
+              memory: 512Mi
+            limits:
+              cpu: "2"
+              memory: 1Gi
+      containers:
+        - name: codeql
+          # git and curl come with the non-slim python image, so nothing is installed
+          image: python:3.13
+          command: ["python3", "/app/scripts/scan/codeql_repo.py"]
+          args:
+            # --index defaults to $JOB_COMPLETION_INDEX, and the mounted sample is this
+            # shard's slice, so the index needs no offset
+            - --sample=/sample/sample.csv
+            - --work=/work
+            - --codeql=/state/__BUNDLE__/codeql/codeql
+            # the shard is part of the name, not just the index: the index restarts at 0
+            # on every shard, so index alone would collide once the shards are collected
+            # into one directory
+            - --measures=/state/out/measures___SHARD___$(JOB_COMPLETION_INDEX).csv
+            - --results=/state/out/results___SHARD___$(JOB_COMPLETION_INDEX).jsonl
+            - --pre-months=12
+            - --post-months=12
+            # under the container limits below, and both codeql commands are threaded per
+            # pod rather than per snapshot
+            - --threads=8
+            - --ram=20000
+          env:
+            # the controller injects this too, but $(VAR) expansion in args resolves only
+            # against the container's own env list, so it is declared here as well
+            - name: JOB_COMPLETION_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            # spent through a git credential helper, never written to a config file
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: github-token
+                  key: token
+                  optional: true
+            # the CLI writes its logs and per-user state under $HOME
+            - name: HOME
+              value: /work
+            # codeql_repo.py imports scripts.scan.* as a namespace package
+            - name: PYTHONPATH
+              value: /app
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          volumeMounts:
+            - name: state
+              mountPath: /state
+            - name: work
+              mountPath: /work
+            - name: scripts
+              mountPath: /app/scripts/scan
+            - name: sample
+              mountPath: /sample
+          resources:
+            requests:
+              # extraction is CPU-bound and query evaluation memory-bound; unlike the
+              # SonarQube stage there is no central queue, so a pod's own resources are
+              # what bounds its runtime
+              cpu: "4"
+              # requested well below the limit: the tail repos need the headroom only
+              # while evaluating, and a request the node cannot satisfy will not schedule
+              memory: 12Gi
+              # clone plus work tree plus database, all in the emptyDir and therefore
+              # charged to node ephemeral storage. The database of a large Python repo
+              # runs a few GiB; largest repo in the measured 40 is ~464 MB of source.
+              ephemeral-storage: 12Gi
+            limits:
+              cpu: "20"
+              memory: 24Gi
+              ephemeral-storage: 20Gi
+      volumes:
+        - name: state
+          persistentVolumeClaim:
+            claimName: ba-codeql-out-__SHARD__
+        - name: work
+          emptyDir:
+            sizeLimit: 20Gi
+        - name: scripts
+          configMap:
+            name: ba-codeql-scripts
+        - name: sample
+          configMap:
+            name: ba-codeql-sample-__SHARD__

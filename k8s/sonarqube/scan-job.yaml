@@ -1,0 +1,73 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ba-scanner
+spec:
+  completionMode: Indexed
+  completions: __COMPLETIONS__
+  parallelism: __PARALLELISM__
+  backoffLimitPerIndex: 2
+  maxFailedIndexes: __MAXFAILED__
+  ttlSecondsAfterFinished: 172800
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: scanner
+          image: sonarsource/sonar-scanner-cli:12.1.0.3233_8.0.1
+          command: ["python3", "/app/scripts/scan/scan_repo.py"]
+          args:
+            - --sample=/sample/sample.csv
+            - --work=/work
+            - --scanner=/opt/sonar-scanner/bin/sonar-scanner
+            - --pre-months=__PRE__
+            - --post-months=__POST__
+            - --task-timeout=5400
+          env:
+            - name: SONAR_SERVERS
+              valueFrom:
+                secretKeyRef:
+                  name: sonar-servers
+                  key: servers
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: github-token
+                  key: token
+                  optional: true
+            - name: SONAR_SCANNER_JAVA_OPTS
+              value: "-Xmx5g"
+            - name: SONAR_USER_HOME
+              value: /work
+            - name: HOME
+              value: /work
+            - name: PYTHONPATH
+              value: /app
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          volumeMounts:
+            - name: work
+              mountPath: /work
+            - name: scripts
+              mountPath: /app/scripts/scan
+            - name: sample
+              mountPath: /sample
+          resources:
+            requests:
+              cpu: "2"
+              memory: 4Gi
+              ephemeral-storage: 4Gi
+            limits:
+              cpu: "8"
+              memory: 8Gi
+              ephemeral-storage: 8Gi
+      volumes:
+        - name: work
+          emptyDir:
+            sizeLimit: 8Gi
+        - name: scripts
+          configMap:
+            name: ba-scan-scripts
+        - name: sample
+          configMap:
+            name: ba-scan-sample

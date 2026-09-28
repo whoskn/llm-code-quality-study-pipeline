@@ -1,0 +1,2511 @@
+repo,sha,month,offset,period,commit_date,author_date,author_name,author_email,committer_name,committer_email,parents,is_merge,files,insertions,deletions,scope_files,scope_insertions,scope_deletions,agent_files,llm_family,llm_tools,llm_signals,bot,is_revert,pr,subject,message
+marcolivierarsenault/moonraker-home-assistant,bda134287794e17c1d3636ad622be82078aede63,2024-07,-12,pre,2024-07-01T10:52:52-04:00,2024-07-01T10:52:52-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,359,Bump ruff from 0.4.8 to 0.4.10 (#359),"Bump ruff from 0.4.8 to 0.4.10 (#359)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.4.8 to 0.4.10.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/v0.4.8...v0.4.10)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d17985ed3b182d6cd4b0523635e1549695c19fd0,2024-07,-12,pre,2024-07-02T07:33:22-04:00,2024-07-02T19:33:22+08:00,u76208ef6c36720d0,u76208ef6c36720d0@users.invalid,GitHub,noreply@github.com,1,0,4,159,10,2,96,10,,,,,,0,354,"Add some system stats sensors. System Load, MCU Load, Memory Used (#354)","Add some system stats sensors. System Load, MCU Load, Memory Used (#354)
+
+* Add System Load Sensor
+
+* Add MCU Load Sensors
+
+* Add Memory Used Sensors
+
+* Fix some trivial issues
+
+* trivial fixes
+
+* Add test_multi_mcu_sensor_data test func
+
+* add rounding
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,33fe309815c327446a46f3d99280bfc11663d33a,2024-07,-12,pre,2024-07-02T07:36:10-04:00,2024-07-02T07:36:10-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,361,Bump ruff from 0.4.10 to 0.5.0 (#361),"Bump ruff from 0.4.10 to 0.5.0 (#361)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.4.10 to 0.5.0.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/v0.4.10...0.5.0)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,5441083b7bb2fa283b846e1d55fd063ca653d3a0,2024-07,-12,pre,2024-07-02T07:40:28-04:00,2024-07-02T07:40:28-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,360,Bump sphinx-toolbox from 3.5.0 to 3.6.0 (#360),"Bump sphinx-toolbox from 3.5.0 to 3.6.0 (#360)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 3.5.0 to 3.6.0.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v3.5.0...v3.6.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,5e1b0e39fb8aa99dee01b24eae2f579ca8e12d6a,2024-07,-12,pre,2024-07-02T11:43:14Z,2024-07-02T11:43:14Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,1.2.2,1.2.2
+marcolivierarsenault/moonraker-home-assistant,ba79ff4360b8a1c590f9369deede7bff5c8a1083,2024-07,-12,pre,2024-07-16T07:31:42-04:00,2024-07-16T07:31:42-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,364,Bump sphinx-toolbox from 3.6.0 to 3.7.0 (#364),"Bump sphinx-toolbox from 3.6.0 to 3.7.0 (#364)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 3.6.0 to 3.7.0.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v3.6.0...v3.7.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,9704aab80b8395f5020fa2b1eb97499065d08026,2024-07,-12,pre,2024-07-16T07:36:21-04:00,2024-07-16T07:36:21-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,367,Bump sphinx from 7.3.7 to 7.4.4 (#367),"Bump sphinx from 7.3.7 to 7.4.4 (#367)
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.3.7 to 7.4.4.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.3.7...v7.4.4)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d52097333dfe242573756f75e5bd34f8e3f2c682,2024-07,-12,pre,2024-07-16T07:39:56-04:00,2024-07-16T07:39:56-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,366,Bump ruff from 0.5.0 to 0.5.2 (#366),"Bump ruff from 0.5.0 to 0.5.2 (#366)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.5.0 to 0.5.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.5.0...0.5.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,cb83c8021efb6f023de85ac7bd16a59b2e904d39,2024-08,-11,pre,2024-08-10T08:43:19-04:00,2024-08-10T08:43:19-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,6,17,167,2,10,96,,,,,,0,378,Updates and fix broken code (#378),"Updates and fix broken code (#378)
+
+* update 3rd party deps
+
+* update ha
+
+* Revert ""Add some system stats sensors. System Load, MCU Load, Memory Used (#354)""
+
+This reverts commit d17985ed3b182d6cd4b0523635e1549695c19fd0.
+
+* keep old ha"
+marcolivierarsenault/moonraker-home-assistant,8e8721dd9b224183cbc692eafa374a56ab4ad8f3,2024-08,-11,pre,2024-08-10T12:45:56Z,2024-08-10T12:45:56Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,v1.2.3,v1.2.3
+marcolivierarsenault/moonraker-home-assistant,79b8e4d6e35d82e22ff627166b95355682e848ec,2024-08,-11,pre,2024-08-10T13:41:44-04:00,2024-08-10T13:41:44-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,382,Bump furo from 2024.7.18 to 2024.8.6 (#382),"Bump furo from 2024.7.18 to 2024.8.6 (#382)
+
+Bumps [furo](https://github.com/pradyunsg/furo) from 2024.7.18 to 2024.8.6.
+- [Release notes](https://github.com/pradyunsg/furo/releases)
+- [Changelog](https://github.com/pradyunsg/furo/blob/main/docs/changelog.md)
+- [Commits](https://github.com/pradyunsg/furo/compare/2024.07.18...2024.08.06)
+
+---
+updated-dependencies:
+- dependency-name: furo
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,48ac3af8de2915894b88a162e3793ac8799335c5,2024-08,-11,pre,2024-08-10T13:45:13-04:00,2024-08-10T13:45:13-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,380,Bump sphinx from 7.4.4 to 8.0.2 (#380),"Bump sphinx from 7.4.4 to 8.0.2 (#380)
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 7.4.4 to 8.0.2.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/v8.0.2/CHANGES.rst)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.4.4...v8.0.2)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,bb5aceb506eda91a341dd94b085ff1f7afa7bda2,2024-08,-11,pre,2024-08-10T13:47:25-04:00,2024-08-10T13:47:25-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,383,Bump ruff from 0.5.6 to 0.5.7 (#383),"Bump ruff from 0.5.6 to 0.5.7 (#383)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.5.6 to 0.5.7.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.5.6...0.5.7)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,ef4a9fa9f9245af58f5c692b91c180858c8ad7bc,2024-08,-11,pre,2024-08-10T14:01:53-04:00,2024-08-10T14:01:53-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,9,66,62,0,0,0,,,,,,0,384,fix tests (#384),fix tests (#384)
+marcolivierarsenault/moonraker-home-assistant,01bd67ea50f4c04a73d8351f8f0f600a4c939711,2024-08,-11,pre,2024-08-12T08:11:28-04:00,2024-08-12T08:11:28-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,,0,386,update mooraker-api 2.0.6 (#386),update mooraker-api 2.0.6 (#386)
+marcolivierarsenault/moonraker-home-assistant,370d41f4cdd2d2719dc5ba5a5c0c689c533ed12f,2024-08,-11,pre,2024-08-13T21:19:53-04:00,2024-08-13T21:19:53-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,7,139,6,3,39,3,,,,,,0,387,add optional port for camera and thumbnail (#387),"add optional port for camera and thumbnail (#387)
+
+* add optional port for camera and thumbnail
+
+* tests
+
+* update doc"
+marcolivierarsenault/moonraker-home-assistant,31bd4cbcf984df99b1dda134d7bd87a90df188c9,2024-08,-11,pre,2024-08-14T01:21:15Z,2024-08-14T01:21:15Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,1.3.0,1.3.0
+marcolivierarsenault/moonraker-home-assistant,e786d6271a8fe63d5b21a26be1d271273fd631aa,2024-08,-11,pre,2024-08-16T07:43:02-04:00,2024-08-16T07:43:02-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,194,10,2,106,10,,,,,,0,389,Fix 354 (#389),"Fix 354 (#389)
+
+* Reapply ""Add some system stats sensors. System Load, MCU Load, Memory Used (#354)""
+
+This reverts commit a6aa8da040794408e4016ddeca58a6d53110cce7.
+
+* fix sensor, account for missing data
+
+* add tests for missing data"
+marcolivierarsenault/moonraker-home-assistant,381635c4b70abcfb3b4ae54013f31370b312e75d,2024-08,-11,pre,2024-08-16T11:44:20Z,2024-08-16T11:44:20Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,1.3.1,1.3.1
+marcolivierarsenault/moonraker-home-assistant,aa2e65617191a37eed2e478f6e69ea93a8e00aef,2024-08,-11,pre,2024-08-19T19:29:40-04:00,2024-08-19T19:29:40-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,392,bump ruff from 0.5.7 to 0.6.1 (#392),"bump ruff from 0.5.7 to 0.6.1 (#392)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.5.7 to 0.6.1.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.5.7...0.6.1)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,397d04fdd3b25825a784577148e8fcb27a6519fd,2024-08,-11,pre,2024-08-19T19:35:52-04:00,2024-08-19T19:35:52-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,391,Bump sphinx-toolbox from 3.7.0 to 3.8.0 (#391),"Bump sphinx-toolbox from 3.7.0 to 3.8.0 (#391)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 3.7.0 to 3.8.0.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v3.7.0...v3.8.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,23596cafe1a81c8b0f96d2d47d4e05a8bba31671,2024-08,-11,pre,2024-08-26T21:12:25-04:00,2024-08-26T21:12:25-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,395,Bump ruff from 0.6.1 to 0.6.2 (#395),"Bump ruff from 0.6.1 to 0.6.2 (#395)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.1 to 0.6.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.1...0.6.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d116c86e3e8156914daf54e912513bb5a2054c0a,2024-08,-11,pre,2024-08-26T22:01:29-04:00,2024-08-26T22:01:29-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,10,112,20,1,28,12,,,,,,0,394,Errors when off (#394),"Errors when off (#394)
+
+* throw PlatformNotReady when printer is not reachable
+
+* tweak testing
+
+* add tests"
+marcolivierarsenault/moonraker-home-assistant,da7ce4748b8e2eb893224a72b1bf9d040ae03c64,2024-08,-11,pre,2024-08-27T02:03:44Z,2024-08-27T02:02:34Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,1.3.2,1.3.2
+marcolivierarsenault/moonraker-home-assistant,45d96205b2fc655347ba9c72497024d4b34d37f0,2024-08,-11,pre,2024-08-27T08:18:11-04:00,2024-08-27T08:18:11-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,12,22,114,2,13,29,,,,,,1,396,Revert error off (#396),"Revert error off (#396)
+
+* Revert ""Errors when off (#394)""
+
+This reverts commit d116c86e3e8156914daf54e912513bb5a2054c0a.
+
+* version bump"
+marcolivierarsenault/moonraker-home-assistant,b0391678876894f54d1fd14eff857a63171e034e,2024-08,-11,pre,2024-08-29T23:54:45Z,2024-08-29T23:54:45Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,12,13,0,0,0,,,,,,0,,Adjusting old test to use info,Adjusting old test to use info
+marcolivierarsenault/moonraker-home-assistant,5210b30c2d4e3c8ffe95e51dbf2918ed7cea69bf,2024-08,-11,pre,2024-08-29T20:20:53-04:00,2024-08-29T20:20:53-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,16,0,0,0,0,,,,,,0,399,adding information about misconnection in the doc (#399),adding information about misconnection in the doc (#399)
+marcolivierarsenault/moonraker-home-assistant,ef9b352220f45e3a1e50fa8fd3696e8f4e058235,2024-08,-11,pre,2024-08-30T08:52:11-04:00,2024-08-30T08:52:11-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,47,2,1,7,1,,,,,,0,398,read total layer from info stats (#398),"read total layer from info stats (#398)
+
+* read total layer from info stats
+
+* add None usecase"
+marcolivierarsenault/moonraker-home-assistant,206ec72e3c42c1ee58245387499b63871b673a52,2024-08,-11,pre,2024-08-30T12:53:20Z,2024-08-30T12:53:20Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,1.3.4,1.3.4
+marcolivierarsenault/moonraker-home-assistant,fded3c202a1fede14e5924115cbe72ed14a59032,2024-08,-11,pre,2024-08-30T19:57:07-04:00,2024-08-30T19:57:07-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,16,2,0,0,0,,,,,,0,400,bumpversion (#400),bumpversion (#400)
+marcolivierarsenault/moonraker-home-assistant,8ce1193f0d896c820becc51f2daccfc2ea119730,2024-08,-11,pre,2024-08-31T00:02:18Z,2024-08-31T00:02:18Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,add custom bumpversion message,add custom bumpversion message
+marcolivierarsenault/moonraker-home-assistant,48ddc589d4b3689ff751241ca5ed3efe76e7da49,2024-09,-10,pre,2024-09-01T09:34:40-04:00,2024-09-01T09:34:40-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,,Update issue.md,Update issue.md
+marcolivierarsenault/moonraker-home-assistant,13aaa592099a5a291304e3ee2562e3b50d8eb498,2024-09,-10,pre,2024-09-04T20:13:45-04:00,2024-09-04T20:13:45-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,402,Bump ruff from 0.6.2 to 0.6.3 (#402),"Bump ruff from 0.6.2 to 0.6.3 (#402)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.2 to 0.6.3.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.2...0.6.3)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d3427649c248be4efc5a363e5ae366c78634de26,2024-09,-10,pre,2024-09-04T21:23:29-04:00,2024-09-04T21:23:29-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,16,1,1,3,1,,,,,,0,404,add check for missing info on total layer (#404),add check for missing info on total layer (#404)
+marcolivierarsenault/moonraker-home-assistant,7af46cf518600bb5fbf97280c446224780d17637,2024-09,-10,pre,2024-09-05T01:25:48Z,2024-09-05T01:25:48Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,4,4,1,1,1,,,,,,0,,1.3.5,1.3.5
+marcolivierarsenault/moonraker-home-assistant,edf41f3dd37731a2063e9124278c3ac4c481cdc1,2024-09,-10,pre,2024-09-11T17:49:55-04:00,2024-09-11T17:49:55-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,406,Bump ruff from 0.6.3 to 0.6.4 (#406),"Bump ruff from 0.6.3 to 0.6.4 (#406)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.3 to 0.6.4.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.3...0.6.4)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,f476e2678dbd4e5d7262eba07eb8e68959138f32,2024-09,-10,pre,2024-09-13T18:08:37-04:00,2024-09-13T18:08:37-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,1,2,1,,,,,,0,409,add check for ETA (#409),add check for ETA (#409)
+marcolivierarsenault/moonraker-home-assistant,22e3bdc2391d860856a71765739da7814b8933df,2024-09,-10,pre,2024-09-13T18:17:18-04:00,2024-09-13T18:17:18-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,1,3,3,,,,,,0,410,"change log to warning, as it is ok to have no thumbnail (#410)","change log to warning, as it is ok to have no thumbnail (#410)"
+marcolivierarsenault/moonraker-home-assistant,110e9887d7e69370d4993a47349ddba239823b71,2024-09,-10,pre,2024-09-24T21:10:20-04:00,2024-09-24T21:10:20-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,413,Bump ruff from 0.6.4 to 0.6.7 (#413),"Bump ruff from 0.6.4 to 0.6.7 (#413)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.4 to 0.6.7.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.4...0.6.7)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,dfa683c3c4e24201804e15f05f1a0b2a9977692a,2024-09,-10,pre,2024-09-30T19:47:30-04:00,2024-09-30T19:47:30-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,416,Bump ruff from 0.6.7 to 0.6.8 (#416),"Bump ruff from 0.6.7 to 0.6.8 (#416)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.7 to 0.6.8.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.7...0.6.8)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,23a5b2bced693eb961f49d2abec2828f579f37f9,2024-10,-9,pre,2024-10-03T06:48:24-04:00,2024-10-03T11:48:24+01:00,u49a65d65b700c2b2,u49a65d65b700c2b2@users.invalid,GitHub,noreply@github.com,1,0,3,3,3,1,1,1,,,,,,0,418,update version strings to match release (#418),update version strings to match release (#418)
+marcolivierarsenault/moonraker-home-assistant,d36dcf259ae528990204ac81dde08bfe42fb0ff8,2024-10,-9,pre,2024-10-03T10:48:51Z,2024-10-03T10:48:51Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.3.7,1.3.7
+marcolivierarsenault/moonraker-home-assistant,472238d26597120cd88dd04ce000a8c1bb1bd0c6,2024-10,-9,pre,2024-10-08T21:38:07-04:00,2024-10-08T21:38:07-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,419,Bump pre-commit from 3.8.0 to 4.0.0 (#419),"Bump pre-commit from 3.8.0 to 4.0.0 (#419)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 3.8.0 to 4.0.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v3.8.0...v4.0.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,fd2ffa33a35cf6221bf8ced920360b93abba49c0,2024-10,-9,pre,2024-10-08T21:42:18-04:00,2024-10-08T21:42:18-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,420,Bump ruff from 0.6.8 to 0.6.9 (#420),"Bump ruff from 0.6.8 to 0.6.9 (#420)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.8 to 0.6.9.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.8...0.6.9)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,0dddfd20fbfb655f69aec689e8531bc93eeff825,2024-10,-9,pre,2024-10-08T22:02:12-04:00,2024-10-08T22:02:12-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,421,update HA (#421),update HA (#421)
+marcolivierarsenault/moonraker-home-assistant,23e4137f468968a7b39dab991601506a2a470822,2024-10,-9,pre,2024-10-08T22:05:43-04:00,2024-10-08T22:05:43-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,422,remove main download from doc (#422),remove main download from doc (#422)
+marcolivierarsenault/moonraker-home-assistant,237f03bc5c2e4aa2191abac2b6f889c15c313b49,2024-11,-8,pre,2024-11-02T07:32:45-04:00,2024-11-02T07:32:45-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,431,Bump ruff from 0.6.9 to 0.7.1 (#431),"Bump ruff from 0.6.9 to 0.7.1 (#431)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.6.9 to 0.7.1.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.6.9...0.7.1)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,ba18d78f760873aa75ae3941ff452e013d507c95,2024-11,-8,pre,2024-11-02T07:36:56-04:00,2024-11-02T07:36:56-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,429,Bump ha-ffmpeg from 3.2.0 to 3.2.1 (#429),"Bump ha-ffmpeg from 3.2.0 to 3.2.1 (#429)
+
+Bumps [ha-ffmpeg](https://github.com/pvizeli/ha-ffmpeg) from 3.2.0 to 3.2.1.
+- [Release notes](https://github.com/pvizeli/ha-ffmpeg/releases)
+- [Commits](https://github.com/pvizeli/ha-ffmpeg/compare/3.2.0...3.2.1)
+
+---
+updated-dependencies:
+- dependency-name: ha-ffmpeg
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,e8f37e91534c2e56ab88c999c1f983aab37f709d,2024-11,-8,pre,2024-11-02T07:40:21-04:00,2024-11-02T07:40:21-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,427,Bump sphinx from 8.0.2 to 8.1.3 (#427),"Bump sphinx from 8.0.2 to 8.1.3 (#427)
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.0.2 to 8.1.3.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.0.2...v8.1.3)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,23962000388f7e8fa469ec76a29342cb4314b0ab,2024-11,-8,pre,2024-11-02T07:46:48-04:00,2024-11-02T07:46:48-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,426,Bump pre-commit from 4.0.0 to 4.0.1 (#426),"Bump pre-commit from 4.0.0 to 4.0.1 (#426)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.0.0 to 4.0.1.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.0.0...v4.0.1)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,30e1f4d957de494ebc3626bf0c239d28ebdd59ab,2024-11,-8,pre,2024-11-02T07:54:06-04:00,2024-11-02T07:54:06-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,425,Bump sphinx-toolbox from 3.8.0 to 3.8.1 (#425),"Bump sphinx-toolbox from 3.8.0 to 3.8.1 (#425)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 3.8.0 to 3.8.1.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v3.8.0...v3.8.1)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,cc33ec0075e0d7d258f82599941f6a0854861362,2024-11,-8,pre,2024-11-03T08:52:14-05:00,2024-11-03T14:52:14+01:00,u7e046ff1e2a9a3f8,u7e046ff1e2a9a3f8@users.invalid,GitHub,noreply@github.com,1,0,1,3,2,1,3,2,,,,,,0,434,Fix config type import (#434),"Fix config type import (#434)
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,19bc8e97a4553555f561309ce60741d0800d0ad8,2024-11,-8,pre,2024-11-03T08:58:17-05:00,2024-11-03T08:58:17-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,1,3,0,0,0,,,,,,0,435,update dep and fix setup (#435),update dep and fix setup (#435)
+marcolivierarsenault/moonraker-home-assistant,ad6a8f67ddb77aec1dedd69b16b324da7eeb798e,2024-11,-8,pre,2024-11-04T15:12:39-05:00,2024-11-04T15:12:39-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,437,Bump ruff from 0.7.1 to 0.7.2 (#437),"Bump ruff from 0.7.1 to 0.7.2 (#437)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.7.1 to 0.7.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.7.1...0.7.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,c9daf831635ad0a038c97b3e1ccbe0af4fef56b6,2024-11,-8,pre,2024-11-04T15:15:29-05:00,2024-11-04T15:15:29-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,436,Bump colorlog from 6.8.2 to 6.9.0 (#436),"Bump colorlog from 6.8.2 to 6.9.0 (#436)
+
+Bumps [colorlog](https://github.com/borntyping/python-colorlog) from 6.8.2 to 6.9.0.
+- [Release notes](https://github.com/borntyping/python-colorlog/releases)
+- [Commits](https://github.com/borntyping/python-colorlog/compare/v6.8.2...v6.9.0)
+
+---
+updated-dependencies:
+- dependency-name: colorlog
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d46ea6cf600eed0dd8508ec5ac72ebcc8ec786e8,2024-11,-8,pre,2024-11-07T13:59:32-05:00,2024-11-07T13:59:32-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,3,3,1,1,1,,,,,,0,439,1.4.0 (#439),1.4.0 (#439)
+marcolivierarsenault/moonraker-home-assistant,01999eefda4c6a4e390d34a3e982128d6dc0a152,2024-11,-8,pre,2024-11-23T16:20:02-05:00,2024-11-23T16:20:02-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,445,Bump ruff from 0.7.2 to 0.7.4 (#445),"Bump ruff from 0.7.2 to 0.7.4 (#445)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.7.2 to 0.7.4.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.7.2...0.7.4)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d995d7cda9b595a56bcfb6d8c2aeb5fa758934d7,2024-11,-8,pre,2024-11-23T16:23:42-05:00,2024-11-23T16:23:42-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,444,Bump codecov/codecov-action from 4 to 5 (#444),"Bump codecov/codecov-action from 4 to 5 (#444)
+
+Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 4 to 5.
+- [Release notes](https://github.com/codecov/codecov-action/releases)
+- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/codecov/codecov-action/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: codecov/codecov-action
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,89a6bb8ddff56f753100c2fe740a1bf1a8b8eff8,2024-11,-8,pre,2024-11-23T16:33:47-05:00,2024-11-23T16:33:47-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,442,Bump ha-ffmpeg from 3.2.1 to 3.2.2 (#442),"Bump ha-ffmpeg from 3.2.1 to 3.2.2 (#442)
+
+Bumps [ha-ffmpeg](https://github.com/pvizeli/ha-ffmpeg) from 3.2.1 to 3.2.2.
+- [Release notes](https://github.com/pvizeli/ha-ffmpeg/releases)
+- [Commits](https://github.com/pvizeli/ha-ffmpeg/compare/3.2.1...3.2.2)
+
+---
+updated-dependencies:
+- dependency-name: ha-ffmpeg
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,b00b7b5e2960736d7fc2a372c4331309512c3a71,2024-12,-7,pre,2024-12-07T07:43:08-05:00,2024-12-07T07:43:08-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,448,Bump ruff from 0.7.4 to 0.8.1 (#448),"Bump ruff from 0.7.4 to 0.8.1 (#448)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.7.4 to 0.8.1.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.7.4...0.8.1)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,9e25bc36dd714c124311577bf83aaf10a2e2d498,2024-12,-7,pre,2024-12-08T09:25:17-05:00,2024-12-08T09:25:17-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,4,14,5,0,0,0,,,,,dependabot,0,451,Upgrade to Python 3.13 and update HA (#451),"Upgrade to Python 3.13 and update HA (#451)
+
+* Bump pytest-homeassistant-custom-component from 0.13.178 to 0.13.191
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.178 to 0.13.191.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.178...0.13.191)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* update python version
+
+* upgrade python version
+
+* add missing libs
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,6890a988f684b0d3e1ec44e7fbe5aa0d15e36bb0,2024-12,-7,pre,2024-12-09T09:51:28-05:00,2024-12-09T16:51:28+02:00,u34d63ccc2ca91c43,u34d63ccc2ca91c43@users.invalid,GitHub,noreply@github.com,1,0,3,24,3,1,5,3,,,,,,0,450,add temperature_probe and round temperatures (#450),"add temperature_probe and round temperatures (#450)
+
+* add temperature_probe
+
+* round temperatures
+
+* WIP: add test for probe
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,c41c21001f7f761f467186d78525301f72869133,2024-12,-7,pre,2024-12-09T14:56:51Z,2024-12-09T14:56:51Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.5.0,1.5.0
+marcolivierarsenault/moonraker-home-assistant,79cfe45eb540987936ab7fe9a3d1cf4743339350,2024-12,-7,pre,2024-12-09T15:16:02-05:00,2024-12-09T15:16:02-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,453,Bump ruff from 0.8.1 to 0.8.2 (#453),"Bump ruff from 0.8.1 to 0.8.2 (#453)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.8.1 to 0.8.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.8.1...0.8.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,a366960a40b86177ad15a178429f001cdbf5d9ab,2024-12,-7,pre,2024-12-15T19:07:42-05:00,2024-12-15T19:07:42-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,54,9,1,37,9,,,,,,0,456,Null temp value (#456),"Null temp value (#456)
+
+* add None management for optional sensors
+
+* add tests"
+marcolivierarsenault/moonraker-home-assistant,3abbf14ce00b2eb68565005c19bcedf656f51f1e,2024-12,-7,pre,2024-12-16T00:08:11Z,2024-12-16T00:08:11Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.5.1,1.5.1
+marcolivierarsenault/moonraker-home-assistant,3bb6d8b06ce3a53127c10e2368b1d72da165e73d,2024-12,-7,pre,2024-12-16T15:31:30-05:00,2024-12-16T15:31:30-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,457,Bump ruff from 0.8.2 to 0.8.3 (#457),"Bump ruff from 0.8.2 to 0.8.3 (#457)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.8.2 to 0.8.3.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.8.2...0.8.3)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,67038c41f8a496a2d7668fc171c38eb7746e0ad7,2024-12,-7,pre,2024-12-16T16:26:23-05:00,2024-12-16T16:26:23-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,458,Bump pytest-homeassistant-custom-component from 0.13.191 to 0.13.193 (#458),"Bump pytest-homeassistant-custom-component from 0.13.191 to 0.13.193 (#458)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.191 to 0.13.193.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.191...0.13.193)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,78249b0390c188d98bbafacb2aefe244f8b2d8e7,2025-02,-5,pre,2025-02-16T20:23:03-05:00,2025-02-16T20:23:03-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,475,Bump pre-commit from 4.0.1 to 4.1.0 (#475),"Bump pre-commit from 4.0.1 to 4.1.0 (#475)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.0.1 to 4.1.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.0.1...v4.1.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,53f00a41ba6ca71a4732c24b73636eb03714b604,2025-02,-5,pre,2025-02-16T20:26:48-05:00,2025-02-16T20:26:48-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,484,Bump ruff from 0.8.3 to 0.9.6 (#484),"Bump ruff from 0.8.3 to 0.9.6 (#484)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.8.3 to 0.9.6.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.8.3...0.9.6)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,a13f9608036b7ef12e179889c7162526411a10e0,2025-02,-5,pre,2025-02-16T20:29:55-05:00,2025-02-16T20:29:55-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,482,Bump sphinx-toolbox from 3.8.1 to 3.8.2 (#482),"Bump sphinx-toolbox from 3.8.1 to 3.8.2 (#482)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 3.8.1 to 3.8.2.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v3.8.1...v3.8.2)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,2e5b444604027221b7aad3663faad61194f40af0,2025-02,-5,pre,2025-02-16T20:48:16-05:00,2025-02-16T20:48:16-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,0,4,0,0,0,,,,,,0,,Update README.md,Update README.md
+marcolivierarsenault/moonraker-home-assistant,308516b99f23015bd86789863607c030f3455fe1,2025-02,-5,pre,2025-02-17T07:56:40-05:00,2025-02-17T07:56:40-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,17,16,0,0,0,,,,,,0,488,update HA (#488),update HA (#488)
+marcolivierarsenault/moonraker-home-assistant,8f8a00997b248478df618c6119f90b52ed847509,2025-02,-5,pre,2025-02-18T21:14:09-05:00,2025-02-19T02:14:09Z,u520d995b24e8eb8a,u520d995b24e8eb8a@users.invalid,GitHub,noreply@github.com,1,0,6,399,3,3,176,1,,,,,,0,486,Add support for LEDs (#486),"Add support for LEDs (#486)
+
+* Add support for LEDs
+
+* Add tests
+
+* Tidy up
+
+* Iterate
+
+* 100% covg
+
+* Add docs
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,5d9f5eab366931e1c8cc840ed8b327cce8944db4,2025-02,-5,pre,2025-02-18T21:19:47-05:00,2025-02-19T03:19:47+01:00,u027170bc3d7fadac,u027170bc3d7fadac@users.invalid,GitHub,noreply@github.com,1,0,3,13,0,2,10,0,,,,,,0,478,"add ""Reset Totals"" button (#478)","add ""Reset Totals"" button (#478)
+
+* add ""Reset Totals"" button
+
+* disable by default the ""Reset Totals"" button
+
+* add ""Reset Totals"" button to docs
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,9fc8ec864c791a34f5adbe94093b9328ccababf6,2025-02,-5,pre,2025-02-19T02:20:46Z,2025-02-19T02:20:46Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.6.0,1.6.0
+marcolivierarsenault/moonraker-home-assistant,322332e859d59cbd70c65ae3fc52257762e8acbf,2025-02,-5,pre,2025-02-22T01:48:27Z,2025-02-22T01:48:27Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,1,11,4,0,0,0,,,,,,0,,update dev container,update dev container
+marcolivierarsenault/moonraker-home-assistant,d89347d0e9aa38193126a348bfdebb552e60e737,2025-02,-5,pre,2025-02-21T20:54:33-05:00,2025-02-21T20:54:33-05:00,ue012d6da2fc54bc1,ue012d6da2fc54bc1@users.invalid,GitHub,noreply@github.com,1,0,3,98,31,1,52,17,,,,,,0,489,Lots of changes to the new neopixel support (#489),"Lots of changes to the new neopixel support (#489)
+
+* Lots of changes to the new neopixel support
+
+- Set attributes to update locally when making changes.  This makes the interface more responsive instead of waiting for the state to refresh.  Changes are now reflected instantly.
+
+- Implement dimming with colors.  Previously, dimming would revert to white only, regardless of what the separate rgbw values were.  Now, it will scale with whatever the brightest value is, so a value of 128,50,5,0 at 50% will scale to 255,100,10,0 at 100%.
+
+- Fix brightness calculation.  Brightness used to be calculated based on the white value.  Now, it's based on the brightest of rgbw.
+
+- Fix on off functionality.  There was a bug where a brightness value of 0 could never be set, even when the led was off.  Now, there is a check to see if the light is off before converting the decimal value of brightness to a 255 based value.
+
+* Clean up leftover variable
+
+* Tweak tests to test dimming of colors.
+
+* adding a test for the b led
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,674d696e845825dd7717fc5200bc1f38c3ed8dfa,2025-02,-5,pre,2025-02-22T13:45:28-05:00,2025-02-22T13:45:28-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,26,15,1,17,9,,,,,,0,491,update ETA to hours (#491),update ETA to hours (#491)
+marcolivierarsenault/moonraker-home-assistant,2ad2649be07616d018c99381c3a9f4b30b957ffa,2025-02,-5,pre,2025-02-25T20:14:29-05:00,2025-02-25T20:14:29-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,6,6,0,0,0,,,,,,0,496,update deps (#496),update deps (#496)
+marcolivierarsenault/moonraker-home-assistant,8a290f03d193a963990361b41860603b6b7baf89,2025-03,-4,pre,2025-03-02T08:04:49-05:00,2025-03-02T08:04:49-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,77,1,1,17,0,,,,,,0,499,add action to send custom gcode (#499),add action to send custom gcode (#499)
+marcolivierarsenault/moonraker-home-assistant,4cccd7f502b12ab3a78a04af539a279e6be1e47d,2025-03,-4,pre,2025-03-02T08:45:30-05:00,2025-03-02T08:45:30-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,22,7,1,1,1,,,,,,0,500,fix queue state sensor (#500),fix queue state sensor (#500)
+marcolivierarsenault/moonraker-home-assistant,45e66ea0cfb2dedfab1f77d9c2e23c797ce709db,2025-03,-4,pre,2025-03-02T17:29:07-05:00,2025-03-02T17:29:07-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,52,57,0,0,0,,,,,,0,502,optimize tests (#502),optimize tests (#502)
+marcolivierarsenault/moonraker-home-assistant,000ff960610a6c0eedf15f72bbb68b5964f25331,2025-03,-4,pre,2025-03-03T17:08:19-05:00,2025-03-03T17:08:19-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,506,Bump pytest-homeassistant-custom-component from 0.13.215 to 0.13.219 (#506),"Bump pytest-homeassistant-custom-component from 0.13.215 to 0.13.219 (#506)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.215 to 0.13.219.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.215...0.13.219)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,550d1e812f482201cda768f7f9cd6c2c21c99e56,2025-03,-4,pre,2025-03-03T17:11:11-05:00,2025-03-03T17:11:11-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,505,Bump sphinx-toolbox from 3.8.3 to 3.9.0 (#505),"Bump sphinx-toolbox from 3.8.3 to 3.9.0 (#505)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 3.8.3 to 3.9.0.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v3.8.3...v3.9.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,f18f008b58340d9abbdc6fd409d58faf62543e29,2025-03,-4,pre,2025-03-04T06:58:23-05:00,2025-03-04T06:58:23-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,504,Bump ruff from 0.9.7 to 0.9.9 (#504),"Bump ruff from 0.9.7 to 0.9.9 (#504)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.9.7 to 0.9.9.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.9.7...0.9.9)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,4d23d947ce474d1ed4d9d82b0e40e605af2183ac,2025-03,-4,pre,2025-03-04T07:01:36-05:00,2025-03-04T07:01:36-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,503,Bump sphinx from 8.2.1 to 8.2.3 (#503),"Bump sphinx from 8.2.1 to 8.2.3 (#503)
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.2.1 to 8.2.3.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.2.1...v8.2.3)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,0a4ecb723d64a8dac4b40802811b15f1b1858d31,2025-03,-4,pre,2025-03-05T08:37:07-05:00,2025-03-05T08:37:07-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,28,0,0,0,0,,,,,,0,508,add doc about changing printer target (#508),add doc about changing printer target (#508)
+marcolivierarsenault/moonraker-home-assistant,366be8b5c23d5739773281bf4875404fe7ec01ee,2025-03,-4,pre,2025-03-08T08:31:49-05:00,2025-03-08T08:31:49-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,175,26,2,97,19,,,,,,0,511,Temp control (#511),"Temp control (#511)
+
+* move target from sensor to numbers
+
+* add update test"
+marcolivierarsenault/moonraker-home-assistant,c6f24fd9a64ddc243ae367c1ca24a68ab5c8971c,2025-03,-4,pre,2025-03-11T19:52:30-04:00,2025-03-11T19:52:30-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,5,70,6,1,45,0,,,,,,0,490,add rpm sensor for fan (#490),"add rpm sensor for fan (#490)
+
+* add rpm sensor for fan
+
+* int values and rename to RPM
+
+* fix copy paste
+
+* auto add/remove sensor based on data availablity
+
+* add documentation
+
+* add missing test"
+marcolivierarsenault/moonraker-home-assistant,ca5bee187ecb3cb49a52f22899295f35966a284f,2025-03,-4,pre,2025-03-11T19:56:13-04:00,2025-03-11T19:56:13-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,513,Bump ruff from 0.9.9 to 0.9.10 (#513),"Bump ruff from 0.9.9 to 0.9.10 (#513)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.9.9 to 0.9.10.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.9.9...0.9.10)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,6d01e27cfa67833277546bf5b3db9e9515ed7218,2025-03,-4,pre,2025-03-11T20:05:04-04:00,2025-03-11T20:05:04-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,512,Bump pytest-homeassistant-custom-component from 0.13.219 to 0.13.222 (#512),"Bump pytest-homeassistant-custom-component from 0.13.219 to 0.13.222 (#512)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.219 to 0.13.222.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.219...0.13.222)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,46a0a98d3b38d4b9ff0f816848c470b99981bf04,2025-03,-4,pre,2025-03-11T20:26:14-04:00,2025-03-11T20:26:14-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,3,3,1,1,1,,,,,,0,501,1.7.0 (#501),1.7.0 (#501)
+marcolivierarsenault/moonraker-home-assistant,9c5a9d28443baae7d4c1672b0af5fccd5e72dd24,2025-03,-4,pre,2025-03-22T16:02:01-04:00,2025-03-22T16:02:01-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,520,Bump pytest-homeassistant-custom-component from 0.13.222 to 0.13.224 (#520),"Bump pytest-homeassistant-custom-component from 0.13.222 to 0.13.224 (#520)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.222 to 0.13.224.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.222...0.13.224)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,69215f91f070ab75013679d37723da19e623380e,2025-03,-4,pre,2025-03-28T19:16:11-04:00,2025-03-28T19:16:11-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,524,Bump pre-commit from 4.1.0 to 4.2.0 (#524),"Bump pre-commit from 4.1.0 to 4.2.0 (#524)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.1.0 to 4.2.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.1.0...v4.2.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,2f759ebf62b9adf2341a24d149b5c219fd76ab31,2025-03,-4,pre,2025-03-28T19:30:31-04:00,2025-03-28T19:30:31-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,523,Bump ruff from 0.9.10 to 0.11.2 (#523),"Bump ruff from 0.9.10 to 0.11.2 (#523)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.9.10 to 0.11.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.9.10...0.11.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,852a7d00c6f932e5a1032f8c9a6e9728060264ca,2025-04,-3,pre,2025-04-11T20:25:39-04:00,2025-04-11T20:25:39-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,529,Bump ruff from 0.11.2 to 0.11.4 (#529),"Bump ruff from 0.11.2 to 0.11.4 (#529)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.11.2 to 0.11.4.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.11.2...0.11.4)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.11.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,53ba7eacfd802b769cc5eee337b69ebbc9961193,2025-04,-3,pre,2025-04-16T15:55:40-04:00,2025-04-16T21:55:40+02:00,u3a6a7ce01e2bb15e,u3a6a7ce01e2bb15e@users.invalid,GitHub,noreply@github.com,1,0,4,15,2,2,11,2,,,,,,0,531,"Add ""Start Print from Queue"" button  (#531)","Add ""Start Print from Queue"" button  (#531)
+
+* add start print from queue button
+
+* update icon
+
+* add new button to docs
+
+* fix test"
+marcolivierarsenault/moonraker-home-assistant,72299679018f3eaf70be589ea97ab7b6d15b2992,2025-04,-3,pre,2025-04-20T08:15:09-04:00,2025-04-20T08:15:09-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,530,Bump ruff from 0.11.4 to 0.11.5 (#530),"Bump ruff from 0.11.4 to 0.11.5 (#530)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.11.4 to 0.11.5.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.11.4...0.11.5)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.11.5
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,5ab76f385b2e3b84bda42948813040c8ca119615,2025-04,-3,pre,2025-04-20T08:27:52-04:00,2025-04-20T08:27:52-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,1,2,0,0,0,,,,,,0,533,update home-assistant (#533),update home-assistant (#533)
+marcolivierarsenault/moonraker-home-assistant,d054c7c23c55c2402fad5d64a6a135453e68b144,2025-04,-3,pre,2025-04-20T09:26:18-04:00,2025-04-20T09:26:18-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,6,0,1,6,0,,,,,,0,534,target unit is celsius (#534),target unit is celsius (#534)
+marcolivierarsenault/moonraker-home-assistant,4660d4d377637d2bbcd2297f12dfc9c72cf9693b,2025-04,-3,pre,2025-04-20T13:51:03Z,2025-04-20T13:51:03Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.7.1,1.7.1
+marcolivierarsenault/moonraker-home-assistant,ab568143b51e785b9449dc1c3b6b089fadacae35,2025-04,-3,pre,2025-04-20T14:13:22-04:00,2025-04-20T14:13:22-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,1,1,0,,,,,,0,535,close connection on unauthorized (#535),close connection on unauthorized (#535)
+marcolivierarsenault/moonraker-home-assistant,53bac0d5c66d6597679776a1982b89d2d9cef16c,2025-04,-3,pre,2025-04-20T20:06:20-04:00,2025-04-20T20:06:20-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,116,28,2,44,26,,,,,,0,537,Move sensors to number (#537),"Move sensors to number (#537)
+
+* move speed to sensor
+
+* code works
+
+* some of the test working
+
+* speed is working"
+marcolivierarsenault/moonraker-home-assistant,ca08ea0ccff8f1e96346d9df619d7fab89da1c52,2025-04,-3,pre,2025-04-21T07:45:06-04:00,2025-04-21T07:45:06-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,111,29,2,41,13,,,,,,0,538,basic fan is now a number (#538),"basic fan is now a number (#538)
+
+* basic fan is now a number
+
+* adjust testing"
+marcolivierarsenault/moonraker-home-assistant,1c343b9fa49490cc8cd5e4b282b64643b3fb1a92,2025-04,-3,pre,2025-04-28T20:31:19-04:00,2025-04-28T20:31:19-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,543,Bump ruff from 0.11.6 to 0.11.7 (#543),"Bump ruff from 0.11.6 to 0.11.7 (#543)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.11.6 to 0.11.7.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.11.6...0.11.7)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.11.7
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,3f65fcb0e9d0e95392db793b29934023b7771fc9,2025-05,-2,pre,2025-05-02T07:21:47-04:00,2025-05-02T07:21:47-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,28,5,1,6,3,,,,,,0,536,add edge case for missing estimated revenue (#536),add edge case for missing estimated revenue (#536)
+marcolivierarsenault/moonraker-home-assistant,aaa766c0adb438bbeb426c69ba5a753708806b85,2025-05,-2,pre,2025-05-02T07:25:52-04:00,2025-05-02T07:25:52-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,3,3,1,1,1,,,,,,0,539,1.8.0 (#539),1.8.0 (#539)
+marcolivierarsenault/moonraker-home-assistant,b38eb27bb4a366abf82adee0c01522fcb428a8d2,2025-07,0,m0,2025-07-14T07:55:00-04:00,2025-07-14T07:55:00-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,5,4,0,0,0,,,,,,0,571,update deps (#571),"update deps (#571)
+
+* update deps
+
+* add pyturbo"
+marcolivierarsenault/moonraker-home-assistant,ad507db3b3d4efa193e92d17b6ef5d0874090d0e,2025-07,0,m0,2025-07-14T07:57:11-04:00,2025-07-14T07:57:11-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,5,0,0,0,0,,B,copilot,trailer;identity,,0,544,Potential fix for code scanning alert no. 4: Workflow does not contain permissions (#544),"Potential fix for code scanning alert no. 4: Workflow does not contain permissions (#544)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,674127daf07fc78fcc4e36112f76b857b7be13fe,2025-07,0,m0,2025-07-14T08:17:53-04:00,2025-07-14T14:17:53+02:00,u363a99226c079f72,u363a99226c079f72@users.invalid,GitHub,noreply@github.com,1,0,5,174,0,2,55,0,,,,,,0,555,Add Service Start/Stop/Restart buttons (#555),"Add Service Start/Stop/Restart buttons (#555)
+
+* Added Service Start/Stop/Restart buttons
+
+Adds buttons to start, stop, and restart all services listed in Moonraker's `available_services`. Each button sends the appropriate RPC call to control the service via Home Assistant.
+
+* Add docs
+
+* Updated tests
+
+Includes test to stop klipper service
+
+* fixed code formatting
+
+* Update custom_components/moonraker/button.py
+
+Co-authored-by: u507a5584e1b9ae39 <u507a5584e1b9ae39@users.invalid>
+
+* Update custom_components/moonraker/button.py
+
+Co-authored-by: u507a5584e1b9ae39 <u507a5584e1b9ae39@users.invalid>
+
+* Update custom_components/moonraker/button.py
+
+Co-authored-by: u507a5584e1b9ae39 <u507a5584e1b9ae39@users.invalid>
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>
+Co-authored-by: u507a5584e1b9ae39 <u507a5584e1b9ae39@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,c6c531c7f64acfd1631e5184cd2b5b66e1ef2024,2025-07,0,m0,2025-07-14T08:23:25-04:00,2025-07-14T08:23:25-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,B,copilot,trailer;identity,,0,572,Potential fix for code scanning alert no. 2: Workflow does not contain permissions (#572),"Potential fix for code scanning alert no. 2: Workflow does not contain permissions (#572)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,678ddcb564b0968f02fd00bd6e0198e8d310de24,2025-07,0,m0,2025-07-14T08:32:07-04:00,2025-07-14T08:32:07-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,570,Bump ruff from 0.11.7 to 0.12.2 (#570),"Bump ruff from 0.11.7 to 0.12.2 (#570)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.11.7 to 0.12.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.11.7...0.12.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.12.2
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,902d601534d7781492421e8ad7e7d767804ef39d,2025-07,0,m0,2025-07-14T08:38:55-04:00,2025-07-14T08:38:55-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,3,3,1,1,1,,,,,,0,573,1.9.0 (#573),1.9.0 (#573)
+marcolivierarsenault/moonraker-home-assistant,615eb105db2dc8fbbdc68fffa628ef869170dc60,2025-07,0,m0,2025-07-16T07:14:02-04:00,2025-07-16T13:14:02+02:00,u9a17b6349e7ed2ab,u9a17b6349e7ed2ab@users.invalid,GitHub,noreply@github.com,1,0,1,18,7,1,18,7,,,,,,0,574,Fix compatibility with Kobra 3 (#574),Fix compatibility with Kobra 3 (#574)
+marcolivierarsenault/moonraker-home-assistant,3e9b32e3552ffa7e793efea3d3e2ddfb5b72a4f7,2025-07,0,m0,2025-07-16T07:22:48-04:00,2025-07-16T07:22:48-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,11,8,1,11,8,,,,,,0,575,update max temp (#575),update max temp (#575)
+marcolivierarsenault/moonraker-home-assistant,b8bc486c75b69e330dd7b1462f5f609b08a0e12a,2025-07,0,m0,2025-07-16T07:37:53-04:00,2025-07-16T07:37:53-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,84,3,1,39,1,,,,,,0,576,add home axis button (#576),add home axis button (#576)
+marcolivierarsenault/moonraker-home-assistant,4fa7b5596efb482184baae79de7dab53f34d998d,2025-07,0,m0,2025-07-16T07:50:00-04:00,2025-07-16T07:50:00-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,5,4,1,3,3,,,,,,0,577,fix linting (#577),fix linting (#577)
+marcolivierarsenault/moonraker-home-assistant,9f746c92cd217a82a673230eba2949d223ac0b15,2025-07,0,m0,2025-07-16T08:10:01-04:00,2025-07-16T08:10:01-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,82,1,1,13,0,,,,,,0,579,Update polling (#579),"Update polling (#579)
+
+* update polling to fast when printing
+
+* add tests"
+marcolivierarsenault/moonraker-home-assistant,23982631f47a4f2a52010a8227ecf75a8162d9df,2025-07,0,m0,2025-07-16T12:17:14Z,2025-07-16T12:17:14Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.10.0,1.10.0
+marcolivierarsenault/moonraker-home-assistant,a6c7656f5fc8f01d0025a02d62bf904d79f21fd0,2025-07,0,m0,2025-07-17T13:48:11-04:00,2025-07-17T13:48:11-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,14,88,68,10,70,53,,,,,,0,580,Fix errors (#580),"Fix errors (#580)
+
+* fix python linting
+
+* finish tests"
+marcolivierarsenault/moonraker-home-assistant,a3b83972bbd5a571bb7304715ca8c11d255807f5,2025-07,0,m0,2025-07-22T06:56:33-04:00,2025-07-22T06:56:33-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,583,Bump ruff from 0.12.3 to 0.12.4 (#583),"Bump ruff from 0.12.3 to 0.12.4 (#583)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.12.3 to 0.12.4.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.12.3...0.12.4)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.12.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,8e32e8bd866ccd1528b697c9a8b85d472104aa14,2025-07,0,m0,2025-07-22T07:00:17-04:00,2025-07-22T07:00:17-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,582,Bump furo from 2024.8.6 to 2025.7.19 (#582),"Bump furo from 2024.8.6 to 2025.7.19 (#582)
+
+Bumps [furo](https://github.com/pradyunsg/furo) from 2024.8.6 to 2025.7.19.
+- [Release notes](https://github.com/pradyunsg/furo/releases)
+- [Changelog](https://github.com/pradyunsg/furo/blob/main/docs/changelog.md)
+- [Commits](https://github.com/pradyunsg/furo/compare/2024.08.06...2025.07.19)
+
+---
+updated-dependencies:
+- dependency-name: furo
+  dependency-version: 2025.7.19
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,05fe13c57fc5266e07e064187aaec413dc21f615,2025-07,0,m0,2025-07-29T10:46:27-04:00,2025-07-29T10:46:27-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,585,Bump ruff from 0.12.4 to 0.12.5 (#585),"Bump ruff from 0.12.4 to 0.12.5 (#585)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.12.4 to 0.12.5.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.12.4...0.12.5)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.12.5
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,68a1ca6d96488a8538794cbe033ed7c6de14cd56,2025-08,1,post,2025-08-16T10:37:09-04:00,2025-08-16T10:37:09-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,590,Bump ruff from 0.12.5 to 0.12.8 (#590),"Bump ruff from 0.12.5 to 0.12.8 (#590)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.12.5 to 0.12.8.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.12.5...0.12.8)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.12.8
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,e7e98815cbd537e4a2d3d78013f38d30e8d80816,2025-08,1,post,2025-08-16T10:46:26-04:00,2025-08-16T10:46:26-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,589,Bump pre-commit from 4.2.0 to 4.3.0 (#589),"Bump pre-commit from 4.2.0 to 4.3.0 (#589)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.2.0 to 4.3.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.2.0...v4.3.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-version: 4.3.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,c5efd09f77285e8727b79b7880ca41919bf277c0,2025-08,1,post,2025-08-16T10:50:47-04:00,2025-08-16T10:50:47-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,4,4,0,0,0,,,,,dependabot,0,588,Bump actions/checkout from 4 to 5 (#588),"Bump actions/checkout from 4 to 5 (#588)
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,0e42c2b9abb8f1821453ede180987ce327dbf8e6,2025-09,2,post,2025-09-05T15:12:08-04:00,2025-09-05T15:12:08-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,597,Bump ruff from 0.12.8 to 0.12.10 (#597),"Bump ruff from 0.12.8 to 0.12.10 (#597)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.12.8 to 0.12.10.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.12.8...0.12.10)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.12.10
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,e72c9223ef619ba1b7b556bce48b389bbab0476a,2025-09,2,post,2025-09-21T07:34:43-04:00,2025-09-21T07:34:43-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,29,0,0,0,0,AGENTS.md,,,,,0,603,add AGENTS.md (#603),add AGENTS.md (#603)
+marcolivierarsenault/moonraker-home-assistant,6445565c20d8c87b4fcf919d61cd6779c58c1623,2025-09,2,post,2025-09-21T07:35:01-04:00,2025-09-21T07:35:01-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,600,Bump ruff from 0.12.10 to 0.13.0 (#600),"Bump ruff from 0.12.10 to 0.13.0 (#600)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.12.10 to 0.13.0.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.12.10...0.13.0)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.13.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,92dc84dcb0e0104795d076c012acec4a19241f98,2025-09,2,post,2025-09-21T07:35:29-04:00,2025-09-21T07:35:29-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,598,Bump actions/setup-python from 5 to 6 (#598),"Bump actions/setup-python from 5 to 6 (#598)
+
+Bumps [actions/setup-python](https://github.com/actions/setup-python) from 5 to 6.
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-python
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,96903904835da335c779b26383910792079b188f,2025-09,2,post,2025-09-22T20:51:54-04:00,2025-09-22T20:51:54-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,605,Bump ruff from 0.13.0 to 0.13.1 (#605),"Bump ruff from 0.13.0 to 0.13.1 (#605)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.13.0 to 0.13.1.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.13.0...0.13.1)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.13.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,872ad4776a35003cf10a5153e67683cc6dd67500,2025-10,3,post,2025-10-19T07:57:02-04:00,2025-10-19T07:57:02-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,137,4,1,53,2,,,,,,0,610,Add temperature fan target control (#610),Add temperature fan target control (#610)
+marcolivierarsenault/moonraker-home-assistant,af090f5a9a52090005b70e64118daf6cd041f7bd,2025-10,3,post,2025-10-19T08:02:13-04:00,2025-10-19T08:02:13-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,608,Bump furo from 2025.7.19 to 2025.9.25 (#608),"Bump furo from 2025.7.19 to 2025.9.25 (#608)
+
+Bumps [furo](https://github.com/pradyunsg/furo) from 2025.7.19 to 2025.9.25.
+- [Release notes](https://github.com/pradyunsg/furo/releases)
+- [Changelog](https://github.com/pradyunsg/furo/blob/main/docs/changelog.md)
+- [Commits](https://github.com/pradyunsg/furo/compare/2025.07.19...2025.09.25)
+
+---
+updated-dependencies:
+- dependency-name: furo
+  dependency-version: 2025.9.25
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,655ac8a40b8befe2d29419c6bf7db677c8010436,2025-10,3,post,2025-10-19T08:06:12-04:00,2025-10-19T08:06:12-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,614,Bump ruff from 0.13.1 to 0.14.0 (#614),"Bump ruff from 0.13.1 to 0.14.0 (#614)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.13.1 to 0.14.0.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.13.1...0.14.0)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.14.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,704769b5446cde481b7eda7af405fa93e44fae62,2025-10,3,post,2025-10-19T08:10:45-04:00,2025-10-19T08:10:45-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,613,Bump pytest-homeassistant-custom-component from 0.13.261 to 0.13.287 (#613),"Bump pytest-homeassistant-custom-component from 0.13.261 to 0.13.287 (#613)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.261 to 0.13.287.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.261...0.13.287)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.287
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,cfe701228f8ab5df4d6a643742b3759baf154202,2025-10,3,post,2025-10-19T08:42:23-04:00,2025-10-19T08:42:23-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,15,0,1,10,0,,,,,,0,615,idle timeout state (#615),idle timeout state (#615)
+marcolivierarsenault/moonraker-home-assistant,e1f05b01c46afb2b1aea1736fdec02737ef66927,2025-10,3,post,2025-10-19T09:04:48-04:00,2025-10-19T09:04:48-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,83,2,1,29,0,,,,,,0,616,add mms sensor (#616),add mms sensor (#616)
+marcolivierarsenault/moonraker-home-assistant,615163bfc3872b9bbf41f1e5c49aa4be473ebd47,2025-10,3,post,2025-10-19T13:05:14Z,2025-10-19T13:05:14Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.11.0,1.11.0
+marcolivierarsenault/moonraker-home-assistant,61a2e308022c888265ad6b03377d542bf168c279,2025-10,3,post,2025-10-25T07:57:22-04:00,2025-10-25T07:57:22-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,618,Bump colorlog from 6.9.0 to 6.10.1 (#618),"Bump colorlog from 6.9.0 to 6.10.1 (#618)
+
+Bumps [colorlog](https://github.com/borntyping/python-colorlog) from 6.9.0 to 6.10.1.
+- [Release notes](https://github.com/borntyping/python-colorlog/releases)
+- [Commits](https://github.com/borntyping/python-colorlog/compare/v6.9.0...v6.10.1)
+
+---
+updated-dependencies:
+- dependency-name: colorlog
+  dependency-version: 6.10.1
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,38e8b7f21466fae60bbdbeb3b99979edf133e008,2025-10,3,post,2025-10-25T08:42:46-04:00,2025-10-25T08:42:46-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,40,4,1,7,1,,,,,,0,621,fix dependance on ContexVar (#621),fix dependance on ContexVar (#621)
+marcolivierarsenault/moonraker-home-assistant,7da1112557be3e9dfbcedd00d9aa68e6a67313f8,2025-10,3,post,2025-10-25T11:44:24-04:00,2025-10-25T11:44:24-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,26,0,1,4,0,,,,,,0,623,address 565 (#623),address 565 (#623)
+marcolivierarsenault/moonraker-home-assistant,b285c749af97b174bd0531277d08d63499b8d386,2025-10,3,post,2025-10-25T11:47:54-04:00,2025-10-25T11:47:54-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,68,12,1,6,1,,,,,,0,622,Move macro to disable by default (#622),"Move macro to disable by default (#622)
+
+* move macro to disable by default
+
+* add test"
+marcolivierarsenault/moonraker-home-assistant,463caa02e46e98ee287bfeaa51227d332abe70f7,2025-10,3,post,2025-10-25T12:19:08-04:00,2025-10-25T12:19:08-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,129,26,1,41,26,,,,,,0,624,Adjust current layer calculation (#624),"Adjust current layer calculation (#624)
+
+* adjust current layer calculation
+
+* adjusted algo"
+marcolivierarsenault/moonraker-home-assistant,1ecb9e1b1d6bba35c3cd2fbeeecfdbc50bc147bc,2025-10,3,post,2025-10-25T13:48:09-04:00,2025-10-25T13:48:09-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,5,190,16,2,29,14,,,,,,0,625,add generic heater target as number (#625),add generic heater target as number (#625)
+marcolivierarsenault/moonraker-home-assistant,9fe7bd2764d2b9324f93a1ce3acb16f8ad490e6a,2025-10,3,post,2025-10-27T17:12:52-04:00,2025-10-27T17:12:52-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,627,Bump ruff from 0.14.1 to 0.14.2 (#627),"Bump ruff from 0.14.1 to 0.14.2 (#627)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.14.1 to 0.14.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.14.1...0.14.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.14.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,7b42d07b81c5bd8b6baccf52dcc03c927b3dc23d,2025-11,4,post,2025-11-01T09:29:42-04:00,2025-11-01T09:29:42-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,334,15,1,67,7,,,,,,0,629,fix gcode service def (#629),"fix gcode service def (#629)
+
+* fix gcode service def
+
+* manage new gcode
+
+* add relevant test
+
+* update default log"
+marcolivierarsenault/moonraker-home-assistant,1ceaf78a459f17d6a8084cb4de5b9c9e952201a1,2025-11,4,post,2025-11-01T09:31:58-04:00,2025-11-01T09:31:58-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,41,4,1,15,4,,,,,,0,626,fix missing sensor in 1.11 (#626),"fix missing sensor in 1.11 (#626)
+
+* fix missing sensor in 1.11
+
+* change api return
+
+* revert return"
+marcolivierarsenault/moonraker-home-assistant,12015c88cd48c5ca2cc946b1e1d5ac06d551a565,2025-11,4,post,2025-11-01T09:55:25-04:00,2025-11-01T14:55:25+01:00,ua3d40dabc2802f0d,ua3d40dabc2802f0d@users.invalid,GitHub,noreply@github.com,1,0,2,107,150,1,87,123,,,,,,0,628,* Remove rounding of sensor values in favor of suggested_display_precision (#628),"* Remove rounding of sensor values in favor of suggested_display_precision (#628)
+
+* Update magic values in sensor tests with non-rounded values
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,342824f26656d137008f610ca68b2bb8523a5adf,2025-11,4,post,2025-11-01T13:56:01Z,2025-11-01T13:56:01Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.11.1,1.11.1
+marcolivierarsenault/moonraker-home-assistant,f55f47a4dbdbe0b73022c5117c647d0ebe75268d,2025-11,4,post,2025-11-06T08:12:07-05:00,2025-11-06T08:12:07-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,632,Bump pytest-homeassistant-custom-component from 0.13.289 to 0.13.291 (#632),"Bump pytest-homeassistant-custom-component from 0.13.289 to 0.13.291 (#632)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.289 to 0.13.291.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.289...0.13.291)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.291
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,17d493a8f15593faab2deb3bb0bfd47c17dc00b9,2025-11,4,post,2025-11-16T07:05:01-05:00,2025-11-16T07:05:01-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,638,Bump ruff from 0.14.2 to 0.14.4 (#638),"Bump ruff from 0.14.2 to 0.14.4 (#638)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.14.2 to 0.14.4.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.14.2...0.14.4)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.14.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,7e32fa37d88cdb9a7aed278dd1601a7d5fe57fdf,2025-11,4,post,2025-11-16T07:08:43-05:00,2025-11-16T07:08:43-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,640,Bump pytest-homeassistant-custom-component from 0.13.291 to 0.13.295 (#640),"Bump pytest-homeassistant-custom-component from 0.13.291 to 0.13.295 (#640)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.291 to 0.13.295.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.291...0.13.295)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.295
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d07e8deea5f9f729ff166f1d7e81088d4a0f700a,2025-11,4,post,2025-11-16T07:15:01-05:00,2025-11-16T07:15:01-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,639,Bump pre-commit from 4.3.0 to 4.4.0 (#639),"Bump pre-commit from 4.3.0 to 4.4.0 (#639)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.3.0 to 4.4.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.3.0...v4.4.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-version: 4.4.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,443850659e0915f13ac48e9e22f94699cb87f04a,2025-11,4,post,2025-11-16T07:50:28-05:00,2025-11-16T07:50:28-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,4,115,18,2,37,17,,,,,,0,642,Handle idle timeout complete state and improve coverage (#642),Handle idle timeout complete state and improve coverage (#642)
+marcolivierarsenault/moonraker-home-assistant,cbf53920b6808b4346dfdf63b638b84e851eec1d,2025-12,5,post,2025-12-20T09:25:26-05:00,2025-12-20T09:25:26-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,647,Bump pre-commit from 4.4.0 to 4.5.0 (#647),"Bump pre-commit from 4.4.0 to 4.5.0 (#647)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.4.0 to 4.5.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.4.0...v4.5.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-version: 4.5.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,07b4dc62e1f91df5b29d5dc93b389d8080aad49e,2025-12,5,post,2025-12-20T10:03:15-05:00,2025-12-20T10:03:15-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,5,8,12,1,1,5,,,,,,0,664,Update deps (#664),"Update deps (#664)
+
+* updates
+
+* update deps
+
+* add checkout action"
+marcolivierarsenault/moonraker-home-assistant,fffebf4c5186fa14444709fd87e7bbcc7f76be7f,2025-12,5,post,2025-12-20T10:09:40-05:00,2025-12-20T10:09:40-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,658,Bump sphinx-toolbox from 4.0.0 to 4.1.0 (#658),"Bump sphinx-toolbox from 4.0.0 to 4.1.0 (#658)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 4.0.0 to 4.1.0.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v4.0.0...v4.1.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-version: 4.1.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,dcb602a8fcc1141faafed2546c7d1da17ce1b58b,2025-12,5,post,2025-12-22T08:42:15-05:00,2025-12-22T14:42:15+01:00,u3478ae310b47ef4a,u3478ae310b47ef4a@users.invalid,GitHub,noreply@github.com,1,0,2,8,5,1,5,3,,,,,,0,651,Rounds to Nearest Minute for End Time (#651),"Rounds to Nearest Minute for End Time (#651)
+
+* Rounds to Nearest Minute for End Time
+
+* Updating tests
+
+---------
+
+Co-authored-by: u9da5760ef834a772 <u9da5760ef834a772@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,134c5cab3c13be7ccb13c1ba788c14c13d3fca54,2025-12,5,post,2025-12-22T10:50:46-05:00,2025-12-22T15:50:46Z,uce4aea53f1a223aa,uce4aea53f1a223aa@users.invalid,GitHub,noreply@github.com,1,0,2,141,52,1,49,52,,B,copilot,trailer,,0,663,Fix light control methods for RGBW support (#663),"Fix light control methods for RGBW support (#663)
+
+* Fix light control methods for RGBW support
+
+* Fix linting error
+
+* Remove unused import for color
+
+* Update custom_components/moonraker/light.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update custom_components/moonraker/light.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update custom_components/moonraker/light.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update custom_components/moonraker/light.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Remove blank line to fix stuck pending checks
+
+* Add tests for RGBW light functionality and error handling.
+
+* Fix whitespace issues in test_light.py
+
+* Fix data being applied after setup of entities
+
+* Fix formatting in test_light.py
+
+---------
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,7e32194fcbc10010c84a255ef5755a97d9dadb79,2025-12,5,post,2025-12-22T13:22:41-05:00,2025-12-22T13:22:41-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,38,6,1,23,3,,,,,,0,666,Fix idle timeout enum mapping (#666),Fix idle timeout enum mapping (#666)
+marcolivierarsenault/moonraker-home-assistant,d330c0543930eda4a410beb15a1bd4d3e43a6b9c,2025-12,5,post,2025-12-23T08:07:46-05:00,2025-12-23T08:07:46-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,668,Bump furo from 2025.9.25 to 2025.12.19 (#668),"Bump furo from 2025.9.25 to 2025.12.19 (#668)
+
+Bumps [furo](https://github.com/pradyunsg/furo) from 2025.9.25 to 2025.12.19.
+- [Release notes](https://github.com/pradyunsg/furo/releases)
+- [Changelog](https://github.com/pradyunsg/furo/blob/main/docs/changelog.md)
+- [Commits](https://github.com/pradyunsg/furo/compare/2025.09.25...2025.12.19)
+
+---
+updated-dependencies:
+- dependency-name: furo
+  dependency-version: 2025.12.19
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,ff6bb840c9d57bc93fec5de3c160e3fe3ed2f783,2025-12,5,post,2025-12-23T08:11:18-05:00,2025-12-23T08:11:18-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,667,Bump pre-commit from 4.5.0 to 4.5.1 (#667),"Bump pre-commit from 4.5.0 to 4.5.1 (#667)
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.5.0 to 4.5.1.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.5.0...v4.5.1)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-version: 4.5.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,894ab63da8cdde0230262cb77c1c4dd632d5b042,2025-12,5,post,2025-12-26T16:26:45-05:00,2025-12-26T13:26:45-08:00,u8573505680114c57,u8573505680114c57@users.invalid,GitHub,noreply@github.com,1,0,5,93,1,0,0,0,,B,copilot,trailer,,0,641,"Fix broken HACS installation link in README.md, add test (#641)","Fix broken HACS installation link in README.md, add test (#641)
+
+* Fix broken HACS installation link in README.md, add test
+
+* Add lychee pre-commit hook
+
+* Update .github/workflows/link-checker.yml
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update .pre-commit-config.yaml
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update .github/workflows/link-checker.yml
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Fix indentation of link-checker.yaml
+
+* Remove verbose status updates
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,4829bb2b6ca4b36607ed305ba076de9ea4b2fc50,2025-12,5,post,2025-12-26T16:33:12-05:00,2025-12-26T16:33:12-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,210,10,2,88,10,,B,copilot,trailer,,0,665,Align progress with Mainsail file-relative calculation (#665),"Align progress with Mainsail file-relative calculation (#665)
+
+* tackle pct
+
+* Add progress edge case tests
+
+* Update custom_components/moonraker/sensor.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,47917591e5f9b6fcebbd165d660f9844819030e5,2025-12,5,post,2025-12-26T16:45:04-05:00,2025-12-26T16:45:04-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,8,2,0,0,0,,,,,dependabot,0,661,Bump sphinx from 8.2.3 to 9.0.4 (#661),"Bump sphinx from 8.2.3 to 9.0.4 (#661)
+
+* Bump sphinx from 8.2.3 to 9.0.4
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.2.3 to 9.0.4.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/v9.0.4/CHANGES.rst)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.2.3...v9.0.4)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-version: 9.0.4
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* update sphinx to be compatible with compile
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,55b1af952a99a27a81dd76eb85acce6384255b4d,2025-12,5,post,2025-12-26T21:45:33Z,2025-12-26T21:44:55Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.12.0,1.12.0
+marcolivierarsenault/moonraker-home-assistant,97af0f17f7603b4924cc19e4187072f5acd75282,2025-12,5,post,2025-12-31T07:40:30-05:00,2025-12-31T07:40:30-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,669,Bump actions/upload-artifact from 4 to 6 (#669),"Bump actions/upload-artifact from 4 to 6 (#669)
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4 to 6.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/v4...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,14d29f844d9af2c2dc237fde7ff27e979ebcdd17,2025-12,5,post,2025-12-31T13:14:26Z,2025-12-31T13:14:26Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,update dev-container,update dev-container
+marcolivierarsenault/moonraker-home-assistant,6ac1b9b8f1ed3c911e290b52533b1e5d81565f49,2025-12,5,post,2025-12-31T13:38:07Z,2025-12-31T13:38:07Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,update pre-commit-config,update pre-commit-config
+marcolivierarsenault/moonraker-home-assistant,45dba0de2b9e8f8333e11bf46b8bf563db47d098,2025-12,5,post,2025-12-31T13:41:37Z,2025-12-31T13:41:37Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,update pre commit,update pre commit
+marcolivierarsenault/moonraker-home-assistant,a253002f60d790eb7c3b14f63a9eecd976922521,2025-12,5,post,2025-12-31T08:55:12-05:00,2025-12-31T08:55:12-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,3,73,17,1,14,16,,,,,,0,670,Fix update available detection (#670),"Fix update available detection (#670)
+
+* Fix update available detection
+
+* Format light tests"
+marcolivierarsenault/moonraker-home-assistant,040d7ca2f272369ff777a0aaf0b040b01f82aefc,2026-01,6,post,2026-01-01T19:33:03-05:00,2026-01-01T19:33:03-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,5,284,8,2,109,8,,B,copilot,trailer,,0,673,Normalize gcode metadata paths for thumbnails/layers (#673),"Normalize gcode metadata paths for thumbnails/layers (#673)
+
+* handle absolute paths
+
+* add test coverage
+
+* Update custom_components/moonraker/__init__.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,d4b8989831153fd5e8e14285a3d42c4540618f5a,2026-01,6,post,2026-01-02T13:06:17Z,2026-01-02T13:06:17Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.12.1,1.12.1
+marcolivierarsenault/moonraker-home-assistant,c50d1c9426af51f3ef24491b0b8872cacb60fc32,2026-01,6,post,2026-01-04T14:10:37-05:00,2026-01-04T14:10:37-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,115,18,1,34,16,,,,,,0,675,Handle missing thumbnails without warnings (#675),"Handle missing thumbnails without warnings (#675)
+
+* Handle missing thumbnails without warnings
+
+* Add tests for thumbnail selection fallbacks"
+marcolivierarsenault/moonraker-home-assistant,e0b2f47953e0da24ffd97c010532e1e8c870983a,2026-01,6,post,2026-01-04T19:11:50Z,2026-01-04T19:11:50Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.12.2,1.12.2
+marcolivierarsenault/moonraker-home-assistant,eefbe297d1df6b1e234387a70b4ad08e26374b8c,2026-01,6,post,2026-01-06T15:28:41-05:00,2026-01-06T15:28:41-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,677,Bump sphinx-toolbox from 4.1.0 to 4.1.1 (#677),"Bump sphinx-toolbox from 4.1.0 to 4.1.1 (#677)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 4.1.0 to 4.1.1.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v4.1.0...v4.1.1)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-version: 4.1.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,ad42962ed57f7ddbf69c9ce5b7b2af49abbfd4a9,2026-01,6,post,2026-01-06T15:33:05-05:00,2026-01-06T15:33:05-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,679,Bump pytest-homeassistant-custom-component from 0.13.301 to 0.13.302 (#679),"Bump pytest-homeassistant-custom-component from 0.13.301 to 0.13.302 (#679)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.301 to 0.13.302.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.301...0.13.302)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.302
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,085954795691617310b5a31b4356fc43f69b76fb,2026-01,6,post,2026-01-06T15:45:52-05:00,2026-01-06T15:45:52-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,4,4,0,0,0,,,,,dependabot,0,678,Bump sphinx from 9.0.4 to 9.1.0 (#678),"Bump sphinx from 9.0.4 to 9.1.0 (#678)
+
+* Bump sphinx from 9.0.4 to 9.1.0
+
+Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 9.0.4 to 9.1.0.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v9.0.4...v9.1.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-version: 9.1.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* update readthedoc build configs
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,8d986018bd692462cd1cc26b2b109443f763112f,2026-01,6,post,2026-01-06T20:00:50-05:00,2026-01-07T12:00:50+11:00,u3c282a54efb58fa3,u3c282a54efb58fa3@users.invalid,GitHub,noreply@github.com,1,0,2,22,4,1,2,1,,,,,,0,676,Convert layer_height to float for comparison (#676),"Convert layer_height to float for comparison (#676)
+
+* Convert layer_height to float for comparison
+
+QIDI Q2's Moonraker sometime will return the layer_height in str
+
+```
+{
+  ""result"": {
+    ""estimated_time"": 8704,
+    ""filament_weight_total"": 51.41,
+    ""nozzle_diameter"": 0.4,
+    ""filament_total"": 17810.0,
+    ""preset_colours"": [
+      ""#FE717A"",
+      ""#FFFFFF"",
+      ""#FF362D"",
+      ""#26A269"",
+      ""#FAFAFA""
+    ],
+    ""layer_height"": ""0.2"",
+    ""nozzle_temperature_initial_layer"": """",
+    ""filament_type"": ""PETG;PLA;PLA;PLA;PLA"",
+    ""filament_name"": ""Generic PETG @h86084348da38e65b Q2 0.4 nozzle;White PLA;Generic PLA @h86084348da38e65b Q2 0.4 nozzle;Green PLA;White PLA"",
+    ""used_extruders"": [
+      1,
+      3
+    ],
+    ""slicer"": ""QIDIStudio"",
+    ""slicer_version"": ""02.04.00.70"",
+    ""gcode_end_byte"": 5995818,
+    ""gcode_start_byte"": 2697,
+    ""thumbnails"": [
+      {
+        ""width"": 512,
+        ""height"": 512,
+        ""size"": 10776,
+        ""relative_path"": "".thumbs/Honeycomb Home.gcode_1-512x512.png""
+      }
+    ],
+    ""size"": 874773,
+    ""modified"": 1767565617.371331,
+    ""uuid"": ""440899b1-48cd-4581-a1d1-562a5a410fa1"",
+    ""print_start_time"": 1767565621.104729,
+    ""job_id"": ""00000F"",
+    ""filename"": ""Honeycomb Home.gcode.3mf""
+  }
+}
+```
+
+* Add test for current layer calculation with string layer height
+
+---------
+
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,09a63b74258bdde5cbf8a5c2cc384629c06fd90c,2026-01,6,post,2026-01-07T16:48:04-05:00,2026-01-07T16:48:04-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,681,Bump pytest-homeassistant-custom-component from 0.13.303 to 0.13.304 (#681),"Bump pytest-homeassistant-custom-component from 0.13.303 to 0.13.304 (#681)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.303 to 0.13.304.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.303...0.13.304)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.304
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,dff7e6c3d9b8504fa855d997d5ca7d2d58630742,2026-01,6,post,2026-01-13T16:31:15-05:00,2026-01-13T16:31:15-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,685,Bump ruff from 0.14.10 to 0.14.11 (#685),"Bump ruff from 0.14.10 to 0.14.11 (#685)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.14.10 to 0.14.11.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.14.10...0.14.11)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.14.11
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,5839bb34b10d2989610f698644646dbb4f2515bf,2026-01,6,post,2026-01-14T16:37:43-05:00,2026-01-14T16:37:43-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,40,13,1,21,10,,,,,,0,684,Handle string current_layer values (#684),"Handle string current_layer values (#684)
+
+* Handle string current_layer values
+
+* Use helper for float parsing"
+marcolivierarsenault/moonraker-home-assistant,0715224f488af089229b461dec47f9dbec88a424,2026-01,6,post,2026-01-14T21:39:00-05:00,2026-01-14T18:39:00-08:00,uc9b57ba00eae3f80,uc9b57ba00eae3f80@users.invalid,GitHub,noreply@github.com,1,0,6,221,0,2,32,0,,,,,,0,687,Spoolman - Active Spool Sensor (#687),"Spoolman - Active Spool Sensor (#687)
+
+* Spoolman - Active Spool Sensor
+
+* Addressing ""Read the Docs"" failure
+
+* Removed duplicated test test_spoolman_spool_id_sensor_null_value.
+
+* Added missing docstring to spoolman tests
+
+---------
+
+Co-authored-by: u92fc57a8fb48bf59 <u92fc57a8fb48bf59@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,9360674238b74b204f10a5edd126c61d2cd0a2be,2026-01,6,post,2026-01-15T11:48:58-05:00,2026-01-15T11:48:58-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,686,Bump pytest-homeassistant-custom-component from 0.13.304 to 0.13.305 (#686),"Bump pytest-homeassistant-custom-component from 0.13.304 to 0.13.305 (#686)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.304 to 0.13.305.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.304...0.13.305)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.305
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,b753454239c8f98261278ae316217cff8c549238,2026-01,6,post,2026-01-19T20:52:02-05:00,2026-01-19T20:52:02-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,691,Bump sphinx-toolbox from 4.1.1 to 4.1.2 (#691),"Bump sphinx-toolbox from 4.1.1 to 4.1.2 (#691)
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 4.1.1 to 4.1.2.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v4.1.1...v4.1.2)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-version: 4.1.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,ae14fd19d294ad75e093f0e0ea37a11b4badd8cd,2026-01,6,post,2026-01-19T20:55:28-05:00,2026-01-19T20:55:28-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,692,Bump pytest-homeassistant-custom-component from 0.13.306 to 0.13.307 (#692),"Bump pytest-homeassistant-custom-component from 0.13.306 to 0.13.307 (#692)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.306 to 0.13.307.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.306...0.13.307)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.307
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,b4e354df5cc0f12da7ed4d66ec5762c045b185d4,2026-01,6,post,2026-01-19T20:59:44-05:00,2026-01-19T20:59:44-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,693,Bump ruff from 0.14.11 to 0.14.13 (#693),"Bump ruff from 0.14.11 to 0.14.13 (#693)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.14.11 to 0.14.13.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.14.11...0.14.13)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.14.13
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,f600cb8b1193b0106bf783d54b178a24dacec69b,2026-01,6,post,2026-01-21T17:35:11-05:00,2026-01-21T14:35:11-08:00,uc9b57ba00eae3f80,uc9b57ba00eae3f80@users.invalid,GitHub,noreply@github.com,1,0,5,166,0,2,69,0,,,,,,0,689,Adding hall_filament_width_sensor (#689),"Adding hall_filament_width_sensor (#689)
+
+Co-authored-by: u92fc57a8fb48bf59 <u92fc57a8fb48bf59@users.invalid>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,a96d9ea439930d595d62f354e95cdab8b419a183,2026-01,6,post,2026-01-21T21:15:45-05:00,2026-01-21T18:15:45-08:00,uc9b57ba00eae3f80,uc9b57ba00eae3f80@users.invalid,GitHub,noreply@github.com,1,0,4,213,22,2,72,20,,B,copilot,trailer,,0,688,"Allow setting fan speeds, adding chamber fan sensor (#688)","Allow setting fan speeds, adding chamber fan sensor (#688)
+
+* Spoolman - Active Spool Sensor
+
+* Addressing ""Read the Docs"" failure
+
+* Removed duplicated test test_spoolman_spool_id_sensor_null_value.
+
+* Added missing docstring to spoolman tests
+
+* Added: chamber fan sensor,  fan_generic number, tests
+
+* Unit tests update for Fan Speed
+
+* Tests update (addressing codecov failure)
+
+* Tests update
+
+* Sensors doc update
+
+* Update custom_components/moonraker/number.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update tests/test_number.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+---------
+
+Co-authored-by: u92fc57a8fb48bf59 <u92fc57a8fb48bf59@users.invalid>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>
+Co-authored-by: u507a5584e1b9ae39 <u507a5584e1b9ae39@users.invalid>
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,b6cf396fedc668fd20340cefa37ed4015a5ffd88,2026-01,6,post,2026-01-22T13:30:40Z,2026-01-22T13:30:40Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.13.0,1.13.0
+marcolivierarsenault/moonraker-home-assistant,35b2d20cc5f9e576f43db8ee9e2f4baf6ed97621,2026-01,6,post,2026-01-24T07:02:04-05:00,2026-01-24T12:02:04Z,u37816558420d8735,u37816558420d8735@users.invalid,GitHub,noreply@github.com,1,0,3,79,21,1,41,17,,B,copilot,trailer,,0,682,"Display humidity for all possible klipper sensors. Prevent BME, SHT and LM75 sensors from creating a temperature entity twice. (#682)","Display humidity for all possible klipper sensors. Prevent BME, SHT and LM75 sensors from creating a temperature entity twice. (#682)
+
+* Display humidity for all possible klipper sensors. Prevent BME, SHT and LM75 sensors from creating a temperature entity twice.
+
+* Update custom_components/moonraker/sensor.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update custom_components/moonraker/sensor.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Fix the condition accessing split_obj[1] without first checking if the list has at least 2 elements.
+
+* Attempting to extend test coverage for new sensor entities
+
+* Display humidity for all possible klipper sensors. Prevent BME, SHT and LM75 sensors from creating a temperature entity twice.
+
+* Update custom_components/moonraker/sensor.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update custom_components/moonraker/sensor.py
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Fix the condition accessing split_obj[1] without first checking if the list has at least 2 elements.
+
+* Attempting to extend test coverage for new sensor entities
+
+* Fix failing tests
+
+* CI fixes
+
+---------
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,92bbfc497ebf6b340233532c4b4d2d68a8038f28,2026-01,6,post,2026-01-27T06:33:33-05:00,2026-01-27T06:33:33-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,696,Bump pytest-homeassistant-custom-component from 0.13.307 to 0.13.308 (#696),"Bump pytest-homeassistant-custom-component from 0.13.307 to 0.13.308 (#696)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.307 to 0.13.308.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.307...0.13.308)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.308
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,7bc3bc5f1b8254afd17f6286a04d88b3835d78a7,2026-01,6,post,2026-01-27T06:33:46-05:00,2026-01-27T06:33:46-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,697,Bump ruff from 0.14.13 to 0.14.14 (#697),"Bump ruff from 0.14.13 to 0.14.14 (#697)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.14.13 to 0.14.14.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.14.13...0.14.14)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.14.14
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,0181cf8d47da3dd94cf77c9861700c9b4a8f5a43,2026-01,6,post,2026-01-28T10:40:08-05:00,2026-01-28T10:40:08-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,135,10,1,62,10,,,,,,0,683,Fix total layer fallback (#683),"Fix total layer fallback (#683)
+
+* Fix total layer fallback
+
+* Use virtual sdcard layer fallback"
+marcolivierarsenault/moonraker-home-assistant,dabdebdf8cec9d4026928d3bd4ff4b4d728f39f5,2026-01,6,post,2026-01-28T20:45:35-05:00,2026-01-28T17:45:35-08:00,uc9b57ba00eae3f80,uc9b57ba00eae3f80@users.invalid,GitHub,noreply@github.com,1,0,5,24,6,1,2,0,,,,,,0,698,Adding Qidi Box temp/humidity sensor (#698),"Adding Qidi Box temp/humidity sensor (#698)
+
+* Adding Qidi Box temp/humidity sensor
+
+* Fixing tests
+
+---------
+
+Co-authored-by: u92fc57a8fb48bf59 <u92fc57a8fb48bf59@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,a5f29d8d04e8dea4f2c96efe9f636c36783041f2,2026-01,6,post,2026-01-29T01:48:03Z,2026-01-29T01:48:03Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.13.1,1.13.1
+marcolivierarsenault/moonraker-home-assistant,8efba30d44f3e656cc204e9853e7145b58e60f58,2026-02,7,post,2026-02-03T09:34:03-05:00,2026-02-03T09:34:03-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,699,Bump pytest-homeassistant-custom-component from 0.13.308 to 0.13.310 (#699),"Bump pytest-homeassistant-custom-component from 0.13.308 to 0.13.310 (#699)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.308 to 0.13.310.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.308...0.13.310)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.310
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,7860246a0d5a60e444737631376ba607538eab95,2026-02,7,post,2026-02-06T07:58:07-05:00,2026-02-06T07:58:07-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,5,98,2,2,43,1,,,,,,0,695,Add macro attributes (#695),"Add macro attributes (#695)
+
+* look at macro attribute
+
+* Add tests for macro attributes"
+marcolivierarsenault/moonraker-home-assistant,c829397be657698178282bc878d55fa1814f15c7,2026-02,7,post,2026-02-06T12:59:32Z,2026-02-06T12:59:32Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.13.2,1.13.2
+marcolivierarsenault/moonraker-home-assistant,1ac17ba4335ff592e7fcd9056db0df5f510ccd15,2026-02,7,post,2026-02-10T07:51:50-05:00,2026-02-10T07:51:50-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,701,Bump ruff from 0.14.14 to 0.15.0 (#701),"Bump ruff from 0.14.14 to 0.15.0 (#701)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.14.14 to 0.15.0.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.14.14...0.15.0)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,06c05e14dd29c602b525c10422e9b9f8aa34fb10,2026-02,7,post,2026-02-10T07:52:02-05:00,2026-02-10T07:52:02-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,702,Bump pytest-homeassistant-custom-component from 0.13.310 to 0.13.314 (#702),"Bump pytest-homeassistant-custom-component from 0.13.310 to 0.13.314 (#702)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.310 to 0.13.314.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.310...0.13.314)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.314
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,6ebf6b9689a932e786e1b573cfe7d070bd517df0,2026-02,7,post,2026-02-14T12:36:05Z,2026-02-14T12:34:26Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,10,147,25,0,0,0,AGENTS.md,,,,,0,,cloud ready scripts,cloud ready scripts
+marcolivierarsenault/moonraker-home-assistant,1062d1a62472fa7d2202c309f67789397a038121,2026-02,7,post,2026-02-17T16:19:04-05:00,2026-02-17T16:19:04-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,704,Bump ruff from 0.15.0 to 0.15.1 (#704),"Bump ruff from 0.15.0 to 0.15.1 (#704)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.15.0 to 0.15.1.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.15.0...0.15.1)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,c5354c6511a48ac7375cc1c04c08370b90b55aae,2026-02,7,post,2026-02-17T16:19:13-05:00,2026-02-17T16:19:13-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,703,Bump pytest-homeassistant-custom-component from 0.13.314 to 0.13.315 (#703),"Bump pytest-homeassistant-custom-component from 0.13.314 to 0.13.315 (#703)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.314 to 0.13.315.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.314...0.13.315)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.315
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,4c9ba8147c8d3f5100b823cda6e683e5421f6483,2026-02,7,post,2026-02-24T15:13:21-05:00,2026-02-24T15:13:21-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,708,Bump ruff from 0.15.1 to 0.15.2 (#708),"Bump ruff from 0.15.1 to 0.15.2 (#708)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.15.1 to 0.15.2.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.15.1...0.15.2)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,1cec738634849de0fda116ec9e3d6ec97ac4f416,2026-02,7,post,2026-02-24T15:13:28-05:00,2026-02-24T15:13:28-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,707,Bump pytest-homeassistant-custom-component from 0.13.315 to 0.13.316 (#707),"Bump pytest-homeassistant-custom-component from 0.13.315 to 0.13.316 (#707)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.315 to 0.13.316.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.315...0.13.316)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.316
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,03a982c08f177e8b2881981d952587705bd047f2,2026-02,7,post,2026-02-24T15:13:46-05:00,2026-02-24T15:13:46-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,706,Bump pyturbojpeg from 1.8.2 to 2.2.0 (#706),"Bump pyturbojpeg from 1.8.2 to 2.2.0 (#706)
+
+Bumps [pyturbojpeg](https://github.com/lilohuang/PyTurboJPEG) from 1.8.2 to 2.2.0.
+- [Release notes](https://github.com/lilohuang/PyTurboJPEG/releases)
+- [Commits](https://github.com/lilohuang/PyTurboJPEG/compare/v1.8.2...v2.2.0)
+
+---
+updated-dependencies:
+- dependency-name: pyturbojpeg
+  dependency-version: 2.2.0
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,e0a39e24e9e947e3e16735e8420be9ab8b1331ec,2026-02,7,post,2026-02-28T12:17:35Z,2026-02-28T12:17:35Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,3,2,0,0,0,,,,,,0,,fix deps,fix deps
+marcolivierarsenault/moonraker-home-assistant,2feb23e72615167972896f1a42ab77d5d9770ac0,2026-02,7,post,2026-02-28T12:40:31Z,2026-02-28T12:40:31Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,2,13,3,0,0,0,,,,,,0,,update lychee,update lychee
+marcolivierarsenault/moonraker-home-assistant,6a150a6760829a1b3e554c1989d9776bc044396d,2026-02,7,post,2026-02-28T08:06:31-05:00,2026-02-28T08:06:31-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,2,37,10,1,9,7,,,,,,0,709,Stabilize current layer sensor fallback (#709),Stabilize current layer sensor fallback (#709)
+marcolivierarsenault/moonraker-home-assistant,75744744b9c47c597a66c7451c08b08f2936d770,2026-02,7,post,2026-02-28T08:07:02-05:00,2026-02-28T08:06:48-05:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,1,4,6,0,0,0,,,,,,0,,Update devcontainer to Bookworm and remove sshd feature,Update devcontainer to Bookworm and remove sshd feature
+marcolivierarsenault/moonraker-home-assistant,fceba507d4e91df1ae206df17cd460de04746d1c,2026-02,7,post,2026-02-28T13:11:15Z,2026-02-28T13:11:15Z,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.13.3,1.13.3
+marcolivierarsenault/moonraker-home-assistant,6c6fb56e17a3ba3108d720bf3966dbe512ecbfef,2026-03,8,post,2026-03-07T08:23:55-05:00,2026-03-07T08:23:55-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,713,Bump pyturbojpeg from 1.8.2 to 2.2.0 (#713),"Bump pyturbojpeg from 1.8.2 to 2.2.0 (#713)
+
+Bumps [pyturbojpeg](https://github.com/lilohuang/PyTurboJPEG) from 1.8.2 to 2.2.0.
+- [Release notes](https://github.com/lilohuang/PyTurboJPEG/releases)
+- [Commits](https://github.com/lilohuang/PyTurboJPEG/compare/v1.8.2...v2.2.0)
+
+---
+updated-dependencies:
+- dependency-name: pyturbojpeg
+  dependency-version: 2.2.0
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,4ca84641533eced77317e258250a910bb7881a30,2026-03,8,post,2026-03-07T08:24:04-05:00,2026-03-07T08:24:04-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,712,Bump ruff from 0.15.2 to 0.15.4 (#712),"Bump ruff from 0.15.2 to 0.15.4 (#712)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.15.2 to 0.15.4.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.15.2...0.15.4)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,f4a0cfb6d0550cdec6b0058399cc0d43edb3fd3f,2026-03,8,post,2026-03-07T08:24:14-05:00,2026-03-07T08:24:14-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,711,Bump pyspeex-noise from 1.0.2 to 2.0.0 (#711),"Bump pyspeex-noise from 1.0.2 to 2.0.0 (#711)
+
+Bumps [pyspeex-noise](https://github.com/rhasspy/pyspeex-noise) from 1.0.2 to 2.0.0.
+- [Release notes](https://github.com/rhasspy/pyspeex-noise/releases)
+- [Changelog](https://github.com/rhasspy/pyspeex-noise/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/rhasspy/pyspeex-noise/compare/1.0.2...v2.0.0)
+
+---
+updated-dependencies:
+- dependency-name: pyspeex-noise
+  dependency-version: 2.0.0
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,ade749d5119be2698162cdf522c328bda218428e,2026-03,8,post,2026-03-07T08:24:26-05:00,2026-03-07T08:24:26-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,710,Bump actions/upload-artifact from 6 to 7 (#710),"Bump actions/upload-artifact from 6 to 7 (#710)
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 6 to 7.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,7b2035d7875fd9380e62d99897b0316a8d76d257,2026-03,8,post,2026-03-30T17:37:38-04:00,2026-03-30T23:37:38+02:00,u6400767f15214388,u6400767f15214388@users.invalid,GitHub,noreply@github.com,1,0,1,37,0,0,0,0,,,,,,0,719,Add Spanish translation (#719),Add Spanish translation (#719)
+marcolivierarsenault/moonraker-home-assistant,5026235f2757c7435c6ff668953bd9c7d5b3b4e4,2026-04,9,post,2026-04-08T20:44:16-04:00,2026-04-08T20:44:16-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,720,Bump codecov/codecov-action from 5 to 6 (#720),"Bump codecov/codecov-action from 5 to 6 (#720)
+
+Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 5 to 6.
+- [Release notes](https://github.com/codecov/codecov-action/releases)
+- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/codecov/codecov-action/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: codecov/codecov-action
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,a572696f2754e66836dab0579186143926457a71,2026-04,9,post,2026-04-08T20:48:53-04:00,2026-04-08T20:48:53-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,724,Bump ruff from 0.15.4 to 0.15.9 (#724),"Bump ruff from 0.15.4 to 0.15.9 (#724)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.15.4 to 0.15.9.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.15.4...0.15.9)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.9
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,60671dba3f6c1a1afb0efaa3d76f0716c5b00da4,2026-06,11,post,2026-06-18T16:29:53-04:00,2026-06-18T16:29:53-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,,,,,0,,Update README to indicate unmaintained status,"Update README to indicate unmaintained status
+
+Added note about project maintenance status and contact info."
+marcolivierarsenault/moonraker-home-assistant,b0a729d9811d2d8dbdceed274913387bf66377e9,2026-07,12,post,2026-07-13T08:10:50-04:00,2026-07-13T08:10:50-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,GitHub,noreply@github.com,1,0,10,26,20,0,0,0,AGENTS.md,,,,,0,755,"Consolidate dependency, workflow, and Python version bumps (#755)","Consolidate dependency, workflow, and Python version bumps (#755)
+
+* Bump pre-commit from 4.5.1 to 4.6.0
+
+Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.5.1 to 4.6.0.
+- [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/pre-commit/pre-commit/compare/v4.5.1...v4.6.0)
+
+---
+updated-dependencies:
+- dependency-name: pre-commit
+  dependency-version: 4.6.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump sphinx-toolbox from 4.1.2 to 4.2.0
+
+Bumps [sphinx-toolbox](https://github.com/sphinx-toolbox/sphinx-toolbox) from 4.1.2 to 4.2.0.
+- [Release notes](https://github.com/sphinx-toolbox/sphinx-toolbox/releases)
+- [Changelog](https://github.com/sphinx-toolbox/sphinx-toolbox/blob/master/doc-source/changelog.rst)
+- [Commits](https://github.com/sphinx-toolbox/sphinx-toolbox/compare/v4.1.2...v4.2.0)
+
+---
+updated-dependencies:
+- dependency-name: sphinx-toolbox
+  dependency-version: 4.2.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump codecov/codecov-action from 6 to 7
+
+Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 6 to 7.
+- [Release notes](https://github.com/codecov/codecov-action/releases)
+- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/codecov/codecov-action/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: codecov/codecov-action
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump pyspeex-noise from 2.0.0 to 2.0.1
+
+Bumps [pyspeex-noise](https://github.com/rhasspy/pyspeex-noise) from 2.0.0 to 2.0.1.
+- [Release notes](https://github.com/rhasspy/pyspeex-noise/releases)
+- [Changelog](https://github.com/rhasspy/pyspeex-noise/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/rhasspy/pyspeex-noise/compare/v2.0.0...v2.0.1)
+
+---
+updated-dependencies:
+- dependency-name: pyspeex-noise
+  dependency-version: 2.0.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump ruff from 0.15.9 to 0.15.16
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.15.9 to 0.15.16.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.15.9...0.15.16)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.16
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump actions/checkout from 5 to 7
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 5 to 7.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v5...v7)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump pytest-homeassistant-custom-component from 0.13.316 to 0.13.337
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.316 to 0.13.337.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.316...0.13.337)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.337
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* Bump project runtime to Python 3.14
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,4c61820ff08ef1996bf37fde405997b4cc9da68e,2026-07,12,post,2026-07-13T08:16:03-04:00,2026-07-13T08:16:03-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,750,Bump ruff from 0.15.16 to 0.15.21 (#750),"Bump ruff from 0.15.16 to 0.15.21 (#750)
+
+Bumps [ruff](https://github.com/astral-sh/ruff) from 0.15.16 to 0.15.21.
+- [Release notes](https://github.com/astral-sh/ruff/releases)
+- [Changelog](https://github.com/astral-sh/ruff/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/astral-sh/ruff/compare/0.15.16...0.15.21)
+
+---
+updated-dependencies:
+- dependency-name: ruff
+  dependency-version: 0.15.16
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,fcf60db9ca0f0ad8bde66e356b1c39d2bfe89301,2026-07,12,post,2026-07-13T08:16:12-04:00,2026-07-13T08:16:12-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,751,Bump pytest-homeassistant-custom-component from 0.13.337 to 0.13.346 (#751),"Bump pytest-homeassistant-custom-component from 0.13.337 to 0.13.346 (#751)
+
+Bumps [pytest-homeassistant-custom-component](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) from 0.13.337 to 0.13.346.
+- [Release notes](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/releases)
+- [Changelog](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component/compare/0.13.337...0.13.346)
+
+---
+updated-dependencies:
+- dependency-name: pytest-homeassistant-custom-component
+  dependency-version: 0.13.337
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+marcolivierarsenault/moonraker-home-assistant,dfe59663295fffaaf56d381b7e143efa8144bbdd,2026-07,12,post,2026-07-13T08:34:27-04:00,2026-07-13T14:34:27+02:00,u554370f67f328703,u554370f67f328703@users.invalid,GitHub,noreply@github.com,1,0,11,348,30,3,95,2,,B,claude,trailer;identity,,0,739,"Allow offline printers, skip error messages (#739)","Allow offline printers, skip error messages (#739)
+
+* Add logging for unreachable Moonraker connections
+
+* Add option for quiet unreachable in config flow
+
+* Add constant for quiet unreachable devices
+
+* Add description for quiet unreachable devices
+
+* Add translation for quiet unreachable devices
+
+* Update connection.rst
+
+* Enhance tests for unreachable printer logging
+
+Added tests for handling unreachable printers and logging behavior.
+
+* Fix indentation in bypass_connect_client_fixture
+
+* Replace _log_unreachable with _LOGGER.warning
+
+* Implement test for setup entry exception logging
+
+Add test for handling setup entry exceptions with quiet mode enabled.
+
+* Refactor port handling for Moonraker connection
+
+* Use DEFAULT_PORT for empty port in connection test
+
+* Add default port constant for connection data
+
+* Add tests for normalize_moonraker_port function
+
+* Fix formatting in _async_is_tcp_reachable function
+
+* Fix tests broken by offline TCP reachability probe
+
+The offline-support feature added a real TCP reachability check in
+async_setup_entry, but only test_init.py mocked it. Every other platform
+test (sensor, switch, number, etc.) failed to set up its config entry
+because the probe could not reach the mocked host.
+
+Centralize the bypass in conftest.py so all tests treat the endpoint as
+reachable by default, and add tests covering the new code paths
+(_async_is_tcp_reachable plus the unreachable branches in fetch/send) to
+restore 100% coverage.
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01RtNQzaW1aMzUFaF5E1th6i
+
+* Update Docker installation instructions for Windows 10 Home
+
+* Update README.md
+
+* Update releases shield URL format in info.md
+
+* Fix badge links in README.md
+
+Updated links for Codecov and HACS badges in README.
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>
+Co-authored-by: uf3849bec8c16103a <uf3849bec8c16103a@users.invalid>"
+marcolivierarsenault/moonraker-home-assistant,a632a695828fd5a237373114d0616850467f9ef5,2026-07,12,post,2026-07-13T08:43:32-04:00,2026-07-13T08:43:32-04:00,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,uf3849bec8c16103a,uf3849bec8c16103a@users.invalid,1,0,3,3,3,1,1,1,,,,,,0,,1.13.4,1.13.4
+marcolivierarsenault/moonraker-home-assistant,18d53ff28b7d388a6b93f7463640530ab4d0f5a7,2026-07,12,post,2026-07-25T07:23:25-04:00,2026-07-25T13:23:25+02:00,u7862e009f9bf0876,u7862e009f9bf0876@users.invalid,GitHub,noreply@github.com,1,0,1,38,0,0,0,0,,,,,,0,759,Add French translation (fr.json) (#759),Add French translation (fr.json) (#759)

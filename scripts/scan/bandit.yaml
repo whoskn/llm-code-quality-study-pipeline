@@ -1,0 +1,31 @@
+# Frozen bandit rule set, passed explicitly with -c so nothing is read out of the
+# measured tree. The complete B1xx and B2xx blocks are dropped, plus B603 and B604.
+#
+# B1xx is generic hygiene rather than security, and every rule in it moves with
+# something other than posture: B101 counts asserts and so tracks test-suite size,
+# B105-B107 fire on any identifier containing pass/token/secret at LOW confidence,
+# B110/B112 count empty except bodies, B108 any /tmp path. Left in, B101 alone
+# carries most of the total. B2xx is two Flask/tarfile checks that fire in almost
+# no repo, so it contributes noise in the few where it does and nothing elsewhere.
+# B603/B604 fire on every subprocess call site regardless of whether the argument
+# is attacker-controlled, so they measure how much a repo shells out.
+#
+# IDs are the ones that exist in bandit 1.9.4 (Makefile BANDIT_V); the removed
+# B109 and B111 are omitted because bandit rejects unknown ids in a profile.
+# Plugins with no section here keep their built-in gen_config defaults.
+skips:
+  - B101
+  - B102
+  - B103
+  - B104
+  - B105
+  - B106
+  - B107
+  - B108
+  - B110
+  - B112
+  - B113
+  - B201
+  - B202
+  - B603
+  - B604

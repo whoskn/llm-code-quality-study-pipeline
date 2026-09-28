@@ -1,0 +1,79 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+helmCharts:
+  - name: sonarqube
+    repo: https://SonarSource.github.io/helm-chart-sonarqube
+    version: 2026.4.1
+    skipTests: true
+    releaseName: sq-a
+    valuesFile: sonarqube-values.yaml
+    valuesInline:
+      jdbcOverwrite:
+        jdbcUrl: "jdbc:postgresql://sq-a-db:5432/sonarqube"
+      ingress:
+        hosts:
+          - name: sonar-a.example.org
+            path: /
+            pathType: Prefix
+        tls:
+          - secretName: sonar-tls
+            hosts:
+              - sonar-a.example.org
+  - name: sonarqube
+    repo: https://SonarSource.github.io/helm-chart-sonarqube
+    version: 2026.4.1
+    skipTests: true
+    releaseName: sq-b
+    valuesFile: sonarqube-values.yaml
+    valuesInline:
+      jdbcOverwrite:
+        jdbcUrl: "jdbc:postgresql://sq-b-db:5432/sonarqube"
+      ingress:
+        hosts:
+          - name: sonar-b.example.org
+            path: /
+            pathType: Prefix
+        tls:
+          - secretName: sonar-tls
+            hosts:
+              - sonar-b.example.org
+  - name: sonarqube
+    repo: https://SonarSource.github.io/helm-chart-sonarqube
+    version: 2026.4.1
+    skipTests: true
+    releaseName: sq-c
+    valuesFile: sonarqube-values.yaml
+    valuesInline:
+      jdbcOverwrite:
+        jdbcUrl: "jdbc:postgresql://sq-c-db:5432/sonarqube"
+      ingress:
+        hosts:
+          - name: sonar-c.example.org
+            path: /
+            pathType: Prefix
+        tls:
+          - secretName: sonar-tls
+            hosts:
+              - sonar-c.example.org
+  - name: postgresql
+    repo: https://charts.bitnami.com/bitnami
+    version: 18.8.13
+    releaseName: sq-a-db
+    valuesFile: postgres-values.yaml
+    valuesInline:
+      fullnameOverride: sq-a-db
+  - name: postgresql
+    repo: https://charts.bitnami.com/bitnami
+    version: 18.8.13
+    releaseName: sq-b-db
+    valuesFile: postgres-values.yaml
+    valuesInline:
+      fullnameOverride: sq-b-db
+  - name: postgresql
+    repo: https://charts.bitnami.com/bitnami
+    version: 18.8.13
+    releaseName: sq-c-db
+    valuesFile: postgres-values.yaml
+    valuesInline:
+      fullnameOverride: sq-c-db

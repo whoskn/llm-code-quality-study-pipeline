@@ -1,0 +1,10 @@
+Python	cylc/cylc-flow
+Python	huggingface/huggingface_hub
+Python	kivy/kivy
+Python	ktbyers/netmiko
+Python	librosa/librosa
+Python	matteoferla/fragmenstein
+Python	meerk40t/meerk40t
+Python	netket/netket
+Python	openreview/openreview-py
+Python	sukeesh/jarvis

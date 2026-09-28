@@ -1,0 +1,878 @@
+repo,sha,month,offset,period,commit_date,author_date,author_name,author_email,committer_name,committer_email,parents,is_merge,files,insertions,deletions,scope_files,scope_insertions,scope_deletions,agent_files,llm_family,llm_tools,llm_signals,bot,is_revert,pr,subject,message
+pyvista/pyvistaqt,9aafe230afb9496c87ebaf9777e1be0aaf34899a,2024-05,-12,pre,2024-05-01T08:55:31Z,2024-05-01T08:55:31Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,4,4,0,0,0,,,,,dependabot,0,568,Build(deps): Bump the trame group with 4 updates (#568),"Build(deps): Bump the trame group with 4 updates (#568)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a1416a5d8a7d398fa02a23c5da06b67d42a1d3b5,2024-05,-12,pre,2024-05-01T09:01:23Z,2024-05-01T09:01:23Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,569,Build(deps): Bump lxml from 5.2.0 to 5.2.1 (#569),"Build(deps): Bump lxml from 5.2.0 to 5.2.1 (#569)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,e63d4220554225ea3d95af5603749d585790b733,2024-05,-12,pre,2024-05-01T10:11:55Z,2024-05-01T10:11:55Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,571,Build(deps): Bump pytest-cov from 4.1.0 to 5.0.0 (#571),"Build(deps): Bump pytest-cov from 4.1.0 to 5.0.0 (#571)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,5378e607bad25993354f1998bb901e8b381ec80c,2024-05,-12,pre,2024-05-01T12:10:57Z,2024-05-01T12:10:57Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,570,Build(deps): Bump imageio from 2.34.0 to 2.34.1 (#570),"Build(deps): Bump imageio from 2.34.0 to 2.34.1 (#570)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1800c2259c14b5d3c7291e3af089ae60bfcab817,2024-05,-12,pre,2024-05-01T10:23:18-04:00,2024-05-01T10:23:18-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,572,Build(deps): Bump pytest-sphinx from 0.6.0 to 0.6.3 (#572),"Build(deps): Bump pytest-sphinx from 0.6.0 to 0.6.3 (#572)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6fb833e8fe42d409ab421705120c7430e2988351,2024-05,-12,pre,2024-05-13T20:36:50Z,2024-05-13T20:36:50Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,573,[pre-commit.ci] pre-commit autoupdate (#573),"[pre-commit.ci] pre-commit autoupdate (#573)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,37b7284836c5a4a064c28d09d48f6cf6ad5144c7,2024-05,-12,pre,2024-05-21T06:01:34+09:00,2024-05-21T06:01:34+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,575,[pre-commit.ci] pre-commit autoupdate (#575),"[pre-commit.ci] pre-commit autoupdate (#575)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b5954f80d1af871889d58e18dd0789e0b4cd2c2b,2024-05,-12,pre,2024-05-28T15:18:44Z,2024-05-28T15:18:44Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,1,0,0,0,,,,,pre-commit-ci,0,579,[pre-commit.ci] pre-commit autoupdate (#579),"[pre-commit.ci] pre-commit autoupdate (#579)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c8529cbe89ea3ac9f583f2633db604eec48afdd4,2024-06,-11,pre,2024-06-01T18:50:01+09:00,2024-06-01T18:50:01+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,581,Build(deps): Bump pytest from 7.4.0 to 8.2.1 (#581),"Build(deps): Bump pytest from 7.4.0 to 8.2.1 (#581)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,f9d59a01711bfc8a645ba18c0a467d268e8b36c7,2024-06,-11,pre,2024-06-01T18:50:37+09:00,2024-06-01T18:50:37+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,582,Build(deps): Bump pytest-qt from 4.2.0 to 4.4.0 (#582),"Build(deps): Bump pytest-qt from 4.2.0 to 4.4.0 (#582)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,22c110bad8911290314716da427070bd582034be,2024-06,-11,pre,2024-06-02T20:47:26Z,2024-06-02T20:47:26Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,4,4,0,0,0,,,,,dependabot,0,580,Build(deps): Bump the trame group with 4 updates (#580),"Build(deps): Bump the trame group with 4 updates (#580)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,1b19b2e0a8a77d7b11d6d572cd332c3da088f741,2024-06,-11,pre,2024-06-02T22:46:10Z,2024-06-02T22:46:10Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,584,Build(deps): Bump pydata-sphinx-theme from 0.15.2 to 0.15.3 (#584),"Build(deps): Bump pydata-sphinx-theme from 0.15.2 to 0.15.3 (#584)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,435777163bffdbdd33c8e0b85d3e651173ccffd8,2024-06,-11,pre,2024-06-03T00:03:39Z,2024-06-03T00:03:39Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,583,Build(deps): Bump sphinx-gallery from 0.15.0 to 0.16.0 (#583),"Build(deps): Bump sphinx-gallery from 0.15.0 to 0.16.0 (#583)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,516d95c8ec7a60f93a1d101bf1f5fcb3c513b53a,2024-06,-11,pre,2024-06-17T22:50:46Z,2024-06-17T22:50:46Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,585,[pre-commit.ci] pre-commit autoupdate (#585),"[pre-commit.ci] pre-commit autoupdate (#585)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,34a85f999133ef64c46b49b547e91f0c6c3a082c,2024-06,-11,pre,2024-06-18T21:30:44-04:00,2024-06-18T21:30:44-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,2,6,8,1,1,8,,,,,,0,586,BUG: Fix PySide6 compatibility (#586),BUG: Fix PySide6 compatibility (#586)
+pyvista/pyvistaqt,22f46c78575efcb0d1bd38bd8d0cc36a63421d78,2024-06,-11,pre,2024-06-18T21:33:17-04:00,2024-06-18T21:33:17-04:00,u774d102230879d41,u774d102230879d41@users.invalid,u774d102230879d41,u774d102230879d41@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,MAINT: Release config,MAINT: Release config
+pyvista/pyvistaqt,d032031aba2125b1f9f186667701afeba42fd434,2024-06,-11,pre,2024-06-24T16:51:23-04:00,2024-06-24T16:51:23-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,587,[pre-commit.ci] pre-commit autoupdate (#587),"[pre-commit.ci] pre-commit autoupdate (#587)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,8b0cf63b1478e10e5882bbe8c889c315c8909f66,2024-07,-10,pre,2024-07-01T18:29:17+09:00,2024-07-01T18:29:17+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,591,Build(deps): Bump sphinx-notfound-page from 1.0.0 to 1.0.2 (#591),"Build(deps): Bump sphinx-notfound-page from 1.0.0 to 1.0.2 (#591)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,7cbf7ceb7af7114ac68bad4d0f320f489d4b0e48,2024-07,-10,pre,2024-07-01T09:42:28Z,2024-07-01T09:42:28Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,592,Build(deps): Bump check-jsonschema from 0.27.0 to 0.28.6 (#592),"Build(deps): Bump check-jsonschema from 0.27.0 to 0.28.6 (#592)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,46b8971d13b40864fc1ecf8a98ff751a17ee986e,2024-07,-10,pre,2024-07-01T09:49:40Z,2024-07-01T09:49:40Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,590,Build(deps): Bump lxml from 5.2.1 to 5.2.2 (#590),"Build(deps): Bump lxml from 5.2.1 to 5.2.2 (#590)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,25db276b7607f3f2fede7417e72e23ee75997007,2024-07,-10,pre,2024-07-01T09:52:46Z,2024-07-01T09:52:46Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,4,4,0,0,0,,,,,dependabot,0,589,Build(deps): Bump the trame group with 4 updates (#589),"Build(deps): Bump the trame group with 4 updates (#589)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,28127009d8fed3955c0ae546d65ca961e99dfc64,2024-07,-10,pre,2024-07-02T02:00:10Z,2024-07-02T02:00:10Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,594,[pre-commit.ci] pre-commit autoupdate (#594),"[pre-commit.ci] pre-commit autoupdate (#594)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,d7015e900834a8eb2c73563bf1bd5823f4137652,2024-07,-10,pre,2024-07-15T20:52:51Z,2024-07-15T20:52:51Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,596,[pre-commit.ci] pre-commit autoupdate (#596),"[pre-commit.ci] pre-commit autoupdate (#596)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ba459dd39b7e2c4f6dbeb4dcd470737b6f8dcacd,2024-07,-10,pre,2024-07-22T23:16:34Z,2024-07-22T23:16:34Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,597,[pre-commit.ci] pre-commit autoupdate (#597),"[pre-commit.ci] pre-commit autoupdate (#597)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ee6c48ada7c5f404a792ad4cf44ad335f39cd9ec,2024-07,-10,pre,2024-07-29T22:14:15Z,2024-07-29T22:14:15Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,598,[pre-commit.ci] pre-commit autoupdate (#598),"[pre-commit.ci] pre-commit autoupdate (#598)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,48e56ba37e509922de679e5f13fd3e06a947ac6b,2024-08,-9,pre,2024-08-01T16:33:10+09:00,2024-08-01T16:33:10+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,601,Build(deps): Bump cmocean from 3.1.3 to 4.0.3 (#601),"Build(deps): Bump cmocean from 3.1.3 to 4.0.3 (#601)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6796d991a056ce92c0243513e4870e86b37ade68,2024-08,-9,pre,2024-08-01T07:46:05Z,2024-08-01T07:46:05Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,600,Build(deps): Bump qtpy from 2.4.0 to 2.4.1 (#600),"Build(deps): Bump qtpy from 2.4.0 to 2.4.1 (#600)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,d0b4e2ec61a5cab89dbea51ac2e8bd5528eb5bdc,2024-08,-9,pre,2024-08-01T07:49:37Z,2024-08-01T07:49:37Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,602,Build(deps): Bump sphinxcontrib-websupport from 1.2.7 to 2.0.0 (#602),"Build(deps): Bump sphinxcontrib-websupport from 1.2.7 to 2.0.0 (#602)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,52793d223fdbc2f0a8facbd9b9a8c1d48e815c0f,2024-08,-9,pre,2024-08-01T07:53:20Z,2024-08-01T07:53:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,599,Build(deps): Bump the trame group with 2 updates (#599),"Build(deps): Bump the trame group with 2 updates (#599)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,054ded1980124f19ccacc8903609a4facbe9ec6c,2024-08,-9,pre,2024-08-01T08:16:01Z,2024-08-01T17:16:01+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,2,0,0,0,0,,,,,,0,603,Update open-pull-requests-limit in dependabot.yml to 100 (#603),Update open-pull-requests-limit in dependabot.yml to 100 (#603)
+pyvista/pyvistaqt,b4c4a9acac9762648bf6d749f669ce516af94f92,2024-08,-9,pre,2024-08-01T17:42:22+09:00,2024-08-01T17:42:22+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,607,Build(deps): Bump scooby from 0.9.2 to 0.10.0 (#607),"Build(deps): Bump scooby from 0.9.2 to 0.10.0 (#607)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,03f0dc67627110176d1782fd04a4ba6e81f40938,2024-08,-9,pre,2024-08-01T09:08:21Z,2024-08-01T09:08:21Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,606,Build(deps): Bump colorcet from 3.0.1 to 3.1.0 (#606),"Build(deps): Bump colorcet from 3.0.1 to 3.1.0 (#606)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,544b1312092bdb7ed0b9ea86074c209551aace51,2024-08,-9,pre,2024-08-01T10:40:41Z,2024-08-01T10:40:41Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,608,Build(deps): Bump pytest from 8.2.1 to 8.3.2 (#608),"Build(deps): Bump pytest from 8.2.1 to 8.3.2 (#608)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ecb327f7f8d5a202e63fd09070eaf07c7140e62d,2024-08,-9,pre,2024-08-01T11:41:20Z,2024-08-01T11:41:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,614,Build(deps): Bump pyvista from 0.42.2 to 0.44.1 (#614),"Build(deps): Bump pyvista from 0.42.2 to 0.44.1 (#614)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,751435d64785a38e7848c50c349b1f4644bc05d5,2024-08,-9,pre,2024-08-01T12:03:31Z,2024-08-01T12:03:31Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,615,Build(deps): Bump check-jsonschema from 0.28.6 to 0.29.1 (#615),"Build(deps): Bump check-jsonschema from 0.28.6 to 0.29.1 (#615)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,19976a031d76f1e9a3e28cbd8c139f84bc70075a,2024-08,-9,pre,2024-08-01T12:16:13Z,2024-08-01T12:16:13Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,605,Build(deps): Bump sphinx from 7.2.6 to 8.0.2 (#605),"Build(deps): Bump sphinx from 7.2.6 to 8.0.2 (#605)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,510343239216eb6522ab5795398c898dad57d5b3,2024-08,-9,pre,2024-08-01T13:19:37Z,2024-08-01T13:19:37Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,609,Build(deps): Bump sphinx-notfound-page from 1.0.2 to 1.0.4 (#609),"Build(deps): Bump sphinx-notfound-page from 1.0.2 to 1.0.4 (#609)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1155919baca5c7a97100d4c3d7c6ad19f09c2b69,2024-08,-9,pre,2024-08-01T09:53:05-04:00,2024-08-01T09:53:05-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,613,Build(deps): Bump imageio-ffmpeg from 0.4.9 to 0.5.1 (#613),"Build(deps): Bump imageio-ffmpeg from 0.4.9 to 0.5.1 (#613)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,f2deccc8b0b63b6e893b6d98eae71e289c51c13c,2024-08,-9,pre,2024-08-01T09:53:44-04:00,2024-08-01T09:53:44-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,611,Build(deps): Bump matplotlib from 3.8.3 to 3.9.1 (#611),"Build(deps): Bump matplotlib from 3.8.3 to 3.9.1 (#611)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,65ad180050f6d446b20552933906b9bc35184bed,2024-08,-9,pre,2024-08-01T14:11:57Z,2024-08-01T14:11:57Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,610,Build(deps): Bump sphinx-autobuild from 2024.2.4 to 2024.4.16 (#610),"Build(deps): Bump sphinx-autobuild from 2024.2.4 to 2024.4.16 (#610)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,71f92b5a7f272692af8106adb3868b9145ce5ffb,2024-08,-9,pre,2024-08-01T10:37:03-04:00,2024-08-01T10:37:03-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,617,Build(deps): Bump imageio from 2.34.1 to 2.34.2 (#617),"Build(deps): Bump imageio from 2.34.1 to 2.34.2 (#617)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,e1c0fcd15b0492bd1d2b81d2caa0242b1f89bfed,2024-08,-9,pre,2024-08-01T10:37:15-04:00,2024-08-01T10:37:15-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,612,Build(deps): Bump pydata-sphinx-theme from 0.15.3 to 0.15.4 (#612),"Build(deps): Bump pydata-sphinx-theme from 0.15.3 to 0.15.4 (#612)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,5cccf90b84e32a9b5c99466ac543fa1e4a1d51c6,2024-08,-9,pre,2024-08-01T14:49:56Z,2024-08-01T14:49:56Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,616,Build(deps): Bump sphinx-gallery from 0.16.0 to 0.17.0 (#616),"Build(deps): Bump sphinx-gallery from 0.16.0 to 0.17.0 (#616)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,019bb2b34646c11aacc9a163b3131aeb3b5aec5a,2024-08,-9,pre,2024-08-01T15:06:15Z,2024-08-01T15:06:15Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,7,1,0,0,0,,,,,dependabot,0,593,Build(deps): Bump numpy from 1.26.4 to 2.0.0 (#593),"Build(deps): Bump numpy from 1.26.4 to 2.0.0 (#593)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,009d4b49e34544fada84328df3b3c872aa2dc529,2024-08,-9,pre,2024-08-05T17:46:33-04:00,2024-08-06T06:46:33+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,20,0,0,0,0,,,,,,0,604,Add update-pr-branch action to update PR branch (#604),Add update-pr-branch action to update PR branch (#604)
+pyvista/pyvistaqt,eb1e02aa97e91770afc7d3da664db4ca53245f53,2024-08,-9,pre,2024-08-06T22:13:24Z,2024-08-06T22:13:24Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,pre-commit-ci,0,619,[pre-commit.ci] pre-commit autoupdate (#619),"[pre-commit.ci] pre-commit autoupdate (#619)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6b86749731a90c001bbb156afa67cbd73f6324da,2024-08,-9,pre,2024-08-12T09:33:08-04:00,2024-08-12T09:33:08-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,620,Build(deps): Bump adRise/update-pr-branch from 0.7.2 to 0.8.1 in /.github/workflows (#620),"Build(deps): Bump adRise/update-pr-branch from 0.7.2 to 0.8.1 in /.github/workflows (#620)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b3bfd18e261b79a581c1e8c967aa4eeec18ee816,2024-08,-9,pre,2024-08-26T17:37:03-04:00,2024-08-26T17:37:03-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,621,[pre-commit.ci] pre-commit autoupdate (#621),"[pre-commit.ci] pre-commit autoupdate (#621)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,7f2d976f659467f500383da1bb5da73765f69ece,2024-09,-8,pre,2024-09-01T07:39:57Z,2024-09-01T07:39:57Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,622,Build(deps): Bump the trame group with 3 updates (#622),"Build(deps): Bump the trame group with 3 updates (#622)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,5e1139de91ca1ab5cd542019b5a187c585d859ee,2024-09,-8,pre,2024-09-01T08:08:11Z,2024-09-01T08:08:11Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,626,Build(deps): Bump sphinx-gallery from 0.17.0 to 0.17.1 (#626),"Build(deps): Bump sphinx-gallery from 0.17.0 to 0.17.1 (#626)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,87a48797cf7ec871c45483802e64e51b4da32628,2024-09,-8,pre,2024-09-01T08:51:29Z,2024-09-01T08:51:29Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,628,Build(deps): Bump lxml from 5.2.2 to 5.3.0 (#628),"Build(deps): Bump lxml from 5.2.2 to 5.3.0 (#628)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,2482511e86737c97aadf3d857a9fe25dab776a1d,2024-09,-8,pre,2024-09-01T09:45:08Z,2024-09-01T09:45:08Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,625,Build(deps): Bump check-jsonschema from 0.29.1 to 0.29.2 (#625),"Build(deps): Bump check-jsonschema from 0.29.1 to 0.29.2 (#625)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,21151a52e0075d1e5e16a0464b5c1095c9aaa08b,2024-09,-8,pre,2024-09-01T09:59:45Z,2024-09-01T09:59:45Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,623,Build(deps): Bump imageio from 2.34.2 to 2.35.1 (#623),"Build(deps): Bump imageio from 2.34.2 to 2.35.1 (#623)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b112d1bf82c25e021af70b10db72b8affab5a09b,2024-09,-8,pre,2024-09-01T10:49:56Z,2024-09-01T10:49:56Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,624,Build(deps): Bump matplotlib from 3.9.1 to 3.9.2 (#624),"Build(deps): Bump matplotlib from 3.9.1 to 3.9.2 (#624)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,897838dc7ffab301f93b9062cb5e19f2856e9dba,2024-09,-8,pre,2024-09-02T17:09:29+09:00,2024-09-02T17:09:29+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,629,Build(deps): Bump adRise/update-pr-branch from 0.8.1 to 0.9.1 in /.github/workflows (#629),"Build(deps): Bump adRise/update-pr-branch from 0.8.1 to 0.9.1 in /.github/workflows (#629)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1b76134262c8ea9d1e16cd6af80642a2d7c52fc8,2024-09,-8,pre,2024-09-10T01:12:17Z,2024-09-10T01:12:17Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,630,Build(deps): Bump the trame group with 2 updates (#630),"Build(deps): Bump the trame group with 2 updates (#630)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9ea62700decb8213828ef4b7287e32eccde2c054,2024-09,-8,pre,2024-09-10T01:33:38Z,2024-09-10T01:33:38Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,632,Build(deps): Bump sphinx-autobuild from 2024.4.16 to 2024.9.3 (#632),"Build(deps): Bump sphinx-autobuild from 2024.4.16 to 2024.9.3 (#632)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,3947385749b0aa46522e23bebfae54f2e4499640,2024-10,-7,pre,2024-10-01T15:09:10Z,2024-10-01T15:09:10Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,1,0,0,0,,,,,pre-commit-ci,0,636,[pre-commit.ci] pre-commit autoupdate (#636),"[pre-commit.ci] pre-commit autoupdate (#636)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a41e4c745bd79d26b0dca814afc56ac1dd91fa98,2024-10,-7,pre,2024-10-01T16:51:20Z,2024-10-01T16:51:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,637,Build(deps): Bump the trame group with 2 updates (#637),"Build(deps): Bump the trame group with 2 updates (#637)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,78111f8eeebd9d15a4c5924ed4df2ea4ac0891ba,2024-10,-7,pre,2024-10-01T17:11:11Z,2024-10-01T17:11:11Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,639,Build(deps): Bump check-jsonschema from 0.29.2 to 0.29.3 (#639),"Build(deps): Bump check-jsonschema from 0.29.2 to 0.29.3 (#639)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,75c877ca28e55209a2fade4f8e17e3a491608c3a,2024-10,-7,pre,2024-10-01T18:04:36Z,2024-10-01T18:04:36Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,638,Build(deps): Bump sphinx-autobuild from 2024.9.3 to 2024.9.19 (#638),"Build(deps): Bump sphinx-autobuild from 2024.9.3 to 2024.9.19 (#638)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,58b3646f8a58f886504047d0db1a6faf221142fb,2024-10,-7,pre,2024-10-01T21:20:00Z,2024-10-01T21:20:00Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,640,Build(deps): Bump pytest from 8.3.2 to 8.3.3 (#640),"Build(deps): Bump pytest from 8.3.2 to 8.3.3 (#640)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6ecf781b6ec373f1c95f35c7856ead05fa205072,2024-10,-7,pre,2024-10-07T08:03:39Z,2024-10-07T08:03:39Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,641,Build(deps): Bump mamba-org/setup-micromamba from 1 to 2 in /.github/workflows (#641),"Build(deps): Bump mamba-org/setup-micromamba from 1 to 2 in /.github/workflows (#641)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,dc8c21aca54fb186b205c723150ca3e68cf9a68c,2024-10,-7,pre,2024-10-07T23:31:58Z,2024-10-07T23:31:58Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,642,[pre-commit.ci] pre-commit autoupdate (#642),"[pre-commit.ci] pre-commit autoupdate (#642)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,4b9607e079e6fdc63788ce8405fabe9a3ff6f4de,2024-10,-7,pre,2024-10-21T21:21:40Z,2024-10-21T21:21:40Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,643,[pre-commit.ci] pre-commit autoupdate (#643),"[pre-commit.ci] pre-commit autoupdate (#643)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1f40d4aec34d581c319a7937f96d8b6920aee9dc,2024-10,-7,pre,2024-10-29T07:34:34+09:00,2024-10-29T07:34:34+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,646,[pre-commit.ci] pre-commit autoupdate (#646),"[pre-commit.ci] pre-commit autoupdate (#646)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,af5dd3be875b330b36dab047110fde2d43f0f4c1,2024-11,-6,pre,2024-11-01T16:41:48+09:00,2024-11-01T16:41:48+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,652,Build(deps): Bump imageio from 2.35.1 to 2.36.0 (#652),"Build(deps): Bump imageio from 2.35.1 to 2.36.0 (#652)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,58f4d54689d531ef61af76f2c893c6326fada739,2024-11,-6,pre,2024-11-01T07:55:32Z,2024-11-01T07:55:32Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,653,Build(deps): Bump sphinx-gallery from 0.17.1 to 0.18.0 (#653),"Build(deps): Bump sphinx-gallery from 0.17.1 to 0.18.0 (#653)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ec8dfcbdbe7d9ddd3efe453c9ae0ce0b8c05fd32,2024-11,-6,pre,2024-11-01T08:10:37Z,2024-11-01T08:10:37Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,650,Build(deps): Bump sphinx from 8.0.2 to 8.1.3 (#650),"Build(deps): Bump sphinx from 8.0.2 to 8.1.3 (#650)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9768d29fed82f7b37a085784d73ddd60eaf0691d,2024-11,-6,pre,2024-11-01T08:56:47Z,2024-11-01T08:56:47Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,649,Build(deps): Bump pytest-cov from 5.0.0 to 6.0.0 (#649),"Build(deps): Bump pytest-cov from 5.0.0 to 6.0.0 (#649)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,123e678df2033f53488afdad4ac5c81b84f7483e,2024-11,-6,pre,2024-11-01T10:30:54Z,2024-11-01T10:30:54Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,648,Build(deps): Bump pydata-sphinx-theme from 0.15.4 to 0.16.0 (#648),"Build(deps): Bump pydata-sphinx-theme from 0.15.4 to 0.16.0 (#648)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b0381d67b9801436b1095722b84b8fe8862bac23,2024-11,-6,pre,2024-11-01T10:55:10Z,2024-11-01T10:55:10Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,651,Build(deps): Bump check-jsonschema from 0.29.3 to 0.29.4 (#651),"Build(deps): Bump check-jsonschema from 0.29.3 to 0.29.4 (#651)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c81d9267e6fcfd2a85ca395ad1411ff77b467890,2024-11,-6,pre,2024-11-01T11:10:23Z,2024-11-01T11:10:23Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,647,Build(deps): Bump the trame group with 3 updates (#647),"Build(deps): Bump the trame group with 3 updates (#647)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1c222fb017d58de4d5ac8d08827b6bf75bdbbb93,2024-11,-6,pre,2024-11-04T19:22:23Z,2024-11-04T19:22:23Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,654,Build(deps): Bump sphinx-autobuild from 2024.9.19 to 2024.10.3 (#654),"Build(deps): Bump sphinx-autobuild from 2024.9.19 to 2024.10.3 (#654)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,733d5bfc565c9f2fd4b20574efbc614b9cb35a33,2024-12,-5,pre,2024-12-03T12:30:13+09:00,2024-12-03T12:30:13+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,656,Build(deps): Bump codecov/codecov-action from 4 to 5 in /.github/workflows (#656),"Build(deps): Bump codecov/codecov-action from 4 to 5 in /.github/workflows (#656)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,4010edc9190328d4e06605557bd196d7a7656a3c,2024-12,-5,pre,2024-12-03T06:13:00Z,2024-12-03T15:13:00+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,2,6,7,0,0,0,,,,,,0,664,Switch conda CIs from PyQt5 to PySide6 (#664),"Switch conda CIs from PyQt5 to PySide6 (#664)
+
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,d76ac85df20433a0c5fe42fbcbe35daa773fe584,2024-12,-5,pre,2024-12-03T09:27:11Z,2024-12-03T09:27:11Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,663,[pre-commit.ci] pre-commit autoupdate (#663),"[pre-commit.ci] pre-commit autoupdate (#663)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1195834a1b5a469a3d9f3e06b74f43f0fe119042,2024-12,-5,pre,2024-12-03T10:47:34Z,2024-12-03T19:47:34+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,,1,665,"Revert ""Build(deps): Bump codecov/codecov-action from 4 to 5 in /.github/workflows"" (#665)","Revert ""Build(deps): Bump codecov/codecov-action from 4 to 5 in /.github/workflows"" (#665)"
+pyvista/pyvistaqt,9658ca54d6bef5b9b5f5f081200a1603029ac545,2024-12,-5,pre,2024-12-03T15:04:15Z,2024-12-03T15:04:15Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,662,Build(deps): Bump imageio from 2.36.0 to 2.36.1 (#662),"Build(deps): Bump imageio from 2.36.0 to 2.36.1 (#662)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,9d5022fe22f65baa0fce58471ede9523c8a6acca,2024-12,-5,pre,2024-12-05T23:48:09Z,2024-12-05T23:48:09Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,660,Build(deps): Bump pyvista from 0.44.1 to 0.44.2 (#660),"Build(deps): Bump pyvista from 0.44.1 to 0.44.2 (#660)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,f0220ee95af15a4bac6fc3ac70c29c983d500019,2024-12,-5,pre,2024-12-09T16:22:08+09:00,2024-12-09T16:22:08+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,667,Build(deps): Bump codecov/codecov-action from 4 to 5 in /.github/workflows (#667),"Build(deps): Bump codecov/codecov-action from 4 to 5 in /.github/workflows (#667)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,24dec84a8cab4c8519148ce6dd007ff7938b93b4,2024-12,-5,pre,2024-12-09T07:34:32Z,2024-12-09T16:34:32+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,0,1,0,0,0,,,,,,0,666,Remove check-jsonschema from requirements_test.txt as it is unused (#666),"Remove check-jsonschema from requirements_test.txt as it is unused (#666)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,02e88facf8cfa296d7dd92dc5ef5d407fd16edc0,2024-12,-5,pre,2024-12-10T00:41:23Z,2024-12-10T00:41:23Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,658,Build(deps): Bump qtpy from 2.4.1 to 2.4.2 (#658),"Build(deps): Bump qtpy from 2.4.1 to 2.4.2 (#658)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,d7b2ab24bb6cd67e9ad841dc3d60dab9d2f4310b,2024-12,-5,pre,2024-12-10T00:53:44Z,2024-12-10T00:53:44Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,657,Build(deps): Bump the trame group with 2 updates (#657),"Build(deps): Bump the trame group with 2 updates (#657)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,1e62aaceeb60e02dc02446e00ad6c173508bea1f,2024-12,-5,pre,2024-12-16T14:00:41Z,2024-12-16T14:00:41Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,661,Build(deps): Bump matplotlib from 3.9.2 to 3.9.3 (#661),"Build(deps): Bump matplotlib from 3.9.2 to 3.9.3 (#661)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,fe4c19988007f33dd7008760eeb5ae6a5ef1304f,2024-12,-5,pre,2024-12-24T06:35:07+09:00,2024-12-24T06:35:07+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,668,[pre-commit.ci] pre-commit autoupdate (#668),"[pre-commit.ci] pre-commit autoupdate (#668)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6eaf0f999399256d08fb546b120238d223202cb7,2025-01,-4,pre,2025-01-01T22:17:18+09:00,2025-01-01T22:17:18+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,673,Build(deps): Bump matplotlib from 3.9.3 to 3.10.0 (#673),"Build(deps): Bump matplotlib from 3.9.3 to 3.10.0 (#673)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,11b673b98a2f1c29af379cc39219dc4059b31033,2025-01,-4,pre,2025-01-01T13:34:33Z,2025-01-01T13:34:33Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,672,Build(deps): Bump pydata-sphinx-theme from 0.16.0 to 0.16.1 (#672),"Build(deps): Bump pydata-sphinx-theme from 0.16.0 to 0.16.1 (#672)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,3fb61c66d1d1bdcedc1263d2fcaefc8f4108a296,2025-01,-4,pre,2025-01-01T13:50:17Z,2025-01-01T13:50:17Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,670,Build(deps): Bump the trame group with 3 updates (#670),"Build(deps): Bump the trame group with 3 updates (#670)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,866551d1cd2e8e5198187354e6b7bed389fbd398,2025-01,-4,pre,2025-01-01T23:05:08Z,2025-01-01T23:05:08Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,671,Build(deps): Bump pytest from 8.3.3 to 8.3.4 (#671),"Build(deps): Bump pytest from 8.3.3 to 8.3.4 (#671)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1d43a28d24a3703b808897a4407ae3a5aaa86df4,2025-01,-4,pre,2025-01-06T22:26:25Z,2025-01-06T22:26:25Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,674,[pre-commit.ci] pre-commit autoupdate (#674),"[pre-commit.ci] pre-commit autoupdate (#674)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ebd0468a708e4446aa7cc6502d8ab3aa14d31122,2025-01,-4,pre,2025-01-13T21:44:00Z,2025-01-13T21:44:00Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,675,[pre-commit.ci] pre-commit autoupdate (#675),"[pre-commit.ci] pre-commit autoupdate (#675)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,dae73ed2fc7373c3f878a0e40c0d3ddf1d3ee777,2025-01,-4,pre,2025-01-23T12:41:48+09:00,2025-01-23T12:41:48+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,676,Build(deps): Bump the trame group with 3 updates (#676),"Build(deps): Bump the trame group with 3 updates (#676)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c9ad37c447ea707a37bfbe79eeb421db9d9f71a6,2025-01,-4,pre,2025-01-23T05:30:07Z,2025-01-23T05:30:07Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,678,Build(deps): Bump imageio-ffmpeg from 0.5.1 to 0.6.0 (#678),"Build(deps): Bump imageio-ffmpeg from 0.5.1 to 0.6.0 (#678)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,627d90d2df3c17b18f6cf5bb844cf2007fca94ed,2025-01,-4,pre,2025-01-23T17:49:09+09:00,2025-01-23T17:49:09+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,677,Build(deps): Bump imageio from 2.36.1 to 2.37.0 (#677),"Build(deps): Bump imageio from 2.36.1 to 2.37.0 (#677)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,6876199eac853ce2111da88155dff7f4c2b80ef4,2025-01,-4,pre,2025-01-28T06:33:18+09:00,2025-01-28T06:33:18+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,679,[pre-commit.ci] pre-commit autoupdate (#679),"[pre-commit.ci] pre-commit autoupdate (#679)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,42f1bb37946bbe4fa5d3200a82662d9389a57c8d,2025-02,-3,pre,2025-02-10T10:59:14-05:00,2025-02-10T08:59:14-07:00,ue2d1b2d398161d83,ue2d1b2d398161d83@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,682,Do not access private `Renderer._actors` property (#682),Do not access private `Renderer._actors` property (#682)
+pyvista/pyvistaqt,ce6f8b1b937cfde9e187cb900f8bb454797cf2fe,2025-02,-3,pre,2025-02-10T19:23:46Z,2025-02-10T19:23:46Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,4,4,0,0,0,,,,,pre-commit-ci,0,681,[pre-commit.ci] pre-commit autoupdate (#681),"[pre-commit.ci] pre-commit autoupdate (#681)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,d69912efb18788c020ea3308d35ecd6ab4b01f44,2025-02,-3,pre,2025-02-10T21:43:10Z,2025-02-10T21:43:10Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,683,[pre-commit.ci] pre-commit autoupdate (#683),"[pre-commit.ci] pre-commit autoupdate (#683)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ea0e3b694d6989f9acf5a471c6f9dac6e6fe7625,2025-02,-3,pre,2025-02-18T05:23:19+09:00,2025-02-18T05:23:19+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,684,[pre-commit.ci] pre-commit autoupdate (#684),"[pre-commit.ci] pre-commit autoupdate (#684)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c35598e7612b6f7e85396588c8678a0d6eb8ffde,2025-03,-2,pre,2025-03-01T16:49:20+09:00,2025-03-01T16:49:20+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,685,[pre-commit.ci] pre-commit autoupdate (#685),"[pre-commit.ci] pre-commit autoupdate (#685)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,d445930b83321ce5468efff70f853bd36a1ecec5,2025-03,-2,pre,2025-03-01T16:17:40Z,2025-03-01T16:17:40Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,687,Build(deps): Bump sphinx-gallery from 0.18.0 to 0.19.0 (#687),"Build(deps): Bump sphinx-gallery from 0.18.0 to 0.19.0 (#687)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,106e65ed98056059a3e40bdded7cbb191b5e4f84,2025-03,-2,pre,2025-03-01T17:12:47Z,2025-03-01T17:12:47Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,688,Build(deps): Bump matplotlib from 3.10.0 to 3.10.1 (#688),"Build(deps): Bump matplotlib from 3.10.0 to 3.10.1 (#688)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,97efde4788b79c5a3040dbca053dcb1550f77100,2025-03,-2,pre,2025-03-01T17:33:45Z,2025-03-01T17:33:45Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,690,Build(deps): Bump sphinx from 8.1.3 to 8.2.1 (#690),"Build(deps): Bump sphinx from 8.1.3 to 8.2.1 (#690)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,77a2305a1463083f049814be75f4f215057159aa,2025-03,-2,pre,2025-03-01T17:49:32Z,2025-03-01T17:49:32Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,686,Build(deps): Bump the trame group with 3 updates (#686),"Build(deps): Bump the trame group with 3 updates (#686)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a966c95b5635844813a6860bb2920cc07feb84b7,2025-03,-2,pre,2025-03-03T23:24:54Z,2025-03-03T23:24:54Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,692,[pre-commit.ci] pre-commit autoupdate (#692),"[pre-commit.ci] pre-commit autoupdate (#692)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,3b30010dc5c7ca3b24cbd93101847487d288ad7e,2025-03,-2,pre,2025-03-06T15:08:51Z,2025-03-06T15:08:51Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,680,Build(deps): Bump sphinx-notfound-page from 1.0.4 to 1.1.0 (#680),"Build(deps): Bump sphinx-notfound-page from 1.0.4 to 1.1.0 (#680)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,7d08f9f1c5db9c9c1f3f48d8e59118a69d5ac5c4,2025-03,-2,pre,2025-03-08T12:49:20Z,2025-03-08T12:49:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,691,Build(deps): Bump qtpy from 2.4.2 to 2.4.3 (#691),"Build(deps): Bump qtpy from 2.4.2 to 2.4.3 (#691)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,e67657102e70fab515370292b40c71cd21034e26,2025-03,-2,pre,2025-03-08T13:40:54Z,2025-03-08T13:40:54Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,689,Build(deps): Bump lxml from 5.3.0 to 5.3.1 (#689),"Build(deps): Bump lxml from 5.3.0 to 5.3.1 (#689)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,ced2b43adfa41546251ea7559f09ce6b2b53ad20,2025-03,-2,pre,2025-03-11T07:27:50+09:00,2025-03-11T07:27:50+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,693,[pre-commit.ci] pre-commit autoupdate (#693),"[pre-commit.ci] pre-commit autoupdate (#693)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,5fc9f1f569da134e98589ebcbd0631b78446ba80,2025-04,-1,pre,2025-04-03T05:28:54+09:00,2025-04-03T05:28:54+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,696,Build(deps): Bump pytest from 8.3.4 to 8.3.5 (#696),"Build(deps): Bump pytest from 8.3.4 to 8.3.5 (#696)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,24ad2b71dcf5e5a220c947041b384ec82627f1a1,2025-05,0,m0,2025-05-01T13:00:06-04:00,2025-05-01T13:00:06-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,2,32,15,0,0,0,,,,,,0,699,MAINT: Work around segfault on latest PyVista (#699),MAINT: Work around segfault on latest PyVista (#699)
+pyvista/pyvistaqt,a0068b9aaee430542b699874456a836a1fb356fe,2025-05,0,m0,2025-05-01T17:39:35Z,2025-05-01T17:39:35Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,695,Build(deps): Bump the trame group with 3 updates (#695),"Build(deps): Bump the trame group with 3 updates (#695)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,19dffa5294d20893fb3159a854937db8fac1ac2d,2025-05,0,m0,2025-05-01T14:19:41-04:00,2025-05-01T14:19:41-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,700,Build(deps): Bump scooby from 0.10.0 to 0.10.1 (#700),"Build(deps): Bump scooby from 0.10.0 to 0.10.1 (#700)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,da304e78f7d49cdeeba75dcf357bbd2678aeb7ba,2025-05,0,m0,2025-05-01T18:57:35Z,2025-05-01T18:57:35Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,703,Build(deps): Bump pytest-cov from 6.0.0 to 6.1.1 (#703),"Build(deps): Bump pytest-cov from 6.0.0 to 6.1.1 (#703)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b1deccf81396f889b355f3c37cd67d4078830cb8,2025-05,0,m0,2025-05-01T15:00:23-04:00,2025-05-01T15:00:23-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,702,Build(deps): Bump lxml from 5.3.1 to 5.4.0 (#702),"Build(deps): Bump lxml from 5.3.1 to 5.4.0 (#702)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,acbc4e83e834d25dccd1b86c97b05cde4c6a1bc4,2025-05,0,m0,2025-05-01T19:35:03-04:00,2025-05-02T08:35:03+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,15,729,732,8,305,303,,,,,,0,655,"Dropping black, flake8 and isort in favor of ruff (#655)","Dropping black, flake8 and isort in favor of ruff (#655)
+
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,d02cc4a2399917b4d11dfee51a464873aa3969d0,2025-05,0,m0,2025-05-02T09:22:38-04:00,2025-05-02T09:22:38-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,694,[pre-commit.ci] pre-commit autoupdate (#694),"[pre-commit.ci] pre-commit autoupdate (#694)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,fcfcf36eb11e537d2e8f7e935a239379cf1aa079,2025-05,0,m0,2025-05-02T13:55:03Z,2025-05-02T13:55:03Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,15,20,0,0,0,,,,,dependabot,0,701,Build(deps): Bump pyvista from 0.44.2 to 0.45.0 (#701),"Build(deps): Bump pyvista from 0.44.2 to 0.45.0 (#701)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,186268ce04226099447a09c1c1d0e1caa79e5fcc,2025-05,0,m0,2025-05-03T01:45:31Z,2025-05-03T01:45:31Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,4,0,0,0,,,,,dependabot,0,631,Build(deps): Bump ipython from 8.14.0 to 8.27.0 (#631),"Build(deps): Bump ipython from 8.14.0 to 8.27.0 (#631)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,a3ecd00924c225cde7be3a70a5e6846ac2a21698,2025-05,0,m0,2025-05-03T01:59:51Z,2025-05-03T01:59:51Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,627,Build(deps): Bump numpy from 2.0.0 to 2.1.0 (#627),"Build(deps): Bump numpy from 2.0.0 to 2.1.0 (#627)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,8afa5316914ff720ae1bb0351936bdb3bb9e36bd,2025-05,0,m0,2025-05-03T03:12:37Z,2025-05-03T12:12:37+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,B,copilot,trailer;identity,,0,704,Potential fix for code scanning alert no. 5: Workflow does not contain permissions (#704),"Potential fix for code scanning alert no. 5: Workflow does not contain permissions (#704)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,fd7c6f63447c1934bcd12115b01b780ce3ce5f7c,2025-05,0,m0,2025-05-03T03:58:45Z,2025-05-03T12:58:45+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,B,copilot,trailer;identity,,0,705,Potential fix for code scanning alert no. 4: Workflow does not contain permissions (#705),"Potential fix for code scanning alert no. 4: Workflow does not contain permissions (#705)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a3f641949e61c2f18a71ad59ca5a6f63a3aca76e,2025-05,0,m0,2025-05-03T06:54:26Z,2025-05-03T15:54:26+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,B,copilot,trailer;identity,,0,706,Potential fix for code scanning alert no. 3: Workflow does not contain permissions (#706),"Potential fix for code scanning alert no. 3: Workflow does not contain permissions (#706)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,8a7dbba717262030e1c8f5475799482afa391374,2025-05,0,m0,2025-05-03T07:36:19Z,2025-05-03T16:36:19+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,B,copilot,trailer;identity,,0,708,Potential fix for code scanning alert no. 2: Workflow does not contain permissions (#708),"Potential fix for code scanning alert no. 2: Workflow does not contain permissions (#708)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,dbaed1f7420aa8fd324011879009c6f0e43be1f7,2025-05,0,m0,2025-05-03T08:14:43Z,2025-05-03T17:14:43+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,0,3,0,0,0,,,,,,1,709,"Revert ""Potential fix for code scanning alert no. 3: Workflow does not contain permissions"" (#709)","Revert ""Potential fix for code scanning alert no. 3: Workflow does not contain permissions"" (#709)"
+pyvista/pyvistaqt,f6c9167d5144d6a602bae693ef4461d01e5ff89a,2025-05,0,m0,2025-05-03T19:18:46Z,2025-05-04T04:18:46+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,4,0,0,0,0,,B,copilot,trailer;identity,,0,707,Potential fix for code scanning alert no. 1: Workflow does not contain permissions (#707),"Potential fix for code scanning alert no. 1: Workflow does not contain permissions (#707)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,8114af0f72892919b1f644d90a0cadb2e643eae3,2025-05,0,m0,2025-05-06T12:50:40Z,2025-05-06T12:50:40Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,8,22,28,6,20,26,,,,,pre-commit-ci,0,710,[pre-commit.ci] pre-commit autoupdate (#710),"[pre-commit.ci] pre-commit autoupdate (#710)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,df94cd7e37b2274c5614ede75522e129a840fece,2025-05,0,m0,2025-05-13T07:18:01+09:00,2025-05-13T07:18:01+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,711,[pre-commit.ci] pre-commit autoupdate (#711),"[pre-commit.ci] pre-commit autoupdate (#711)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,288f64d65ef4ba826da71706ffe9e82bb259456f,2025-05,0,m0,2025-05-19T19:03:31Z,2025-05-19T19:03:31Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,712,[pre-commit.ci] pre-commit autoupdate (#712),"[pre-commit.ci] pre-commit autoupdate (#712)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9aa5e54e07850c053b29181b6e9ececf962587f9,2025-06,1,post,2025-06-02T00:10:35+09:00,2025-06-02T00:10:35+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,716,Build(deps): Bump pyvista from 0.45.0 to 0.45.2 (#716),"Build(deps): Bump pyvista from 0.45.0 to 0.45.2 (#716)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,bdbdda313848ba15a1a42407f0a214340ff5c35e,2025-06,1,post,2025-06-01T15:41:57Z,2025-06-01T15:41:57Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,714,[pre-commit.ci] pre-commit autoupdate (#714),"[pre-commit.ci] pre-commit autoupdate (#714)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,e174ad0a196b436a2dc9c7e74ee8e967808911fc,2025-06,1,post,2025-06-03T05:12:05+09:00,2025-06-03T05:12:05+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,717,Build(deps): Bump adRise/update-pr-branch from 0.9.1 to 0.10.1 in /.github/workflows (#717),"Build(deps): Bump adRise/update-pr-branch from 0.9.1 to 0.10.1 in /.github/workflows (#717)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b67520748913b0fdf2ff6beee4e0f45d4a8a8379,2025-06,1,post,2025-06-02T23:10:07Z,2025-06-02T23:10:07Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,715,Build(deps): Bump the trame group with 2 updates (#715),"Build(deps): Bump the trame group with 2 updates (#715)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,1b09bacaac49fac6beaf3eccfe28a1f4453e7b4a,2025-06,1,post,2025-06-09T18:57:55Z,2025-06-09T18:57:55Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,718,[pre-commit.ci] pre-commit autoupdate (#718),"[pre-commit.ci] pre-commit autoupdate (#718)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b8389478a5cb96281a32c5b7782ca1b161aad1c1,2025-07,2,post,2025-07-02T03:58:12+09:00,2025-07-02T03:58:12+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,724,Build(deps): Bump pytest from 8.3.5 to 8.4.1 (#724),"Build(deps): Bump pytest from 8.3.5 to 8.4.1 (#724)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,d4a43259321bbb246b0e97483690adc27f7aa0cf,2025-07,2,post,2025-07-01T19:31:06Z,2025-07-01T19:31:06Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,722,Build(deps): Bump lxml from 5.4.0 to 6.0.0 (#722),"Build(deps): Bump lxml from 5.4.0 to 6.0.0 (#722)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,11fa8a886e3ac9b9f616723601f32f7eda824517,2025-07,2,post,2025-07-01T21:04:35Z,2025-07-01T21:04:35Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,721,Build(deps): Bump pytest-cov from 6.1.1 to 6.2.1 (#721),"Build(deps): Bump pytest-cov from 6.1.1 to 6.2.1 (#721)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ece05af945524df02fff393a1264e4238175a821,2025-07,2,post,2025-07-03T05:28:19+09:00,2025-07-03T05:28:19+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,4,4,0,0,0,,,,,dependabot,0,723,Build(deps): Bump the trame group with 4 updates (#723),"Build(deps): Bump the trame group with 4 updates (#723)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,64482d8a522ae1d6e8a1108c3acdf44a430c6e72,2025-07,2,post,2025-07-14T08:00:30+09:00,2025-07-14T08:00:30+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,B,copilot,trailer;identity,,0,725,Potential fix for code scanning alert no. 6: Workflow does not contain permissions (#725),"Potential fix for code scanning alert no. 6: Workflow does not contain permissions (#725)
+
+Co-authored-by: Copilot Autofix powered by AI <62310815+github-advanced-security[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,80d2f8ab717a51583f35bcc3ca2db857f9500a94,2025-07,2,post,2025-07-17T10:45:32-04:00,2025-07-17T08:45:32-06:00,ue2d1b2d398161d83,ue2d1b2d398161d83@users.invalid,GitHub,noreply@github.com,1,0,2,4,4,1,1,1,,,,,,0,726,Check that `axes_widget` is truthy (#726),"Check that `axes_widget` is truthy (#726)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6b1cd2bd01a64b57bfcb99d71f7ca24f2a4c112b,2025-07,2,post,2025-07-24T13:50:23-04:00,2025-07-24T13:50:23-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,1,3,0,0,0,0,,,,,,0,727,MAINT: Remove bots from release notes (#727),MAINT: Remove bots from release notes (#727)
+pyvista/pyvistaqt,01202124147ec1196311276ae4d2d42cda23c09e,2025-08,3,post,2025-08-09T09:25:15+09:00,2025-08-09T09:25:15+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,732,Build(deps): Bump pyvista from 0.45.2 to 0.45.3 (#732),"Build(deps): Bump pyvista from 0.45.2 to 0.45.3 (#732)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1a3cf87884cb33ec03f40dafa4ebbf9b3245d5c1,2025-08,3,post,2025-08-11T21:59:18+09:00,2025-08-11T21:59:18+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,734,Build(deps): Bump actions/download-artifact from 4 to 5 in /.github/workflows in the artifacts group (#734),"Build(deps): Bump actions/download-artifact from 4 to 5 in /.github/workflows in the artifacts group (#734)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,3786ef7925d1d09de0a7147b15fc57d7b503eda9,2025-08,3,post,2025-08-14T01:28:17Z,2025-08-14T10:28:17+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,2,56,46,1,7,46,,B,claude;copilot,trailer;identity,,0,728,Fix pre-commit errors and modernize project configuration (#728),"Fix pre-commit errors and modernize project configuration (#728)
+
+Co-authored-by: Claude <noreply@anthropic.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+pyvista/pyvistaqt,599cb0a5edb7fc9d3a64efeeee27926682976033,2025-08,3,post,2025-08-14T23:04:22Z,2025-08-14T23:04:22Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,6,22,22,2,8,8,,B,claude,trailer;identity,pre-commit-ci,0,719,[pre-commit.ci] pre-commit autoupdate (#719),"[pre-commit.ci] pre-commit autoupdate (#719)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>
+Co-authored-by: Claude <noreply@anthropic.com>"
+pyvista/pyvistaqt,0781bc34ccfd6485fcee7a7d4be46de08f063e5a,2025-08,3,post,2025-08-19T06:58:01+09:00,2025-08-19T06:58:01+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,738,[pre-commit.ci] pre-commit autoupdate (#738),"[pre-commit.ci] pre-commit autoupdate (#738)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,f6939a4511ee2cdc7d894ccc638cf9576c73b9f2,2025-08,3,post,2025-08-18T23:40:22Z,2025-08-18T23:40:22Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,5,5,0,0,0,,,,,dependabot,0,737,Build(deps): Bump actions/checkout from 4 to 5 in /.github/workflows (#737),"Build(deps): Bump actions/checkout from 4 to 5 in /.github/workflows (#737)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9ae1ac5a8236f17b1019c9103b94742c141700be,2025-08,3,post,2025-08-21T00:00:17Z,2025-08-21T00:00:17Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,731,Build(deps): Bump the trame group with 3 updates (#731),"Build(deps): Bump the trame group with 3 updates (#731)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,0ab88164b98e6d33246f5dda0dcef79c885dceea,2025-08,3,post,2025-08-27T17:54:07+09:00,2025-08-27T17:54:07+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,739,[pre-commit.ci] pre-commit autoupdate (#739),"[pre-commit.ci] pre-commit autoupdate (#739)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ea7d4cfb69c41b2313f5992d05139072ee985ea2,2025-09,4,post,2025-09-12T07:28:34+09:00,2025-09-12T07:28:34+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,4,4,0,0,0,,,,,dependabot,0,744,Build(deps): Bump actions/setup-python from 5 to 6 in /.github/workflows (#744),"Build(deps): Bump actions/setup-python from 5 to 6 in /.github/workflows (#744)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,88a2cd0bfc2681cc0fde2dbbe097dc215c1c57c7,2025-09,4,post,2025-09-11T22:50:35Z,2025-09-11T22:50:35Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,743,[pre-commit.ci] pre-commit autoupdate (#743),"[pre-commit.ci] pre-commit autoupdate (#743)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,634b08adc826fcf21aff4ce4b255f53fd23d58c8,2025-09,4,post,2025-09-23T09:53:00+09:00,2025-09-23T09:53:00+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,pre-commit-ci,0,745,[pre-commit.ci] pre-commit autoupdate (#745),"[pre-commit.ci] pre-commit autoupdate (#745)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,e5bbd60f21656ecdd035e3785355c6207e87a718,2025-09,4,post,2025-09-23T01:20:07Z,2025-09-23T01:20:07Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,741,Build(deps): Bump lxml from 6.0.0 to 6.0.1 (#741),"Build(deps): Bump lxml from 6.0.0 to 6.0.1 (#741)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,b675d7acf8f0eda9efe80099fb9b53284854fe6a,2025-09,4,post,2025-09-23T02:11:09Z,2025-09-23T02:11:09Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,742,Build(deps): Bump pyvista from 0.45.3 to 0.46.3 (#742),"Build(deps): Bump pyvista from 0.45.3 to 0.46.3 (#742)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,39c77a2ca8475eed5df77099d96d68b88ede3f9a,2025-09,4,post,2025-09-23T02:49:02Z,2025-09-23T02:49:02Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,740,Build(deps): Bump the trame group with 3 updates (#740),"Build(deps): Bump the trame group with 3 updates (#740)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,af65d581d484a2957d241578fc4a80c436f7ec9e,2025-09,4,post,2025-09-23T03:07:52Z,2025-09-23T12:07:52+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,9,2,0,0,0,,B,claude,trailer;identity,,0,746,Fix GitHub Actions update-pr-branch permissions error (#746),"Fix GitHub Actions update-pr-branch permissions error (#746)
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+pyvista/pyvistaqt,e02d1363c6e3d25e2eca37234197f04961961b61,2025-09,4,post,2025-09-30T05:10:07+09:00,2025-09-30T05:10:07+09:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,747,[pre-commit.ci] pre-commit autoupdate (#747),"[pre-commit.ci] pre-commit autoupdate (#747)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6916aafd33b8681d782e1739be6cb10a9386d608,2025-10,5,post,2025-10-03T08:44:07+09:00,2025-10-03T08:44:07+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,752,Build(deps): Bump lxml from 6.0.1 to 6.0.2 (#752),"Build(deps): Bump lxml from 6.0.1 to 6.0.2 (#752)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b1a0fc37bcaea989326e0a677dbba89183931bdd,2025-10,5,post,2025-10-03T00:17:46Z,2025-10-03T00:17:46Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,751,Build(deps): Bump pytest from 8.4.1 to 8.4.2 (#751),"Build(deps): Bump pytest from 8.4.1 to 8.4.2 (#751)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,0e9bd473078f24cb1fd3f35ec495b7343ca09da1,2025-10,5,post,2025-10-03T00:52:42Z,2025-10-03T00:52:42Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,753,Build(deps): Bump the trame group across 1 directory with 3 updates (#753),"Build(deps): Bump the trame group across 1 directory with 3 updates (#753)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a25547c1f5a9483bd6a739f5fff4298fc07827b2,2025-10,5,post,2025-10-05T13:55:57+09:00,2025-10-05T13:55:57+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,749,Build(deps): Bump scooby from 0.10.1 to 0.10.2 (#749),"Build(deps): Bump scooby from 0.10.1 to 0.10.2 (#749)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,d9c573039c914509c792592751121b5009a88e4b,2025-10,5,post,2025-10-08T11:23:58-04:00,2025-10-08T11:23:58-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,3,57,55,1,53,55,,,,,,0,755,MAINT: Update rwi (#755),MAINT: Update rwi (#755)
+pyvista/pyvistaqt,d8379046f40f3af65c797b2962546e79d3e92e41,2025-10,5,post,2025-10-08T11:24:23-04:00,2025-10-08T11:24:23-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,754,[pre-commit.ci] pre-commit autoupdate (#754),"[pre-commit.ci] pre-commit autoupdate (#754)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,20510e31ad4f1147f9eb4549333d73559ddefbd6,2025-10,5,post,2025-10-08T15:46:31Z,2025-10-08T15:46:31Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,750,Build(deps): Bump pytest-cov from 6.2.1 to 7.0.0 (#750),"Build(deps): Bump pytest-cov from 6.2.1 to 7.0.0 (#750)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c5b8bbf2e57807d85c6e84cdda21b072f6af2fdc,2025-10,5,post,2025-10-13T13:46:06-04:00,2025-10-13T13:46:06-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,756,Build(deps): Bump adRise/update-pr-branch from 0.10.1 to 0.10.2 in /.github/workflows (#756),"Build(deps): Bump adRise/update-pr-branch from 0.10.1 to 0.10.2 in /.github/workflows (#756)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a433d78cb227ab3710dda8c93c3f611a30db5f90,2025-10,5,post,2025-10-13T16:09:14-04:00,2025-10-13T16:09:14-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,757,[pre-commit.ci] pre-commit autoupdate (#757),"[pre-commit.ci] pre-commit autoupdate (#757)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,8950d674ddf722ca7a493502933dcd746d7ae13d,2025-10,5,post,2025-10-17T10:40:14-04:00,2025-10-17T10:40:14-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,4,5,12,0,0,0,,,,,,0,758,MAINT: Remove PySide2 from testing (#758),MAINT: Remove PySide2 from testing (#758)
+pyvista/pyvistaqt,66d3d5a2857fde407815cd89ee07de5f1591a720,2025-10,5,post,2025-10-17T16:39:45Z,2025-10-17T16:39:45Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,733,Build(deps): Bump pytest-qt from 4.4.0 to 4.5.0 (#733),"Build(deps): Bump pytest-qt from 4.4.0 to 4.5.0 (#733)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,6af702d705cf195d8d4973ac35c19d899b0e2af2,2025-10,5,post,2025-10-17T12:54:25-04:00,2025-10-18T01:54:25+09:00,u6696e2c1fcedae48,u6696e2c1fcedae48@users.invalid,GitHub,noreply@github.com,1,0,1,17,0,0,0,0,,,,,,0,633,Create security policy (#633),"Create security policy (#633)
+
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,9c75af3743a0301aeafd4c9abc21133a0d15c3e0,2025-10,5,post,2025-10-17T14:12:33-04:00,2025-10-17T14:12:33-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,8,35,38,4,25,31,,,,,,0,759,MAINT: Bump Python min to 3.10 (#759),MAINT: Bump Python min to 3.10 (#759)
+pyvista/pyvistaqt,0f303a8f42daa5127a1b3b58d8c15d1efe188c51,2025-10,5,post,2025-10-21T13:42:55Z,2025-10-21T13:42:55Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,760,[pre-commit.ci] pre-commit autoupdate (#760),"[pre-commit.ci] pre-commit autoupdate (#760)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,466c0071c244f12bdc9de2d0f895243d67e8ba1d,2025-10,5,post,2025-10-27T18:06:03Z,2025-10-27T18:06:03Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,10,3,0,0,0,,,,,dependabot,0,763,Build(deps): Bump the artifacts group in /.github/workflows with 2 updates (#763),"Build(deps): Bump the artifacts group in /.github/workflows with 2 updates (#763)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,daaec82e33b59614f60620def0b90530186e941b,2025-10,5,post,2025-10-28T09:08:47-04:00,2025-10-28T09:08:47-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,764,[pre-commit.ci] pre-commit autoupdate (#764),"[pre-commit.ci] pre-commit autoupdate (#764)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b009ab68fe043978bc3aa49e8703f6d5f2c1288f,2025-11,6,post,2025-11-02T08:41:52+09:00,2025-11-02T08:41:52+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,769,Build(deps): Bump numpy from 2.1.0 to 2.2.6 (#769),"Build(deps): Bump numpy from 2.1.0 to 2.2.6 (#769)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9dc2b56020b995f8258dba82e8003ef3c627fd03,2025-11,6,post,2025-11-02T00:15:01Z,2025-11-02T00:15:01Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,765,Build(deps): Bump the trame group with 2 updates (#765),"Build(deps): Bump the trame group with 2 updates (#765)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,5db08dfba2f73823d1b1d52cf0f05bd3edb10c62,2025-11,6,post,2025-11-02T14:50:35Z,2025-11-02T14:50:35Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,767,Build(deps): Bump matplotlib from 3.10.1 to 3.10.7 (#767),"Build(deps): Bump matplotlib from 3.10.1 to 3.10.7 (#767)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b286f5796c4d63b9177040a20967fc7de81b48cb,2025-11,6,post,2025-11-02T15:12:49Z,2025-11-02T15:12:49Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,766,Build(deps): Bump pyvista from 0.46.3 to 0.46.4 (#766),"Build(deps): Bump pyvista from 0.46.3 to 0.46.4 (#766)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,8862370d9f7f0d0d5a1ad5fe3927794f27af7774,2025-11,6,post,2025-11-02T15:34:48Z,2025-11-02T15:34:48Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,768,Build(deps): Bump ipython from 8.27.0 to 8.37.0 (#768),"Build(deps): Bump ipython from 8.27.0 to 8.37.0 (#768)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,55f35ae318a99b986a0530d2f839c9acc8030967,2025-11,6,post,2025-11-03T20:02:07Z,2025-11-03T20:02:07Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,770,[pre-commit.ci] pre-commit autoupdate (#770),"[pre-commit.ci] pre-commit autoupdate (#770)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,f85bcd5f00773428ff7322f58eab66d6ea52f24c,2025-11,6,post,2025-11-10T15:22:58-05:00,2025-11-10T15:22:58-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,771,[pre-commit.ci] pre-commit autoupdate (#771),"[pre-commit.ci] pre-commit autoupdate (#771)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b892e7dc5d422ff16de05c89804d6693e429673e,2025-11,6,post,2025-11-17T14:45:24-05:00,2025-11-17T14:45:24-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,772,[pre-commit.ci] pre-commit autoupdate (#772),"[pre-commit.ci] pre-commit autoupdate (#772)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,8f783f97a1faff41db4752aae3e6bbb1e17f1394,2025-11,6,post,2025-11-24T23:47:47+09:00,2025-11-24T23:47:47+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,5,5,0,0,0,,,,,dependabot,0,773,Build(deps): Bump actions/checkout from 5 to 6 in /.github/workflows (#773),"Build(deps): Bump actions/checkout from 5 to 6 in /.github/workflows (#773)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,e8429fe4cbf1983289d3068b16f5937ca2e30d26,2025-11,6,post,2025-11-24T19:58:18Z,2025-11-24T19:58:18Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,774,[pre-commit.ci] pre-commit autoupdate (#774),"[pre-commit.ci] pre-commit autoupdate (#774)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a503f0548ab3b939c4ab0456865f9b1e40037dac,2025-12,7,post,2025-12-01T09:15:06-05:00,2025-12-01T09:15:06-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,777,Build(deps): Bump scooby from 0.10.2 to 0.11.0 (#777),"Build(deps): Bump scooby from 0.10.2 to 0.11.0 (#777)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,19f3fd7f8695bf94af3e70d43902e9d6e7af22c0,2025-12,7,post,2025-12-01T14:42:15Z,2025-12-01T14:42:15Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,775,Build(deps): Bump pytest from 8.4.2 to 9.0.1 (#775),"Build(deps): Bump pytest from 8.4.2 to 9.0.1 (#775)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,2a45f34e527ba032c636d43e01fff0c9d048b266,2025-12,7,post,2025-12-01T16:19:20Z,2025-12-01T16:19:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,776,Build(deps): Bump imageio from 2.37.0 to 2.37.2 (#776),"Build(deps): Bump imageio from 2.37.0 to 2.37.2 (#776)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,e37790adde9066bbcca4caf23a6694d22aa236aa,2025-12,7,post,2025-12-01T16:17:43-05:00,2025-12-01T16:17:43-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,778,[pre-commit.ci] pre-commit autoupdate (#778),"[pre-commit.ci] pre-commit autoupdate (#778)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c2d7603ab37c2b01d157f3d74dee1c1c1e80878f,2025-12,7,post,2025-12-15T14:45:15Z,2025-12-15T14:45:15Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,3,0,0,0,,,,,dependabot,0,780,Build(deps): Bump the artifacts group in /.github/workflows with 2 updates (#780),"Build(deps): Bump the artifacts group in /.github/workflows with 2 updates (#780)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,3d3678b798a0b1a925fe5ce0265bce104e10d5a4,2026-01,8,post,2026-01-05T17:36:52Z,2026-01-05T17:36:52Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,12,7,0,0,0,,,,,dependabot,0,784,Build(deps): Bump pytest from 9.0.1 to 9.0.2 (#784),"Build(deps): Bump pytest from 9.0.1 to 9.0.2 (#784)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,6609a8b46108e5e9cb22f4b5b70be8159c63425a,2026-01,8,post,2026-01-05T13:00:15-05:00,2026-01-05T13:00:15-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,783,Build(deps): Bump matplotlib from 3.10.7 to 3.10.8 (#783),"Build(deps): Bump matplotlib from 3.10.7 to 3.10.8 (#783)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a687522602fcd97985a9d317c412454caf720896,2026-01,8,post,2026-01-05T13:00:26-05:00,2026-01-05T13:00:26-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,782,Build(deps): Bump sphinx-gallery from 0.19.0 to 0.20.0 (#782),"Build(deps): Bump sphinx-gallery from 0.19.0 to 0.20.0 (#782)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9ab56971fa58a746c7cdfc87120e45c751bdfecf,2026-01,8,post,2026-01-05T13:00:34-05:00,2026-01-05T13:00:34-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,781,Build(deps): Bump the trame group with 2 updates (#781),"Build(deps): Bump the trame group with 2 updates (#781)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,9eb59ac9ef0ec2f0d4cb352987d86a44ca0bd733,2026-01,8,post,2026-01-05T18:24:14Z,2026-01-05T18:24:14Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,pre-commit-ci,0,779,[pre-commit.ci] pre-commit autoupdate (#779),"[pre-commit.ci] pre-commit autoupdate (#779)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,bac23311d6b8468a5a242d3e244b0486cdfa33ce,2026-01,8,post,2026-01-13T14:27:52Z,2026-01-13T14:27:52Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,4,4,0,0,0,,,,,pre-commit-ci,0,785,[pre-commit.ci] pre-commit autoupdate (#785),"[pre-commit.ci] pre-commit autoupdate (#785)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,f6523f79dc84c59e2ed48cd6a8e2b6d1c5b5e86d,2026-01,8,post,2026-01-19T17:47:49-05:00,2026-01-19T17:47:49-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,786,[pre-commit.ci] pre-commit autoupdate (#786),"[pre-commit.ci] pre-commit autoupdate (#786)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,55da3b590ea089610b25a2b7c22981e6e0ffb5ec,2026-01,8,post,2026-01-26T16:39:52-05:00,2026-01-26T16:39:52-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,787,[pre-commit.ci] pre-commit autoupdate (#787),"[pre-commit.ci] pre-commit autoupdate (#787)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,c543cebfb4e57adafae6d200bf37812570237d49,2026-02,9,post,2026-02-01T22:44:50-05:00,2026-02-01T22:44:50-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,791,Build(deps): Bump ipython from 8.37.0 to 8.38.0 (#791),"Build(deps): Bump ipython from 8.37.0 to 8.38.0 (#791)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,fa2784bc494c362768cbe9757d3b7af06dc4458f,2026-02,9,post,2026-02-01T22:45:12-05:00,2026-02-01T22:45:12-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,790,Build(deps): Bump pyvista from 0.46.4 to 0.46.5 (#790),"Build(deps): Bump pyvista from 0.46.4 to 0.46.5 (#790)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,642650d0b2b19456a419874f75b2d445e132893d,2026-02,9,post,2026-02-01T22:45:32-05:00,2026-02-01T22:45:32-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,789,Build(deps): Bump pytest-sphinx from 0.6.3 to 0.7.1 (#789),"Build(deps): Bump pytest-sphinx from 0.6.3 to 0.7.1 (#789)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,dc05f43b2a9198d67655c9c4f2ad52fce917f023,2026-02,9,post,2026-02-02T11:52:58-05:00,2026-02-02T11:52:58-05:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,4,134,93,1,13,3,,,,,,0,792,DEP: Bump PyVista min to 0.39 (#792),DEP: Bump PyVista min to 0.39 (#792)
+pyvista/pyvistaqt,7596072f2351b933bdebbd5e3b7b3ccb2b933541,2026-02,9,post,2026-02-02T19:08:06Z,2026-02-02T19:08:06Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,788,Build(deps): Bump the trame group with 2 updates (#788),"Build(deps): Bump the trame group with 2 updates (#788)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,edf9a2b0c5352f5a925e80e14193543a2730f699,2026-02,9,post,2026-02-10T10:24:19-05:00,2026-02-10T10:24:19-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,3,5,1,2,4,,,,,pre-commit-ci,0,794,[pre-commit.ci] pre-commit autoupdate (#794),"[pre-commit.ci] pre-commit autoupdate (#794)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,d51f929188c5c10b6471f84b9c4e105cf9438c5a,2026-02,9,post,2026-02-16T19:28:02Z,2026-02-16T19:28:02Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,795,[pre-commit.ci] pre-commit autoupdate (#795),"[pre-commit.ci] pre-commit autoupdate (#795)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,f9e88d2be1688c9b267c6a8f499825f4dc9cf3d3,2026-02,9,post,2026-02-24T12:21:53-05:00,2026-02-24T12:21:53-05:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,796,[pre-commit.ci] pre-commit autoupdate (#796),"[pre-commit.ci] pre-commit autoupdate (#796)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,babd63ebc7e38fdc54527b84f34860ef76d22bb7,2026-03,10,post,2026-03-01T21:04:08+09:00,2026-03-01T21:04:08+09:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,798,Build(deps): Bump pyvista from 0.46.5 to 0.47.1 (#798),"Build(deps): Bump pyvista from 0.46.5 to 0.47.1 (#798)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,022ce7d63cb08dd015f31e7d0c09726292587049,2026-03,10,post,2026-03-01T12:12:55Z,2026-03-01T12:12:55Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,797,Build(deps): Bump the trame group with 2 updates (#797),"Build(deps): Bump the trame group with 2 updates (#797)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u6696e2c1fcedae48 <u6696e2c1fcedae48@users.invalid>"
+pyvista/pyvistaqt,d640e47c2b928e61db9e3eab715ecdb3e0490f73,2026-03,10,post,2026-03-02T10:31:12-05:00,2026-03-02T10:31:12-05:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,799,Build(deps): Bump the artifacts group in /.github/workflows with 2 updates (#799),"Build(deps): Bump the artifacts group in /.github/workflows with 2 updates (#799)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,fd7df088f9c07cae606adc7ff9cc881f75df9a29,2026-03,10,post,2026-03-02T20:11:42Z,2026-03-02T20:11:42Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,800,[pre-commit.ci] pre-commit autoupdate (#800),"[pre-commit.ci] pre-commit autoupdate (#800)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,b8c9e6c4da83d9d98ef66e076842c57d666d8055,2026-03,10,post,2026-03-09T16:25:38-04:00,2026-03-09T16:25:38-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,801,[pre-commit.ci] pre-commit autoupdate (#801),"[pre-commit.ci] pre-commit autoupdate (#801)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,f87f1abd2920b46dc230c228e7cef67e605a79b0,2026-03,10,post,2026-03-16T19:49:15Z,2026-03-16T19:49:15Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,802,[pre-commit.ci] pre-commit autoupdate (#802),"[pre-commit.ci] pre-commit autoupdate (#802)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,13e75c4d69a30889c4b61be1595b011ee8374b47,2026-04,11,post,2026-04-01T19:28:20Z,2026-04-01T19:28:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,2,2,0,0,0,,,,,dependabot,0,809,Build(deps): Bump pytest-cov from 7.0.0 to 7.1.0 (#809),"Build(deps): Bump pytest-cov from 7.0.0 to 7.1.0 (#809)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,818a216b6e90169fd26061b30dd5e7f52db1c6cc,2026-04,11,post,2026-04-01T19:43:51Z,2026-04-01T19:43:51Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,808,Build(deps): Bump ipython from 8.38.0 to 8.39.0 (#808),"Build(deps): Bump ipython from 8.38.0 to 8.39.0 (#808)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,77e363dfec89d4a711806f44e4ec57d1c03275f9,2026-04,11,post,2026-04-01T19:55:48Z,2026-04-01T19:55:48Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,dependabot,0,806,Build(deps): Bump the trame group across 1 directory with 2 updates (#806),"Build(deps): Bump the trame group across 1 directory with 2 updates (#806)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,7e11c087c586c3f085f45687051cc9161d01bd44,2026-04,11,post,2026-04-01T20:15:46Z,2026-04-01T20:15:46Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,805,Build(deps): Bump mamba-org/setup-micromamba from 2 to 3 in /.github/workflows (#805),"Build(deps): Bump mamba-org/setup-micromamba from 2 to 3 in /.github/workflows (#805)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ff1c60164a6a3331776eef0ae729399d5f86df44,2026-04,11,post,2026-04-01T20:28:50Z,2026-04-01T20:28:50Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,dependabot,0,804,Build(deps): Bump codecov/codecov-action from 5 to 6 in /.github/workflows (#804),"Build(deps): Bump codecov/codecov-action from 5 to 6 in /.github/workflows (#804)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,1270e2bafa64a9e18d66bd9ed17c6058efe486d9,2026-04,11,post,2026-04-02T18:29:27Z,2026-04-02T18:29:27Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,803,[pre-commit.ci] pre-commit autoupdate (#803),"[pre-commit.ci] pre-commit autoupdate (#803)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,ed2afa3e86b22114580002e5538ed35d98d7f22e,2026-04,11,post,2026-04-02T14:30:27-04:00,2026-04-02T14:30:27-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,807,Build(deps): Bump imageio from 2.37.2 to 2.37.3 (#807),"Build(deps): Bump imageio from 2.37.2 to 2.37.3 (#807)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,4037ea3ebb7ff58e6b83680c2b8b7c3ebf87a30e,2026-04,11,post,2026-04-03T12:33:35-04:00,2026-04-03T12:33:35-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,2,26,3,1,23,1,,,,,,0,810,FIX: Fix for bad interaction on macOS + 6.10+ (#810),FIX: Fix for bad interaction on macOS + 6.10+ (#810)
+pyvista/pyvistaqt,8a0453405567bff67873f3a5bc7b9e1bf94e8dda,2026-04,11,post,2026-04-06T20:30:21Z,2026-04-06T20:30:21Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,811,[pre-commit.ci] pre-commit autoupdate (#811),"[pre-commit.ci] pre-commit autoupdate (#811)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,a5f4d4a7aa1e1cfa7ca4ec60d35e096bba8a4408,2026-04,11,post,2026-04-13T19:39:40Z,2026-04-13T19:39:40Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,812,[pre-commit.ci] pre-commit autoupdate (#812),"[pre-commit.ci] pre-commit autoupdate (#812)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,3d5fea76ee3c5391f2a6e8a3129e4c5fc4785805,2026-04,11,post,2026-04-14T12:16:38-04:00,2026-04-14T12:16:38-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,813,Build(deps): Bump pytest from 9.0.2 to 9.0.3 (#813),"Build(deps): Bump pytest from 9.0.2 to 9.0.3 (#813)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6bbb14c54c4dfbb5f3268988471e6d0ff1173ba2,2026-04,11,post,2026-04-18T20:03:17-07:00,2026-04-18T20:03:17-07:00,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,GitHub,noreply@github.com,1,0,4,16,14,0,0,0,,,,,,0,815,Use PyPI OIDC (#815),Use PyPI OIDC (#815)
+pyvista/pyvistaqt,025fa95e8f2a0f6c686a5ee80f2e3a54961b353d,2026-04,11,post,2026-04-18T22:17:41-06:00,2026-04-18T21:17:41-07:00,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,GitHub,noreply@github.com,1,0,34,175,909,8,10,62,,,,,,0,816,"Cleanup cruft, support Python 3.14, and update everything (#816)","Cleanup cruft, support Python 3.14, and update everything (#816)"
+pyvista/pyvistaqt,8ecb5db31765eab5e9ef4a953454c4acce81110d,2026-04,11,post,2026-04-19T01:07:17-07:00,2026-04-19T01:07:17-07:00,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,GitHub,noreply@github.com,1,0,2,9,22,0,0,0,,,,,,0,818,Audit README and docs badges for accuracy (#818),Audit README and docs badges for accuracy (#818)
+pyvista/pyvistaqt,afe42eac90e660bb0eea742287026e4fdd0036b2,2026-04,11,post,2026-04-27T16:04:24-04:00,2026-04-27T16:04:24-04:00,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,pre-commit-ci,0,820,[pre-commit.ci] pre-commit autoupdate (#820),"[pre-commit.ci] pre-commit autoupdate (#820)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,38d7a6ccce212f34a3fb4e2f50c2f146bbc27aec,2026-05,12,post,2026-05-01T09:48:56-04:00,2026-05-01T09:48:56-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,822,Build(deps-dev): Bump scooby from 0.11.0 to 0.11.2 (#822),"Build(deps-dev): Bump scooby from 0.11.0 to 0.11.2 (#822)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,d9d588eebc2858e7d64c2a719e5343979306b4b8,2026-05,12,post,2026-05-01T14:20:51Z,2026-05-01T14:20:51Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,821,Build(deps-dev): Bump sphinx-gallery from 0.20.0 to 0.21.0 (#821),"Build(deps-dev): Bump sphinx-gallery from 0.20.0 to 0.21.0 (#821)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,782c88c5dc3acf6a888c6cc926fdf126225905db,2026-05,12,post,2026-05-01T14:38:20Z,2026-05-01T14:38:20Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,817,Build(deps-dev): Bump pydata-sphinx-theme from 0.16.1 to 0.17.0 (#817),"Build(deps-dev): Bump pydata-sphinx-theme from 0.16.1 to 0.17.0 (#817)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,16522370dfdc9ed7caa00574666c0f48d5c8970c,2026-05,12,post,2026-05-04T19:49:57Z,2026-05-04T19:49:57Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,823,[pre-commit.ci] pre-commit autoupdate (#823),"[pre-commit.ci] pre-commit autoupdate (#823)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,6a966628ea151514bb126df45bce9ece3b20daff,2026-05,12,post,2026-05-09T14:02:53-07:00,2026-05-09T14:02:53-07:00,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,1,0,2,9,5,1,7,3,,,,,,0,,Fix for trame-pyvista migration,Fix for trame-pyvista migration
+pyvista/pyvistaqt,0a7ce1aa354c5632a8efe1460eef46b0274b03b6,2026-05,12,post,2026-05-09T14:23:31-07:00,2026-05-09T14:23:31-07:00,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,1,0,2,15,2,1,14,1,,,,,,0,,Force-load trame-pyvista plugin and install it in pyvista-main CI,Force-load trame-pyvista plugin and install it in pyvista-main CI
+pyvista/pyvistaqt,0c4c50e5acaf386cbd8cedade540e44f5c18a698,2026-05,12,post,2026-05-11T22:47:05Z,2026-05-11T22:47:05Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,824,[pre-commit.ci] pre-commit autoupdate (#824),"[pre-commit.ci] pre-commit autoupdate (#824)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,26a026130fb7599da302af5e7370c943032e14e4,2026-05,12,post,2026-05-18T11:41:30-04:00,2026-05-18T11:41:30-04:00,u774d102230879d41,u774d102230879d41@users.invalid,GitHub,noreply@github.com,1,0,2,4,0,0,0,0,,,,,,0,825,BUG: Attach attrs to archives (#825),BUG: Attach attrs to archives (#825)
+pyvista/pyvistaqt,79ac29ead9f9d0378caf7310b791d92a9d981000,2026-05,12,post,2026-05-18T13:58:48-07:00,2026-05-18T13:58:48-07:00,u9c21395fd20ed24a,u9c21395fd20ed24a@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,,Update CNAME for documentation site,Update CNAME for documentation site
+pyvista/pyvistaqt,740a86bb5bd77017b9ecb72c2a1cd42a4ea4560f,2026-05,12,post,2026-05-19T13:20:31Z,2026-05-19T13:20:31Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,3,4,4,0,0,0,,,,,pre-commit-ci,0,826,[pre-commit.ci] pre-commit autoupdate (#826),"[pre-commit.ci] pre-commit autoupdate (#826)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: u774d102230879d41 <u774d102230879d41@users.invalid>"
+pyvista/pyvistaqt,bfc77122212ebd0c01fe8f2f516ab14ad4e79229,2026-05,12,post,2026-05-21T10:31:37-04:00,2026-05-21T10:31:37-04:00,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,dependabot,0,827,Build(deps): Bump adRise/update-pr-branch from 0.10.2 to 0.11.0 in /.github/workflows (#827),"Build(deps): Bump adRise/update-pr-branch from 0.10.2 to 0.11.0 in /.github/workflows (#827)
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>"
+pyvista/pyvistaqt,002922ef2178900e609dc71e0482ef526b884c9c,2026-05,12,post,2026-05-25T19:53:29Z,2026-05-25T19:53:29Z,pre-commit-ci[bot],66853113+pre-commit-ci[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,pre-commit-ci,0,828,[pre-commit.ci] pre-commit autoupdate (#828),"[pre-commit.ci] pre-commit autoupdate (#828)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>"

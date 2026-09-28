@@ -1,0 +1,26 @@
+image:
+  repository: bitnamilegacy/postgresql
+  tag: 16.6.0-debian-12-r2
+
+global:
+  security:
+    allowInsecureImages: true
+
+auth:
+  username: sonarUser
+  database: sonarqube
+  existingSecret: sonarqube-jdbc
+  secretKeys:
+    adminPasswordKey: jdbc-password
+    userPasswordKey: jdbc-password
+
+primary:
+  resources:
+    requests:
+      cpu: "500m"
+      memory: "1Gi"
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+  persistence:
+    size: 50Gi

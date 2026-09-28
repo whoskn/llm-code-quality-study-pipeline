@@ -1,0 +1,31 @@
+community:
+  enabled: true
+monitoringPasscodeSecretName: "sonarqube-monitoring"
+monitoringPasscodeSecretKey: "passcode"
+
+jdbcOverwrite:
+  enabled: true
+  jdbcUsername: "sonarUser"
+  jdbcSecretName: "sonarqube-jdbc"
+  jdbcSecretPasswordKey: "jdbc-password"
+
+ingress:
+  enabled: true
+  ingressClassName: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "512m"
+
+persistence:
+  enabled: true
+  size: 20Gi
+
+resources:
+  requests:
+    cpu: "2"
+    memory: "4Gi"
+  limits:
+    cpu: "4"
+    memory: "8Gi"
+
+jvmOpts: "-Xmx2g -Xms512m"
+jvmCeOpts: "-Xmx4g -Xms512m"

@@ -1,0 +1,130 @@
+# The commit-history stage: every commit of each sampled repo's 25-month window, with its
+# author, size and LLM markers, as one CSV per repository.
+#
+# Shaped like k8s/codeql/codeql-job.yaml -- one indexed pod per repository, the sample
+# sliced round-robin into shards, code and slice mounted from the working tree -- and for
+# the same reason: the rows have nowhere to go but a volume, and no node in this cluster
+# can mount a ReadWriteMany claim, so each shard gets its own ReadWriteOnce claim.
+#
+# Unlike the CodeQL stage a shard runs one pod at a time (parallelism 1, three shards =
+# three concurrent clones), so the claim never has to be shared between pods and nothing
+# pins a shard to a node: the volume follows the pod. The claim is also the resume marker.
+# A finished repository is <owner>__<name>.csv; a run in progress writes
+# <owner>__<name>.csv.part, flushed and fsynced every 100 commits and renamed only when
+# the repository is complete, so an evicted pod resumes at the commit after its last
+# flush rather than starting the repository again.
+#
+# This file is a template, applied once per shard by `make commits`. Never
+# `kubectl apply -f` it directly: the placeholders are unresolved and the mounted
+# ConfigMaps are rebuilt from the working tree.
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ba-commits-out-__SHARD__
+  labels:
+    app: ba-commits
+spec:
+  accessModes: ["ReadWriteOnce"]
+  storageClassName: fast
+  resources:
+    requests:
+      # the rows of one shard are a few tens of MiB: ~400 bytes a commit, and the clone
+      # itself never touches this volume
+      storage: 1Gi
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ba-commits-__SHARD__
+  labels:
+    app: ba-commits
+  # no namespace: `make commits` supplies it, and the cluster, on the command line
+spec:
+  completionMode: Indexed
+  completions: __COMPLETIONS__
+  # one pod per shard at a time, so the claim is only ever mounted once
+  parallelism: 1
+  backoffLimitPerIndex: 2
+  maxFailedIndexes: __MAXFAILED__
+  ttlSecondsAfterFinished: 172800
+  template:
+    metadata:
+      labels:
+        app: ba-commits
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: commits
+          # git comes with the non-slim python image, so nothing is installed
+          image: python:3.13
+          command: ["python3", "/app/scripts/scan/commits_repo.py"]
+          args:
+            # --index defaults to $JOB_COMPLETION_INDEX, and the mounted sample is this
+            # shard's slice, so the index needs no offset
+            - --sample=/sample/sample.csv
+            - --out=/state/out
+            - --work=/work
+            - --pre-months=__PRE__
+            - --post-months=__POST__
+            - --flush=100
+          env:
+            # the controller injects this too, but $(VAR) expansion in args resolves only
+            # against the container's own env list, so it is declared here as well
+            - name: JOB_COMPLETION_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            # spent through a git credential helper, never written to a config file
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: github-token
+                  key: token
+                  optional: true
+            - name: HOME
+              value: /work
+            # commits_repo.py imports scripts.scan.* and scripts.dataset.* as namespace
+            # packages
+            - name: PYTHONPATH
+              value: /app
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          volumeMounts:
+            - name: state
+              mountPath: /state
+            - name: work
+              mountPath: /work
+            - name: scripts
+              mountPath: /app/scripts/scan
+            - name: dataset
+              mountPath: /app/scripts/dataset
+            - name: sample
+              mountPath: /sample
+          resources:
+            requests:
+              # clone and three git log passes: one core is the useful width, and the
+              # clone is the only thing that needs room
+              cpu: "1"
+              memory: 1Gi
+              ephemeral-storage: 8Gi
+            limits:
+              cpu: "4"
+              memory: 4Gi
+              ephemeral-storage: 20Gi
+      volumes:
+        - name: state
+          persistentVolumeClaim:
+            claimName: ba-commits-out-__SHARD__
+        - name: work
+          emptyDir:
+            sizeLimit: 20Gi
+        - name: scripts
+          configMap:
+            name: ba-commits-scripts
+        - name: dataset
+          configMap:
+            name: ba-commits-dataset
+        - name: sample
+          configMap:
+            name: ba-commits-sample-__SHARD__
