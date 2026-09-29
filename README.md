@@ -216,7 +216,12 @@ snapshot, `YYYY-MM`), `offset` (event month, m₀ = 0) and `sha` (the measured c
   (`did_*.csv`, `summary.csv`), which the thesis does not use.
 - Early single-figure plotting scripts written before the outcome panel existed.
 
-## Licences of third-party data
+## Licence
+
+The scripts, manifests, Makefile and the data produced by this study are released under the
+MIT licence (see [LICENSE](LICENSE)). The exception is `data/00_sources/`, described below.
+
+### Third-party data
 
 The files in `data/00_sources/` come from other studies and keep their original terms: AIDev
 (Li et al., 2025), CursorStudy (He et al., 2025, doi:10.5281/zenodo.18368662) and
