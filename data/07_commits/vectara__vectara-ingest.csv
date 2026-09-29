@@ -1,0 +1,2780 @@
+repo,sha,month,offset,period,commit_date,author_date,author_name,author_email,committer_name,committer_email,parents,is_merge,files,insertions,deletions,scope_files,scope_insertions,scope_deletions,agent_files,llm_family,llm_tools,llm_signals,bot,is_revert,pr,subject,message
+vectara/vectara-ingest,3704023adfc72bdb14fb77d8769e6f9b1e9d48b1,2024-06,-12,pre,2024-06-06T09:57:12-07:00,2024-06-06T09:57:12-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,9,171,128,6,151,125,,,,,,0,95,Improve edgar crawler (#95),"Improve edgar crawler (#95)
+
+* initial
+
+* simplified html_to_text
+
+* removed debug msgs
+
+* minor update to html_to_text
+
+* remove debug msg
+
+* added code to enable removing of certain text from HTML pages
+
+* minor update to hackernews crawler to not print so many msgs
+
+* updated log msg"
+vectara/vectara-ingest,4eccffc9361763977a8b59246232742d11a7e6ae,2024-06,-12,pre,2024-06-13T13:16:29-07:00,2024-06-13T13:16:29-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,10,4,2,10,4,,,,,,0,96,Update to FMP crawler (#96),"Update to FMP crawler (#96)
+
+updated table summarization prompt"
+vectara/vectara-ingest,0523aae3bc512cb290af286fd1e22b30116d963f,2024-06,-12,pre,2024-06-14T21:43:25-07:00,2024-06-14T21:43:25-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,17,14,1,17,14,,,,,,0,97,bugfix (#97),"bugfix (#97)
+
+* bugfix
+
+* upd
+
+* upd"
+vectara/vectara-ingest,77cc6436642b980c04d4dbb90442fb7d1ef06459,2024-06,-12,pre,2024-06-18T07:25:12-07:00,2024-06-18T16:25:12+02:00,ufb7c5bfa5eb41ac6,ufb7c5bfa5eb41ac6@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,98,Update SECURITY.md (#98),"Update SECURITY.md (#98)
+
+Update the e-mail address for security reports"
+vectara/vectara-ingest,a6580eb217d7bea1cba9cfcca338bfca654921c1,2024-06,-12,pre,2024-06-22T20:11:30-07:00,2024-06-22T20:11:30-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,90,59,1,90,59,,,,,,0,99,FMP update (#99),"FMP update (#99)
+
+updated FMP crawler to control what to index"
+vectara/vectara-ingest,505ec1cadaf39d713247a7aa83759d680f14ca9f,2024-06,-12,pre,2024-06-29T09:28:54-07:00,2024-06-29T09:28:54-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,6,91,14,4,85,9,,,,,,0,100,Huggingface crawler (#100),"Huggingface crawler (#100)
+
+* initial
+
+* added Huggingface dataset crawler
+
+* update Dockerfile; other changes to hfdataset_crawler
+
+* updated Dockerfile"
+vectara/vectara-ingest,d1cf4a37630406f367a6be128cfbdab63c89233d,2024-07,-11,pre,2024-07-12T14:23:57-07:00,2024-07-12T14:23:57-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,4,59,13,3,31,13,,,,,,0,102,HF crawler and other updates (#102),"HF crawler and other updates (#102)
+
+* initial
+
+* added Huggingface dataset crawler
+
+* update Dockerfile; other changes to hfdataset_crawler
+
+* updated Dockerfile
+
+* bugfix
+
+* update
+
+* updated README
+
+* updated docs for hf_dataset crawler
+added params to that crawler too
+
+* bugfix"
+vectara/vectara-ingest,32d2167cd3d30e56bfe6a902e7998cca951ae5b5,2024-07,-11,pre,2024-07-17T06:53:02-07:00,2024-07-17T06:53:02-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,200,106,5,200,106,,,,,,0,103,Update crawler extraction (#103),"Update crawler extraction (#103)
+
+* initial
+
+* bugfix
+
+* bugfix for notion - get title in more cases
+
+* additional update to notion crawler
+
+* bug fix"
+vectara/vectara-ingest,947d58115dad45c7b5d503e398113f7dc627823d,2024-07,-11,pre,2024-07-18T00:50:44-07:00,2024-07-18T00:50:44-07:00,uec08b7bebafd9a03,uec08b7bebafd9a03@users.invalid,GitHub,noreply@github.com,1,0,5,200,3,2,186,2,,,,,,0,101,google drive crawler (#101),"google drive crawler (#101)
+
+* google drive crawler
+
+* updated gdrive crawler config
+
+* Refactored GdriveCrawler to use date filtering and removed local storage for processed files, and handling PDF files
+
+* Refactor: Switch to using index_file() for direct uploads, sanitize filenames
+
+* added numpy
+
+* Refactor gdrive_crawler.py: use slugify, logging.info, adjust date comparison, and rename byte_stream
+
+* standardize date handling
+
+* changed the file to earlier versions
+
+* changed crawing to crawling
+
+* removed redundant checks on dates and clubbed download() and export() into one
+
+* resolving commit issues
+
+* minor fixes
+
+* small mypy fix
+
+* updated Docker load of credentials.json
+
+* added typing annotations
+
+---------
+
+Co-authored-by: uca96ed2721d2be5e <uca96ed2721d2be5e@users.invalid>
+Co-authored-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>"
+vectara/vectara-ingest,2fec733817568fe571c0bec5925897bfe4f03077,2024-07,-11,pre,2024-07-18T17:23:56-07:00,2024-07-18T17:23:56-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,,0,104,Hotfix (#104),"Hotfix (#104)
+
+bugfix in run.sh when credentials.json is missing"
+vectara/vectara-ingest,70687ae59eb5f94f3fb86a698b3a316b8c20c116,2024-07,-11,pre,2024-07-23T15:50:47-07:00,2024-07-23T15:50:47-07:00,uec08b7bebafd9a03,uec08b7bebafd9a03@users.invalid,GitHub,noreply@github.com,1,0,2,3,2,0,0,0,,,,,,0,105,Gdrive crawler 2 (#105),"Gdrive crawler 2 (#105)
+
+* google drive crawler
+
+* updated gdrive crawler config
+
+* Refactored GdriveCrawler to use date filtering and removed local storage for processed files, and handling PDF files
+
+* Refactor: Switch to using index_file() for direct uploads, sanitize filenames
+
+* added numpy
+
+* Refactor gdrive_crawler.py: use slugify, logging.info, adjust date comparison, and rename byte_stream
+
+* standardize date handling
+
+* changed the file to earlier versions
+
+* changed crawing to crawling
+
+* removed redundant checks on dates and clubbed download() and export() into one
+
+* resolving commit issues
+
+* minor fixes
+
+* small mypy fix
+
+* updated Docker load of credentials.json
+
+* added typing annotations
+
+* added openpyxl
+
+* same run.sh as in main branch
+
+---------
+
+Co-authored-by: uca96ed2721d2be5e <uca96ed2721d2be5e@users.invalid>
+Co-authored-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>"
+vectara/vectara-ingest,908b52b171426315fb7032bd46c30aa625483778,2024-07,-11,pre,2024-07-24T14:55:36-07:00,2024-07-24T14:55:36-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,39,3,1,28,1,,,,,,0,107,updated notion crawler (#107),updated notion crawler (#107)
+vectara/vectara-ingest,36e328a28c60fff9688eef9482431ac1a9a11d97,2024-07,-11,pre,2024-07-24T14:55:52-07:00,2024-07-24T14:55:52-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,39,19,3,39,19,,,,,,0,106,fixed bug in csv/DB crawlers (#106),"fixed bug in csv/DB crawlers (#106)
+
+* fixed bug in csv/DB crawlers
+
+* fixed so that doc_metadata will be properly popualted
+
+* fixed title issue"
+vectara/vectara-ingest,818b90673db648276fa9f2ae9cb940fbba308c04,2024-08,-10,pre,2024-08-08T20:44:52-07:00,2024-08-08T20:44:52-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,22,3,2,20,3,,,,,,0,108,fixed OOM issue by resetting browser every 100 times (#108),"fixed OOM issue by resetting browser every 100 times (#108)
+
+* fixed OOM issue by resetting browser every 100 times
+
+* bugfix
+
+* added classes_to_remove and bug fix"
+vectara/vectara-ingest,42eddb0d0000dd4dfc1aab24562ce280bfa2d2eb,2024-08,-10,pre,2024-08-17T07:43:20-07:00,2024-08-17T07:43:20-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,254,98,3,223,98,,,,,,0,109,bug fixes to GDrive crawler (#109),"bug fixes to GDrive crawler (#109)
+
+* bug fixes
+
+* updated files types to ignore
+
+* bug fixes
+
+* more bugfixes
+
+* improvements
+
+* updated crawler arguments and added docs in CRAWLERS.md
+
+* added title to files when indexing
+
+* added safe remove of file
+
+* updated per Amin's comments
+
+* bugfix in handling of local files when reindexing
+
+* updated docs"
+vectara/vectara-ingest,cbdfac4341b4bdccc34871c7ebfc0b95adc80cb9,2024-08,-10,pre,2024-08-21T12:57:18-07:00,2024-08-21T20:57:18+01:00,u72f80c48a0c18266,u72f80c48a0c18266@users.invalid,GitHub,noreply@github.com,1,0,1,0,1,1,0,1,,,,,,0,114,Update website_crawler.py to keep clean urls (#114),Update website_crawler.py to keep clean urls (#114)
+vectara/vectara-ingest,54fd80870cf5d40e5571841c7dade9f47d981495,2024-08,-10,pre,2024-08-23T10:36:54-07:00,2024-08-23T10:36:54-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,7,53,37,3,41,33,,,,,,0,113,Updates to PMC crawler (#113),"Updates to PMC crawler (#113)
+
+* initial
+
+* with requirements
+
+* bug fixes
+
+* update
+
+* updated retry logic"
+vectara/vectara-ingest,79ca0dbacdfe4d11efcc87aa03b02266ccea1143,2024-09,-9,pre,2024-09-02T06:19:58+02:00,2024-09-02T05:19:58+01:00,u72f80c48a0c18266,u72f80c48a0c18266@users.invalid,GitHub,noreply@github.com,1,0,1,7,1,1,7,1,,,,,,0,115,Only normalize metadata values that are strings (#115),Only normalize metadata values that are strings (#115)
+vectara/vectara-ingest,48604dba7e5d8295820dd5063a44bd5af56adf40,2024-09,-9,pre,2024-09-05T18:18:03-07:00,2024-09-05T18:18:03-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,24,11,3,24,11,,,,,,0,116,Fix hfdataset ray (#116),"Fix hfdataset ray (#116)
+
+* initial
+
+* final"
+vectara/vectara-ingest,ac3e76c6881984773bcefa166301033c381c3972,2024-09,-9,pre,2024-09-11T20:36:06-07:00,2024-09-11T20:36:06-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,8,113,32,4,95,29,,,,,,0,117,Parallel processing for CSV Crawler (#117),"Parallel processing for CSV Crawler (#117)
+
+* added error checking in run.sh
+added parallel processing with RAY to csv/db crawler
+Using unstructured latest version when using summarize tables
+
+* updates
+
+* updates"
+vectara/vectara-ingest,1bdb76c8f3c7cc73bcd2a25a9625ec92e39f8770,2024-09,-9,pre,2024-09-12T14:12:37-07:00,2024-09-12T14:12:37-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,4,0,1,4,0,,,,,,0,118,fixed issue with HTML inside XML (#118),fixed issue with HTML inside XML (#118)
+vectara/vectara-ingest,ca23dcb082d907371cec1983018017fc1ad8a4b1,2024-09,-9,pre,2024-09-16T18:41:06-07:00,2024-09-16T18:41:06-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,76,10,2,73,10,,,,,,0,119,Store docs locally (#119),"Store docs locally (#119)
+
+* fixed issue with detect_file_type
+added store_docs configuration option to store all file content locally
+
+* more robust detection of HTML vs XML"
+vectara/vectara-ingest,313e308fcffa5ef344d8f0611a3b33914686bf9d,2024-09,-9,pre,2024-09-17T22:49:42-07:00,2024-09-17T22:49:42-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,120,Updated log msg (#120),"Updated log msg (#120)
+
+initial"
+vectara/vectara-ingest,e934f8ea19d3efb97d5006d6d8c2de78f84da4b7,2024-09,-9,pre,2024-09-25T13:09:57-07:00,2024-09-25T13:09:57-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,7,1,1,5,1,,,,,,0,121,Fix issues with CSV crawler (#121),"Fix issues with CSV crawler (#121)
+
+bug fixes"
+vectara/vectara-ingest,6c5301b4c9cbf2b5b3f451645ba969abe5b9135a,2024-10,-8,pre,2024-10-09T07:00:46-07:00,2024-10-09T07:00:46-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,4,120,1,2,100,0,,,,,,0,122,Add twitter crawler (#122),"Add twitter crawler (#122)
+
+* added twitter crawler
+
+* added logic to get more than 100 tweets with token paging
+
+* updated twitter crawler docs"
+vectara/vectara-ingest,ef54b1c6d47bbc1561afdcfb2f00c51894c34178,2024-11,-7,pre,2024-11-01T14:55:13-07:00,2024-11-01T14:55:13-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,30,24,3,30,24,,,,,,0,123,Fixes to CSV crawler (#123),"Fixes to CSV crawler (#123)
+
+* speed/memory improvements
+
+* bugfix"
+vectara/vectara-ingest,91c73f2d429ff9884370c2673d607b60d0b09aa5,2024-11,-7,pre,2024-11-07T08:50:58-08:00,2024-11-07T08:50:58-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,8,104,26,4,86,15,,,,,,0,124,Updates for folder crawler (#124),"Updates for folder crawler (#124)
+
+* updates
+
+* updated Dockerfile"
+vectara/vectara-ingest,bcab743fc6bc2958f6eabdb18d6bbd1c62423d18,2024-11,-7,pre,2024-11-09T09:17:24-08:00,2024-11-09T09:17:24-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,4,14,6,3,13,5,,,,,,0,125,Update FMP/Edgar crawler (#125),"Update FMP/Edgar crawler (#125)
+
+* initial
+
+* updated authlib to avoid vulnerability"
+vectara/vectara-ingest,0dc5d81e16a36fea0de3d0738793f7c9c270d1b9,2024-11,-7,pre,2024-11-14T07:05:40-05:00,2024-11-14T07:05:40-05:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,1,2,2,,,,,,0,126,initial (#126),"initial (#126)
+
+initia"
+vectara/vectara-ingest,c0e7a76b88924c16251a979a4f9789b721a63d53,2024-11,-7,pre,2024-11-18T11:27:05-08:00,2024-11-18T11:27:05-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,75,21,3,73,19,,,,,,0,127,added processing of images with GPT-4o vision (#127),"added processing of images with GPT-4o vision (#127)
+
+initial"
+vectara/vectara-ingest,0cdf2a95e7de839b54be8e8ffcc7d6720cad56a1,2024-11,-7,pre,2024-11-18T11:50:23-08:00,2024-11-18T11:50:23-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,0,0,0,,,,,,0,128,updated README (#128),updated README (#128)
+vectara/vectara-ingest,debe21b365c85372669f866a3d12d24031501505,2024-11,-7,pre,2024-11-22T04:51:09-08:00,2024-11-22T04:51:09-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,5,2,1,5,2,,,,,,0,129,bugfix for crawler (#129),bugfix for crawler (#129)
+vectara/vectara-ingest,0421a91bea6a8e5b7e42b2408b36da761ab17ace,2024-11,-7,pre,2024-11-27T04:44:09-08:00,2024-11-27T04:44:09-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,4,36,23,3,33,21,,,,,,0,130,Bug fixes (#130),"Bug fixes (#130)
+
+upgraded openai client version
+fixed issue with edgar sec_downloader"
+vectara/vectara-ingest,9c979aefdde96cb4747c8d47c11c87634a53b0f3,2024-12,-6,pre,2024-12-02T14:31:49-08:00,2024-12-02T14:31:49-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,11,279,102,6,253,88,,,,,,0,131,Chunking update (#131),"Chunking update (#131)
+
+* initial
+
+* updated config and README, support various unstructured chunking strategy
+
+* updated README and added docstrings
+
+* upgrade requirements
+
+* updates
+
+* NA
+
+* update
+
+* separated parsing locally into doc_parser
+
+* update
+
+* fixes based on Justin review"
+vectara/vectara-ingest,8d0233aa9d4aabf1368c80f9681dfe97b64ffd6d,2024-12,-6,pre,2024-12-06T21:57:03-08:00,2024-12-06T21:57:03-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,24,293,250,6,184,165,,,,,,0,132,Add docling support (#132),"Add docling support (#132)
+
+* initial
+
+* added .dockerignore
+
+* updated Dockerfile
+
+* updated
+
+* updates
+
+* updates
+
+* bug fixes
+
+* bugfix
+
+* bugfix
+
+* bug fixes
+
+* added metadata"
+vectara/vectara-ingest,ad1cc0db8803be7f2124f74e3bb23a577eced088,2024-12,-6,pre,2024-12-06T22:06:29-08:00,2024-12-06T22:06:29-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,1,2,2,,,,,,0,133,bugfix (#133),bugfix (#133)
+vectara/vectara-ingest,85faf65f7e3b2707178378cf5cc3af90e582b92a,2024-12,-6,pre,2024-12-10T08:17:58-08:00,2024-12-10T08:17:58-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,6,304,138,4,298,137,,,,,,0,134,Updates to parsing (#134),"Updates to parsing (#134)
+
+* split summary code to summary.py
+added ability to suggest meta-data fields from documents, and have GPT-4o extract those values
+
+* various bugfixes
+
+* updates per suggestions from Justin"
+vectara/vectara-ingest,34c0c8f0d28f746540a9ebc6724874ce4d0cd3a6,2024-12,-6,pre,2024-12-11T22:43:09-05:00,2024-12-11T22:43:09-05:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,18,11,2,14,9,,,,,,0,135,Update to automated metadata attribute generation (#135),"Update to automated metadata attribute generation (#135)
+
+* updated attribute generation (metadata) to have an attribute name and associated question
+
+* updated image summary prompt
+
+* remove summaries that are too short (image)
+
+* updated max_tokens
+
+* update
+
+* updates"
+vectara/vectara-ingest,fe0336336f21ab865dc951a9c94d20a93161c4ac,2024-12,-6,pre,2024-12-14T14:54:29-08:00,2024-12-14T14:54:29-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,54,27,5,54,27,,,,,,0,136,Image summary fixes (#136),"Image summary fixes (#136)
+
+* initial
+
+* updates
+
+* added instruction in table prompt to avoid headingss
+
+* updates
+
+* updated slack crawler to avoid too many actors
+
+* images with proper metadata"
+vectara/vectara-ingest,aa258b69a4be3f1f91f96a146608ea893b085fe0,2024-12,-6,pre,2024-12-17T19:47:38-08:00,2024-12-17T19:47:38-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,15,150,34,14,147,34,,,,,,0,138,Upload with APIv2 (#138),"Upload with APIv2 (#138)
+
+* initial
+
+* initial"
+vectara/vectara-ingest,360ee6fa1be35c270dfc0bcc04ef9bbee8bb215f,2024-12,-6,pre,2024-12-25T20:47:40-08:00,2024-12-25T20:47:40-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,18,13,1,18,13,,,,,,0,139,Remove debug msgs + bugfix (#139),"Remove debug msgs + bugfix (#139)
+
+* minor fixes
+
+* updated indexer so that doc_parser is not activated when not needed"
+vectara/vectara-ingest,173f0b2fe7fbe9617fe12ba8c5c54a5c5f875128,2025-01,-5,pre,2025-01-02T16:38:04-08:00,2025-01-02T16:38:04-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,6,1,1,6,1,,,,,,0,140,bugfix (#140),"bugfix (#140)
+
+* bugfix
+
+* bugfix"
+vectara/vectara-ingest,f6d4a1d11d2c155c9222978421afdd807bd3dc43,2025-01,-5,pre,2025-01-06T09:03:04-08:00,2025-01-06T18:03:04+01:00,ufb7c5bfa5eb41ac6,ufb7c5bfa5eb41ac6@users.invalid,GitHub,noreply@github.com,1,0,57,999,954,22,445,396,,,,,,0,137,Move from v1 to v2 APIs (#137),"Move from v1 to v2 APIs (#137)
+
+* Initial commit
+
+* Address TODOs
+
+* Update documentId and metadata
+
+* Move ""section"" to ""sections""
+
+* Fix page key logic
+
+* Fix logic bug in page key
+
+* Remove customer_id since it's not needed in API v2
+
+* Fix bugs in these 2 config files
+
+* Add a create corpus flag and fix a few bugs
+
+* Fix some bugs and add a create corpus flag
+
+* Default to creating corpora. Add API key for creating corpus.
+
+* Update response HTTP codes based on API v2
+
+* Fix inadvertent linefeed change
+
+* updates
+
+* minor fix to slack crawler docs
+
+* minor fix to slack crawler docs
+
+* fix minor issue in bulkuploader
+
+* upgraded uv version
+bugfixes in indexer
+
+* updated create_corpus flag
+
+* fixed some lint issues
+
+* bugfixes to notion, github and slack crawlers
+
+* added better check for reindexing
+
+* update to README
+
+* Sign the commit and update Fox News to use HTTPS
+
+---------
+
+Co-authored-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+Co-authored-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>"
+vectara/vectara-ingest,df47cf6a3a4d172a2ef8258e28d06929e0134bb3,2025-01,-5,pre,2025-01-07T10:49:31-08:00,2025-01-07T10:49:31-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,137,26,3,134,23,,,,,,0,141,add parallelism with ray to s3/folder crawlers (#141),add parallelism with ray to s3/folder crawlers (#141)
+vectara/vectara-ingest,33b8a81e5cf012ee31d10aa701da7f0928ddd24f,2025-01,-5,pre,2025-01-14T06:52:46-08:00,2025-01-14T06:52:46-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,13,528,214,7,483,189,,,,,,0,142,Contextual chunking (#142),"Contextual chunking (#142)
+
+* initial
+
+* added contextual retrieval
+updates to doc_parser to simplify the logic in the code, support explicit process_locally
+fixed typos in CRAWLERS.md
+other minor fixes
+
+* updates to properly handle tables in HTML
+
+* updates to contextual indexing
+
+* bugfix
+
+* updated README
+
+* added option for Anthropic (not just OpenAI) for summarization of tables, image and contextual retreival
+
+* updated how prompt caching is enabled in anthropic
+
+* bugfixes"
+vectara/vectara-ingest,f6f0ed60f220e60faf1b5de8ed3011e7b31cb0bb,2025-01,-5,pre,2025-01-27T12:04:39-08:00,2025-01-27T12:04:39-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,10,463,165,7,442,150,,,,,,0,146,Website crawler upd2 (#146),"Website crawler upd2 (#146)
+
+* initial
+
+* added LlamaParse
+
+* bugfixes to llamaparse
+
+* unstructured bugfix
+
+* added GMTF
+
+* bugfix for table processing from HTML
+
+* bugfix for table extraction from HTML - now properly working
+
+* updates from Suleman
+
+* removed debug msg"
+vectara/vectara-ingest,a212a3eb097e7cf2cb51a209213006aa5b5e4cc4,2025-01,-5,pre,2025-01-27T16:07:27-08:00,2025-01-27T16:07:27-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,0,0,0,,,,,,0,147,updated README to reflect llama_parse (#147),updated README to reflect llama_parse (#147)
+vectara/vectara-ingest,4f20f3c972710da703f31b79e751863b11638cd2,2025-01,-5,pre,2025-01-28T08:33:47-08:00,2025-01-28T08:33:47-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,1,3,3,,,,,,0,148,Hotfix 2 (#148),"Hotfix 2 (#148)
+
+* added title in all doc parsers - bugfix
+
+* removed debug msg"
+vectara/vectara-ingest,7fb14c81fae91ca5b6371fbdbf3e09af0cedb568,2025-01,-5,pre,2025-01-29T06:32:58-08:00,2025-01-29T06:32:58-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,149,bugfix (#149),bugfix (#149)
+vectara/vectara-ingest,52ea7c6e92dea27c8a9cb45f7cc3baf9396025d5,2025-01,-5,pre,2025-01-30T07:04:44-08:00,2025-01-30T07:04:44-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,150,update docling version for bugfix (#150),update docling version for bugfix (#150)
+vectara/vectara-ingest,a67bda37698d98ec365ad37adb98a49e37010b70,2025-02,-4,pre,2025-02-03T09:01:15-08:00,2025-02-03T11:01:15-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,5,490,4,3,466,4,,,,,,0,144,Confluence support. (#144),"Confluence support. (#144)
+
+* First pass at adding support for a Confluence crawler. fixes #143
+
+* Moved to use the uplaod api. Added an override that allows you to specify the filename. This helps when using tempfiles.
+
+* Added support to optionally download attachments.
+
+* Cleanup of unused method.
+
+* Added doc strings and argument types for all methods. Changed document ids to be a combination of type and id because I wasn't sure if you could have a blogpost 1 and a page 1. Added download links to the attachments. Added override to allow caller to specify the filename when uploading.
+
+* Updated the crawlers listing.
+
+* Corrected path.
+
+* Added documentation to indexer and link to CQL information."
+vectara/vectara-ingest,71f82084e35efdc2964e5cc9944fca5ca0c095e2,2025-02,-4,pre,2025-02-04T14:37:12-08:00,2025-02-04T14:37:12-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,80,20,2,80,20,,,,,,0,151,Website crawler update (#151),"Website crawler update (#151)
+
+* removed debug msg
+
+* adding links extraction from shadow DOM, if exists
+
+* updated fetch_page_content to recognize shadow DOM"
+vectara/vectara-ingest,0a428e8c5e1e8023a3f61c28b3a56413b380fab5,2025-02,-4,pre,2025-02-05T19:18:59-06:00,2025-02-05T19:18:59-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,2,5,3,1,3,2,,,,,,0,161,Support for reading secrets.toml path from environment variable (#161),"Support for reading secrets.toml path from environment variable (#161)
+
+Added support to read the location of secrets.toml from an environment variable `VECTARA_SECRETS_PATH`. Defaults to the original path. Fixes #160."
+vectara/vectara-ingest,a70df58c52a2b874a223293e241085a5d1b4b779,2025-02,-4,pre,2025-02-07T15:42:46-06:00,2025-02-07T15:42:46-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,5,235,1,3,199,1,,,,,,0,157,ServiceNow support (#157),"ServiceNow support (#157)
+
+* Removed hard coded api url. Fixes #155.
+
+* First commit of a ServiceNow crawler based on the ServiceNow table api rest service. Includes attachments for an article as well. This is driven towards Knowledge Base articles. It could be adapted for other type but would need to be tested. Fixes #154. Fixes PARTNER-31.
+
+* Added additional keys."
+vectara/vectara-ingest,10792c3a80e62c3e5df9be1910be2861cf21ce7c,2025-02,-4,pre,2025-02-07T15:31:27-08:00,2025-02-07T15:31:27-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,163,make sure only PDF have the table flag on (#163),make sure only PDF have the table flag on (#163)
+vectara/vectara-ingest,96971906fce454aeac86e82ddf99965e3a873b13,2025-02,-4,pre,2025-02-12T04:34:07-08:00,2025-02-12T04:34:07-08:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,1,0,1,1,0,1,,,,,,0,164,Cleanup duplicate write for attachments (#164),"Cleanup duplicate write for attachments (#164)
+
+Data was already written in 32k chunks. Removed duplicate write. Fixes #156"
+vectara/vectara-ingest,7d06970e4b626c79b5bbe018988f0de012fa835c,2025-02,-4,pre,2025-02-14T03:50:56-08:00,2025-02-14T03:50:56-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,12,90,43,9,85,38,,,,,,0,169,Upd docling2 (#169),"Upd docling2 (#169)
+
+* upgrade for docling
+
+* updated some crawlers to record last_updated in metadata (consistently)
+
+* bugfix to ensure index_url works with HTML files that include tables
+
+* bugfix in IPYNB notebooks processing
+
+* updated
+
+* updates"
+vectara/vectara-ingest,5b8f2563efd072993209e3849069226119f48d91,2025-02,-4,pre,2025-02-17T13:02:29-08:00,2025-02-17T13:02:29-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,27,31,4,26,30,,,,,,0,172,upgrade docling and bugfixes (#172),upgrade docling and bugfixes (#172)
+vectara/vectara-ingest,8eeec3dd4a3230ea32ee4275c8e6d7523a761495,2025-02,-4,pre,2025-02-20T08:58:23-08:00,2025-02-20T08:58:23-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,96,20,2,95,19,,,,,,0,173,Update to last_updated (#173),"Update to last_updated (#173)
+
+* updated extraction of last_updated from docs crawler
+
+* cleanup
+
+* minor tweak for table summary
+
+* fixed README typo
+
+* minor update"
+vectara/vectara-ingest,a76a683e34bfb33077cd8bd270739ddd0704543a,2025-02,-4,pre,2025-02-21T09:22:12-08:00,2025-02-21T09:22:12-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,1,10,1,0,9,,,,,,0,174,updated docling (#174),updated docling (#174)
+vectara/vectara-ingest,093636afe908d6a241dbe94b83e781d3ad1b1118,2025-02,-4,pre,2025-02-22T03:21:14-08:00,2025-02-22T03:21:14-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,49,8,2,44,6,,,,,,0,177,added OCR for Docling processing (#177),added OCR for Docling processing (#177)
+vectara/vectara-ingest,336c3c8ebd51a3b49685521ead715517ff00b875,2025-02,-4,pre,2025-02-24T11:03:57-08:00,2025-02-24T13:03:57-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,3,44,8,1,42,7,,,,,,0,176,PDF Chunking support (#176),"PDF Chunking support (#176)
+
+* Added support to break up pdfs if they are larger than a threshold.
+
+* Changed the IDs to be based off the file name. Added start_page and end_page to metadata.
+
+* Renamed variables round the PDF parts to be more clear. Moved configuration from vectara to doc_processing."
+vectara/vectara-ingest,410c3680b2dd2b4c62c1ea151a8b49de7750767c,2025-02,-4,pre,2025-02-24T11:29:01-08:00,2025-02-24T11:29:01-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,199,150,2,198,150,,,,,,0,178,Updates to doc_parser (#178),"Updates to doc_parser (#178)
+
+* updaded code to be more memory efficient and some bug fixes
+
+* removed enum
+
+* updates to image processing - always use core indexing
+
+* PIL config to avoid issue with images in unstructured
+
+* updates"
+vectara/vectara-ingest,275f418d1eaec15a3712b6d5fc4e0ead94c53236,2025-02,-4,pre,2025-02-25T05:40:37-08:00,2025-02-25T05:40:37-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,28,30,2,27,30,,,,,,0,180,Docling memory improvements (#180),"Docling memory improvements (#180)
+
+* memory util improvements
+
+* bugfix with docling"
+vectara/vectara-ingest,eb2c138d2690e1599259d0d4d787d7c1ed3edb2c,2025-02,-4,pre,2025-02-25T09:15:23-08:00,2025-02-25T09:15:23-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,0,0,0,,,,,,0,181,added fURL to requirements (#181),added fURL to requirements (#181)
+vectara/vectara-ingest,b3196f22647cfa70a167527d82b28f8625adcd89,2025-02,-4,pre,2025-02-25T19:32:14-08:00,2025-02-25T21:32:14-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,2,223,0,2,223,0,,,,,,0,182,Support for Confluence Datacenter (#182),"Support for Confluence Datacenter (#182)
+
+* Initial commit of a confluence crawler for confluence datacenter.
+
+* Added more metadata.
+
+* Removed logging data.
+
+* Reformatted and added doc strings."
+vectara/vectara-ingest,d79c0fb50363f8e83a184315010d10006be719e3,2025-02,-4,pre,2025-02-25T19:56:44-08:00,2025-02-25T21:56:44-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,15,86,16,13,72,13,,,,,,0,179,External SSL Certificate support (#179),"External SSL Certificate support (#179)
+
+* Added support to specify a PEM encoded certificate file for the certificate authority. Also allow verification of ssl to be disabled. Fixes PARTNER-34. Fixes #162. Fixes #158.
+
+* Corrected trhe logic to make sure that we are checking for is False.
+
+* Added documentation.
+
+* Changed flag for disabling ssl verification to `ssl_ignore_cert_errors` and have it disabled by default.
+
+* Renamed everything to a single variable called ssl_verify.
+
+* Added support to check if the user sets this to ""false"" or ""true"" and handle it as an integer.
+
+* Updated README.md to reflect changes to ssl_verify."
+vectara/vectara-ingest,aef593e411e906bc997ab8bd8811a4cb3ac34907,2025-02,-4,pre,2025-02-25T20:35:14-08:00,2025-02-25T22:35:14-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,3,11,0,0,0,0,,,,,,0,183,SSL support in run.sh (#183),"SSL support in run.sh (#183)
+
+Added external ca support to run.sh"
+vectara/vectara-ingest,812983754d0c0af4185a8e8fb67c2f1dae8f1a07,2025-02,-4,pre,2025-02-26T16:09:01-08:00,2025-02-26T16:09:01-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,6,0,0,0,0,,,,,,0,184,initial (#184),"initial (#184)
+
+inital"
+vectara/vectara-ingest,da1ca65b6f4f4e43c3b142adaddf957c91b150b0,2025-02,-4,pre,2025-02-27T16:40:24-08:00,2025-02-27T16:40:24-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,11,1,2,11,,,,,,0,185,bugfix for OCR (#185),bugfix for OCR (#185)
+vectara/vectara-ingest,31b91716fdf8051c4ec3136660004c78af9a47ae,2025-02,-4,pre,2025-02-28T08:41:17-08:00,2025-02-28T08:41:17-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,1,1,2,1,,,,,,0,186,added URL to images (#186),added URL to images (#186)
+vectara/vectara-ingest,e7247274666c1c3a944376862f7e65067b4ed564,2025-03,-3,pre,2025-03-10T08:17:46-07:00,2025-03-10T08:17:46-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,9,390,129,7,351,116,,,,,,0,187,Add support for local (private) models + DocuPanda (#187),"Add support for local (private) models + DocuPanda (#187)
+
+* finalized docuPanda
+
+* updated docupanda
+
+* updated
+
+* updated
+
+* updated
+
+* updates
+
+* update
+
+* bug fix:
+
+* final"
+vectara/vectara-ingest,898e5de49c5cf0ca602eff4c99d93468bb49170b,2025-03,-3,pre,2025-03-13T15:31:00-05:00,2025-03-13T15:31:00-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,4,200,1,2,165,0,,,,,,0,188,Sharepoint (#188),"Sharepoint (#188)
+
+* Initial support for sharepoint. Support for ingesting files.
+
+* Updated documentation."
+vectara/vectara-ingest,87d6b21703def61e3ca48d394cd156a27c91ab92,2025-03,-3,pre,2025-03-21T14:02:49-07:00,2025-03-21T14:02:49-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,23,9,3,23,9,,,,,,0,189,updated summary prompt (#189),"updated summary prompt (#189)
+
+* updated summary prompt
+
+* bug fixes in docling parsing
+
+* updated"
+vectara/vectara-ingest,5927f34ab8696c6835ade68133a1c70524c7b23c,2025-03,-3,pre,2025-03-28T19:51:37-05:00,2025-03-28T19:51:37-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,4,105,38,3,81,27,,,,,,0,194,Url configuration validation and debug logging (#194),"Url configuration validation and debug logging (#194)
+
+Added support to check endpoint and authurl and ensure that they are valid urls. Fixes 191. Added the ability to set the log level by an environment variable. Fixes #193. Added logging adapter that will dump the requests to the log. Fixes #192."
+vectara/vectara-ingest,cbd4f2c35e7444e7f382baadd9770e0bc09591dd,2025-03,-3,pre,2025-03-30T11:01:27-07:00,2025-03-30T11:01:27-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,12,9,2,9,6,,,,,,0,195,Hotfix run.sh (#195),"Hotfix run.sh (#195)
+
+* recent run.sh changes result in runtime Docker errors.
+This PR fixes that.
+
+* bugfix in index_file with reindex"
+vectara/vectara-ingest,323d5e3a076c7859cd824338413bd28614c4416c,2025-04,-2,pre,2025-04-06T10:30:57-07:00,2025-04-06T10:30:57-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,2,0,1,2,0,,,,,,0,196,Bugfix: delete and reindex (#196),"Bugfix: delete and reindex (#196)
+
+* updated
+
+* bugfix"
+vectara/vectara-ingest,9cd1e29e02fa2724f09b81c1b1e92da8994ffdc4,2025-04,-2,pre,2025-04-16T15:05:10-07:00,2025-04-16T15:05:10-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,8,46,15,4,32,5,,,,,,0,197,Update README (#197),"Update README (#197)
+
+* updated README, upgrade some libraries, integrate changes from Justin
+
+* bugfix
+
+* bugfix"
+vectara/vectara-ingest,3c6aca040e8d6bc0b8be5c4b3da48fd79e4ae323,2025-04,-2,pre,2025-04-27T13:09:18-07:00,2025-04-27T13:09:18-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,128,58,3,128,58,,,,,,0,199,upgrade to wikipedia crawler (#199),"upgrade to wikipedia crawler (#199)
+
+* upgrade to wikipedia crawler
+
+* updated"
+vectara/vectara-ingest,8d6f5e887d6aa5dcc4e8ab09267bbbaba511fb20,2025-04,-2,pre,2025-04-28T07:37:42-07:00,2025-04-28T07:37:42-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,6,94,41,3,87,35,,,,,,0,201,bug fix in index_url (#201),"bug fix in index_url (#201)
+
+* bug fix in index_url
+
+* updated"
+vectara/vectara-ingest,d6857d506fe18e110735a49b56a480ae98653a0c,2025-04,-2,pre,2025-04-29T12:10:47-07:00,2025-04-29T12:10:47-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,16,15,2,16,15,,,,,,0,203,Bug fix to table indexing (#203),"Bug fix to table indexing (#203)
+
+* bugfix to recover from image ingest failure
+
+* updated
+
+* updated
+
+* updated"
+vectara/vectara-ingest,9bd260cd4d9b965ccebbc7fc88f0acb2922c3b94,2025-05,-1,pre,2025-05-08T14:00:32-04:00,2025-05-08T14:00:32-04:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,3,129,103,3,129,103,,,,,,0,205,Local LLM extract_metadata fixes (#205),"Local LLM extract_metadata fixes (#205)
+
+* Refactored config code around model_config. When using a legacy model in doc_processing a dict would be used instead of a DictConfig. Later sections of code were dependent upon DictConfig. Fixes #204 Created new dict for image metadata to prevent it from being cleared. Fixes #202.
+
+* Cleanup removed code."
+vectara/vectara-ingest,26b8da5d77c148dfe0dcb891bcd068b915005a94,2025-05,-1,pre,2025-05-12T12:55:11-07:00,2025-05-12T12:55:11-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,10,4,1,10,4,,,,,,0,208,bugfix (#208),"bugfix (#208)
+
+* bugfix
+
+* updated"
+vectara/vectara-ingest,c1de85495c10474bb3b8e87ea201aa91562ee684,2025-05,-1,pre,2025-05-12T16:34:07-07:00,2025-05-12T16:34:07-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,27,28,1,27,28,,,,,,0,210,minor bugfix (#210),minor bugfix (#210)
+vectara/vectara-ingest,ae7e2fc5c045a1b3b94fa15b96a18c939a48b51e,2025-05,-1,pre,2025-05-15T07:11:07-07:00,2025-05-15T07:11:07-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,11,7,3,11,7,,,,,,0,211,provide default model_config (#211),"provide default model_config (#211)
+
+* provide default model_config
+
+* updated
+
+* fixed a bug"
+vectara/vectara-ingest,aa1937a977ef0120cc266e665a0be0bf285877ed,2025-05,-1,pre,2025-05-20T10:54:03-07:00,2025-05-20T10:54:03-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,8,479,215,5,470,213,,,,,,0,218,Add vectara fixed chunking + scrapy (#218),"Add vectara fixed chunking + scrapy (#218)
+
+* added scrapy crawling; support for fixed chunking via Vectara
+
+* updated
+
+* updated
+
+* bugfix
+
+* bugfix
+
+* updated
+
+* updated"
+vectara/vectara-ingest,05386575ac702e8b94653ae692a54d93f269c2c8,2025-05,-1,pre,2025-05-21T16:54:18-07:00,2025-05-21T16:54:18-07:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,8,224,95,3,104,72,,,,,,0,217,Concurrent execution support (#217),"Concurrent execution support (#217)
+
+* Added support for adding ssl certificates to the image based on an image mount.
+
+* Ensure that exit with non zero error code when profile is not found. Fixes 200. Ensure that error loading config returns a non zero exit code. Fixes #214. Moved away from copying files to ~/tmp for explicit container mounts to facilitate. Generate container name based on config name to allow multiple containers at once. Fixes #213. Added entry point script and check for /ssl directory. If crt files are detected in /ssl, they will be added to the system certs dynamically. Fixes #215. Added support to load config settings via environment variables. Fixes #216
+
+* Added documentation.
+
+* Per feedback from Ofer moved docker-entrypoint.sh to docker/bin.
+
+* Per feedback from Ofer. Removing unused imports.
+
+* Corrected missing key exception when handling general section.
+
+* Moved CONFIG environment variable to the end to make it more readable.
+
+* bugfix
+
+---------
+
+Co-authored-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>"
+vectara/vectara-ingest,f67d673c6f64fd19bfd4779757fbc3f87577756c,2025-05,-1,pre,2025-05-27T13:29:51-07:00,2025-05-27T13:29:51-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,4,1,1,4,1,,,,,,0,220,bugfix (#220),"bugfix (#220)
+
+* bugfix
+
+* updated"
+vectara/vectara-ingest,46c7874fa6daa549fcb8bc1fb1da5eed12949f36,2025-05,-1,pre,2025-05-30T14:03:46-05:00,2025-05-30T12:03:46-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,4,1,0,0,0,,,,,,0,222,Log msgs Docker command in red. (#222),"Log msgs Docker command in red. (#222)
+
+red colored the logs command"
+vectara/vectara-ingest,86febbdb3849894d022a50f71a3a2c2b9aab9e63,2025-06,0,m0,2025-06-02T19:21:11-07:00,2025-06-02T19:21:11-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,6,1,1,6,1,,,,,,0,224,added metadata fields: parent_folder and folder_path (#224),"added metadata fields: parent_folder and folder_path (#224)
+
+* added metadata fields: parent_folder and folder_path
+
+* updated to grab folders from outside docker"
+vectara/vectara-ingest,7dac1505e4af3be03f933e6c4a5987298d542128,2025-06,0,m0,2025-06-04T10:56:40-06:00,2025-06-04T10:56:40-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,2,26,0,1,15,0,,,,,,0,226,Static metadata (#226),"Static metadata (#226)
+
+* Added support to add metadata to a config file. Any items added to the metadata dictionary in the config will be added to the document metadata. Fixes #171.
+
+* Updated README.md to include an example of metadata."
+vectara/vectara-ingest,9b5fdbee2667b948b7f3f48115d454e9742d214f,2025-06,0,m0,2025-06-04T10:08:53-07:00,2025-06-04T11:08:53-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,2,170,31,1,168,30,,,,,,0,212,Sharepoint v2 (#212),"Sharepoint v2 (#212)
+
+* Refactored to support ntlm authentication and importing lists.
+
+* Added retry logic for sharepoint calls.
+
+* Renamed fields to properties to better match underlying library.
+
+* Added logic if there are no properties specified in the config to dump all of the available properties.
+
+* Corrected download url.
+
+* Check for allowed extensions.
+
+* Added support for zip files.
+
+* Added log statement for download.
+
+* Modified to use download call from library.
+
+* Update to office365-rest-python-client==2.6.2.
+
+# Conflicts:
+#	requirements.txt
+
+* moved to use get_file_by_server_relative_url.
+
+* Added error handling for bad requests around downloads.
+
+* Refactored to use web.folders.
+
+* Moved to use get_folder_by_server_relative_url
+
+* Added more debugging statements.
+
+* Added more debugging logic. Added support to leave temporary files with cleanup_temp_files = False.
+
+* Added missing ntlm library
+
+* Move cleanup log message to debug.
+
+* Removed unused imports.
+
+* Added check to see if folder exists."
+vectara/vectara-ingest,421e29e51cc6c820fc051bd33de6dc72a12f0248,2025-06,0,m0,2025-06-04T12:43:10-06:00,2025-06-04T12:43:10-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,3,29,2,0,0,0,,,,,,0,227,Build proxy support (#227),"Build proxy support (#227)
+
+Added support for proxies during the build process. Fixes #225."
+vectara/vectara-ingest,6a765cf3563e6e98b42b494fa34d19c633e77b48,2025-06,0,m0,2025-06-04T17:20:58-07:00,2025-06-04T18:20:58-06:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,4,134,68,3,125,68,,B,copilot,trailer,,0,221,Download EasyOCR models during docker build. (#221),"Download EasyOCR models during docker build. (#221)
+
+* Added support to download the EasyOCR models as part of building the docker container. Extended the config to include an EasyOCR config section. Fixes #219
+
+* Cleanup logging to align with #223.
+
+* Update Dockerfile
+
+Move from ADD to COPY
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+* Update core/doc_parser.py
+
+Removed redundant set of force_full_page_ocr.
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+vectara/vectara-ingest,ed8b856a2813ff23aaacd10e40fc200a7ee4f46d,2025-06,0,m0,2025-06-05T11:43:10-07:00,2025-06-05T23:43:10+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,27,2700,196,14,394,124,,,,,,0,209,adding setup to run it using cli (#209),"adding setup to run it using cli (#209)
+
+* adding setup to run it using cli
+
+* added cli option for windows
+
+* added cli option for windows
+
+* updated the hard coded directory path
+
+* updated the utils
+
+* updated ReadMe
+
+* removed unused print
+
+* Building the package using conda
+
+* update
+
+* remove setup.sh
+
+* update
+
+* update conda.md
+
+* Update post-link.sh and meta.yaml
+
+* bugfix
+
+* generated the requirement.txt using pip-compile
+
+* removed post link
+
+* update
+
+* updated the read me
+
+* added vectara_ingest namespace
+
+* updated the hardcoded paths
+
+* removed the check if application is running in the docker or not
+
+* update the requirement.txt
+
+* update with the main
+
+* fixed error in run.sh
+
+* updated setup.py
+
+---------
+
+Co-authored-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>"
+vectara/vectara-ingest,4e94da570411d3f84fb0a809666acd7f1b1b3e86,2025-06,0,m0,2025-06-17T11:04:57-07:00,2025-06-17T11:04:57-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,9,299,214,5,160,81,,,,,,0,235,Crawling sitemap issues (#235),"Crawling sitemap issues (#235)
+
+* fixed issues with blocked sitemap reading
+Upgrade ray version
+added custom user_agent that can be applied for crawling
+
+* updated
+
+* updated per review comments
+
+* removed duplicate
+
+* pip compile of reqs-extra"
+vectara/vectara-ingest,1441e56b55d0fee110ad206d7e6c0d8a9780c81c,2025-06,0,m0,2025-06-18T09:39:54-07:00,2025-06-18T09:39:54-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,237,bugfix with user_agent (#237),bugfix with user_agent (#237)
+vectara/vectara-ingest,c975e34b6f73ffad70d46ff9e4f7c5b3e89a28ae,2025-06,0,m0,2025-06-18T13:03:06-07:00,2025-06-19T01:03:06+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,54,1,0,0,0,,,,,,0,233,adding linux config and readme instruction (#233),"adding linux config and readme instruction (#233)
+
+* adding linux config and readme instruction
+
+* update readme"
+vectara/vectara-ingest,2966d784d135ddb6894929ddcb82b2fb6a0d9b60,2025-06,0,m0,2025-06-20T07:11:56-07:00,2025-06-20T19:11:56+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,64,0,0,0,0,,,,,,0,238,Add release workflow (#238),"Add release workflow (#238)
+
+* Add release workflow
+
+* updated regex for release version"
+vectara/vectara-ingest,93223e30f718c1f43ea4433744585fd73eccd3d5,2025-06,0,m0,2025-06-20T07:21:17-07:00,2025-06-20T19:21:17+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,239,updated secret name in release workflow (#239),updated secret name in release workflow (#239)
+vectara/vectara-ingest,d76c651b4ae0d9f31974bcfe7128a29380c86772,2025-06,0,m0,2025-06-20T07:32:06-07:00,2025-06-20T19:32:06+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,5,0,0,0,0,,,,,,0,240,fixed git user error for release workflow (#240),fixed git user error for release workflow (#240)
+vectara/vectara-ingest,4f68f156ef57896abd6d57551f1a3e872d0132dc,2025-06,0,m0,2025-06-20T07:39:47-07:00,2025-06-20T19:39:47+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,241,user default github token for release workflow (#241),user default github token for release workflow (#241)
+vectara/vectara-ingest,620f41df72dd6cc417430c3f36ec9b9729493fb1,2025-06,0,m0,2025-06-30T06:40:37-07:00,2025-06-30T18:40:37+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,102,0,0,0,0,,,,,,0,243,adding docker workflow (#243),"adding docker workflow (#243)
+
+* adding docker workflow
+
+* updating the workflow
+
+* fixing the stuff"
+vectara/vectara-ingest,7c6deec00b326de26dbddfc187bf0c1fbef864f4,2025-06,0,m0,2025-06-30T08:56:26-07:00,2025-06-30T20:56:26+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,0,0,0,,,,,,0,244,updating the workflow (#244),updating the workflow (#244)
+vectara/vectara-ingest,f5e250abf0b5a892edb8cf012b694921206b9112,2025-06,0,m0,2025-06-30T10:52:02-07:00,2025-06-30T22:52:02+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,11,2,0,0,0,,,,,,0,245,fixing docker workflow (#245),fixing docker workflow (#245)
+vectara/vectara-ingest,0153372d830fc9f5c32f507d0ba2b2018bd02965,2025-06,0,m0,2025-06-30T11:12:52-07:00,2025-06-30T23:12:52+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,246,updating repo name in docker workflow (#246),updating repo name in docker workflow (#246)
+vectara/vectara-ingest,96f50c861f88606090c2e7f31375db9e8b631f0b,2025-06,0,m0,2025-06-30T13:24:01-07:00,2025-07-01T01:24:01+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,247,updating token type (#247),updating token type (#247)
+vectara/vectara-ingest,65c45e8a7efcba1bae4925b50a318a6bec151aa0,2025-07,1,post,2025-07-01T03:04:37-07:00,2025-07-01T15:04:37+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,270,1,0,0,0,,,,,,0,248,adding conda workflow (#248),"adding conda workflow (#248)
+
+* adding conda workflow
+
+* updating the workflow"
+vectara/vectara-ingest,038e57d67486eeddc7545b8834d6f3b018aca449,2025-07,1,post,2025-07-01T05:25:38-07:00,2025-07-01T17:25:38+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,86,21,0,0,0,,,,,,0,249,updating the workflow (#249),updating the workflow (#249)
+vectara/vectara-ingest,67aa3c716d1af40df3727581e1d73e6f3f79b63f,2025-07,1,post,2025-07-01T06:56:40-07:00,2025-07-01T18:56:40+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,250,updating meta.yaml (#250),updating meta.yaml (#250)
+vectara/vectara-ingest,d94f389c6e19e0b798d7c16ebb395b1aec3a6684,2025-07,1,post,2025-07-01T10:55:05-05:00,2025-07-01T10:55:05-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,4,16,1,0,0,0,,,,,,0,252,Environment file support (#252),"Environment file support (#252)
+
+Added support to load additional environment variables by the .run-env file. Fixes #251."
+vectara/vectara-ingest,a874337b46b09569a0fb85512bcaf9a472cebafa,2025-07,1,post,2025-07-02T14:03:46-05:00,2025-07-02T14:03:46-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,73,25712,909,39,1329,725,,,,,,0,234,Generic CSV Crawling (#234),"Generic CSV Crawling (#234)
+
+* Moved logging to use a per file logger. Audited logging levels to ensure that errors are logged as error or warning. Fixes #229.
+
+* Allow logging levels to be configured by environment variables.
+
+* Corrected indent and logging levels.
+
+* Refactored pull request #231 to work against the cli.
+
+* Added unit testing and generic CSV/XLSX parsing.
+
+* Added testcase and support around truncating the table.
+
+* Added missing test file.
+
+* Added common method to load configuration files while processing defaults.
+
+* Added support for csv processing to handle separators based on the extension by default.
+
+* Added documentation.
+
+* Added element support. Updated testing to support multiple calls.
+
+* Added documentation.
+
+* Changed to use merge to support a deep merge.
+
+* Moved table text to it's own line.
+
+* Updated config defaults.
+
+* Moved to use a per module logger.
+
+* Corrected logging.
+
+* Added generic CSV support to the folder crawler.
+
+* Added method documentation.
+
+* Code cleanup using black.
+
+* Code cleanup from ruff and black.
+
+* Corrected paths based on running tests from the root directory.
+
+* Move to use uv for requirement install.
+
+* Changed to use the system python install.
+
+* Added support for filtering datasets.
+
+* Added the ability to set the data type for a column.
+
+* Moved CSV crawler to use the dataframe parser. Added script for testing to compare two corpora.
+
+* Pull in functionality from #242.
+
+* Changed to reference the variable.
+
+* Incorporated changes per #242. Updated test cases.
+
+* Cleanup accidentally imported headers.
+
+* Added lint check.
+
+* Updated link check.
+
+* Updated link check."
+vectara/vectara-ingest,c976f3a9166d933a78e9443433a5bd94d603104a,2025-07,1,post,2025-07-02T12:22:51-07:00,2025-07-03T00:22:51+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,21,70,0,0,0,,,,,,0,254,Update conda workflow (#254),"Update conda workflow (#254)
+
+* Update conda workflow
+
+* Update"
+vectara/vectara-ingest,2c10ee3a9ef934ec9452e4b9dc2bb475a915e785,2025-07,1,post,2025-07-02T12:57:42-07:00,2025-07-03T00:57:42+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,255,updating docker repository (#255),updating docker repository (#255)
+vectara/vectara-ingest,4f59ece162731d7171b19af991b7ca9e9066960a,2025-07,1,post,2025-07-02T14:02:13-07:00,2025-07-02T14:02:13-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,82,47,3,82,47,,,,,,0,253,Minor bugfixes (#253),"Minor bugfixes (#253)
+
+* minor bugfix in folder crawler to use the correct URL in metadata
+image summary now correctly handles SVG images
+
+* fixed dup import per review
+
+* removed dup import"
+vectara/vectara-ingest,6738fd5e993a372a7dc366ad2f04c82395be4cff,2025-07,1,post,2025-07-02T14:09:24-07:00,2025-07-02T14:09:24-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,0,2,1,0,2,,,,,,0,256,bugfix in merge (#256),bugfix in merge (#256)
+vectara/vectara-ingest,ebb1096ac8a364297aef9a8989bf9d90599182a9,2025-07,1,post,2025-07-03T08:07:44-07:00,2025-07-03T10:07:44-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,1,3,2,1,3,2,,,,,,0,260,Fix CSV Crawler (#260),"Fix CSV Crawler (#260)
+
+Make sure that the dataframe type is detected based on the original file name. Fixes #259"
+vectara/vectara-ingest,f188333c01a4519f48810d0c4e322592d0b781c0,2025-07,1,post,2025-07-03T15:02:35-05:00,2025-07-03T15:02:35-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,262,Json fix (#262),"Json fix (#262)
+
+Missing import. Fixes #261."
+vectara/vectara-ingest,8a873e314bbb1bdfa565613a38fd1fb2aa055980,2025-07,1,post,2025-07-09T12:32:23-07:00,2025-07-10T00:32:23+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,4,236,4,0,0,0,,,,,,0,263,updating work flow to use larger runner (#263),"updating work flow to use larger runner (#263)
+
+* updating work flow to use larger runner
+
+* update
+
+* updating work flow
+
+* update
+
+* update
+
+* update
+
+* update
+
+* update
+
+* update"
+vectara/vectara-ingest,cbd19153cb1d6c70012917fec47d1bdb494562e3,2025-07,1,post,2025-07-09T12:43:50-07:00,2025-07-10T00:43:50+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,,0,264,fix docker workflow (#264),fix docker workflow (#264)
+vectara/vectara-ingest,4bf55ce16da3e73d25677ed03de3139833c87c76,2025-07,1,post,2025-07-10T08:58:27-07:00,2025-07-10T20:58:27+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,265,update the github runner to medium (#265),update the github runner to medium (#265)
+vectara/vectara-ingest,09d8d41a5d9995acc73e5f950ab78c8eb0db81e5,2025-07,1,post,2025-07-24T15:44:22-05:00,2025-07-24T15:44:22-05:00,u4aeac66bf24a776c,u4aeac66bf24a776c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,271,Confluence Credentials Missing (#271),"Confluence Credentials Missing (#271)
+
+Wrong key was being used for confluence datacenter. Fixes #270."
+vectara/vectara-ingest,e5ff0b748297b50851b9ee758cb841f95a44d4ea,2025-07,1,post,2025-07-31T11:59:18-04:00,2025-07-31T11:59:18-04:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,32,3375,22446,18,2371,1430,,,,,,0,266,"Improve PMC, FMP and Edgar crawlers (#266)","Improve PMC, FMP and Edgar crawlers (#266)
+
+* improved fmp and edgar crawlers
+
+* updated requirements and added equation support in docling
+
+* bugfix
+
+* refactor indexer.py and other bug fixes
+
+* parallelizing of RSS crawler
+
+* added conversion of SVG to PNG
+
+* updated
+
+* updates from other PRs
+
+* fixes per Adeel comments
+
+* upgraded docling and bug fixes"
+vectara/vectara-ingest,12e0d3fc11ed2401cb99c80eeb749683463d166f,2025-08,2,post,2025-08-11T12:22:17-07:00,2025-08-12T00:22:17+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,31,13,1,31,13,,,,,,0,272,Updated s3 crawler to include endpoint (#272),"Updated s3 crawler to include endpoint (#272)
+
+* Updated s3 crawler to include endpoint
+
+* Update
+
+* Update"
+vectara/vectara-ingest,3921977f42155b858f24559ca9d5f0411ff53baf,2025-08,2,post,2025-08-11T18:56:21-07:00,2025-08-11T18:56:21-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,14,108,79,7,36,9,,,,,,0,273,Improve Edgar Crawler (#273),"Improve Edgar Crawler (#273)
+
+* updated indexer to make sure empty tables are not attempted; also added DEF 14A to edgar
+
+* upgrade libraries
+
+* bugfix in DocuPanda and LlamaParse - tables are generator so removing log msg with len(tables)
+
+* updated run.sh to support files with spaces
+
+* bugfix
+
+* added ffmpeg as depedency for whisper
+
+* fixed dockerfile for ffmpeg"
+vectara/vectara-ingest,e6f616a6f00af52daf8062d511eaad21a8ab670e,2025-08,2,post,2025-08-12T14:32:52-07:00,2025-08-13T02:32:52+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,5,834,106,4,726,106,,,,,,0,274,adding saml support (#274),"adding saml support (#274)
+
+* adding saml support
+
+* update"
+vectara/vectara-ingest,5a7303b919e8a5a5bfa9d0d745405cd65519daea,2025-08,2,post,2025-08-12T14:40:41-07:00,2025-08-12T14:40:41-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,9,92,46,5,84,43,,,,,,0,275,Fix output path (#275),"Fix output path (#275)
+
+* fixed output path issue for urls_indexed and urls_removed
+
+* bugfix that caused average page download time to be 100+ seconds
+
+* upgraded llama_parse version to avoid high vulnerability"
+vectara/vectara-ingest,42ef510f9f91230eb5ecfa305ff0b25d97e9919b,2025-08,2,post,2025-08-15T11:54:28-07:00,2025-08-15T11:54:28-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,7,4,0,0,0,,,,,,0,276,fixed Dockerfile (#276),fixed Dockerfile (#276)
+vectara/vectara-ingest,6246df25ff88ede0d105a5ac5fdc277bf34eaeb5,2025-08,2,post,2025-08-21T23:54:46+05:00,2025-08-21T23:54:46+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,68,5,1,68,5,,,,,,0,277,confluence datacenter crawler (#277),confluence datacenter crawler (#277)
+vectara/vectara-ingest,4708bb4e7190bfbc942ecae8b238375299de099e,2025-08,2,post,2025-08-22T00:37:04+05:00,2025-08-22T00:37:04+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,0,0,0,0,,,,,,0,278,Update conda meta (#278),Update conda meta (#278)
+vectara/vectara-ingest,44856585fe09db365ba5ada30a3eec15f581fda8,2025-09,3,post,2025-09-15T16:51:58+05:00,2025-09-15T16:51:58+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,7,961,162,3,676,138,,,,,,0,281,adding csv and xlxx support in sharepoint (#281),"adding csv and xlxx support in sharepoint (#281)
+
+* adding csv and xlxx support in sharepoint
+
+* added config examples"
+vectara/vectara-ingest,57f80a9217e48f4bdbee061b11f9a830812e342f,2025-09,3,post,2025-09-17T00:43:28+05:00,2025-09-17T00:43:28+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,4,57,4,0,0,0,,,,,,0,282,adding the sample configs (#282),adding the sample configs (#282)
+vectara/vectara-ingest,355fef64d4d85501d9d68e43d3cf426334f34640,2025-09,3,post,2025-09-19T15:27:39-07:00,2025-09-19T15:27:39-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,51,3072,633,37,2317,601,,,,,,0,280,Include image bits (#280),"Include image bits (#280)
+
+* initial
+
+* bug fixes
+
+* various bugfixes in crawlers
+
+* multiple bug fixes and improvements
+
+* updated
+
+* added before/after context to image summarization
+
+* updated libraries
+
+* initial
+
+* bugfix
+
+* with multiple bug fixes
+
+* bugfix in unstructured parser to use the correct prev/next chunks around images
+
+* updated
+
+* bugfix
+
+* bugfix
+
+* bugfix in extracting titles from PDF docs
+
+* bugfix in JIRA crawler
+
+* solve conflict
+
+* fixes to pass all tests
+
+* packages updare
+
+* updated tests"
+vectara/vectara-ingest,281fb95a22654fec165ff499884b2bf6e3afe7a0,2025-09,3,post,2025-09-26T03:53:58+05:00,2025-09-26T03:53:58+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,3,30,14,3,30,14,,,,,,0,284,Fix file type validation and error handling in SharePoint crawler and… (#284),"Fix file type validation and error handling in SharePoint crawler and… (#284)
+
+* Fix file type validation and error handling in SharePoint crawler and file processor
+
+* updating"
+vectara/vectara-ingest,9969f346edc9f659d64d5cd817eeb851fbb2999c,2025-10,4,post,2025-10-09T11:33:10-07:00,2025-10-09T11:33:10-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,47,7,0,0,0,,,,,,0,286,better explanation of pos_regex and neg_regex (#286),better explanation of pos_regex and neg_regex (#286)
+vectara/vectara-ingest,f87b612c390b1c557ad0c41975a8ba78b42dc61d,2025-10,4,post,2025-10-09T21:07:12-07:00,2025-10-09T21:07:12-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,13,6,2,13,6,,,,,,0,287,Bugfix JIRA/GDrive crawlers (#287),"Bugfix JIRA/GDrive crawlers (#287)
+
+* bugfix gdrive crawler
+support for apiv2 in JIRA crawler
+
+* updated"
+vectara/vectara-ingest,3143654d50886d3448c2c710672a01e09bd85d99,2025-10,4,post,2025-10-10T23:56:52+05:00,2025-10-10T23:56:52+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,8,541,29,2,293,14,,,,,,0,288,adding oauth support in gdrive crawler (#288),"adding oauth support in gdrive crawler (#288)
+
+* adding oauth support in gdrive crawler
+
+* updating
+
+* addressed the comments on the PR"
+vectara/vectara-ingest,29216080dfc7e9ee6653a2d48d3c833b74955659,2025-10,4,post,2025-10-15T12:08:49+05:00,2025-10-15T12:08:49+05:00,ua0fee84ff26b75ce,ua0fee84ff26b75ce@users.invalid,GitHub,noreply@github.com,1,0,2,231,24,1,210,22,,B,claude,trailer;identity;message,,0,289,Add attachment support to Jira crawler (#289),"Add attachment support to Jira crawler (#289)
+
+* Add attachment support to Jira crawler
+
+Implemented comprehensive attachment processing for Jira issues, supporting
+both image and document attachments with AI-powered image summarization.
+
+Key Changes:
+- Added process_attachments() method to JiraCrawler class
+- Downloads and indexes image attachments (PNG, JPG, GIF, BMP, SVG, WEBP, TIFF)
+- Supports document attachments (PDF, DOCX, PPTX, XLSX, TXT, MD)
+- Integrates with existing image summarization pipeline
+- Configurable via include_image_attachments and include_document_attachments
+- Includes comprehensive metadata (filename, mime type, author, parent issue)
+- Added ""attachment"" field to Jira API field requests
+- Robust error handling with proper temp file cleanup
+
+Configuration:
+- Updated vectara-jira.yaml with attachment processing options
+- Added doc_processing section for image summarization configuration
+- Documented all configuration parameters
+
+The implementation follows the same pattern as the Confluence crawler's
+attachment handling and seamlessly integrates with the existing
+vectara-ingest infrastructure.
+
+🤖 Generated with Claude Code (https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Fix Jira API v3 pagination with nextPageToken support
+
+This commit fixes the infinite loop issue in Jira crawler by implementing
+proper pagination for both API v2 and v3:
+
+- API v2: Uses offset-based pagination with startAt parameter
+- API v3: Uses token-based pagination with nextPageToken and isLast flag
+
+Additional improvements:
+- Remove Accept header from attachment downloads (fixes 406 errors)
+- Add safe navigation for all metadata fields to handle null values
+- Better logging to show pagination method being used
+- Enable document attachments in config
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Address PR review comments
+
+- Use IMG_EXTENSIONS and DOC_EXTENSIONS from core.utils instead of
+  defining them locally (reduces code duplication)
+- Use Path(filename).suffix.lower() instead of os.path.splitext()
+  for cleaner code
+- Add comment explaining additional text extensions
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+vectara/vectara-ingest,2170deaa2e9d4b2556e570a240733c4e52112166,2025-10,4,post,2025-10-17T15:33:27+05:00,2025-10-17T15:33:27+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,6,2639,173,4,2536,146,,,,,,0,283,adding hubspot crm crawler (#283),"adding hubspot crm crawler (#283)
+
+* adding hubspot crm crawler
+
+* updated the crawler with ray use
+
+* update
+
+* updating
+
+* deleting the hubspot crm file
+
+* updating the reindex logic
+
+* updating
+
+* fixing the import issue
+
+* updated the code"
+vectara/vectara-ingest,ad54ae3eb5477efc5fb8975bcc5ebad75d7245b0,2025-10,4,post,2025-10-21T10:13:15+05:00,2025-10-21T10:13:15+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,6,323,60,0,0,0,,,,,,0,290,adding support for the custom crawler (#290),"adding support for the custom crawler (#290)
+
+* adding support for the custom crawler
+
+* update
+
+* updating
+
+* Update run.sh
+
+* moved md files to docs"
+vectara/vectara-ingest,955203d5c088f5c9952ab754304a099d552243c3,2025-11,5,post,2025-11-11T23:01:28+05:00,2025-11-11T23:01:28+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,3,129,14,3,129,14,,,,,,0,295,fixing description issus (#295),"fixing description issus (#295)
+
+* fixing description issus
+
+* fixing issues
+
+* removed clean text"
+vectara/vectara-ingest,af9e6619bc451577deef8da9188174b09609c611,2025-11,5,post,2025-11-17T18:36:29+05:00,2025-11-17T18:36:29+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,103,22,2,103,22,,,,,,0,296,Update scrapy extraction and indexing (#296),"Update scrapy extraction and indexing (#296)
+
+* Update scrapy extraction and indexing
+
+* Updating"
+vectara/vectara-ingest,746a53f099e97d701db3e43537f9ee5e04aa2a43,2025-11,5,post,2025-11-18T00:15:44+05:00,2025-11-18T00:15:44+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,32,4,0,0,0,,B,claude,trailer;identity;message,,0,297,Add Personal Access Token (PAT) authentication support for Confluence… (#297),"Add Personal Access Token (PAT) authentication support for Confluence… (#297)
+
+Add comprehensive Confluence API token authentication documentation
+
+- Add detailed documentation on how to create and use Confluence API tokens
+- Include step-by-step instructions for token generation
+- Add CQL query examples for different use cases
+- Clarify that confluence_password should be an API token, not user password
+- No code changes - documentation only
+
+This helps users understand that they should use API tokens (not passwords)
+for authentication, which is more secure and recommended by Atlassian.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+vectara/vectara-ingest,7e926d2e375197eac0278635b5f7ba1a52041e8b,2025-11,5,post,2025-11-21T15:12:02-08:00,2025-11-21T15:12:02-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,6,421,22,4,161,18,,,,,,0,299,added support for stand-alone image files (#299),"added support for stand-alone image files (#299)
+
+* added processing of stand-alone image files
+
+* added test
+
+* updates per comments from CoPilot
+
+* updated playwright to 1.55.0 and also in conda build
+
+* back to 1.49.1
+
+* install chromium in conda-build
+
+* updated
+
+* more updates to conda build to support test not failing
+
+* fixed tests to pass"
+vectara/vectara-ingest,7ce37db5613d20dc91a063ae963201bbc83603b9,2025-11,5,post,2025-11-24T21:43:22+05:00,2025-11-24T21:43:22+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,55,43,1,55,43,,,,,,0,301,Treat 409/412 (already exists) as success when reindex=False (#301),"Treat 409/412 (already exists) as success when reindex=False (#301)
+
+When reindex is disabled, receiving a 409 (Conflict) or 412 (Precondition Failed)
+response means the document already exists in the corpus. This should be treated
+as a success case rather than a failure, since the document is already indexed.
+
+This prevents already-indexed documents from being written to failed_urls.txt
+when crawlers retry or re-discover URLs that were previously indexed.
+
+Changes:
+- Modified index_file() to return True for 409/412 when reindex=False
+- Modified index_document() to return True for 409/412 when reindex=False
+- Added informative logging for skipped documents"
+vectara/vectara-ingest,35bf2e20a136e6c529b168f8a88dddfb11ba9cd0,2025-11,5,post,2025-11-24T10:46:34-08:00,2025-11-24T10:46:34-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,2,23,3,2,23,3,,,,,,0,300,fix to asyncio issue with 'no ray' crawling (#300),fix to asyncio issue with 'no ray' crawling (#300)
+vectara/vectara-ingest,c4c7f90460736c583f5fa0adc0a7ceb3095fcae3,2025-11,5,post,2025-11-25T14:59:13-08:00,2025-11-25T14:59:13-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,5,4,1,5,4,,,,,,0,303,updated image summary functionality to be compatible with Gemma (#303),"updated image summary functionality to be compatible with Gemma (#303)
+
+* updated image summary functionality to be compatible with Gemma
+
+* updating summary generation"
+vectara/vectara-ingest,63d12ec90df1ac45f0e9dcb03ea0e3cdc61e927c,2025-11,5,post,2025-11-26T06:34:50+05:00,2025-11-26T06:34:50+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,52,21,1,52,21,,,,,,0,302,add images support for confluence datacenter crawler (#302),add images support for confluence datacenter crawler (#302)
+vectara/vectara-ingest,7796d855f8a38b51cb78cc1487f9faaba46bac6b,2025-12,6,post,2025-12-01T22:18:46+05:00,2025-12-01T22:18:46+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,13,3,1,10,3,,B,claude,trailer;identity;message,,0,305,Add use_title_for_doc_only config option to DataframeParser (#305),"Add use_title_for_doc_only config option to DataframeParser (#305)
+
+* Add use_title_for_doc_only config option to DataframeParser
+
+Adds a new configuration option `use_title_for_doc_only` that allows
+title_column to be used only for setting the document title, without
+creating duplicate section titles.
+
+Problem:
+When using title_column in element mode, the title appears twice in
+the indexed document:
+1. As the document title metadata
+2. As a section title prepended to the text content
+
+This causes duplicate content and poor user experience.
+
+Solution:
+- Add `use_title_for_doc_only` config option (defaults to false)
+- When true, title_column is used to set doc_title but not section titles
+- Titles list remains None, preventing duplication in document sections
+
+Example config:
+```yaml
+title_column: title
+use_title_for_doc_only: true
+text_columns:
+  - description
+```
+
+With this config:
+- Document title: Value from title column
+- Document text: Only description (no title duplication)
+- Backward compatible: Existing configs unchanged
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Add documentation for use_title_for_doc_only config option
+
+Document the new use_title_for_doc_only flag in CRAWLERS.md for:
+- Database crawler
+- Huggingface dataset crawler
+- CSV crawler
+
+Explains default behavior (false) and how to use it to prevent
+title duplication when using title_column.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+vectara/vectara-ingest,72fec10ee2d3db53536e33cc31a94c0dc6e0b8bb,2025-12,6,post,2025-12-02T23:14:54+05:00,2025-12-02T23:14:54+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,6,212,117,5,175,107,,,,,,0,304,add csv/xls support for confluence datacenter crawler (#304),"add csv/xls support for confluence datacenter crawler (#304)
+
+* add csv/xls support for confluence datacenter crawler
+
+* fixing the conflicts
+
+* updating confluence config
+
+* Updating confluence crawler
+
+* updating config"
+vectara/vectara-ingest,494dca6303566455595a5bc6297fe9e1c89259a3,2025-12,6,post,2025-12-09T08:54:13+05:00,2025-12-09T08:54:13+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,150,0,0,0,0,,,,,,0,306,window installation guide with python venv (#306),window installation guide with python venv (#306)
+vectara/vectara-ingest,60a5ba08602ea72744f3111e0c3fd4dfb837ed9e,2026-01,7,post,2026-01-05T23:26:53+05:00,2026-01-05T23:26:53+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,3,68,4,1,23,3,,,,,,0,310,separate private api keys (#310),separate private api keys (#310)
+vectara/vectara-ingest,fba050d84fce61d056fd6cbf98b4c9203ed3b174,2026-01,7,post,2026-01-12T17:02:55+05:00,2026-01-12T17:02:55+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,16,3166,53,2,1301,2,,B,claude,trailer;identity;message,,0,294,Box crawler integration (#294),"Box crawler integration (#294)
+
+* Add Box crawler integration with JWT and OAuth support
+
+Integrated Box crawler with support for both JWT and OAuth authentication methods:
+
+1. Dependencies:
+   - Add boxsdk[jwt]==3.10.0 to requirements.in
+   - Update requirements.txt with Box SDK dependencies
+
+2. Docker Integration (run.sh):
+   - Add JWT authentication support with box_config.json mounting
+   - Add OAuth authentication support with box_oauth_credentials.json mounting
+   - Automatic detection of auth_type from config
+   - Mount credentials to /home/vectara/env/ in container
+
+3. Configuration:
+   - Update .gitignore to exclude Box credential files
+   - Add Box crawler configuration examples (box-adeel.yaml, box-example.yaml)
+   - Update core/indexer.py for Box crawler integration
+
+4. Crawler Implementation:
+   - Add box_crawler.py with support for folder/file crawling
+   - Add BOX_SETUP.md documentation
+   - Add BOX_CREDENTIALS_README.md for credential setup
+   - Add box_config.json.example template
+   - Add get_box_users.py utility script
+
+Box crawler supports:
+- JWT authentication (Service Account)
+- OAuth 2.0 authentication (User Account)
+- Folder-based crawling with recursive traversal
+- File metadata extraction and indexing
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Add support for _extract_metadata_callback in indexer
+
+Enable custom metadata extraction from HTML content:
+- Check for _extract_metadata_callback in metadata dict
+- Call callback with HTML content to extract custom metadata
+- Preserve original page URL (prevent callback from overwriting it)
+- Remove callback from metadata before indexing (not a valid metadata field)
+
+This allows crawlers to provide custom metadata extraction logic
+that runs after page HTML is fetched, enabling extraction from
+JSON-LD, meta tags, or other HTML-embedded data sources.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+
+* Revert indexer to match main branch exactly
+
+Remove any indexer changes from box-crawler-integration branch.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+
+* Updating box crawler
+
+* Remove files from PR #294
+
+These files were accidentally included and belong to a separate PR:
+- config/box-ingest.yaml
+- get_box_users.py
+
+Note: config/folder-ingest-example.yaml was kept as it was already in the repo.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+
+* Move box_config.json.example to docs/box/
+
+Consolidates all Box-related documentation and examples in one location.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+
+* update models and crawler
+
+* update crawler
+
+* update models
+
+* update crawler
+
+* Updating model
+
+* Update run.sh
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com>"
+vectara/vectara-ingest,13a45d0221aee19fc089a19362fc39d89cdb1a06,2026-01,7,post,2026-01-12T17:25:02+05:00,2026-01-12T17:25:02+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,5,3,1,5,3,,,,,,0,312,Update indexer (#312),Update indexer (#312)
+vectara/vectara-ingest,5451c29f6cefe218f3646dc5c8b8aaee62ba5acc,2026-01,7,post,2026-01-21T23:57:16+05:00,2026-01-21T23:57:16+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,373,193,1,349,187,,B,claude,trailer;identity,,0,313,"Add Box crawler enhancements: permissions, resume capability, and bug fixes (#313)","Add Box crawler enhancements: permissions, resume capability, and bug fixes (#313)
+
+* Add Excel Binary Workbook (.xlsb) support with multi-section processing
+
+This commit adds comprehensive support for Excel Binary Workbook (.xlsb) files with intelligent structure detection and multi-section indexing.
+
+Key features:
+- New ExcelProcessor class for handling .xlsb, .xlsx, .xlsm, .xls formats
+- Smart structure analysis to detect table regions vs independent metadata rows
+- Multi-section approach: text sections for metadata + table sections for tabular data
+- LLM summarization support for table content (configurable)
+- Legend/footer filtering to skip non-useful rows
+- Manual table building to avoid HTML conversion artifacts
+- Single document indexing per sheet (all sections together)
+- Configurable file deletion after indexing
+
+Changes:
+- core/excel_processor.py: New comprehensive Excel processor
+- core/dataframe_parser.py: Added summarize config option
+- crawlers/box_crawler.py: Added delete_after_index config option
+- requirements: Added pyxlsb dependency for .xlsb support
+- config/box-example.yaml: Updated with new Excel processing options
+
+Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
+
+* Add Box crawler enhancements: permissions, resume capability, and bug fixes
+
+Features:
+- Add collect_permissions option to collect Box folder collaborations
+  and include them in file metadata (for Okta/SSO integration)
+- Add skip_indexed option to resume interrupted crawls
+- Add delete_after_index option to control file cleanup after indexing
+- Add DataframeParser routing for Excel/CSV files
+
+Bug fixes:
+- Fix file_extensions whitelist logic (was incorrectly combined with
+  exclude_extensions blacklist, making inspection folder code unreachable)
+
+Reverts Excel Binary Workbook (.xlsb) processor - will be added in separate PR.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+* Refactor: Remove duplicate code between BoxCrawlerTracker and CSVTrackerActor
+
+- BoxCrawlerTracker is now the single implementation for CSV tracking
+- CSVTrackerActor is a thin Ray actor wrapper that delegates to BoxCrawlerTracker
+- Eliminates ~70 lines of duplicated code
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+* Refactor: Remove more duplicate code in Box crawler
+
+- Remove _crawl_folder_streaming (use _crawl_folder with ray_mode=True instead)
+- Extract DataframeParser initialization into create_dataframe_parser() helper
+- Net reduction of ~60 lines of duplicate code
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+* Fix: Don't download excluded files, just track in skipped.csv
+
+- exclude_extensions now skips download entirely (more efficient)
+- File metadata (size, url, etc.) obtained from Box API instead of downloading
+- Both whitelist and blacklist now skip before download
+- Updated config documentation to reflect new behavior
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
+
+* addressed the comments
+
+---------
+
+Co-authored-by: Claude Sonnet 4.5 <noreply@anthropic.com>"
+vectara/vectara-ingest,46b79a6bb278154289d5a0da0c77c856108e54cd,2026-01,7,post,2026-01-22T00:45:57+05:00,2026-01-22T00:45:57+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,18,20,1,15,18,,B,claude,trailer;identity,,0,314,"Box crawler: Collect only group permissions, skip individual users (#314)","Box crawler: Collect only group permissions, skip individual users (#314)
+
+- _get_folder_collaborations now filters to only collect group collaborations
+- Removed user email handling from _build_permissions_list
+- Updated docstrings and config documentation
+- permissions field now contains only group names: [""Engineering"", ""Marketing""]
+
+Co-authored-by: Claude Opus 4.5 <noreply@anthropic.com>"
+vectara/vectara-ingest,ba61203e9d77fce436824b2a6bcbdf13b6b445d6,2026-01,7,post,2026-01-23T10:23:26+05:00,2026-01-23T10:23:26+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,21,1,1,21,1,,,,,,0,315,updated the vertex initialization (#315),updated the vertex initialization (#315)
+vectara/vectara-ingest,38402efdce46e3e86bd3585435878adf688385ef,2026-01,7,post,2026-01-23T17:22:39+05:00,2026-01-23T17:22:39+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,320,4,1,320,4,,,,,,0,316,added option to retry from failed.csv (#316),added option to retry from failed.csv (#316)
+vectara/vectara-ingest,a5101d1fbdeaf4f1f64100486fbff31599c5903f,2026-02,8,post,2026-02-19T14:42:09-08:00,2026-02-19T14:42:09-08:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,18,891,376,11,443,201,,B,claude;copilot,trailer;identity,,0,319,"Docling memory optimization, race condition fix, and Ray actor cleanup (#319)","Docling memory optimization, race condition fix, and Ray actor cleanup (#319)
+
+* updated docling and unstructured versions
+bugfixes in doc parser
+updated docling and unstructured parsers to support parsing models in config
+
+* updates per copilot feedback
+
+* bugfix:
+
+* added formula enrichment flag instead of hard-coded
+
+* memory optimization
+
+* further optimization and an important bugfix with image.png
+
+* fix monotonic memory growth in Docker containers
+
+Three fixes for memory that rises but never drops:
+1. malloc_trim(0) after each document - forces glibc to return freed
+   heap pages to the OS (the main cause of RSS-never-drops on Linux)
+2. Periodic parser reset every N documents (configurable via
+   parser_reset_interval) - releases Docling converter's accumulated
+   internal state and PyTorch buffers
+3. Close requests.Session in Indexer.cleanup() - releases connection
+   pool memory
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* more memory improvements
+
+* more optimizations
+
+* fixed bug where wrong HTML content was taken after remove_boilerplate
+
+* fixed same html ID/tag removal issue from scrapy
+
+---------
+
+Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+vectara/vectara-ingest,f627b066782b28362e36147be772fb1f850269dd,2026-02,8,post,2026-02-26T14:47:43+05:00,2026-02-26T14:47:43+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,4,86,29,4,86,29,,B,claude,trailer;identity,,0,321,Add fallback_ocr option for smart OCR retry on scanned PDFs (#321),"Add fallback_ocr option for smart OCR retry on scanned PDFs (#321)
+
+* Add fallback_ocr option for smart OCR retry on scanned PDFs
+
+When enabled, PDFs are first parsed without OCR; if no meaningful text
+is extracted the file is automatically re-parsed with an OCR-enabled
+converter. This avoids the cost of OCR on digital PDFs while still
+handling scanned documents in mixed document sets.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Simplify fallback OCR trigger to check for empty content stream
+
+Instead of scanning every element for meaningful text, just check if the
+content stream is empty — if Docling returned content elements the parse
+worked.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Rename force_ocr parameter to fallback_ocr for consistency with config
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Fix export_to_dataframe deprecation warning and add --load to Docker build
+
+- Pass doc argument to TableItem.export_to_dataframe() as required by
+  newer docling API
+- Add --load flag to buildx build so the image is loaded into the local
+  Docker daemon
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Revert run.sh changes (--no-cache, --load)
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Always reset failed.csv at start of each crawl run
+
+Add reset_failed_csv() to BoxCrawlerTracker and CSVTrackerActor so
+failed.csv is overwritten with headers at the start of each run,
+even when skip_indexed or retry_failed preserves other CSV files.
+The retry_failed data is read into memory before the reset.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+vectara/vectara-ingest,7fe6426e8031c195cc04e10310f015fa5c3147de,2026-02,8,post,2026-02-26T15:52:07+05:00,2026-02-26T15:52:07+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,B,claude,trailer;identity,,0,322,Fix arm64 Docker build: add platform guard to triton (#322),"Fix arm64 Docker build: add platform guard to triton (#322)
+
+Add platform guard to triton in requirements-extra.txt
+
+triton only publishes x86_64 wheels, which breaks the linux/arm64
+Docker build. Add the same platform_machine guard that requirements.txt
+already uses. triton is only needed for CUDA/GPU torch kernels and is
+irrelevant for CPU-only torch on arm64.
+
+Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+vectara/vectara-ingest,3a67a07c2c0517d18799cd74a6094cd5b07ffe00,2026-03,9,post,2026-03-09T21:00:01+05:00,2026-03-09T21:00:01+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,3,158,77,0,0,0,,B,claude,trailer;identity,,0,325,Fix/trivy CVE upgrades (#325),"Fix/trivy CVE upgrades (#325)
+
+* Fix CRITICAL/HIGH CVEs found by trivy scan
+
+Upgrade vulnerable Python dependencies to patched versions:
+- nltk 3.9.1 → 3.9.3 (CRITICAL: CVE-2025-14009)
+- cryptography 44.0.0 → 46.0.5 (CVE-2026-26007)
+- authlib 1.3.2 → 1.6.5 (CVE-2025-59420, CVE-2025-61920)
+- scrapy 2.13.3 → 2.13.4 (CVE-2025-6176)
+- aiohttp 3.12.2 → 3.13.3 (CVE-2025-69223)
+- pillow 10.4.0 → 12.1.1 (CVE-2026-25990)
+- protobuf 4.25.8 → 6.33.5 (CVE-2026-0994)
+- urllib3 1.26.20 → 2.6.3 (CVE-2025-66418, CVE-2025-66471, CVE-2026-21441)
+- pdfminer.six 20250506 → 20260107 (CVE-2025-64512, CVE-2025-70559)
+- nbconvert 7.2.10 → 7.17.0 (CVE-2025-53000)
+- pg8000 1.29.8 → 1.31.5 (CVE-2025-61385)
+- google-cloud-aiplatform 1.75.0 → 1.133.0 (CVE-2026-2473)
+- pyasn1 0.6.1 → 0.6.2 (CVE-2026-23490)
+- python-multipart 0.0.20 → 0.0.22 (CVE-2026-24486)
+- wheel 0.45.1 → 0.46.3 (CVE-2026-24049)
+
+Also upgrade dependent packages for compatibility:
+- boto3 1.26.116 → 1.42.63 (urllib3 v2 compat)
+- synapseclient 4.1.1 → 4.11.0 (urllib3 v2 compat)
+- docling 2.65.0 → 2.77.0 (pillow 12 compat)
+- google-auth 2.16.1 → 2.47.0+ (aiplatform compat)
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Fix remaining CRITICAL/HIGH CVEs: libnss3 and jackson-core
+
+- Add apt-get upgrade to Dockerfile to pick up libnss3 fix
+  (CRITICAL CVE-2026-2781: 2:3.110-1 → 2:3.110-1+deb13u1)
+  This also picks up any other available Debian security patches.
+- Upgrade ray 2.53.0 → 2.54.0 to get updated jackson-core JAR
+  (HIGH GHSA-72hv-8253-57qq: jackson-core 2.16.1 → patched)
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Recompile requirements.txt targeting linux platform
+
+The previous compile was done on macOS which pulled in pyobjc-framework-*
+packages that fail to build in Linux Docker containers (no /usr/bin/sw_vers).
+Recompiled with --python-platform linux to exclude macOS-only dependencies.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Recompile requirements.txt with --universal for cross-platform markers
+
+Previous compile with --python-platform linux dropped architecture markers
+causing triton to fail on aarch64 Docker builds. Using --universal preserves
+proper platform markers (triton for x86_64 only, pyobjc for darwin only).
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+vectara/vectara-ingest,ee0ec39e09d88b5c2993a70a24942c7f3b268abc,2026-03,9,post,2026-03-11T02:09:19+05:00,2026-03-11T02:09:19+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,4,316,23,1,305,2,,B,claude,trailer;identity,,0,326,Add incremental update mode to Box crawler (#326),"Add incremental update mode to Box crawler (#326)
+
+* Add incremental update mode to Box crawler
+
+When incremental_update: true and hours_back are set, the crawler:
+- Scans Box folders once to get all files with modified_at timestamps
+- Filters to only files modified within the hours_back window
+- Downloads and indexes only those files through the full pipeline
+- Compares Box files vs indexed.csv to detect removed files
+- Deletes removed files from Vectara and updates indexed.csv
+
+Config:
+  box_crawler:
+    incremental_update: true
+    hours_back: 8h  # supports: 6h, 24h, 2d
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Suppress Box SDK info/warning logs, only show errors
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Upgrade to Python 3.12 and fix trivy CVEs
+
+- Switch base image from python:3.11-slim to python:3.12-slim
+  (eliminates CRITICAL CVE-2026-3731 in libssh-4, reduces vendored CVEs)
+- Upgrade Authlib 1.6.5 → 1.6.7 (CVE-2026-28802)
+- Upgrade ray 2.53.0 → 2.54.0
+- Recompile requirements.txt with --universal for Python 3.12
+
+Trivy results: 0 CRITICAL, 15 HIGH (all NO FIX available upstream)
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+vectara/vectara-ingest,1a6cb1f729894ba9c386632226577828e6b57a06,2026-03,9,post,2026-03-15T01:12:40+05:00,2026-03-15T01:12:40+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,6,5,1,6,5,,B,claude,trailer;identity,,0,327,Fix: capture HTML before script removal in scrapy extractor (#327),"Fix: capture HTML before script removal in scrapy extractor (#327)
+
+* Capture result['html'] before script removal in scrapy extractor
+
+Moving result['html'] = str(soup) before the script/style element
+removal so that downstream consumers like metadata extractors can
+still access structured data (e.g. JSON-LD script tags) in the HTML.
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+* Remove specific reference from comment
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 <noreply@anthropic.com>"
+vectara/vectara-ingest,ae51739f85ac42008eef3cad232829ecbbc7cb5d,2026-03,9,post,2026-03-19T01:18:22+05:00,2026-03-19T01:18:22+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,1,5,1,1,5,1,,B,claude,trailer;identity,,0,328,Fix table headers split into individual characters (#328),"Fix table headers split into individual characters (#328)
+
+When table headers are provided as a flat list of strings (e.g.
+['Col1', 'Col2']), _build_tables_array iterates over each string
+and then over its characters, producing one-character column names.
+
+Detect flat list vs list-of-lists and wrap when needed.
+
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,edc0ff6cbd53ccf41ce13e5e0a1282bbad8b26cf,2026-03,9,post,2026-03-22T00:12:05+05:00,2026-03-22T00:12:05+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,186,13,1,99,13,,B,claude,trailer;identity,,0,329,Split oversized structured sections to avoid 400 errors (#329),"Split oversized structured sections to avoid 400 errors (#329)
+
+* Split oversized structured sections to avoid 400 errors
+
+Sections exceeding 16,384 chars are auto-split into multiple sections
+within the same document. Splits on paragraph boundaries first, then
+sentence boundaries, with a hard character cut as final fallback.
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* Address PR feedback: constant reuse, newline fallback, unit tests
+
+- Use MAX_SECTION_CHARS in _build_core_document instead of hard-coded 16384
+- Fall back to single-newline paragraph splitting when no blank lines found
+- Add test_document_builder.py with tests for paragraph, sentence, and
+  hard-cut splitting
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* Preserve paragraph joiner and fix test config dependency
+
+- Track whether splitting used blank-line or single-newline delimiters
+  and rejoin with the same delimiter to preserve original formatting
+- Use normalize_text_func=lambda in tests to avoid config dependency
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,08fcc1e9230dcc8eb9154e480adca870ed3fec29,2026-03,9,post,2026-03-22T09:16:46+05:00,2026-03-22T09:16:46+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,3,2,1,1,1,,B,claude,trailer;identity,,0,330,Reduce MAX_SECTION_CHARS to 12000 for JSON encoding headroom (#330),"Reduce MAX_SECTION_CHARS to 12000 for JSON encoding headroom (#330)
+
+16,384-char sections can exceed the API limit after JSON escaping
+of special characters. 12,000 leaves ~27% headroom.
+
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,2f27f68c1b4615a438c454520374519e152a0af6,2026-03,9,post,2026-03-24T19:09:17+05:00,2026-03-24T19:09:17+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,4,307,28,2,179,22,,B,claude,trailer;identity,,0,331,Retry with split_oversized on 400 and greedy table splitting (#331),"Retry with split_oversized on 400 and greedy table splitting (#331)
+
+* Retry-on-400 with greedy table splitting for oversized documents
+
+Instead of always splitting, retry with split_oversized=True only when
+the initial POST returns 400. Table splitting now uses greedy row-by-row
+accumulation (measuring each row's actual JSON size) instead of average
+row size, which failed for tables with unevenly sized rows. Also removes
+unnecessary delete_doc call on 400 retry since the document was never
+created, and adds --load flag to buildx in run.sh.
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* Restore delete_doc before retry to handle previously indexed documents
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* Handle oversized rows, duplicate description, and reset status on retry
+
+- Split oversized table rows by breaking large cell values across
+  multiple rows (fixes 26,019-char single row exceeding 16,384 limit)
+- Use full description on all table chunks (Vectara rejects empty
+  descriptions, and duplicating improves search relevance)
+- Reset _last_response_status to None at start of index_document()
+  to prevent stale 400 from triggering incorrect retry
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,9c15dec6c9f7260c54925a5534f86948fcc2113c,2026-04,10,post,2026-04-14T10:50:39-07:00,2026-04-14T10:50:39-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,29,2795,378,18,1428,353,,B,claude,trailer;identity,,0,323,Pause/resume crawl (#323),"Pause/resume crawl (#323)
+
+* initial commit for support of pause/stop of ingest jobs
+
+* updated Dockerfile
+
+* updated
+
+* fixed image issues
+
+* fixed review feedback
+
+* bugfixes
+
+* bug fixes
+
+* simplifications
+
+* bug fixes from Claude Code Review
+
+* bugfix to enable proper page number for tables
+
+* bug fix
+
+* bugfix
+
+* fixed bug where core part may exceed 16384 size
+
+* continued improvement to remove OOM with very large file
+
+* updated print of dc size
+
+* fixed based on feedback from Adeel
+
+* bugfix
+
+* Fix reindex guard and graceful shutdown without tracker
+
+- Add reindex check to confluence, github, jira, notion crawlers so
+  reindex: true properly reprocesses all docs instead of skipping
+- Decouple graceful shutdown from tracker so SIGTERM works even when
+  enable_crawl_tracking is disabled
+- Add tests for shutdown with and without tracker
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* bugfix
+
+---------
+
+Co-authored-by: u61dee363b22c327c <u61dee363b22c327c@users.invalid>
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,13a03f0d23399eef95037989258f0fef42859ce1,2026-05,11,post,2026-05-04T15:21:34-07:00,2026-05-04T15:21:34-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,1223,89,1,526,52,,,,,,0,333,Gdrive abac (#333),"Gdrive abac (#333)
+
+* initial
+
+* added ABAC to gdrive_crawler
+
+* updated default ABAC to False
+
+* fixes per copilot suggestions"
+vectara/vectara-ingest,59dc383549935c4bedf7272a5bf50975dd77fe85,2026-05,11,post,2026-05-04T16:41:34-07:00,2026-05-05T04:41:34+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,6,892,0,2,318,0,,B,claude;copilot,trailer;identity,,0,332,Add Wolken KB crawler (#332),"Add Wolken KB crawler (#332)
+
+* Add Wolken KB crawler using public REST API
+
+New crawler for indexing Knowledge Base articles from Wolken ServiceDesk.
+Uses the public KB REST API (documented at developer-beta.wolkensoftware.com):
+- GET /api/kb/categories - list categories
+- GET /api/kb/articles/{catId}/{limit}/{offset} - list articles by category
+- GET /api/kb/articles/{articleId} - get article details
+
+Includes:
+- crawlers/wolken_crawler.py - crawler implementation
+- config/wolken-kb.yaml - sample configuration
+- tests/test_wolken_crawler.py - 15 unit tests
+- WOLKEN_ secret prefix mapping in ingest.py
+- README documentation
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* Add Wolken KB crawler setup documentation
+
+Covers prerequisites, configuration, secrets.toml setup, content fields,
+document structure, resume support, and API reference.
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* fixes based on copilot review
+
+---------
+
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+Co-authored-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>"
+vectara/vectara-ingest,b60774b7857483aeb246305e40b9bb73856d4c4e,2026-05,11,post,2026-05-07T17:08:17+05:00,2026-05-07T17:08:17+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,50,30,0,0,0,,B,claude,trailer;identity,,0,334,Bump 14 deps to fix 1 Critical + 16 High CVEs (#334),"Bump 14 deps to fix 1 Critical + 16 High CVEs (#334)
+
+* Bump 14 dependencies to fix 1 Critical + 16 High CVEs
+
+Security scan (2026-05-05) flagged vulnerable transitive and direct
+dependencies in the broadcom-crawlers image. This bumps all packages
+that have known fixes for Critical and High severity CVEs:
+
+- authlib 1.6.7 → 1.6.11 (1 Critical, 2 High)
+- onnx 1.18.0 → 1.21.0 (4 High) — requires numpy 2.x
+- numpy 1.26.4 → 2.1.0+ (resolved to 2.4.4)
+- lxml 5.2.1 → 6.1.0 (1 High)
+- cairosvg 2.8.2 → 2.9.0 (1 High)
+- pyasn1 0.6.2 → 0.6.3 (1 High)
+- pyopenssl 25.3.0 → 26.0.0+ (1 High)
+- nltk 3.9.3 → 3.9.4 (1 High)
+- pillow 12.1.1 → 12.2.0 (2 High)
+- pyjwt 2.10.1 → 2.12.0+ (1 High)
+- scrapy 2.13.4 → 2.14.2 (1 High)
+- ray 2.54.0 → 2.55.0 (1 High)
+- cryptography 46.0.5 → 46.0.7 (1 Medium)
+- Added pyjwt, pyopenssl, onnx as direct constraints for transitive CVEs
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+* Bump tornado, python-multipart, jaraco-context, wheel for 5 more High CVEs
+
+Additional dependency bumps found via grype scan:
+- tornado 6.5.1 → 6.5.5 (2 High, 1 Medium)
+- python-multipart 0.0.22 → 0.0.27 (1 High)
+- jaraco-context 5.3.0 → 6.1.2 (1 High)
+- wheel 0.45.1 → 0.46.3 (1 High)
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,c0afd993c30d60e6efaec00c984f55839290c0cf,2026-05,11,post,2026-05-08T06:18:26-07:00,2026-05-08T06:18:26-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,1,541,189,0,0,0,,,,,,0,335,Improvements to CRAWLERS.MD so it's up to date (#335),"Improvements to CRAWLERS.MD so it's up to date (#335)
+
+* improved documentation for GDrive crawler
+
+* updated Crawlers.MD also for wolken and many other crawlers
+
+* fixes based on copilot review"
+vectara/vectara-ingest,6e75e580ba9bd51e5c0710d0476c4caeead25056,2026-05,11,post,2026-05-12T09:14:29-07:00,2026-05-12T09:14:29-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,164,8,2,25,4,,,,,,0,336,Fix reindex metadata (#336),"Fix reindex metadata (#336)
+
+* improved documentation for GDrive crawler
+
+* updated Crawlers.MD also for wolken and many other crawlers
+
+* fixes based on copilot review
+
+* fixed usage of doc_id from metadata file
+
+* bug fixes from copilot review"
+vectara/vectara-ingest,04eff19f43656c6c28c89944e3be177177008f47,2026-05,11,post,2026-05-13T17:14:50-07:00,2026-05-13T17:14:50-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,401,31,1,174,26,,B,claude;copilot,trailer;identity,,0,337,gdrive: make displayName filter opt-in and add per-stage drop counters (#337),"gdrive: make displayName filter opt-in and add per-stage drop counters (#337)
+
+* gdrive: make displayName filter opt-in and add per-stage drop counters
+
+Default permission_display_filter to unset so non-Vectara tenants are not
+silently filtered down to nothing. Add per-user filter pipeline counters
+(listed, display_name_dropped, cache_skipped, mime_dropped,
+unsupported_ext_dropped, download_failed, index_error, indexed) with a
+summary log line per user so operators can see exactly where files were
+dropped.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+
+* gdrive: honor process_dataframe_file return value for index_error counting
+
+process_dataframe_file returns False on parser-init failure, unsupported
+files, and caught exceptions without re-raising, so the outer try/except
+never sees those failures. Previously _record_indexed was called
+unconditionally, causing indexed to overcount and index_error to never
+fire for dataframe failures. Mirror the indexer.index_file branch:
+capture the bool and route to _record_drop('index_error', ...) on False.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+
+* fixes issues flagged by copilot
+
+* added more verbosity of permissions
+
+---------
+
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,e970095595ea48f2c0e9bfc914fb581c257280a1,2026-05,11,post,2026-05-14T20:11:10-07:00,2026-05-14T20:11:10-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,15,647,76,10,213,51,,B,claude,trailer;identity,,0,339,gdrive: case-sensitivity fixes + Shared Drive ACL + multi-root (#339),"gdrive: case-sensitivity fixes + Shared Drive ACL + multi-root (#339)
+
+* fixed case sensitivity bugs in gdrive crawler and other places that would cause file ingest loss
+
+* gdrive: fetch Shared Drive members for ACL + accept list root_folder
+
+Drive's files.list does not propagate Shared Drive member grants onto
+a file's permissions array, so Shared Drive files were landing in the
+corpus with empty acl_owners/readers/groups even when the drive had
+explicit members. Fixed by issuing one permissions.list(fileId=driveId)
+per drive (cached per worker) and merging the drive's members into
+each file's resolved ACL. A 403 (delegated user lacks fileOrganizer on
+the drive) is cached too and surfaces as acl_source='shared_drive_partial'
+so operators can spot the gap instead of silently emitting empty ACLs.
+
+root_folder now accepts either a single string or a list of strings,
+so one config can scope to a My-Drive folder and a Shared Drive id in
+the same run. OmegaConf's ListConfig is accepted alongside Python list.
+Files reachable from more than one configured root are deduped.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,58a3cc4fda5c8ac7b533928401190cb6bb865199,2026-05,11,post,2026-05-15T11:35:58+05:00,2026-05-15T11:35:58+05:00,ua0fee84ff26b75ce,ua0fee84ff26b75ce@users.invalid,GitHub,noreply@github.com,1,0,2,183,8,1,31,8,,B,claude,trailer;identity,,0,338,box: don't infer deletions from incomplete folder listings (#338),"box: don't infer deletions from incomplete folder listings (#338)
+
+* box: don't infer deletions from incomplete folder listings
+
+The incremental Box crawl path uses the result of _get_all_box_files as
+the ground truth for ""what currently exists in Box"" and deletes from
+Vectara any file_id in indexed.csv that isn't in that set. When
+folder.get(...) or folder.get_items(...) raises (e.g. a Box Shield
+Access Policy returns 403), the exception was caught and silently
+swallowed, leaving all_files empty. The deletion pass then treated
+every previously-indexed document as removed and deleted it from
+Vectara — a single failed listing could drain an entire corpus in
+one cron run.
+
+_get_all_box_files now returns (files_map, listing_complete). The flag
+is set to False if any folder (top-level or recursive subfolder) failed
+to list. _crawl_incremental gates the call to _delete_removed_from_vectara
+on the flag and logs a clear warning when the delete pass is skipped.
+New-file indexing is unaffected — files we positively saw in Box are
+still indexed.
+
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
+
+* box: return listing-complete flag from _crawl instead of nonlocal
+
+Address review feedback: _crawl now returns whether the folder and all
+its reachable subfolders listed successfully, and the caller aggregates
+the result, removing the nonlocal closure variable.
+
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
+
+* box: add tests for incremental listing-completeness handling
+
+Covers _get_all_box_files (complete vs incomplete listings, top-level
+and subfolder failures) and the _crawl_incremental delete guard that
+skips the deletion pass when the Box listing was incomplete.
+
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
+
+* box: narrow test stub list to avoid polluting sys.modules
+
+The previous stub list MagicMocked shared modules (slugify, pandas,
+omegaconf, bs4, ...). Because test_box_crawler sorts first under
+unittest discover, those mocks leaked into every later test module and
+caused 47 failures. Stub only cairosvg/whisper/pdf2image/playwright,
+matching test_s3_crawler and test_wolken_crawler; all other deps are
+present in CI via requirements.
+
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.7 <noreply@anthropic.com>"
+vectara/vectara-ingest,8a6b3836ee5d601ecf305687c669868918746ded,2026-05,11,post,2026-05-20T17:08:34-07:00,2026-05-20T17:08:34-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,20,2629,148,9,970,146,,B,claude;copilot,trailer;identity,,0,340,website_crawler: Google auth for private Google Sites + Scrapy 2.14 redirect fix (#340),"website_crawler: Google auth for private Google Sites + Scrapy 2.14 redirect fix (#340)
+
+* website_crawler: add Google auth + fix Scrapy 2.14 redirect
+
+Adds a `google_auth` config block parallel to `saml_auth` so the website
+crawler can fetch private Google Sites. Two modes are supported:
+`oauth_user` (one-time consent, no Workspace admin needed) and
+`service_account` (DWD-impersonated Workspace user). A `sites.google.com`
+crawl needs real browser cookies — those are captured once via the new
+`crawlers.auth.google_bootstrap` interactive CLI and reused at crawl
+time by loading the Playwright `storage_state` JSON. The crawler fails
+fast with a clear pointer back to the bootstrap when the stored
+session is missing or expired. SAML and Google cookies are merged
+when both blocks are configured.
+
+Also aligns `FilterRedirectsByTypeMiddleware._redirect` with Scrapy
+2.14.2, which dropped the `spider` parameter from built-in downloader
+middleware `_redirect` calls — the old 4-arg override was crashing
+every redirected URL with a `TypeError`, producing 0 indexed URLs.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* added Google Auth for website crawler of Google Site
+
+* bug fixes
+
+* bug fixes based on copilot review
+
+---------
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,c43b5558e50fa660c78c7a4b4ca222e0dfbf2278,2026-05,11,post,2026-05-21T14:26:27-07:00,2026-05-21T14:26:27-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,12,2418,49,6,771,41,,,,,,0,341,added firefox option for getting Google site cookies (#341),"added firefox option for getting Google site cookies (#341)
+
+* added firefox option for getting Google site cookies
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* tests: drop agent-commentary references from docstrings
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* google_manager: broaden expired-session detection beyond ServiceLogin
+
+Google routes signed-out users to a variety of sign-in URLs — most
+notably /v3/signin/identifier (identifier-first flow), but also
+/v3/signin/challenge/* and the legacy /signin/v2/identifier. The
+previous check matched only the substring ""servicelogin"", so a session
+that had genuinely expired silently returned 0 cookies instead of
+raising the clear ""re-bootstrap"" error the caller relies on.
+
+Detect by URL parse instead: if the page settled on accounts.google.com
+and the path is not the account chooser, treat it as expired. This
+preserves the existing chooser carve-out (multi-account users) and
+keeps the previous ServiceLogin case covered.
+
+Added parametrized regression tests for /v3/signin/identifier,
+/v3/signin/challenge/pwd, and /signin/v2/identifier.
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+---------
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>"
+vectara/vectara-ingest,1457b5fb00abc8ee22023582fcf00528d6444c8f,2026-05,11,post,2026-05-21T16:26:43-07:00,2026-05-21T16:26:43-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,8,638,67,2,186,60,,B,claude,trailer;identity,,0,342,Gdrive extension filter fix (#342),"Gdrive extension filter fix (#342)
+
+* gdrive: canonical extensions, export_media PDF fallback, mime gate, drop diagnostics
+
+- canonical_save_name: trust mime over user-controlled filename so the
+  downstream extension whitelist routes the file correctly. Handles
+  trailing dots (""Policy.""), wrong extensions, double extensions
+  ("".docx.bak""), missing extensions, and is case-insensitive on existing
+  matches.
+
+- download_or_export_file: route the oversized-export PDF fallback
+  through files().export_media (auto-refreshing creds) instead of a raw
+  requests.get against exportLinks with a stale Bearer token. The latter
+  was the source of 401s on long-running crawls.
+
+- _apply_mime_gate: drop Workspace types Drive cannot return content for
+  (Forms, Sites, Maps, Jamboard, Fusion Tables) at the mime stage with
+  the mime_dropped bucket, instead of misleading operators with a later
+  download_failed. Drawings still pass through.
+
+- Setup-time ABAC log line so empty acl_groups/acl_domains/acl_labels in
+  production are diagnosable.
+
+- Indexer.last_error now set on every _index_file failure path (upload
+  exception, non-201 response, re-upload exception) so the gdrive drop
+  reason carries the real HTTP status/text instead of the generic
+  ""indexer.index_file returned False"".
+
+Regression tests cover all of the above plus the existing tests are
+adjusted (test_box_crawler: pytest.importorskip(""boxsdk"") so the module
+collects cleanly when the optional SDK is absent).
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* ci: install pytest so test modules using it can collect
+
+Six test modules (test_google_bootstrap, test_google_auth_manager,
+test_google_firefox_import, test_spider_auth_redirect,
+test_spider_middleware, test_box_crawler) import pytest at top level,
+but the workflow installed only requirements.txt + requirements-extra.txt,
+neither of which contains pytest. unittest discover then aborted with
+ModuleNotFoundError before the suite could run — most recent run on the
+prior PR branch ended with FAILED (errors=5).
+
+Add requirements-test.txt with a pytest pin and install it in the
+workflow. Keeps the unittest discover runner; the pytest-using modules
+now collect cleanly and their TestCase classes run.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* bugfix
+
+---------
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,436ba84e428bdeb20e92e55a58912c1d0cfb2569,2026-05,11,post,2026-05-26T10:41:27-07:00,2026-05-26T10:41:27-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,356,34,2,79,31,,B,claude,trailer;identity,,0,343,confluencedatacenter: add PAT (Bearer) auth + harden metadata (#343),"confluencedatacenter: add PAT (Bearer) auth + harden metadata (#343)
+
+* confluencedatacenter: add PAT (Bearer) auth + harden metadata
+
+Add Personal Access Token auth to the Confluence Data Center crawler so it
+works on SSO/SAML-enforced instances where HTTP basic auth is disabled. Set
+confluence_datacenter_pat (or CONFLUENCE_DATACENTER_PAT in secrets.toml) and it
+is sent as ""Authorization: Bearer <token>"", taking precedence over
+username/password. Raise a clear error when no auth is configured, and on 401.
+
+Also:
+- harden updated_by extraction: keep whichever of username/userKey/displayName/
+  accountId the instance returns instead of KeyError-ing on SSO user objects
+- add title and source to page metadata; fix last_updates -> last_updated typo
+- fix CRAWLERS.md secrets keys (CONFLUENCE_DATACENTER_*, not CONFLUENCEDATACENTER_*)
+- add regression tests for auth selection, request wiring, and metadata
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* confluencedatacenter: reword PAT-precedence log message (PR review)
+
+The message said both a PAT and username/password were configured, but the
+guard is `if username or password`, so it fires when only one basic-auth field
+is set. Reword to avoid implying both are present; the condition is unchanged
+(we warn whenever any basic-auth credential accompanies a PAT).
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* confluencedatacenter: name exact config keys in 401 error (PR review)
+
+Spell out confluence_datacenter_username and confluence_datacenter_password in
+the 401 guidance instead of the username/password shorthand, matching the
+ValueError raised in _setup_auth().
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* confluencedatacenter: fix process_content type hint, drop unused pandas
+
+Use typing.Any instead of the builtin any() in the process_content annotation (dict[str, any] -> dict[str, Any]). The builtin any is a function, not a type, and mypy rejects it. Also remove the unused 'import pandas as pd'.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* confluencedatacenter: add tests for 401 handling and attachment source
+
+Pin two behaviors: a 401 on the search request raises RuntimeError rather than failing silently, and attachments are indexed with source 'confluence_attachment' plus filename/attachment_type metadata.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* confluence: use typing.Any instead of builtin any in type hints
+
+dict[str, any] references the builtin any() function, which mypy rejects as not valid as a type. Replace with dict[str, Any] across the crawler's annotations and docstrings and add the typing import.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+---------
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,9938e638841cc64585b8e9db0c05602b8922f2e8,2026-05,11,post,2026-05-28T21:22:35-07:00,2026-05-28T21:22:35-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,53,710,143,32,232,90,,B,claude,trailer;identity,,0,344,Gdrive top level group permissions (#344),"Gdrive top level group permissions (#344)
+
+* gdrive: fix Drive Label rendering and add shared_drive_admin_access option
+
+- _fetch_labels: render text/integer/dateString label fields as Title=value
+  (Drive returns these as arrays; they were rendered as Title=[value]).
+  selection/user were already handled correctly.
+- New opt-in abac.shared_drive_admin_access: pass useDomainAdminAccess=true to
+  permissions.list so a domain-admin delegated user can read Shared Drive
+  membership without a per-drive fileOrganizer role.
+- Elevate the permissions.list 403 log to WARNING with an actionable hint
+  (the shared_drive_partial cause).
+- Add tests for label rendering and useDomainAdminAccess gating; update config
+  and CRAWLERS.md.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* Fix latent crawler bugs and clean up Ruff findings
+
+Real bugs:
+- hubspot: HubspotObjectProcessor._build_contact_document referenced an
+  undefined company_names (NameError on every contact built by the Ray actor);
+  build it from the companies cache. Adds tests/test_hubspot_crawler.py.
+- arxiv: SortCriterion.submittedDate -> SubmittedDate (AttributeError on the
+  date-sort path).
+- spider: __main__ demo called run_link_spider_isolated without the required
+  negative_regexes (TypeError).
+- confluencedatacenter: _process_non_attachment now checks the index_file
+  return value and logs failures, matching the attachment handler.
+
+Ruff cleanup (no behavior change): remove unused imports and variables, drop
+f-strings without placeholders, narrow bare except to except Exception, rename
+ambiguous loop variable l, and use isinstance for type comparisons. Preserve
+the vectara_ingest re-export of run_ingest via __all__.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* Add make test/lint/format targets and a Ruff config
+
+- ruff.toml: keep Ruff defaults and ignore E402 (intentional pre-import code:
+  logging/sys.path setup, guarded optional imports, test module stubs), so
+  ruff check is a clean pass/fail gate.
+- Makefile: add test (pytest tests/), lint (ruff check .), and format
+  (ruff check --fix .). Black is intentionally not wired in: the tree is not
+  black-formatted and CI runs black informationally only.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* deps: pin nltk>=3.9.4 floor, bump presidio, recompile lockfiles
+
+- requirements-extra.in: add explicit nltk>=3.9.4 (security floor; nltk<3.9 had
+  CVE-2024-39705). requirements.in already carried this floor, and both
+  lockfiles now resolve nltk==3.9.4.
+- Bump presidio-analyzer/anonymizer to 2.2.362 and recompile requirements.txt
+  and requirements-extra.txt (numpy 2.x, cryptography 46, lxml 6, pillow 12,
+  etc.).
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* updated makefile
+
+* gdrive: resolve group/ACL grants on intermediate Shared Drive folders
+
+A Shared Drive file's inherited ACL was resolved from the drive-root
+membership only. A group (or any principal) granted access on a folder
+between the file and the drive root is inherited by the file but never
+inlined into its `permissions` (the reason `_fetch_drive_permissions`
+exists) and is absent from drive-root membership, so such grants were
+silently dropped from acl_groups/acl_readers.
+
+Extract the existing My Drive ancestor walk into `_walk_ancestor_acls`
+and have `_resolve_parent_acl` union it with drive-root membership for
+Shared Drive files (seeded with the drive id so the root isn't refetched
+as a folder). A direct grant on a folder is returned by `files.get` even
+though Drive doesn't inline that inheritance onto descendants. An
+unreadable ancestor downgrades the source to `shared_drive_partial`.
+Always-on for Shared Drives; My Drive behavior unchanged.
+
+Add 5 tests covering the folder walk, multi-level union, root-file
+skip, partial-on-403, and caching; adjust one existing test that
+assumed no walk. 104 pass.
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* bug fixes in XLSX processing
+
+* bug fixes to Gdrive crawler
+
+---------
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,32f0226caf070c9ad42bf4939b759b2b17970f47,2026-05,11,post,2026-05-28T21:27:58-07:00,2026-05-28T21:27:58-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,3,28,6,2,8,4,,B,claude,trailer;identity,,0,345,More gdrive permissions fixes (#345),"More gdrive permissions fixes (#345)
+
+* gdrive: fix Drive Label rendering and add shared_drive_admin_access option
+
+- _fetch_labels: render text/integer/dateString label fields as Title=value
+  (Drive returns these as arrays; they were rendered as Title=[value]).
+  selection/user were already handled correctly.
+- New opt-in abac.shared_drive_admin_access: pass useDomainAdminAccess=true to
+  permissions.list so a domain-admin delegated user can read Shared Drive
+  membership without a per-drive fileOrganizer role.
+- Elevate the permissions.list 403 log to WARNING with an actionable hint
+  (the shared_drive_partial cause).
+- Add tests for label rendering and useDomainAdminAccess gating; update config
+  and CRAWLERS.md.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* Fix latent crawler bugs and clean up Ruff findings
+
+Real bugs:
+- hubspot: HubspotObjectProcessor._build_contact_document referenced an
+  undefined company_names (NameError on every contact built by the Ray actor);
+  build it from the companies cache. Adds tests/test_hubspot_crawler.py.
+- arxiv: SortCriterion.submittedDate -> SubmittedDate (AttributeError on the
+  date-sort path).
+- spider: __main__ demo called run_link_spider_isolated without the required
+  negative_regexes (TypeError).
+- confluencedatacenter: _process_non_attachment now checks the index_file
+  return value and logs failures, matching the attachment handler.
+
+Ruff cleanup (no behavior change): remove unused imports and variables, drop
+f-strings without placeholders, narrow bare except to except Exception, rename
+ambiguous loop variable l, and use isinstance for type comparisons. Preserve
+the vectara_ingest re-export of run_ingest via __all__.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* Add make test/lint/format targets and a Ruff config
+
+- ruff.toml: keep Ruff defaults and ignore E402 (intentional pre-import code:
+  logging/sys.path setup, guarded optional imports, test module stubs), so
+  ruff check is a clean pass/fail gate.
+- Makefile: add test (pytest tests/), lint (ruff check .), and format
+  (ruff check --fix .). Black is intentionally not wired in: the tree is not
+  black-formatted and CI runs black informationally only.
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* deps: pin nltk>=3.9.4 floor, bump presidio, recompile lockfiles
+
+- requirements-extra.in: add explicit nltk>=3.9.4 (security floor; nltk<3.9 had
+  CVE-2024-39705). requirements.in already carried this floor, and both
+  lockfiles now resolve nltk==3.9.4.
+- Bump presidio-analyzer/anonymizer to 2.2.362 and recompile requirements.txt
+  and requirements-extra.txt (numpy 2.x, cryptography 46, lxml 6, pillow 12,
+  etc.).
+
+Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* updated makefile
+
+* gdrive: resolve group/ACL grants on intermediate Shared Drive folders
+
+A Shared Drive file's inherited ACL was resolved from the drive-root
+membership only. A group (or any principal) granted access on a folder
+between the file and the drive root is inherited by the file but never
+inlined into its `permissions` (the reason `_fetch_drive_permissions`
+exists) and is absent from drive-root membership, so such grants were
+silently dropped from acl_groups/acl_readers.
+
+Extract the existing My Drive ancestor walk into `_walk_ancestor_acls`
+and have `_resolve_parent_acl` union it with drive-root membership for
+Shared Drive files (seeded with the drive id so the root isn't refetched
+as a folder). A direct grant on a folder is returned by `files.get` even
+though Drive doesn't inline that inheritance onto descendants. An
+unreadable ancestor downgrades the source to `shared_drive_partial`.
+Always-on for Shared Drives; My Drive behavior unchanged.
+
+Add 5 tests covering the folder walk, multi-level union, root-file
+skip, partial-on-403, and caching; adjust one existing test that
+assumed no walk. 104 pass.
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* bug fixes in XLSX processing
+
+* bug fixes to Gdrive crawler
+
+* hot fix
+
+* fixed conflicts
+
+---------
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+Co-authored-by: Claude Opus 4.7 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,17d8cd6b5b13c8ff5af1face3394dcff0740b90d,2026-05,11,post,2026-05-30T08:46:29-07:00,2026-05-30T08:46:29-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,4,200,158,1,105,72,,B,claude,trailer;identity,,0,346,gdrive: read shared-drive item ACLs via permissions.list (#346),"gdrive: read shared-drive item ACLs via permissions.list (#346)
+
+* gdrive: read shared-drive item ACLs via permissions.list
+
+Drive's File resource leaves the permissions array empty for items in
+shared drives, so file-level grants and grants inherited from
+intermediate folders (including group grants) were never seen — files
+came back with acl_groups=[] or with groups missing.
+
+Read each shared-drive item's full effective ACL via permissions.list on
+the file, which returns direct grants plus those inherited from parent
+folders and drive membership. Union it with the cached drive-root
+membership (deduped by permission id), kept as a cheap backup. The
+ancestor-folder walk is now My-Drive-only.
+
+Verified with probe_acl.py and a before/after ingest: a file with a
+file-level grant to a non-drive-member group goes from
+acl_groups=['u0c44f21ad9f48092@users.invalid'] on main to
+acl_groups=['u0c44f21ad9f48092@users.invalid', 'u3e49dc1aa31bf50d@users.invalid'] with the fix.
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* gdrive: document per-file permissions.list ACL reads
+
+The shared-drive ACL path now issues a permissions.list(fileId=<fileId>) per
+file (not just the cached drive-root listing), which is what surfaces inherited
+intermediate-folder and direct file grants. Update the docs to match:
+
+- config/vectara-gdrive.yaml and crawlers/CRAWLERS.md: describe the per-file
+  listing, note ACL resolution is O(shared-drive files) not O(drives) for quota
+  sizing, and that a 403 on either the per-file or drive-root listing tags the
+  file acl_source: shared_drive_partial.
+- shared_drive_admin_access: useDomainAdminAccess applies to the per-file
+  listings too, not only the driveId listing.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* gdrive: extract _union_perms_by_id helper (DRY)
+
+The dedupe-a-permission-stream-by-id pattern appeared in three places:
+extract_acl_metadata, _resolve_parent_acl (the new shared-drive union), and
+_walk_ancestor_acls. Consolidate into a single _union_perms_by_id(perms, seen)
+helper that preserves first-seen order and supports a shared seen set for
+unioning across streams. Add focused unit tests. No behavior change.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+---------
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,5f3c45087a33e933eeab034a4197f065ecae2ae8,2026-06,12,post,2026-06-08T22:01:00-07:00,2026-06-08T22:01:00-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,5,132,30,2,32,13,,B,claude,trailer;identity,,0,347,deps: bump spacy to 3.8.x for numpy 2 compatibility (#347),"deps: bump spacy to 3.8.x for numpy 2 compatibility (#347)
+
+* deps: bump spacy to 3.8.x for numpy 2 compatibility
+
+The unit-test CI job crashed at `import spacy` with ""numpy.dtype size
+changed ... binary incompatibility"": spacy 3.7.5 (thinc 8.2.4 / blis 0.7.11) is
+built against the numpy 1.x ABI, but requirements.txt pins numpy==2.4.4.
+
+Bump to spacy>=3.8,<3.9 and recompile requirements-extra.txt. The resolver picks
+spacy 3.8.14 / thinc 8.3.13 / blis 1.3.3 (wheels built against numpy 2); numpy
+stays 2.4.4. langcodes/language-data/marisa-trie drop out — spacy 3.8 made them
+optional. Verified a clean import + tokenize under numpy 2.4.4 on Python 3.11.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+
+* fixed pdfminer warnings and other minor things
+
+* doc_parser/utils: address review feedback
+
+- utils: add pdfminer color-warning filter only once; setup_logging() runs
+  per worker/test and addFilter() does not dedupe, so repeated calls were
+  stacking identical filters on pdfminer.pdfinterp.
+- doc_parser: remove dead raw_positions map (built O(n) on every chunked
+  parse but never read; position is recomputed inline where needed).
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* doc_parser: drop redundant element-list copy; test single-partition chunking
+
+- Pass raw_elements directly to chunk_by_title/chunk_elements instead of
+  list(raw_elements). _get_elements already returns a list, and the chunkers
+  iterate it once without mutating (verified in unstructured: PreChunker only
+  does a forward `for element in self._elements`), so the defensive shallow
+  copy was redundant O(n) work/memory on every chunked parse.
+- Add TestChunkingSinglePartition covering the in-process chunking contract:
+  by_title/basic chunk the raw elements with no second partition pass (and
+  with no copy - asserted by identity), while an unknown strategy falls back
+  to the built-in second partition.
+
+Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+---------
+
+Signed-off-by: u53ec49386c5c3b5f <u53ec49386c5c3b5f@users.invalid>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,834b623920f75f0eb6affd439f04d5085b447efa,2026-06,12,post,2026-06-18T07:15:25-07:00,2026-06-18T07:15:25-07:00,u53ec49386c5c3b5f,u53ec49386c5c3b5f@users.invalid,GitHub,noreply@github.com,1,0,24,814,133,15,165,133,,B,claude;cursor,trailer;identity,,0,349,"Fix 12 bugs from full-repo audit: crawler reliability, error handling, credential hygiene (#349)","Fix 12 bugs from full-repo audit: crawler reliability, error handling, credential hygiene (#349)
+
+* slack: fix retry loops to stop duplicate calls and infinite loops
+
+The per-page retry loop never broke on success, so every page of
+messages was fetched self.retries times. When all retries failed,
+the surrounding 'while True' spun forever, and a failure on a later
+page re-appended the previous (stale) page's messages with the same
+cursor. get_users_info/get_channels/get_message_replies also returned
+implicit None on retry exhaustion, crashing callers.
+
+Introduce _with_retries() that returns on first success and None when
+exhausted; callers now abort cleanly with empty results instead of
+hanging or crashing.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* mediawiki: fix inverted revisions condition
+
+The check was 'if revisions missing: read revisions[0]', so revision
+metadata (last_edit_user/last_edit_time) was never extracted when
+revisions existed, and would crash with KeyError when they didn't.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* yt: initialize sections so playlist description gets indexed
+
+main_doc was built without a 'sections' key, so appending the playlist
+description always raised KeyError (swallowed by the except), and the
+description was silently never indexed.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* contextual: keep original chunk when context generation fails
+
+transform() returned '' on any LLM failure, silently discarding the
+entire chunk text rather than just the enrichment. parallel_transform()
+similarly left None placeholders for futures that raised. Both now fall
+back to the original chunk text. Also fix the copy-pasted error message
+that said 'Failed to summarize table text'.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* edgar: shut down Ray after all tickers, not inside the loop
+
+ray.init() runs once before the ticker loop but ray.shutdown() was
+called inside it, breaking multi-ticker runs with ray_workers > 0
+after the first ticker.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* add timeouts to raw requests calls
+
+hubspot_crawler had ~10 requests.get calls with no timeout; same for
+the image download in image_processor, the Docupanda post/poll in
+doc_parser, and the corpus create/reset calls in ingest.py. A hung
+endpoint could block a crawl indefinitely.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* ingest: mask credential values in debug config logging
+
+update_omega_conf logged old/new config values verbatim at DEBUG level,
+which exposed API keys, tokens and passwords routed through
+update_environment (HUBSPOT_API_KEY, SLACK_USER_TOKEN, JIRA_PASSWORD,
+GITHUB_TOKEN, ...) whenever debug logging was enabled. Mask values for
+credential-like key names; the config itself still gets the real value.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* doc_parser: fix Docupanda error handling and stray /images directories
+
+- Docupanda: close the input file (read via pathlib instead of a bare
+  open().read()), log error bodies with response.text so non-JSON error
+  pages don't raise JSONDecodeError, and check the status code while
+  polling instead of reading .json()['status'] blindly.
+- Docupanda: remove the unused img_folder that created an /images
+  directory at the filesystem root.
+- LlamaParse: download images to a temp dir instead of /images at the
+  filesystem root, and remove it after summarization (previously the
+  directory and downloaded images were never cleaned up).
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* website: deduplicate discovered URLs on their normalized form
+
+Discovery deduplicated raw URLs while doc ids and remove_old_content
+comparisons use normalize_url_for_metadata, so encoding variants of the
+same page (e.g. percent-encoded vs decoded) were each crawled and then
+indexed to the same doc id. Dedupe on the normalized form and keep the
+first-seen original URL for fetching.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* make swallowed exceptions visible in spider, pmc and box crawlers
+
+- spider: include the exception type in the recursive_crawl error log
+  and note that link discovery from that page may be incomplete; drop
+  the redundant pass.
+- pmc: remove a try/except around an f-string of three plain strings —
+  it can never raise, and the 'unknown' fallback was dead code.
+- box: log a warning (with file id) when the parent lookup for
+  inherited permissions fails, instead of silently dropping the
+  inherited ACLs.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* confluence: don't crash on pages with missing _links or label fields
+
+append_links indexed _links['editui'/'webui'/'edituiv2'/'tinyui'/'base']
+directly, so a page missing any of those keys raised KeyError and killed
+processing of that page. append_labels had the same problem with
+label['label'/'name'/'id']. Use .get() and skip missing entries while
+keeping the metadata shape unchanged.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+* sharepoint: raise on auth-error retry exhaustion instead of returning None
+
+execute_with_retry's 401 branch never raised: a 401 on the last attempt
+(or any 401 with auto_refresh_session disabled) fell off the end of the
+retry loop and implicitly returned None. Callers are written against a
+result-or-exception contract (e.g. the try/except around file listing in
+crawl_site), so persistent auth failures — the classic expired client
+secret — looked like successful crawls over empty collections instead of
+failing loudly. The 401 path also retried with no backoff.
+
+Track the last error and raise it after the loop, and apply the existing
+retry delay to auth errors too. Session-refresh behavior is unchanged.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+
+---------
+
+Signed-off-by: ub0db06dd1f7d3648 <ub0db06dd1f7d3648@users.invalid>
+Co-authored-by: Claude Fable 5 <noreply@anthropic.com>"
+vectara/vectara-ingest,82c6f72af6d60f0a2be1cec16375c9465a31f49f,2026-06,12,post,2026-06-25T17:45:49+05:00,2026-06-25T17:45:49+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,3,74,70,0,0,0,,B,claude,trailer;identity,,0,352,deps: bump crawler dependencies to fix 2026-06 CVEs (#352),"deps: bump crawler dependencies to fix 2026-06 CVEs (#352)
+
+* deps: bump crawler dependencies to fix 2026-06 CVEs
+
+Addresses the high-severity Python CVEs flagged in the gto-eese-crawlers
+image scan (twisted excluded; openssl/log4j are base-image/bundled, not
+in our requirements):
+
+- cryptography 46.0.7 -> 48.0.1   (GHSA-537c-gmf6-5ccf)
+- docling 2.77.0 -> 2.94.0        (CVE-2026-44017, CVE-2026-47214)
+- docling-core 2.69.0 -> 2.84.0   (CVE-2026-44019, CVE-2026-44023)
+- python-multipart 0.0.27 -> 0.0.32 (CVE-2026-53539)
+- tornado 6.5.5 -> 6.5.7          (CVE-2026-49853, CVE-2026-49855)
+- banks 2.2.0 -> 2.4.3            (CVE-2026-44209)
+
+docling-core and banks are transitive, pinned via constraints in
+requirements.in. Lock regenerated with uv pip compile.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+
+* deps: take twisted 26.4.0 (now stable) via scrapy 2.16.0
+
+Twisted 26.4.0 final is published on PyPI, but scrapy 2.14.2 caps
+twisted at <=25.5.0. scrapy 2.16.0 drops the upper bound (twisted>=21.7.0),
+so bump scrapy 2.14.2 -> 2.16.0 to pull in twisted 26.4.0 and close
+CVE-2026-42304.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+
+* test: make setup_logging tests mock an iterable .filters
+
+test_setup_logging_default / test_setup_logging_env_level patch
+logging.getLogger to return a bare Mock for every logger, but
+setup_logging() iterates logging.getLogger(""pdfminer.pdfinterp"").filters
+(the _PdfColorWarningFilter dedup check). A bare Mock isn't iterable, so
+both tests raised ""TypeError: 'Mock' object is not iterable"". Set
+.filters = [] on the mock so the check works.
+
+Pre-existing failure (CI only runs on PRs, never on main pushes); surfaced
+by this branch's run. Unrelated to the dependency bumps.
+
+Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+
+---------
+
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+vectara/vectara-ingest,237849f9d119e6543cecef7b28fb57c3537564be,2026-06,12,post,2026-06-25T18:58:07+05:00,2026-06-25T18:58:07+05:00,u61dee363b22c327c,u61dee363b22c327c@users.invalid,GitHub,noreply@github.com,1,0,2,7,4,0,0,0,,B,claude,trailer;identity,,0,353,deps: bump msgpack 1.1.0 → 1.2.1 (crawlers CVE) (#353),"deps: bump msgpack 1.1.0 → 1.2.1 (crawlers CVE) (#353)
+
+deps: bump msgpack 1.1.0 -> 1.2.1 to fix CVE
+
+msgpack is transitive via ray; pin msgpack>=1.2.1 in requirements.in
+to pull in the fixed release flagged in the crawlers image scan.
+Lock regenerated with uv pip compile.
+
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"

@@ -1,0 +1,179 @@
+# The linter measurement stage (proposal §4.4) as one indexed Job per shard.
+#
+# Shaped like k8s/codeql/codeql-job.yaml -- one pod per repository, JOB_COMPLETION_INDEX
+# picks the sample row, per-index failure budget, code and sample mounted from the working
+# tree, and the shard's claim as the resume marker -- with two differences.
+#
+# First, it mounts the CodeQL stage's claims instead of provisioning its own. Those hold
+# 1.7 GiB of bundle against 10 GiB of capacity, and this stage adds a ~200 MiB venv and an
+# output smaller than CodeQL's, since there is no SARIF and the per-finding rows are kept
+# for bandit alone. Twelve further 10 GiB volumes to hold that would be waste. The rows go
+# to /state/lint/ rather than /state/out/, so `make codeql-fetch` and `make lint-fetch`
+# cannot pick up each other's files.
+#
+# Second, there is no nodeSelector. The `fast` class is network-attached RBD and its
+# volumes carry no node affinity, so ReadWriteOnce binds a claim to one node at a time but
+# not to any particular one; the CodeQL stage pinned its pods only to keep a shard's pods
+# together on the claim it had already mounted. With one pod per shard there is nothing to
+# keep together, so the scheduler places them.
+#
+# The tools are pinned as four == versions installed into a venv on the claim by the init
+# container, once per shard, under the same mkdir lock the CodeQL bundle uses. Nothing is
+# resolved from PyPI at measurement time and every snapshot of every repo is measured by
+# one set of versions, which is recorded in each row.
+#
+# This file is a template, applied once per shard by `make lint`. Never `kubectl apply -f`
+# it directly: the placeholders are unresolved and the mounted ConfigMaps are rebuilt from
+# the working tree.
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ba-lint-__SHARD__
+  labels:
+    app: ba-lint
+  # no namespace: `make lint` supplies it, and the cluster, on the command line
+spec:
+  completionMode: Indexed
+  completions: __COMPLETIONS__
+  parallelism: __PARALLELISM__
+  backoffLimitPerIndex: 2
+  maxFailedIndexes: __MAXFAILED__
+  ttlSecondsAfterFinished: 172800
+  template:
+    metadata:
+      labels:
+        app: ba-lint
+    spec:
+      restartPolicy: Never
+      initContainers:
+        # build the venv on the shard's claim, once per shard. The mkdir of the marker
+        # directory is the lock: it is atomic, so of the pods that start together exactly
+        # one installs and the rest wait for the finished venv to appear.
+        #
+        # The venv is built at its final path rather than staged next to it and moved:
+        # pip writes the interpreter into every console script as an absolute shebang, so
+        # a venv built at $v.part still points at $v.part after the move and every tool
+        # exits ENOENT on an interpreter that is no longer there. Atomicity therefore
+        # comes from the .ready file, written last, instead of from the rename.
+        - name: venv
+          image: python:3.13
+          command: ["/bin/sh", "-ec"]
+          args:
+            - |
+              v=/state/lint-venv
+              if [ -f "$v/.ready" ]; then echo "venv present"; exit 0; fi
+              if mkdir "$v.lock" 2>/dev/null; then
+                rm -rf "$v"
+                python3 -m venv "$v"
+                if "$v/bin/pip" install --quiet --no-cache-dir $LINT_PINS; then
+                  "$v/bin/pip" freeze | grep -iE '^(complexipy|radon|lizard|bandit)='
+                  touch "$v/.ready"
+                  exit 0
+                fi
+                # release the lock, or every later pod waits on an install that failed
+                rm -rf "$v" "$v.lock"
+                echo "venv install failed"
+                exit 1
+              fi
+              # a sibling pod holds the lock; 10 minutes is far longer than the install
+              # takes and still shorter than one repo's measurement
+              i=0
+              while [ ! -f "$v/.ready" ]; do
+                i=$((i + 1))
+                [ "$i" -le 120 ] || { echo "venv did not appear"; exit 1; }
+                sleep 5
+              done
+              echo "venv ready"
+          env:
+            - name: LINT_PINS
+              value: __PINS__
+          volumeMounts:
+            - name: state
+              mountPath: /state
+          resources:
+            requests:
+              cpu: "500m"
+              memory: 512Mi
+            limits:
+              cpu: "2"
+              memory: 1Gi
+      containers:
+        - name: lint
+          # git comes with the non-slim python image, so nothing is installed here
+          image: python:3.13
+          command: ["python3", "/app/scripts/scan/lint_repo.py"]
+          args:
+            # --index defaults to $JOB_COMPLETION_INDEX, and the mounted sample is this
+            # shard's slice, so the index needs no offset
+            - --sample=/sample/sample.csv
+            - --work=/work
+            - --bin=/state/lint-venv/bin
+            # the shard is part of the name, not just the index: the index restarts at 0
+            # on every shard, so index alone would collide once the shards are collected
+            # into one directory
+            - --measures=/state/lint__RUN__/measures___SHARD___$(JOB_COMPLETION_INDEX).csv
+            - --results=/state/lint__RUN__/bandit___SHARD___$(JOB_COMPLETION_INDEX).jsonl
+            - --pre-months=__PRE__
+            - --post-months=__POST__
+          env:
+            # the controller injects this too, but $(VAR) expansion in args resolves only
+            # against the container's own env list, so it is declared here as well
+            - name: JOB_COMPLETION_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            # spent through a git credential helper, never written to a config file
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: github-token
+                  key: token
+                  optional: true
+            # recorded in every row, so a claim built against a different pin is visible
+            # in the data rather than silently mixed into it
+            - name: LINT_VERSIONS
+              value: __PINS__
+            - name: HOME
+              value: /work
+            # lint_repo.py imports scripts.scan.* as a namespace package
+            - name: PYTHONPATH
+              value: /app
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          volumeMounts:
+            - name: state
+              mountPath: /state
+            - name: work
+              mountPath: /work
+            - name: scripts
+              mountPath: /app/scripts/scan
+            - name: sample
+              mountPath: /sample
+          resources:
+            requests:
+              # four tools run concurrently over one checkout, so the pod wants a core
+              # each; they are far lighter than CodeQL and hold no database, so the whole
+              # stage fits in a fraction of what that one asked for
+              cpu: "2"
+              memory: 3Gi
+              # the clone and work tree only -- nothing else is written to the emptyDir
+              ephemeral-storage: 6Gi
+            limits:
+              cpu: "6"
+              memory: 8Gi
+              ephemeral-storage: 12Gi
+      volumes:
+        # the CodeQL stage's claim, reused: see the header
+        - name: state
+          persistentVolumeClaim:
+            claimName: ba-codeql-out-__SHARD__
+        - name: work
+          emptyDir:
+            sizeLimit: 12Gi
+        - name: scripts
+          configMap:
+            name: ba-lint-scripts
+        - name: sample
+          configMap:
+            name: ba-lint-sample-__SHARD__

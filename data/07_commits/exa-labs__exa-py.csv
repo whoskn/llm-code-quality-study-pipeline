@@ -1,0 +1,1375 @@
+repo,sha,month,offset,period,commit_date,author_date,author_name,author_email,committer_name,committer_email,parents,is_merge,files,insertions,deletions,scope_files,scope_insertions,scope_deletions,agent_files,llm_family,llm_tools,llm_signals,bot,is_revert,pr,subject,message
+exa-labs/exa-py,30ddc43765e5240805aaa6cffd97e323de7dffec,2024-06,-12,pre,2024-06-03T15:15:48-07:00,2024-06-03T15:15:48-07:00,uee04cd337cf71f60,uee04cd337cf71f60@users.invalid,uee04cd337cf71f60,uee04cd337cf71f60@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,Remove uneeded dependencies and pin openai version,Remove uneeded dependencies and pin openai version
+exa-labs/exa-py,bcc3009dcc55e00687ed70025d4de5ca140a5dbf,2024-06,-12,pre,2024-06-03T15:20:04-07:00,2024-06-03T15:20:04-07:00,uee04cd337cf71f60,uee04cd337cf71f60@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,24,Merge pull request #24 from exa-labs/remove-uneeded-types,"Merge pull request #24 from exa-labs/remove-uneeded-types
+
+Remove uneeded dependencies and pin openai version"
+exa-labs/exa-py,2d7b492dd9a9192cf43b401989f1262c4c73edb1,2024-07,-11,pre,2024-07-08T11:49:24-04:00,2024-07-08T11:49:24-04:00,uee04cd337cf71f60,uee04cd337cf71f60@users.invalid,uee04cd337cf71f60,uee04cd337cf71f60@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Release version 1.0.13,Release version 1.0.13
+exa-labs/exa-py,c8ae603e7705609602ae82856788eb3e8e10f76a,2024-07,-11,pre,2024-07-10T23:12:46-07:00,2024-07-10T23:12:46-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,294,8,1,294,8,,,,,,0,,add summary to the python sdk,add summary to the python sdk
+exa-labs/exa-py,e86e48f38974132a0bbe360952dbef23ba61708f,2024-07,-11,pre,2024-07-12T11:44:50-04:00,2024-07-12T11:44:50-04:00,ueb9719860d2c1f66,ueb9719860d2c1f66@users.invalid,GitHub,noreply@github.com,1,0,1,15,17,0,0,0,,,,,,0,,Update summarizer.py,Update summarizer.py
+exa-labs/exa-py,ea64a1af34f571341202b16fab9e93f68fd46104,2024-07,-11,pre,2024-07-12T11:48:40-04:00,2024-07-12T11:48:40-04:00,ueb9719860d2c1f66,ueb9719860d2c1f66@users.invalid,GitHub,noreply@github.com,1,0,1,79,129,0,0,0,,,,,,0,,Update summarizer.ipynb,Update summarizer.ipynb
+exa-labs/exa-py,df8d6d689181419091cf0fded76593bde4bc56ad,2024-07,-11,pre,2024-07-13T21:23:53-07:00,2024-07-13T21:23:53-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,2,2,1,2,2,,,,,,0,,fix type,fix type
+exa-labs/exa-py,19fb961c0249019b1976e280944e459e4afc8064,2024-07,-11,pre,2024-07-13T21:24:41-07:00,2024-07-13T21:24:41-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,3,3,3,3,3,3,,,,,,0,,update version,update version
+exa-labs/exa-py,caac65ecf2c50ace9d5c5f466255e1c1f2e3bb1b,2024-07,-11,pre,2024-07-14T16:33:51-07:00,2024-07-14T16:33:51-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' of github.com:exa-labs/exa-py into jw-summaries,Merge branch 'master' of github.com:exa-labs/exa-py into jw-summaries
+exa-labs/exa-py,ba275978d0abdf0414f281e8e89a5372830bba0d,2024-07,-11,pre,2024-07-15T23:14:34-07:00,2024-07-15T23:14:34-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,update version,update version
+exa-labs/exa-py,961794196c1e7a935487fafa3aa3147635c38822,2024-07,-11,pre,2024-07-15T23:14:43-07:00,2024-07-15T23:14:43-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,28,Merge pull request #28 from andrewgcodes/patch-1,"Merge pull request #28 from andrewgcodes/patch-1
+
+Update summarizer.py"
+exa-labs/exa-py,17a11c1d80580cad09e13b4650dfa48bafb78728,2024-07,-11,pre,2024-07-15T23:14:54-07:00,2024-07-15T23:14:54-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,29,Merge pull request #29 from andrewgcodes/patch-3,"Merge pull request #29 from andrewgcodes/patch-3
+
+Update summarizer.ipynb"
+exa-labs/exa-py,081be8d9bffeba5534e2fd2c9b64aa93ab9f2242,2024-07,-11,pre,2024-07-15T23:32:00-07:00,2024-07-15T23:32:00-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,48,0,1,48,0,,,,,,0,,phrase filters,phrase filters
+exa-labs/exa-py,4d4979de7f9b6ab20ac053923952ba21acfe40dd,2024-07,-11,pre,2024-07-15T23:32:37-07:00,2024-07-15T23:32:37-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,27,Merge pull request #27 from exa-labs/jw-summaries,"Merge pull request #27 from exa-labs/jw-summaries
+
+add summary to the python sdk"
+exa-labs/exa-py,b0150fc558d356c5555a679320e24ab9ed0eff4d,2024-07,-11,pre,2024-07-16T00:48:24-07:00,2024-07-16T00:48:24-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' of github.com:exa-labs/exa-py into jw-phrasefilters,Merge branch 'master' of github.com:exa-labs/exa-py into jw-phrasefilters
+exa-labs/exa-py,d14dab7e173601c0c0b55421b4895c5b6ecbb464,2024-07,-11,pre,2024-07-16T06:55:31-07:00,2024-07-16T06:55:31-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,4,4,1,4,4,,,,,,0,,more docs,more docs
+exa-labs/exa-py,515b9572ba68ff1442cfb84f106307683a2918d3,2024-07,-11,pre,2024-07-16T06:56:15-07:00,2024-07-16T06:56:15-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,update version,update version
+exa-labs/exa-py,a3b00aa5d8beb3c949e3e96f81869fbc1dca495d,2024-07,-11,pre,2024-07-16T08:24:27-07:00,2024-07-16T08:24:27-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,31,Merge pull request #31 from exa-labs/jw-phrasefilters,"Merge pull request #31 from exa-labs/jw-phrasefilters
+
+Jw phrasefilters"
+exa-labs/exa-py,3f9df14171058b0f5ff226e2b1f103d162f7677d,2024-07,-11,pre,2024-07-29T16:55:14-07:00,2024-07-29T16:55:14-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,15,10,2,15,10,,,,,,0,,Fix bug - contents configuration objects were not propagating properly to API,Fix bug - contents configuration objects were not propagating properly to API
+exa-labs/exa-py,80a9e4e9a999395142885078728cabaf7251478b,2024-08,-10,pre,2024-08-15T15:51:11-07:00,2024-08-15T15:51:11-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,12,2,2,12,2,,,,,,0,,modify version,modify version
+exa-labs/exa-py,61a924e3c4d415b3c2dda5867a32ac9ae2edb107,2024-08,-10,pre,2024-08-15T15:53:21-07:00,2024-08-15T15:53:21-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,fix newline issue,fix newline issue
+exa-labs/exa-py,159959ad242983fc006de7354a148a5bb9546628,2024-08,-10,pre,2024-08-15T16:33:02-07:00,2024-08-15T16:33:02-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,typo fix,typo fix
+exa-labs/exa-py,83141728f2f1dc6a68b37080a6412a8b1f576a79,2024-08,-10,pre,2024-08-15T17:11:20-07:00,2024-08-15T17:11:20-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,34,Merge pull request #34 from exa-labs/jw-resolvedsearchtype,"Merge pull request #34 from exa-labs/jw-resolvedsearchtype
+
+Add resolved search type response field"
+exa-labs/exa-py,45c52a31b4c14d2ee22e8ad735681a31b6359913,2024-08,-10,pre,2024-08-27T19:36:56-07:00,2024-08-27T19:36:56-07:00,u19624868a25c30c6,u19624868a25c30c6@users.invalid,u19624868a25c30c6,u19624868a25c30c6@users.invalid,1,0,6,1209,3,2,89,2,,,,,,0,,add beta fields,add beta fields
+exa-labs/exa-py,0ff3a99c0b4a046e1fa1fc4d35f1a755dbc02f96,2024-09,-9,pre,2024-09-06T15:14:26-04:00,2024-09-06T15:14:26-04:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,5,5,1,5,5,,,,,,0,,expose livecrawl and liveCrawlTimeout from beta,expose livecrawl and liveCrawlTimeout from beta
+exa-labs/exa-py,75b4f1c0275486967027a69807e8d6de59cfbd29,2024-09,-9,pre,2024-09-06T15:15:30-04:00,2024-09-06T15:15:30-04:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,update version,update version
+exa-labs/exa-py,dfda0af3a21e0d3603e13b72a7dd912a7a5c4852,2024-09,-9,pre,2024-09-07T18:52:42-04:00,2024-09-07T18:52:42-04:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,35,Merge pull request #35 from exa-labs/exa-1560,"Merge pull request #35 from exa-labs/exa-1560
+
+Exa 1560"
+exa-labs/exa-py,52520fca98cd2c4aed5f55df04ae735ca3079f6e,2024-09,-9,pre,2024-09-13T11:16:06-07:00,2024-09-13T11:16:06-07:00,u19624868a25c30c6,u19624868a25c30c6@users.invalid,u19624868a25c30c6,u19624868a25c30c6@users.invalid,1,0,2,5,1,2,5,1,,,,,,0,,add auto_date to the search response,add auto_date to the search response
+exa-labs/exa-py,4c4e033a400bf8a0dd71b8485bc4a5df3370f19c,2024-09,-9,pre,2024-09-13T11:43:05-07:00,2024-09-13T11:43:05-07:00,u19624868a25c30c6,u19624868a25c30c6@users.invalid,u19624868a25c30c6,u19624868a25c30c6@users.invalid,1,0,2,1,4,2,1,4,,,,,,0,,remove dotenv dependency,remove dotenv dependency
+exa-labs/exa-py,faa8f7b49ae9bb319ef3d460e0848ee628752032,2024-09,-9,pre,2024-09-13T12:45:49-07:00,2024-09-13T12:45:49-07:00,u19624868a25c30c6,u19624868a25c30c6@users.invalid,u19624868a25c30c6,u19624868a25c30c6@users.invalid,1,0,5,233,224,2,6,3,,,,,,0,,fix missing argument for SearchResponse,fix missing argument for SearchResponse
+exa-labs/exa-py,17f99cc9e292844fd8f0eaba4697915c6a044446,2024-09,-9,pre,2024-09-13T17:11:07-07:00,2024-09-13T17:11:07-07:00,u19624868a25c30c6,u19624868a25c30c6@users.invalid,u19624868a25c30c6,u19624868a25c30c6@users.invalid,1,0,2,5,4,2,5,4,,,,,,0,,add filter_empty_results option to stable channel,add filter_empty_results option to stable channel
+exa-labs/exa-py,3b2276ef4a7bec739cc4643a4a84c1afcbafa065,2024-09,-9,pre,2024-09-17T14:13:54-07:00,2024-09-17T14:13:54-07:00,u19624868a25c30c6,u19624868a25c30c6@users.invalid,u19624868a25c30c6,u19624868a25c30c6@users.invalid,1,0,4,137,118,2,20,10,,,,,,0,,fix problem with validation Literal for livecrawl options,fix problem with validation Literal for livecrawl options
+exa-labs/exa-py,f74e0d7ace7d6d9d7ab23abd6c1351339b802a7c,2024-09,-9,pre,2024-09-24T23:16:17-07:00,2024-09-24T23:16:17-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,7,1,1,7,,,,,,0,,remove illinformed assert statement,remove illinformed assert statement
+exa-labs/exa-py,84fe0768bb9ecf6b314f76b67e9dbda50376a289,2024-09,-9,pre,2024-09-24T23:26:15-07:00,2024-09-24T23:26:15-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,4,48,7,0,0,0,,,,,,0,,add example job,add example job
+exa-labs/exa-py,1628cc6b7e8ef9f2fb983c34d3fa3afa6feaeb3f,2024-09,-9,pre,2024-09-25T13:50:58-07:00,2024-09-25T13:50:58-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,37,Merge pull request #37 from exa-labs/exa-1569-toolcall-bug,"Merge pull request #37 from exa-labs/exa-1569-toolcall-bug
+
+[fix] tool calling bug"
+exa-labs/exa-py,84b7147b60db9f7cb96777da3fcfcc096ee080c1,2024-09,-9,pre,2024-09-25T14:02:21-07:00,2024-09-25T14:02:21-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,38,Merge pull request #38 from exa-labs/exa-1856-ci-tests,"Merge pull request #38 from exa-labs/exa-1856-ci-tests
+
+Add Testing CI Job for examples"
+exa-labs/exa-py,be80d232997beea77b9c2090f2d817dcd3327bdb,2024-09,-9,pre,2024-09-25T15:56:23-07:00,2024-09-25T15:56:23-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,0,0,0,,,,,,0,,Update pyproject.toml,Update pyproject.toml
+exa-labs/exa-py,05f3a02a039e25295c38e5d76db1e7d1bccc0ae5,2024-09,-9,pre,2024-09-25T16:01:56-07:00,2024-09-25T16:01:56-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,0,0,0,,,,,,1,,revert change,revert change
+exa-labs/exa-py,5d2b8e9bfe9ac7b14b9bd70a9411ef7582e7fa6f,2024-09,-9,pre,2024-09-25T16:02:44-07:00,2024-09-25T16:02:44-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,0,0,0,,,,,,0,,Update run_examples.yml,Update run_examples.yml
+exa-labs/exa-py,3b77f34c7a4f57213397083f0dd7b292fdcaf7e4,2024-09,-9,pre,2024-09-25T16:03:02-07:00,2024-09-25T16:03:02-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,39,Merge pull request #39 from exa-labs/Feel-ix-343-patch-1,"Merge pull request #39 from exa-labs/Feel-ix-343-patch-1
+
+Update run_examples.yml"
+exa-labs/exa-py,1f89ce3e18e7f9bdf91467c65749511b63efa904,2024-09,-9,pre,2024-09-25T16:04:40-07:00,2024-09-25T16:04:40-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,1,0,1,0,4,0,0,0,,,,,,0,,Update run_examples.yml,Update run_examples.yml
+exa-labs/exa-py,86d739941c0f4a41e0971ae89f1f362a197913dc,2024-09,-9,pre,2024-09-25T16:05:58-07:00,2024-09-25T16:05:58-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,1,0,1,3,3,0,0,0,,,,,,0,,Update run_examples.yml,Update run_examples.yml
+exa-labs/exa-py,014bd985461a8f4d3e557825b56a6f5613a930cd,2024-09,-9,pre,2024-09-25T16:09:01-07:00,2024-09-25T16:09:01-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,update openai version closes #26,update openai version closes #26
+exa-labs/exa-py,4bd3ae47b489b311a5e6957f7e5563995d3fdde1,2024-09,-9,pre,2024-09-25T16:09:25-07:00,2024-09-25T16:09:25-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' of github.com:exa-labs/exa-py,Merge branch 'master' of github.com:exa-labs/exa-py
+exa-labs/exa-py,a837c52c52215484b1377f5f72a1bea02ab464b4,2024-09,-9,pre,2024-09-25T16:11:28-07:00,2024-09-25T16:11:28-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,14,14,0,0,0,,,,,,0,,update poetry lock,update poetry lock
+exa-labs/exa-py,62ffc0cebf0fa6a04fa203357e6c36c4fa00e8ca,2024-09,-9,pre,2024-09-25T16:50:34-07:00,2024-09-25T16:50:34-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,397031081d035e7a0709a2f9de12ab25eb6e9f1f,2024-09,-9,pre,2024-09-25T16:55:04-07:00,2024-09-25T16:55:04-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,update version of user agent,update version of user agent
+exa-labs/exa-py,a3aa285791d056505ad41f1a37d86788000dd21c,2024-09,-9,pre,2024-09-27T11:25:05-07:00,2024-09-27T11:25:05-07:00,u01ed76936a390eaa,u01ed76936a390eaa@users.invalid,GitHub,noreply@github.com,1,0,1,1,3,1,1,3,,,,,,0,,fix function reexport for LSPs,fix function reexport for LSPs
+exa-labs/exa-py,8daebaf9477c9d9d470ed057b336fd6aa2347657,2024-09,-9,pre,2024-09-27T11:26:41-07:00,2024-09-27T11:26:41-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,40,Merge pull request #40 from exa-labs/HubertY-patch-1,"Merge pull request #40 from exa-labs/HubertY-patch-1
+
+fix function reexport for LSPs"
+exa-labs/exa-py,7c6aa5da802178a171f63b950c8616d72dbaf59c,2024-10,-8,pre,2024-10-01T11:25:12-07:00,2024-10-01T11:11:28-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,2,0,1,2,0,,,,,,0,,add image field to result class,add image field to result class
+exa-labs/exa-py,967a7ace6c810565b3e8a20d8bcefbe8e3030fdf,2024-10,-8,pre,2024-10-01T11:30:01-07:00,2024-10-01T11:30:01-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,bump version,bump version
+exa-labs/exa-py,416e1bdf95100974879c12681ad1de5026efba4b,2024-10,-8,pre,2024-10-01T11:58:10-07:00,2024-10-01T11:58:10-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,2,4,2,2,4,,,,,,0,,fix previous version accepting images,fix previous version accepting images
+exa-labs/exa-py,35a6bc4d3242599784de20a32a7818e2c63892f0,2024-10,-8,pre,2024-10-03T12:24:07-07:00,2024-10-03T12:24:07-07:00,u01ed76936a390eaa,u01ed76936a390eaa@users.invalid,GitHub,noreply@github.com,1,0,4,55,7,2,24,3,,,,,,0,45,Subpages beta (#45),"Subpages beta (#45)
+
+* enable subpages
+
+* fixtypo
+
+* bump version
+
+* add subpages example
+
+* update examples running workflow
+
+* update examples running workflow
+
+* show the example
+
+* add description of subpages features
+
+* update example
+
+---------
+
+Co-authored-by: u8792af38e76082b7 <u8792af38e76082b7@users.invalid>"
+exa-labs/exa-py,6d2542447b468b5199ab3e03ce736fcadba8976c,2024-10,-8,pre,2024-10-03T12:25:08-07:00,2024-10-03T12:25:08-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,1,0,1,0,1,0,0,0,,,,,,0,,Update subpages_example.py,Update subpages_example.py
+exa-labs/exa-py,526f8b229cde41a5aaa550f895a2087a640dee19,2024-10,-8,pre,2024-10-14T21:37:56-07:00,2024-10-14T21:37:56-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,13,2,2,13,2,,,,,,0,,beta updates,beta updates
+exa-labs/exa-py,ec7de3a30db92b95a4927abc773a5fbfddd68f35,2024-10,-8,pre,2024-10-27T16:38:34-07:00,2024-10-27T16:38:34-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,97,11,1,94,10,,,,,,0,,"fix contents options, add subpages and extras","fix contents options, add subpages and extras"
+exa-labs/exa-py,8c4bbee2f3efa19d212280e8786e9ed9d312d85a,2024-10,-8,pre,2024-10-27T16:46:43-07:00,2024-10-27T16:46:43-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,update subpages description,update subpages description
+exa-labs/exa-py,5c41f75c42bdc15dd5832bbaafb865346c0e1a6c,2024-10,-8,pre,2024-10-27T17:26:55-07:00,2024-10-27T17:26:55-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,5,90,29,2,29,18,,,,,,0,,add examples and fix contents functions,add examples and fix contents functions
+exa-labs/exa-py,670c8b5a24f29ce27d9b26e8d62ac94c98f7232d,2024-10,-8,pre,2024-10-27T17:30:09-07:00,2024-10-27T17:30:09-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,2,2,1,2,2,,,,,,0,,update validation types,update validation types
+exa-labs/exa-py,e5597351d56082fc1b7dd1efd7a1e20d67990c5d,2024-10,-8,pre,2024-10-29T18:07:59-04:00,2024-10-29T18:07:59-04:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,GitHub,noreply@github.com,1,0,2,30,7,2,30,7,,,,,,0,48,add subpage target and fix text defaults (#48),"add subpage target and fix text defaults (#48)
+
+* add subpage target and fix text defaults
+
+* update version and add extras to the text: true default exclude"
+exa-labs/exa-py,6f3a0e5d91b1478077edd16c3b2bd2efddb623cd,2024-11,-7,pre,2024-11-01T14:31:18-04:00,2024-11-01T11:31:18-07:00,u01ed76936a390eaa,u01ed76936a390eaa@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,49,support subpage target list in validator (#49),support subpage target list in validator (#49)
+exa-labs/exa-py,466107da5a6134432520f16518f226daf600afb8,2024-11,-7,pre,2024-11-01T11:34:40-07:00,2024-11-01T11:34:40-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,bump version,bump version
+exa-labs/exa-py,6be17c9238d659dbcf4bf5828f7e81fee6132ea4,2024-11,-7,pre,2024-11-04T19:04:03-05:00,2024-11-04T16:04:03-08:00,u01ed76936a390eaa,u01ed76936a390eaa@users.invalid,GitHub,noreply@github.com,1,0,1,1,1,1,1,1,,,,,,0,50,enable livecrawl: auto (#50),enable livecrawl: auto (#50)
+exa-labs/exa-py,9cc491ebba68f134c1cd8dec4e67073baf63dfde,2024-11,-7,pre,2024-11-04T16:04:55-08:00,2024-11-04T16:04:55-08:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,bump version,bump version
+exa-labs/exa-py,44fccf80df9062435e75a7a2a3e7b790ba3f7b49,2024-11,-7,pre,2024-11-26T11:43:41-08:00,2024-11-26T11:43:41-08:00,u01ed76936a390eaa,u01ed76936a390eaa@users.invalid,GitHub,noreply@github.com,1,0,1,4,1,1,4,1,,,,,,0,,image links and favicon support,image links and favicon support
+exa-labs/exa-py,c4e2552c977f80ee33139f15eb832f2305f52199,2024-11,-7,pre,2024-11-26T12:48:57-08:00,2024-11-26T12:48:57-08:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,update version,update version
+exa-labs/exa-py,abb9acf90b9baa6e0fbe5a4d8c1caf5f26ea34d4,2024-12,-6,pre,2024-12-24T17:58:58-08:00,2024-12-24T17:58:58-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,51,Merge pull request #51 from exa-labs/HubertY-patch-3,"Merge pull request #51 from exa-labs/HubertY-patch-3
+
+image links and favicon support"
+exa-labs/exa-py,7f2a5f6e933405992ef3154c309807b388a238e8,2024-12,-6,pre,2024-12-24T18:02:45-08:00,2024-12-24T18:02:45-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Change order of parameters in searchResponse to match class definition,Change order of parameters in searchResponse to match class definition
+exa-labs/exa-py,fdfc6614903dd0ae57332f9715b544c24ae27800,2024-12,-6,pre,2024-12-24T18:04:34-08:00,2024-12-24T18:04:34-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,52,Merge pull request #52 from exa-labs/version-1-7-1,"Merge pull request #52 from exa-labs/version-1-7-1
+
+Change order of parameters in searchResponse to match class definition"
+exa-labs/exa-py,f7e11db5af27116800d77e3e5b5fe32aaf49f93c,2024-12,-6,pre,2024-12-24T18:22:06-08:00,2024-12-24T18:22:06-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,Update SDK version,Update SDK version
+exa-labs/exa-py,12f862f93c2b88378fe161f6cd491ecd667b4ec4,2024-12,-6,pre,2024-12-24T18:22:31-08:00,2024-12-24T18:22:31-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,53,Merge pull request #53 from exa-labs/release/1.7.1,"Merge pull request #53 from exa-labs/release/1.7.1
+
+Update SDK version"
+exa-labs/exa-py,d6bb4d99188c1137058eafb26522b0dc94c98769,2024-12,-6,pre,2024-12-25T12:58:28-08:00,2024-12-25T12:58:28-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,2,16,10,2,16,10,,,,,,0,,Updating category types and contents options,Updating category types and contents options
+exa-labs/exa-py,60a13da8d015fa6fc67790dca958ce9d4daf3026,2025-01,-5,pre,2025-01-14T23:55:03+08:00,2025-01-14T23:55:03+08:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,3,217,145,2,216,143,,,,,,0,,"add flags, make misc fixes","add flags, make misc fixes"
+exa-labs/exa-py,ac708feeb28cbdac282f8b795a12ef5d2265a1fc,2025-01,-5,pre,2025-01-21T10:02:18-08:00,2025-01-21T10:02:18-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,5,18,18,2,13,13,,,,,,0,,Version 1.7.3,Version 1.7.3
+exa-labs/exa-py,72dc5380e578e09a8da1c3a7972fd08da5a7e338,2025-01,-5,pre,2025-01-21T10:13:17-08:00,2025-01-21T10:13:17-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into version/1.7.3,Merge branch 'master' into version/1.7.3
+exa-labs/exa-py,f26620699df26431c3877ceb85daf3f416f8dec7,2025-01,-5,pre,2025-01-21T10:20:28-08:00,2025-01-21T10:20:28-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,55,Merge pull request #55 from exa-labs/version/1.7.3,"Merge pull request #55 from exa-labs/version/1.7.3
+
+Version/1.7.3"
+exa-labs/exa-py,df21eb464dbeed97c7a2abdcbcacfc8b575a62e9,2025-01,-5,pre,2025-01-21T10:29:58-08:00,2025-01-21T10:29:58-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,Update version,Update version
+exa-labs/exa-py,96b98f1c3bc667ec67f9eb3b3ec3a966dc41cc41,2025-01,-5,pre,2025-01-21T10:30:43-08:00,2025-01-21T10:30:43-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,56,Merge pull request #56 from exa-labs/version/1.7.3,"Merge pull request #56 from exa-labs/version/1.7.3
+
+Update version"
+exa-labs/exa-py,11cb04ccef3d5ff8393f48d0f23beadceb4d3b1a,2025-01,-5,pre,2025-01-21T22:41:33-08:00,2025-01-21T22:41:33-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,4,155,3,1,106,3,,,,,,0,,Version/1.8.3 - adding answer endpoint,Version/1.8.3 - adding answer endpoint
+exa-labs/exa-py,1e811d25b74e8131e0d78e6ce7be49809d583474,2025-01,-5,pre,2025-01-21T22:42:22-08:00,2025-01-21T22:42:22-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into version/1.8.3,Merge branch 'master' into version/1.8.3
+exa-labs/exa-py,7ff8a6d917b1d2971024ef80fcccf9cc571e44bd,2025-01,-5,pre,2025-01-21T22:45:46-08:00,2025-01-21T22:45:46-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,update version,update version
+exa-labs/exa-py,cd34164d7fa94a94e0b101899fa3b59b91e6d6a7,2025-01,-5,pre,2025-01-21T22:46:50-08:00,2025-01-21T22:46:50-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'version/1.8.3' of https://github.com/exa-labs/exa-py into version/1.8.3,Merge branch 'version/1.8.3' of https://github.com/exa-labs/exa-py into version/1.8.3
+exa-labs/exa-py,854876afdd9531620e09e3fa4e59b82200ac4632,2025-01,-5,pre,2025-01-21T22:47:23-08:00,2025-01-21T22:47:23-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,57,Merge pull request #57 from exa-labs/version/1.8.3,"Merge pull request #57 from exa-labs/version/1.8.3
+
+Version/1.8.3 - adding answer endpoint"
+exa-labs/exa-py,005a517623e91fe0f3df43fa17beed9b420ec98c,2025-01,-5,pre,2025-01-21T22:51:31-08:00,2025-01-21T22:51:31-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,update version,update version
+exa-labs/exa-py,9195510d48bec58c604d26b23131e7e14758e0bf,2025-01,-5,pre,2025-01-21T22:52:11-08:00,2025-01-21T22:52:11-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,58,Merge pull request #58 from exa-labs/version/1.8.3,"Merge pull request #58 from exa-labs/version/1.8.3
+
+update version"
+exa-labs/exa-py,ada6ad3a432b1c7b01c9ba3d85d33b7feba4de18,2025-01,-5,pre,2025-01-22T16:37:45+08:00,2025-01-22T16:37:45+08:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,133,65,2,133,65,,,,,,0,,add moderation field,add moderation field
+exa-labs/exa-py,a805ded7cd3f4d16a1b0f79f5450c2facedd7932,2025-01,-5,pre,2025-01-30T14:29:53-08:00,2025-01-30T14:29:53-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,5,154,59,2,140,37,,,,,,0,,Version/1.8.7 - Streaming support for answer endpoint,Version/1.8.7 - Streaming support for answer endpoint
+exa-labs/exa-py,2ba6aad3c1613a15f1d7714e3594dd37f58525fe,2025-01,-5,pre,2025-01-30T14:41:47-08:00,2025-01-30T14:41:47-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,1,2,0,1,2,0,,,,,,0,,Update api.py,Update api.py
+exa-labs/exa-py,5a0cdbf3685a5dcbabb76614e63cfd7bdc3190d1,2025-01,-5,pre,2025-01-30T14:48:53-08:00,2025-01-30T14:48:53-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,60,Merge pull request #60 from exa-labs/version/1.8.8,"Merge pull request #60 from exa-labs/version/1.8.8
+
+Version/1.8.8 - generator for answer endpoint streaming"
+exa-labs/exa-py,0d5934f1eed554ff7891883f7cdad172e16e454b,2025-02,-4,pre,2025-02-06T08:50:07-08:00,2025-02-06T08:50:07-08:00,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,u1f4cfad647f0c174,u1f4cfad647f0c174@users.invalid,1,0,5,12,6,2,7,2,,,,,,0,,Add model: exa/exa-pro parameter,Add model: exa/exa-pro parameter
+exa-labs/exa-py,894b2fa57df612158ae41a5b0ee00eb89d0354c3,2025-02,-4,pre,2025-02-06T08:51:36-08:00,2025-02-06T08:51:36-08:00,ubcea390778f7c57f,ubcea390778f7c57f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,61,Merge pull request #61 from exa-labs/add-model-param,"Merge pull request #61 from exa-labs/add-model-param
+
+Add model: exa/exa-pro parameter"
+exa-labs/exa-py,a4d85dbce263e06192a56f1463c5a96cda05f86c,2025-02,-4,pre,2025-02-17T20:04:20-08:00,2025-02-17T20:04:20-08:00,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,1,0,1,57,3,1,57,3,,,,,,0,,updated python sdk,updated python sdk
+exa-labs/exa-py,ebada42a039231df777cea73afb792164e754ed6,2025-02,-4,pre,2025-02-17T20:11:13-08:00,2025-02-17T20:11:13-08:00,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,fix typo,fix typo
+exa-labs/exa-py,17ccf85880c5fd1dbec9ce871166670755288353,2025-02,-4,pre,2025-02-17T20:56:49-08:00,2025-02-17T20:56:49-08:00,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,1,0,1,105,106,1,105,106,,,,,,0,,update wording,update wording
+exa-labs/exa-py,39ec5ccfb9ebf7a6a1f5fdea4c85e2427598c910,2025-02,-4,pre,2025-02-17T22:30:28-08:00,2025-02-17T22:30:28-08:00,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,ub7ed5274d2e12d2f,ub7ed5274d2e12d2f@users.invalid,1,0,2,4,8,2,4,8,,,,,,0,,update sdk version,update sdk version
+exa-labs/exa-py,9b972fb081546007e4707379e1b2331222ec5eb3,2025-02,-4,pre,2025-02-17T22:33:16-08:00,2025-02-17T22:33:16-08:00,u34e242c1bc728c8f,u34e242c1bc728c8f@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,62,Merge pull request #62 from exa-labs/update-sdk-response,"Merge pull request #62 from exa-labs/update-sdk-response
+
+updated python sdk to match api response names"
+exa-labs/exa-py,fbc583c6d1a88938972c477d0ffcca6aa8c89153,2025-03,-3,pre,2025-03-07T20:29:35-08:00,2025-03-07T20:29:35-08:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,2,76,1,1,3,1,,,,,,0,,Add summary field,Add summary field
+exa-labs/exa-py,c2cfc9b9182dbd0b0147591fc89d5d46ae2d83ee,2025-03,-3,pre,2025-03-09T14:11:06-07:00,2025-03-09T14:11:06-07:00,u867822d88ede4ef4,u867822d88ede4ef4@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,63,Merge pull request #63 from exa-labs/evan/add-structured-summaries,"Merge pull request #63 from exa-labs/evan/add-structured-summaries
+
+Add Schema Field"
+exa-labs/exa-py,0451cbdf701e9cf198ff0d2f1f8ecb76d9e5e3de,2025-03,-3,pre,2025-03-09T21:39:25-04:00,2025-03-09T21:39:25-04:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,Up version,Up version
+exa-labs/exa-py,64aca363aa6ef4124799c746b755ab5c9e9d2ba3,2025-03,-3,pre,2025-03-09T18:39:39-07:00,2025-03-09T18:39:39-07:00,u867822d88ede4ef4,u867822d88ede4ef4@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,64,Merge pull request #64 from exa-labs/evan/add-structured-summaries,"Merge pull request #64 from exa-labs/evan/add-structured-summaries
+
+Up Version"
+exa-labs/exa-py,fa92bc8a9aa287218427daf42ef13aea144c3765,2025-03,-3,pre,2025-03-10T13:27:40-04:00,2025-03-10T13:27:40-04:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,2,33,4,1,29,2,,,,,,0,,Update api,Update api
+exa-labs/exa-py,fe48df4e7fab777aff25c9a4795a3b28e219b4d2,2025-03,-3,pre,2025-03-10T10:29:51-07:00,2025-03-10T10:29:51-07:00,u867822d88ede4ef4,u867822d88ede4ef4@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,65,Merge pull request #65 from exa-labs/evan/improve-jsonschema-doc,"Merge pull request #65 from exa-labs/evan/improve-jsonschema-doc
+
+Update API with JSONSchema"
+exa-labs/exa-py,3bb0ee72101386a66eecf976c262592d5680e8cf,2025-03,-3,pre,2025-03-11T10:41:22-07:00,2025-03-11T10:41:22-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,update user agent in api.py code,update user agent in api.py code
+exa-labs/exa-py,5d5ef2b5cde0346802254b826df227077031ef20,2025-03,-3,pre,2025-03-20T19:50:49Z,2025-03-20T19:50:49Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,20,2924,374,14,1524,8,,,,,,0,,feat: add client,feat: add client
+exa-labs/exa-py,522adffd4fa4d59a3870902874be7e198b5f7ffc,2025-03,-3,pre,2025-03-20T19:51:04Z,2025-03-20T19:51:04Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,10,16,0,0,0,,,,,,0,,refactor: remove comments,refactor: remove comments
+exa-labs/exa-py,f4b531b36423c42a9f0fba8a316e2d7f29341eaa,2025-03,-3,pre,2025-03-20T19:55:36Z,2025-03-20T19:55:36Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,2,0,1,2,0,,,,,,1,,revert: unnecessary changes,revert: unnecessary changes
+exa-labs/exa-py,0a79dc1d924f60f43ce2abd57aa6bc56a6e9f931,2025-03,-3,pre,2025-03-20T19:59:32Z,2025-03-20T19:59:32Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,feat: fix example,feat: fix example
+exa-labs/exa-py,0c436aa74af794bb4f3502a781375f89b0a231ab,2025-03,-3,pre,2025-03-20T20:00:30Z,2025-03-20T20:00:30Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,0,1,0,0,0,,,,,,0,,fix: remove unnecessary parameter in example,fix: remove unnecessary parameter in example
+exa-labs/exa-py,44b9191d3a3cc7d753ab5592174389307ac100d1,2025-03,-3,pre,2025-03-20T20:04:00Z,2025-03-20T20:04:00Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,9,9,9,7,7,7,,,,,,0,,refactor: rename model to types file,refactor: rename model to types file
+exa-labs/exa-py,4b1e581fbb83dadb80be163469e9860a180c6a0a,2025-03,-3,pre,2025-03-20T21:31:31Z,2025-03-20T21:31:31Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,7,31,10,5,29,8,,,,,,0,,feat: add list_all and rename to get,feat: add list_all and rename to get
+exa-labs/exa-py,849b962147454f83d43c21cf8bc31a9f87ecbb85,2025-03,-3,pre,2025-03-20T23:10:17Z,2025-03-20T23:10:17Z,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,4,0,1,4,0,,,,,,0,,feat: add websetId in schema,feat: add websetId in schema
+exa-labs/exa-py,7184cd2be7a29f86d8178ed38d813db1b748fc6b,2025-03,-3,pre,2025-03-20T19:44:06-07:00,2025-03-20T19:44:06-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,fix test,fix test
+exa-labs/exa-py,0c007c91a87ae07afc514963beebd979ebe2f641,2025-03,-3,pre,2025-03-20T19:46:24-07:00,2025-03-20T19:46:24-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,2,1,1,2,1,,,,,,0,,fix test,fix test
+exa-labs/exa-py,14adc29006f9632a52cc9bfb65531c60a9814582,2025-03,-3,pre,2025-03-20T19:49:18-07:00,2025-03-20T19:49:18-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix another,fix another
+exa-labs/exa-py,030adf746e1d7d09f675b1de39f0059f27d2e08e,2025-03,-3,pre,2025-03-20T19:56:10-07:00,2025-03-20T19:56:10-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,70,Merge pull request #70 from exa-labs/feat/add-websets-beta-client,"Merge pull request #70 from exa-labs/feat/add-websets-beta-client
+
+add websets beta client"
+exa-labs/exa-py,2cfe542530ace45247ac6998c284b4f813317bf4,2025-03,-3,pre,2025-03-20T19:59:29-07:00,2025-03-20T19:59:29-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,2,2,2,2,2,,,,,,0,,update version,update version
+exa-labs/exa-py,a0f4f95f06541ba9ee572a02ac7465b10ada4436,2025-03,-3,pre,2025-03-20T20:00:11-07:00,2025-03-20T20:00:11-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,update v,update v
+exa-labs/exa-py,ba92a88e9308c1c178df90fe6e64b05c028d0b2c,2025-03,-3,pre,2025-03-28T13:32:10-07:00,2025-03-28T13:32:10-07:00,u0c2204b1e297124c,u0c2204b1e297124c@users.invalid,u0c2204b1e297124c,u0c2204b1e297124c@users.invalid,1,0,10,811,270,2,382,0,,,,,,0,,Async support,Async support
+exa-labs/exa-py,da74619a93fc7314c646d3bbcd8d8038b98cdfb4,2025-03,-3,pre,2025-03-28T13:32:10-07:00,2025-03-13T22:24:30-04:00,u0c2204b1e297124c,u0c2204b1e297124c@users.invalid,u0c2204b1e297124c,u0c2204b1e297124c@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,Increase timeout to 60 seconds,Increase timeout to 60 seconds
+exa-labs/exa-py,37c681897e8a0874440330bbdf2b3d37ffcfd2ce,2025-03,-3,pre,2025-03-31T16:30:43-07:00,2025-03-31T16:30:43-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,67,Merge pull request #67 from ampdot-io/async,"Merge pull request #67 from ampdot-io/async
+
+Async support"
+exa-labs/exa-py,ac85d65b3de14281f281aeef32678a0f3bde6a22,2025-03,-3,pre,2025-03-31T16:40:35-07:00,2025-03-31T16:40:35-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,1,19,0,0,0,0,,,,,,0,,update pyrpoject.toml,update pyrpoject.toml
+exa-labs/exa-py,fcac20f3d2fd63cd721473d44a6efed12edb8d4f,2025-03,-3,pre,2025-03-31T16:42:22-07:00,2025-03-31T16:42:22-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,4,583,3,2,2,2,,,,,,0,,"uv lock, bump version","uv lock, bump version"
+exa-labs/exa-py,517346d3548c1f690ec42f265adc3a8fe1a4020d,2025-04,-2,pre,2025-04-04T10:15:50-04:00,2025-04-04T10:15:50-04:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,5,29,4,2,11,2,,,,,,0,,Add systemPrompt,Add systemPrompt
+exa-labs/exa-py,45eb8d0d3bb06aed6631950146c2353dc5e5ccc5,2025-04,-2,pre,2025-04-04T10:17:30-04:00,2025-04-04T10:17:30-04:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,1,100,21,0,0,0,,,,,,0,,Update poetry.lock,Update poetry.lock
+exa-labs/exa-py,545d09d3613a2ece2eaf573efead54d88264931f,2025-04,-2,pre,2025-04-04T10:30:29-04:00,2025-04-04T10:30:29-04:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,1,1,0,0,0,0,,,,,,0,,Update subpages_example.py,Update subpages_example.py
+exa-labs/exa-py,942ffe2985fd8015408d5bad9a4226b197464b0f,2025-04,-2,pre,2025-04-04T11:52:28-04:00,2025-04-04T11:52:28-04:00,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,u6c95e28c782ba3ea,u6c95e28c782ba3ea@users.invalid,1,0,2,14,15,0,0,0,,,,,,0,,Disable assert for now to get tests to pass,Disable assert for now to get tests to pass
+exa-labs/exa-py,3293d8786a2f0b82171da86b7924b2f9d6a6497d,2025-04,-2,pre,2025-04-04T10:35:48-07:00,2025-04-04T10:35:48-07:00,u867822d88ede4ef4,u867822d88ede4ef4@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,71,Merge pull request #71 from exa-labs/evan/systemPrompt,"Merge pull request #71 from exa-labs/evan/systemPrompt
+
+Add systemPrompt"
+exa-labs/exa-py,c28117e59e2da9db2a3bb72b59fb9a143648e8ce,2025-04,-2,pre,2025-04-10T13:45:10-07:00,2025-04-10T13:45:10-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,25,27,1,25,27,,,,,,0,,feat: update types to latest schema,feat: update types to latest schema
+exa-labs/exa-py,f8d082506d6dab6c1299250798c1ee7f2a4e7aa9,2025-04,-2,pre,2025-04-10T14:52:57-07:00,2025-04-10T14:52:57-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,3,66,25,2,34,21,,,,,,0,,test: fix cases and improve format passing,test: fix cases and improve format passing
+exa-labs/exa-py,4b830e0510d638c2bc39c1561a82b7f5b172200b,2025-04,-2,pre,2025-04-10T18:35:37-07:00,2025-04-10T18:35:37-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,6,147,36,5,69,31,,,,,,0,,test: fix and enable dicts to be used,test: fix and enable dicts to be used
+exa-labs/exa-py,f0971b39ff409f7624385374b533c88434fe5f1c,2025-04,-2,pre,2025-04-11T12:11:26-07:00,2025-04-11T12:11:26-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,3,3,1,1,1,,,,,,0,,test: fix enum serialisation,test: fix enum serialisation
+exa-labs/exa-py,f54783cb7f0e286d8a083789a68a5c51cea8e3e3,2025-04,-2,pre,2025-04-11T12:12:23-07:00,2025-04-11T12:12:23-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,2,0,0,0,,,,,,0,,test: update example,test: update example
+exa-labs/exa-py,ce92185f217821a94ff58af9f2315b6ac6e3a9f7,2025-04,-2,pre,2025-04-11T12:31:23-07:00,2025-04-11T12:31:23-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,4,2,1,1,1,,,,,,0,,test: fix comparison and improved exaple,test: fix comparison and improved exaple
+exa-labs/exa-py,48e119213f5dc0260a544eb6d33d8f71fe983954,2025-04,-2,pre,2025-04-11T15:52:43-07:00,2025-04-11T15:52:43-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,6,307,40,4,149,37,,,,,,0,,feat: add new example and webhook attempts,feat: add new example and webhook attempts
+exa-labs/exa-py,8608bc2826df83aca9594b2fb1732c80dc4c2893,2025-04,-2,pre,2025-04-11T16:06:43-07:00,2025-04-11T16:06:43-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,2,2,1,2,2,,,,,,0,,fix: enrichment result,fix: enrichment result
+exa-labs/exa-py,d56cdf23db937eb4c8222bc2543072838edf8f6d,2025-04,-2,pre,2025-04-11T16:59:47-07:00,2025-04-11T16:59:47-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,43,22,2,43,22,,,,,,0,,fix: types,fix: types
+exa-labs/exa-py,a75ffd66bc9ef54791bd5d0b421f9745d7ad6d3c,2025-04,-2,pre,2025-04-11T19:49:03-07:00,2025-04-11T19:49:03-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,2,1,0,0,0,,,,,,0,,fix: examples use api from from env,fix: examples use api from from env
+exa-labs/exa-py,f33b21f8787054d118c8ac5dabd8d3781e267a68,2025-04,-2,pre,2025-04-11T19:55:08-07:00,2025-04-11T19:55:08-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,73,Merge pull request #73 from exa-labs/feat/update-websets-types,"Merge pull request #73 from exa-labs/feat/update-websets-types
+
+[websets] update types to latest OpenAPI schema"
+exa-labs/exa-py,db15e73ba2f7e761835ac681c4cc84c73d737460,2025-04,-2,pre,2025-04-13T10:04:31-07:00,2025-04-13T10:04:31-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,3,4,4,2,2,2,,,,,,0,,bump v/,bump v/
+exa-labs/exa-py,c74f894f034f2ec699b5ea9ca743648041c5c27a,2025-04,-2,pre,2025-04-17T18:36:48-07:00,2025-04-17T18:36:48-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,8,8,1,8,8,,,,,,0,,fix: remove limits on strings,fix: remove limits on strings
+exa-labs/exa-py,bfd7c651aea88d391bcb88bca0fac438d166c98b,2025-04,-2,pre,2025-04-17T18:40:01-07:00,2025-04-17T18:40:01-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,3,4,4,2,2,2,,,,,,0,,bump version,bump version
+exa-labs/exa-py,958316e04b2d858314c1dc54a8f499a62f3a5560,2025-05,-1,pre,2025-05-02T05:28:54+05:30,2025-05-02T05:28:54+05:30,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,GitHub,noreply@github.com,1,0,1,4,15,0,0,0,,,,,,0,,Update README.md,Update README.md
+exa-labs/exa-py,38ca54a76a71a4fa822dc71a6d86881156109a45,2025-05,-1,pre,2025-05-06T20:00:43-07:00,2025-05-06T20:00:43-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,83,0,1,83,0,,,,,,0,,changes,changes
+exa-labs/exa-py,e2be7ba4c3df935a33f5fe31a700a06c43f47b4e,2025-05,-1,pre,2025-05-09T12:37:13-07:00,2025-05-09T12:37:13-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,41,30,1,41,30,,,,,,0,,fix with new schema/path,fix with new schema/path
+exa-labs/exa-py,b9fed781e8eacf41ba6da28067e093327e493e4e,2025-05,-1,pre,2025-05-09T14:19:40-07:00,2025-05-09T14:19:40-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,75,Merge pull request #75 from exa-labs/mark/research_endpoint,"Merge pull request #75 from exa-labs/mark/research_endpoint
+
+[research] py sdk changes"
+exa-labs/exa-py,8e992d56a543f3297b3d26b671255060a5802c6d,2025-05,-1,pre,2025-05-09T14:45:16-07:00,2025-05-09T14:45:16-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,bump version,bump version
+exa-labs/exa-py,a589bae37e43a91aadcf90bf56409c613316bde9,2025-05,-1,pre,2025-05-09T14:46:19-07:00,2025-05-09T14:46:19-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,76,Merge pull request #76 from exa-labs/anca/bump-version,"Merge pull request #76 from exa-labs/anca/bump-version
+
+bump version"
+exa-labs/exa-py,18aefe83b9ec13606e6cbb727e519ad1182558a4,2025-05,-1,pre,2025-05-13T22:04:02-07:00,2025-05-13T22:04:02-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,3,77,37,1,42,31,,,,,,0,,update py sdk,update py sdk
+exa-labs/exa-py,c652224169f8493467caacceb01f6816c82c38a8,2025-05,-1,pre,2025-05-13T22:04:29-07:00,2025-05-13T22:04:29-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,d0e1c5c2e77901e2b1f4cbe55bebed45b4b3ff7b,2025-05,-1,pre,2025-05-13T22:59:57-07:00,2025-05-13T22:59:57-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,77,Merge pull request #77 from exa-labs/mark/structure_answer,"Merge pull request #77 from exa-labs/mark/structure_answer
+
+[answer] Structure output"
+exa-labs/exa-py,05cca6a65213f36c9eb906bf1e1aba840ffb322a,2025-05,-1,pre,2025-05-15T10:02:06-07:00,2025-05-15T10:02:06-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,3,122,63,3,122,63,,,,,,0,,better org,better org
+exa-labs/exa-py,317aade7066dd179ac8e5488843537bbf9241383,2025-05,-1,pre,2025-05-15T12:49:41-07:00,2025-05-15T12:49:41-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,5,229,18,4,221,14,,,,,,0,,use streaming for now,use streaming for now
+exa-labs/exa-py,39d99973673e7fc0b1fb76157ebd23e1648573c1,2025-05,-1,pre,2025-05-15T13:07:52-07:00,2025-05-15T13:07:52-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,33,4,1,1,1,,,,,,0,,tweaks again,tweaks again
+exa-labs/exa-py,09c15cc808938dcba2675e06afe9b83533fc08ff,2025-05,-1,pre,2025-05-15T15:01:53-07:00,2025-05-15T15:01:53-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,5,3,2,5,3,,,,,,0,,bump version,bump version
+exa-labs/exa-py,80c98a6625eb2ab1553530456216c93db62ce40c,2025-05,-1,pre,2025-05-15T15:03:46-07:00,2025-05-15T15:03:46-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,4,6,1,1,1,,,,,,0,,actually bump,actually bump
+exa-labs/exa-py,5d71677d76792f7bb360a5503da8347a8009ecf0,2025-05,-1,pre,2025-05-15T15:05:34-07:00,2025-05-15T15:05:34-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,79,Merge pull request #79 from exa-labs/mark/better_research_abstraction,"Merge pull request #79 from exa-labs/mark/better_research_abstraction
+
+Better research sdk abstraction"
+exa-labs/exa-py,756ba02db9e091d3c48e07134b89a33bf8a6d4b1,2025-05,-1,pre,2025-05-27T19:48:06-07:00,2025-05-27T19:48:06-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,214,230,4,214,230,,,,,,0,,proper research split create,proper research split create
+exa-labs/exa-py,7f89f24fe35d48e777d6e0c5e93c15349790b796,2025-05,-1,pre,2025-05-28T03:39:22-07:00,2025-05-28T03:39:22-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,7,9,3,6,8,,,,,,0,,bump and confirm,bump and confirm
+exa-labs/exa-py,e636aa1519af66ffd27e08df54c7cd218fa6c822,2025-05,-1,pre,2025-05-28T03:40:10-07:00,2025-05-28T03:40:10-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,82,Merge pull request #82 from exa-labs/mark/research_split_create_get,"Merge pull request #82 from exa-labs/mark/research_split_create_get
+
+[research] proper async backend"
+exa-labs/exa-py,b5d647200ceeaaf232231ea01cb86c689e7c579d,2025-05,-1,pre,2025-05-29T09:46:36-07:00,2025-05-29T09:46:36-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,fix: allow extra parameters to be returned,fix: allow extra parameters to be returned
+exa-labs/exa-py,374b088cd554a0b75d9c1fd973615aa0a1800216,2025-05,-1,pre,2025-05-29T09:50:55-07:00,2025-05-29T09:50:55-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,83,Merge pull request #83 from exa-labs/fix/change-extra-parameters-behaviour,"Merge pull request #83 from exa-labs/fix/change-extra-parameters-behaviour
+
+[websets] allow extra parameters to be returned from the API"
+exa-labs/exa-py,93b005fe7ec6df9bad772516cd5b53daa3c92798,2025-05,-1,pre,2025-05-29T09:52:25-07:00,2025-05-29T09:52:25-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,sdk: bump version,sdk: bump version
+exa-labs/exa-py,818296cd9eab6b68053c4d4fd22c407f040f1214,2025-05,-1,pre,2025-05-29T20:04:21-07:00,2025-05-29T20:04:21-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,326,33,1,326,33,,,,,,0,,chore: update types,chore: update types
+exa-labs/exa-py,10471aa7a8ae09a0f14969d5baef22a097eab821,2025-05,-1,pre,2025-05-30T16:11:10-07:00,2025-05-30T16:11:10-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,9,794,26,7,188,26,,,,,,0,,feat: add clients and updated types,feat: add clients and updated types
+exa-labs/exa-py,223f69a2fac26e8ea12c4bf38b1c7acbe5d3fd65,2025-05,-1,pre,2025-05-30T18:04:51-07:00,2025-05-30T18:04:51-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,4,86,147,1,25,80,,,,,,0,,feat: add tests and fix comments,feat: add tests and fix comments
+exa-labs/exa-py,cc864f0d842a54f9153d16e2657e02ce119fcac3,2025-05,-1,pre,2025-05-30T18:10:31-07:00,2025-05-30T18:10:31-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,5,6,2,5,6,,,,,,0,,refactor: rename and remove unused import,refactor: rename and remove unused import
+exa-labs/exa-py,c22c68750750a8e9d73227c0dbb7fccd267cd9e4,2025-05,-1,pre,2025-05-30T18:22:07-07:00,2025-05-30T18:22:07-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,84,Merge pull request #84 from exa-labs/feat/add-websets-streams,"Merge pull request #84 from exa-labs/feat/add-websets-streams
+
+[websets] introduce webset streams"
+exa-labs/exa-py,3c624d1db4776c8c751a16ff972cefda2d0c799b,2025-05,-1,pre,2025-05-31T16:28:09-07:00,2025-05-31T16:28:09-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,bump,bump
+exa-labs/exa-py,8129c165d50414b2937e606a0fe7aa2ac8705c0a,2025-05,-1,pre,2025-05-31T16:28:49-07:00,2025-05-31T16:28:49-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,88,Merge pull request #88 from exa-labs/mark/bump_again,"Merge pull request #88 from exa-labs/mark/bump_again
+
+bump"
+exa-labs/exa-py,e945404b5b6149dc5e7f73ed6aba4a308a551e9c,2025-06,0,m0,2025-06-01T09:12:39-07:00,2025-05-31T12:20:39-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,10,674,325,4,137,12,,,,,,0,,first pass,first pass
+exa-labs/exa-py,d0eac5cfbb2b7908696e40024e5c65216929d90d,2025-06,0,m0,2025-06-01T09:12:39-07:00,2025-05-31T13:28:10-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,50,2,0,0,0,,,,,,0,,examples for openai compatibility,examples for openai compatibility
+exa-labs/exa-py,0325fd1a76fb893bec7bcd902216015585d18650,2025-06,0,m0,2025-06-01T09:24:15-07:00,2025-06-01T09:13:35-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,bump version,bump version
+exa-labs/exa-py,5b9d69aac7525e1aaa5d87ff5a16600d66ce9adc,2025-06,0,m0,2025-06-01T09:25:32-07:00,2025-06-01T09:25:32-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,87,Merge pull request #87 from exa-labs/mark/better_research_abstractions,"Merge pull request #87 from exa-labs/mark/better_research_abstractions
+
+[research] better abstractions, list routes, more examples"
+exa-labs/exa-py,b29e65ce886185352c1b114ec78131cb7f012129,2025-06,0,m0,2025-06-02T10:16:04-07:00,2025-06-02T10:16:04-07:00,u36886d831f1ea2dc,u36886d831f1ea2dc@users.invalid,u36886d831f1ea2dc,u36886d831f1ea2dc@users.invalid,1,0,2,11,12,0,0,0,,,,,,0,,fix: update pytest and pytest-mock dependencies in poetry files,fix: update pytest and pytest-mock dependencies in poetry files
+exa-labs/exa-py,6a8bc23f04bb06fa10fa8d5fb96d7b6b8f0d4d64,2025-06,0,m0,2025-06-03T16:09:49-07:00,2025-06-03T16:09:49-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,15,12,1,15,12,,,,,,0,,tweak client,tweak client
+exa-labs/exa-py,cf311426af17470c9a077d30158af4465fb387cc,2025-06,0,m0,2025-06-03T16:10:27-07:00,2025-06-03T16:10:27-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,bump version,bump version
+exa-labs/exa-py,5772892264700f208abac58261f2fc0b371f577c,2025-06,0,m0,2025-06-03T16:26:22-07:00,2025-06-03T16:26:22-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,90,Merge pull request #90 from exa-labs/mark/more_updates,"Merge pull request #90 from exa-labs/mark/more_updates
+
+[research] More updates"
+exa-labs/exa-py,664b896b4df2f48131edb37ea53d7decdbad864c,2025-06,0,m0,2025-06-03T18:41:49-07:00,2025-06-03T18:41:49-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,14,764,756,10,244,230,,,,,,0,,refactor: rename to monitors,refactor: rename to monitors
+exa-labs/exa-py,21c03ee400143ce51148337f2588c2007ab17420,2025-06,0,m0,2025-06-03T19:14:23-07:00,2025-06-03T19:14:23-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,11,11,0,0,0,,,,,,0,,test: fix monitors,test: fix monitors
+exa-labs/exa-py,318c73407b3668152afb4447ae3d927c370ba78c,2025-06,0,m0,2025-06-03T20:04:40-07:00,2025-06-03T20:04:40-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,11,0,0,0,0,,,,,,0,,feat: cleanup example,feat: cleanup example
+exa-labs/exa-py,7feca565a6d669da9a8fa861c385b3e879733e4c,2025-06,0,m0,2025-06-03T20:07:07-07:00,2025-06-03T20:07:07-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,4,0,0,0,0,,,,,,0,,feat: add cleanup in examples,feat: add cleanup in examples
+exa-labs/exa-py,25c5f8e95b378e4f6ae1cd6c664cc21d63c6d9f6,2025-06,0,m0,2025-06-03T20:11:32-07:00,2025-06-03T20:11:32-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,11,14,0,0,0,,,,,,0,,test: remove try catch,test: remove try catch
+exa-labs/exa-py,adb7034ab46c9ee1af22e578c223c8e422923e42,2025-06,0,m0,2025-06-03T20:17:16-07:00,2025-06-03T20:17:16-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,test: fix,test: fix
+exa-labs/exa-py,f5f26bcae19aca3243ba0db33e969ec0222c6fe5,2025-06,0,m0,2025-06-03T20:24:05-07:00,2025-06-03T20:24:05-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,15,18,0,0,0,,,,,,0,,examples: improve,examples: improve
+exa-labs/exa-py,4dee48854753dc9eb87b9a6ae7980bda09587673,2025-06,0,m0,2025-06-03T20:26:35-07:00,2025-06-03T20:26:35-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,91,Merge pull request #91 from exa-labs/refactor/rename-to-monitors,"Merge pull request #91 from exa-labs/refactor/rename-to-monitors
+
+[websets] rename streams to monitors"
+exa-labs/exa-py,d0f5bbdfd68f1f6ec8f04d63eb1c2d164acc4df1,2025-06,0,m0,2025-06-03T21:12:49-07:00,2025-06-03T21:12:49-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,push new version,push new version
+exa-labs/exa-py,4e390e7aa056e7d38c524889a85d5bba41fa65b4,2025-06,0,m0,2025-06-03T21:12:50-07:00,2025-06-03T21:12:50-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' of https://github.com/exa-labs/exa-py,Merge branch 'master' of https://github.com/exa-labs/exa-py
+exa-labs/exa-py,7653791a1672de81513bea465c4b5c8091ec4281,2025-06,0,m0,2025-06-06T15:15:14-07:00,2025-06-06T15:15:14-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,update liverawl,update liverawl
+exa-labs/exa-py,8692f8846ba7906ece90e0884ccad0c8a75d669f,2025-06,0,m0,2025-06-06T15:18:17-07:00,2025-06-06T15:18:17-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,92,Merge pull request #92 from exa-labs/anca/update-livecrawl,"Merge pull request #92 from exa-labs/anca/update-livecrawl
+
+update liverawl"
+exa-labs/exa-py,266ca1a43d2219efa0da8f78ec05431054d1209e,2025-06,0,m0,2025-06-06T18:14:21-07:00,2025-06-06T18:14:21-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,1,0,1,17,0,1,17,0,,,,,,0,,fix api,fix api
+exa-labs/exa-py,7cffe539f34cdbeaa8dbdacbe8c6b31aabdedb34,2025-06,0,m0,2025-06-06T18:22:03-07:00,2025-06-06T18:22:03-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,1,0,1,107,0,0,0,0,,,,,,0,,add tests,add tests
+exa-labs/exa-py,ece41b8f3e01279b3adad29e829882766488eca5,2025-06,0,m0,2025-06-06T18:45:03-07:00,2025-06-06T18:45:03-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,89137bc665101e9d2bf0407fdfdd9e8d4766994b,2025-06,0,m0,2025-06-06T18:45:40-07:00,2025-06-06T18:45:40-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,93,Merge pull request #93 from exa-labs/anca/add-status,"Merge pull request #93 from exa-labs/anca/add-status
+
+add statuses to api"
+exa-labs/exa-py,8d693fc5cca8249c16fbd14572a00ce9ed62572f,2025-06,0,m0,2025-06-06T19:25:21-07:00,2025-06-06T19:25:21-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,1,0,3,59,11,1,27,1,,,,,,0,,update version,update version
+exa-labs/exa-py,b164530bb2f3ea9ccbad06d3be8b36e774b7e0dc,2025-06,0,m0,2025-06-06T19:28:12-07:00,2025-06-06T19:28:12-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,94,Merge pull request #94 from exa-labs/anca/add-status,"Merge pull request #94 from exa-labs/anca/add-status
+
+add context string to sdk"
+exa-labs/exa-py,966ae73edcbbec3919a60efececd36a23b1257be,2025-06,0,m0,2025-06-09T09:21:16-07:00,2025-06-09T09:21:16-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,89,Merge pull request #89 from craig-rueda/fixing-pytest-dep,"Merge pull request #89 from craig-rueda/fixing-pytest-dep
+
+fix: update pytest and pytest-mock dependencies in poetry files"
+exa-labs/exa-py,c7d4e5b830b3f934269e2c1cbda0f51644e3493a,2025-06,0,m0,2025-06-09T09:23:24-07:00,2025-06-09T09:23:24-07:00,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,uc59e84b1f63411ad,uc59e84b1f63411ad@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,e93b94fabb92a4f9fa38624c0813be7b7e3504a1,2025-06,0,m0,2025-06-15T15:25:35-07:00,2025-06-15T15:25:35-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,9,1029,1,5,426,1,,,,,,0,,feat: add import and exports,feat: add import and exports
+exa-labs/exa-py,7911070a1712a559d347a0b10482eff163ba4dfb,2025-06,0,m0,2025-06-16T14:14:22-07:00,2025-06-16T14:14:22-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,5,155,115,3,89,9,,,,,,0,,feat: handle csv files,feat: handle csv files
+exa-labs/exa-py,d54ec738374dfb90d4dc5e4af0f83adbdd8cc508,2025-06,0,m0,2025-06-16T20:13:08-07:00,2025-06-16T20:13:08-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,10,31,1,10,31,,,,,,0,,fix: remove delete import,fix: remove delete import
+exa-labs/exa-py,07413c732157da991ee0f191dd1fed0382662b4d,2025-06,0,m0,2025-06-16T21:32:33-07:00,2025-06-16T21:32:33-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,96,Merge pull request #96 from exa-labs/feat/add-imports-to-websets,"Merge pull request #96 from exa-labs/feat/add-imports-to-websets
+
+[websets] add import and exports"
+exa-labs/exa-py,b680c0620512d1ee2affbfee6b144e8940d2074d,2025-06,0,m0,2025-06-16T21:33:59-07:00,2025-06-16T21:33:59-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,feat: bump version,feat: bump version
+exa-labs/exa-py,271e5a541b086513bdab708d933db8fb3dc20d24,2025-06,0,m0,2025-06-18T08:15:37-07:00,2025-06-18T08:15:37-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,3,3,1,3,3,,,,,,0,,type hybrid,type hybrid
+exa-labs/exa-py,0f86cf64db6cf904dd1985e0502a21f0254c6bb8,2025-06,0,m0,2025-06-18T08:18:53-07:00,2025-06-18T08:18:53-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,76253c31f0789d77141dc42bd8d12c13de5902bd,2025-06,0,m0,2025-06-18T11:55:02-07:00,2025-06-18T11:55:02-07:00,u8792af38e76082b7,u8792af38e76082b7@users.invalid,u8792af38e76082b7,u8792af38e76082b7@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,e1fe4cd5f4576dc048be9c5e0fb2c3d013eae49a,2025-06,0,m0,2025-06-21T15:44:13-07:00,2025-06-21T15:40:06-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,7,8,1,4,4,,,,,,0,,remove but still accept,remove but still accept
+exa-labs/exa-py,aba91da344aa60e835cc916640ab47e3c624f838,2025-06,0,m0,2025-06-21T15:44:30-07:00,2025-06-21T15:44:30-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,version,version
+exa-labs/exa-py,f2ad8e9485e9bd85a744ad2086d5a24b6b53255c,2025-06,0,m0,2025-06-21T15:48:49-07:00,2025-06-21T15:48:49-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,98,Merge pull request #98 from exa-labs/mark/remove_public_exa-pro,"Merge pull request #98 from exa-labs/mark/remove_public_exa-pro
+
+[answer] remove public mentions of exa-pro but still accept type for now"
+exa-labs/exa-py,57ef1df716c9680cecdfb7e4c8ca1d202837810a,2025-06,0,m0,2025-06-21T15:56:57-07:00,2025-06-21T15:56:57-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix version 1.14.10,fix version 1.14.10
+exa-labs/exa-py,418a4dd55d22d24f015c998b4a8607b887b0db52,2025-06,0,m0,2025-06-23T19:37:38Z,2025-06-23T19:37:38Z,Cursor Agent,cursoragent@cursor.com,Cursor Agent,cursoragent@cursor.com,1,0,3,407,145,3,407,145,,B,cursor,identity,,0,,Refactor result parsing and constructor methods for more explicit initialization,Refactor result parsing and constructor methods for more explicit initialization
+exa-labs/exa-py,05ede51500dcdec8bac1cc19dc50d187ec253141,2025-06,0,m0,2025-06-23T22:25:29Z,2025-06-23T22:25:29Z,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,cursor,branch,,0,100,Merge pull request #100 from exa-labs/cursor/remove-spread-operator-for-arguments-329a,"Merge pull request #100 from exa-labs/cursor/remove-spread-operator-for-arguments-329a
+
+Remove spread operator for arguments"
+exa-labs/exa-py,ec82bc43042789b795ddf7ea9d528e108c21ed29,2025-06,0,m0,2025-06-24T04:09:28+05:30,2025-06-24T04:09:28+05:30,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,647aca324a1f4a2acdbae9cf5149bbf24d7f604d,2025-06,0,m0,2025-06-23T17:28:43-07:00,2025-06-23T18:58:09Z,Cursor Agent,cursoragent@cursor.com,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,1,56,0,0,0,0,,B,cursor,identity,,0,,Checkpoint before follow-up message,Checkpoint before follow-up message
+exa-labs/exa-py,c0f36e29af61aa55b9fd70b7f3271209a4a0f4a8,2025-06,0,m0,2025-06-23T17:28:43-07:00,2025-06-23T18:59:05Z,Cursor Agent,cursoragent@cursor.com,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,2,15,56,1,15,0,,B,cursor,identity,,0,,Add company field to WebsetItemPersonPropertiesFields,Add company field to WebsetItemPersonPropertiesFields
+exa-labs/exa-py,1c4838a27e6be69082de0917229afaff75f6e7fd,2025-06,0,m0,2025-06-23T17:34:40-07:00,2025-06-19T19:01:13-07:00,u40b4efe5174864be,u40b4efe5174864be@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,5,479,0,4,113,0,,,,,,0,,feat: Add websets events.list method to Python SDK,"feat: Add websets events.list method to Python SDK
+
+- Implement EventsClient with list() and get() methods
+- Add events subclient to WebsetsClient
+- Include comprehensive test coverage in test_websets_events.py
+- Mirror JavaScript SDK functionality for event listing and filtering"
+exa-labs/exa-py,cfa85106aa5e4c306a3f2af0d175adc07c8232ca,2025-06,0,m0,2025-06-23T17:36:50-07:00,2025-06-23T17:36:50-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,97,Merge pull request #97 from exa-labs/jacob/add-websets-events,"Merge pull request #97 from exa-labs/jacob/add-websets-events
+
+feat: Add websets events.list method to Python SDK"
+exa-labs/exa-py,1221218671f9c931d39bb26689a99baad0e9f501,2025-06,0,m0,2025-06-23T17:44:21-07:00,2025-06-23T17:44:21-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,cursor,branch,,0,99,Merge pull request #99 from exa-labs/cursor/update-webset-item-properties-for-people-d313,"Merge pull request #99 from exa-labs/cursor/update-webset-item-properties-for-people-d313
+
+[websets] Update Item properties for people"
+exa-labs/exa-py,bafc1026086ae7e52bdffcb95d3f0b6e9916d837,2025-06,0,m0,2025-06-23T19:54:38-07:00,2025-06-23T19:54:38-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,4,110,59,2,17,16,,,,,,0,,bump version and fix events client tests,bump version and fix events client tests
+exa-labs/exa-py,5c01fbc4a30b920e0ec49c9d1fb04fe79d20e2ae,2025-06,0,m0,2025-06-26T19:20:24-07:00,2025-06-26T19:20:24-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,1,1,4,0,0,0,,,,,,0,,no more metaphor,no more metaphor
+exa-labs/exa-py,9a2bf55625524b209d60de8ef5a34b3d59f4ac6b,2025-06,0,m0,2025-06-26T19:26:52-07:00,2025-06-26T19:26:52-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,version bump,version bump
+exa-labs/exa-py,0fa8d2cb6ab8d886a52037c95575a65a0a9d12ff,2025-07,1,post,2025-07-02T13:13:41-07:00,2025-07-02T13:13:41-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,7,1738,307,2,597,248,,,,,,0,,initial scaffold,initial scaffold
+exa-labs/exa-py,b6836f94468d5932e99e27de7f9d8eaec69fd0ef,2025-07,1,post,2025-07-02T13:16:14-07:00,2025-07-02T13:16:14-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,GitHub,noreply@github.com,1,0,4,169,130,2,126,129,,,,,,0,107,Fix types in the websets type definitions  (#102) (#107),"Fix types in the websets type definitions  (#102) (#107)
+
+* Use enum correctly
+
+* Switch to more modern annotated syntax
+
+* fix list constraints
+
+* add default keyword for typechecker
+
+* use annotations for alias
+
+* optional annotated aliased fields need explicit defaults
+
+* use model dump json so enums are converted to strings
+
+* add tests to github hooks
+
+* fix 3.9 tests
+
+* Remove pydantic level max/mins and just let the api handle it
+
+* bump version number"
+exa-labs/exa-py,662397deb922a13843e6bb3cb773633c4ec0dd43,2025-07,1,post,2025-07-02T13:20:00-07:00,2025-07-02T13:20:00-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,version bump,version bump
+exa-labs/exa-py,fbae998fd2c9a20af468a6e80bfb19c5d19d5534,2025-07,1,post,2025-07-02T13:27:06-07:00,2025-07-02T13:27:06-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,250,27,1,56,1,,,,,,0,,sidequest to fix tests,sidequest to fix tests
+exa-labs/exa-py,27ef70ccb30e267ad6ddf396e67353366bb97769,2025-07,1,post,2025-07-02T14:15:04-07:00,2025-07-02T14:15:04-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,155,190,1,6,4,,,,,,0,,to_camel_case is sneaky,to_camel_case is sneaky
+exa-labs/exa-py,e906c7c4c5cdc0fb3bf1880539ca517e3b053269,2025-07,1,post,2025-07-02T14:25:16-07:00,2025-07-02T14:25:16-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,292,292,0,0,0,,,,,,0,,fixup,fixup
+exa-labs/exa-py,f24451b4a75f99d4fd622d4967e1c67b6bb2677b,2025-07,1,post,2025-07-02T14:31:59-07:00,2025-07-02T14:31:59-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,3,350,0,0,0,,,,,,0,,improve examples,improve examples
+exa-labs/exa-py,31ce9fe6c6cbaa46ece3881b82c3c202b001c1f8,2025-07,1,post,2025-07-02T15:26:08-07:00,2025-07-02T15:26:08-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,428,61,3,130,61,,,,,,0,,"fix pydantic conversion, add research examples","fix pydantic conversion, add research examples"
+exa-labs/exa-py,2c9114dcbc3494112cf854a792de886e32a97ce5,2025-07,1,post,2025-07-02T15:32:11-07:00,2025-07-02T15:32:11-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,35,3,0,0,0,,,,,,0,,update test now that we are not generating  but fully replacing,update test now that we are not generating  but fully replacing
+exa-labs/exa-py,ca12cd480f636e26db98bed53ae82b53fab89c73,2025-07,1,post,2025-07-02T15:42:26-07:00,2025-07-02T15:42:26-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,34,59,3,34,58,,,,,,0,,more fixes,more fixes
+exa-labs/exa-py,b5914e2b3f25f79027c9c59b1e13b847e41fccd3,2025-07,1,post,2025-07-02T16:06:27-07:00,2025-07-02T16:06:27-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,108,Merge pull request #108 from exa-labs/mark/much_better_schemas,"Merge pull request #108 from exa-labs/mark/much_better_schemas
+
+Update schema support to allow using pydantic directly"
+exa-labs/exa-py,9014b1ab8bb09ff86f177a88f5e95714bc5a4eaa,2025-07,1,post,2025-07-02T16:12:31-07:00,2025-07-02T16:12:31-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump 1.14.15,bump 1.14.15
+exa-labs/exa-py,c10f6e7b00e70c6bddbff92aec6673245b138c47,2025-07,1,post,2025-07-02T16:55:47-07:00,2025-07-02T16:55:47-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,109,Merge pull request #109 from exa-labs/mark/bump_1.14.15,"Merge pull request #109 from exa-labs/mark/bump_1.14.15
+
+bump 1.14.15"
+exa-labs/exa-py,84b8a642750de029957f62c56accb3769048ba0e,2025-07,1,post,2025-07-09T18:38:53-07:00,2025-07-09T18:38:53-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,3,1276,6,3,1276,6,,,,,,0,,Add new parameters,Add new parameters
+exa-labs/exa-py,35fbbfb7f3e80858dadf2b1e63407232963c807f,2025-07,1,post,2025-07-09T18:47:11-07:00,2025-07-09T18:47:11-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,version bump,version bump
+exa-labs/exa-py,16842d4b586e82019f43c32cceca7744a760222c,2025-07,1,post,2025-07-16T21:44:25-07:00,2025-07-16T21:44:25-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,5,189,3,3,144,1,,,,,,0,,Add preivew endpoint and scoped searches to imports,Add preivew endpoint and scoped searches to imports
+exa-labs/exa-py,3519a35ce04af8d124fd0b9381a13f9942401137,2025-07,1,post,2025-07-21T13:06:05-07:00,2025-07-21T13:06:05-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,3,75,2,1,73,1,,,,,,0,,Updated search and search event types,Updated search and search event types
+exa-labs/exa-py,c44507a57659114ccc49ac9f09866072b2d953f2,2025-07,1,post,2025-07-21T13:17:43-07:00,2025-07-21T13:17:43-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,1,0,1265,1,0,1265,,,,,,0,,remove unessesary types.py,remove unessesary types.py
+exa-labs/exa-py,860369c61cd2ff1adc031fb426cfb1227e300ba3,2025-07,1,post,2025-07-29T10:01:07-07:00,2025-07-29T10:01:07-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,1,3,3,1,3,3,,,,,,0,,Add fast search type,Add fast search type
+exa-labs/exa-py,1394fc4af88834ab40b3525da60ba814504f45c7,2025-07,1,post,2025-07-30T11:30:09-07:00,2025-07-30T11:30:09-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,version bump,version bump
+exa-labs/exa-py,dd93ea1dea09de66841abf0879ccc6cf4b5520a4,2025-07,1,post,2025-07-30T11:53:50-07:00,2025-07-30T11:53:50-07:00,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,u5e18a0ee3431f735,u5e18a0ee3431f735@users.invalid,1,0,3,35,1,1,12,0,,,,,,0,,Add userLocation parameter,Add userLocation parameter
+exa-labs/exa-py,065e7955b37bd7f2837205b6f2a6bf7fb17cd61f,2025-08,2,post,2025-08-08T16:01:36Z,2025-08-08T16:01:36Z,Cursor Agent,cursoragent@cursor.com,Cursor Agent,cursoragent@cursor.com,1,0,1,2,2,1,2,2,,B,cursor,identity,,0,,Add 'auto' search type option to Exa search methods,"Add 'auto' search type option to Exa search methods
+
+Co-authored-by: u4409251317a9e26f <u4409251317a9e26f@users.invalid>"
+exa-labs/exa-py,c004f73553f8a4cbbf825fe2946d71e09b6973f4,2025-08,2,post,2025-08-08T09:04:35-07:00,2025-08-08T09:04:35-07:00,uff0fb8db3bc5b4e5,uff0fb8db3bc5b4e5@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,cursor,branch,,0,111,Merge pull request #111 from exa-labs/cursor/update-default-search-comment-to-auto-271c,"Merge pull request #111 from exa-labs/cursor/update-default-search-comment-to-auto-271c
+
+Update default search comment to auto"
+exa-labs/exa-py,2623db7c03c72f1d18cac3f59b83edd50e5175ed,2025-08,2,post,2025-08-20T20:23:50-07:00,2025-08-20T20:23:50-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,19,1847,1022,10,1416,511,,,,,,0,,research changes,research changes
+exa-labs/exa-py,65cea42b367e52ba61041071ad2bf1a84c5a7954,2025-08,2,post,2025-08-20T20:24:00-07:00,2025-08-20T20:24:00-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,3,2,6,0,0,0,,,,,,0,,format websets tests,format websets tests
+exa-labs/exa-py,2c6f237a606d961f0d8d2902f089a4847d7ec9b8,2025-08,2,post,2025-08-20T20:34:45-07:00,2025-08-20T20:34:45-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,38,35,1,18,14,,,,,,0,,tweak,tweak
+exa-labs/exa-py,2cbbaf19a1933e9ea96eb54b0c7fe5a8c83cd865,2025-08,2,post,2025-08-20T21:27:47-07:00,2025-08-20T21:27:47-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,38,36,1,36,36,,,,,,0,,clean up schemas before passing them,clean up schemas before passing them
+exa-labs/exa-py,028cf075aa87bc0b9d6d6c56b2e63c92767c0fd0,2025-08,2,post,2025-08-20T21:33:55-07:00,2025-08-20T21:33:55-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,113,Merge pull request #113 from exa-labs/mark/research_v1,"Merge pull request #113 from exa-labs/mark/research_v1
+
+[research] v1!"
+exa-labs/exa-py,a20c963bd425db327e7adea99eaf5d3afbd8b15d,2025-08,2,post,2025-08-21T15:53:04-07:00,2025-08-21T15:53:04-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,114,3,1,114,3,,,,,,0,,feat: update with latest schema,feat: update with latest schema
+exa-labs/exa-py,dbc59c52c89588adb30cfbff294d7be16157f15f,2025-08,2,post,2025-08-21T15:53:25-07:00,2025-08-21T15:53:25-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into feat/update-sdk,Merge branch 'master' into feat/update-sdk
+exa-labs/exa-py,13f1d6be60b11e8b33c98127d555140a54407fce,2025-08,2,post,2025-08-21T16:04:41-07:00,2025-08-21T16:04:41-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,3,60,0,3,60,0,,,,,,0,,feat: add update enrichments,feat: add update enrichments
+exa-labs/exa-py,a40df089180702f061aa679b5f541426889a2945,2025-08,2,post,2025-08-21T16:22:36-07:00,2025-08-21T16:22:36-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,114,Merge pull request #114 from exa-labs/feat/update-sdk,"Merge pull request #114 from exa-labs/feat/update-sdk
+
+[websets] update with latest schema"
+exa-labs/exa-py,fdd1b9a57e19fb630c11ef1096bff14064ba866d,2025-08,2,post,2025-08-21T16:26:38-07:00,2025-08-21T16:26:38-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,bump version,bump version
+exa-labs/exa-py,05fc96c7eb4c91005b517b75506a97cd3137c265,2025-08,2,post,2025-08-22T11:09:04-07:00,2025-08-22T11:09:04-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,22,1110,35,20,804,31,,,,,,0,,feat: add async client,feat: add async client
+exa-labs/exa-py,8607038c5eedb3c8cad16ff0d6297d9ef2b52775,2025-08,2,post,2025-08-22T11:09:12-07:00,2025-08-22T11:09:12-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,1075,0,1,153,0,,,,,,0,,feat: add tests,feat: add tests
+exa-labs/exa-py,cc9023ec5e8da90a490c9e4cb368841964bfd9ee,2025-08,2,post,2025-08-22T12:26:48-07:00,2025-08-22T12:26:48-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,5,308,964,1,3,0,,,,,,0,,fix: tests and async,fix: tests and async
+exa-labs/exa-py,57960a3d939652ef565f597f112822e2bece8d36,2025-08,2,post,2025-08-22T13:19:28-07:00,2025-08-22T13:19:28-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,3,43,20,0,0,0,,,,,,0,,fix: tests,fix: tests
+exa-labs/exa-py,dc06eee4e78f6ea6078a2630addea6f0c470f2ed,2025-08,2,post,2025-08-22T15:04:19-07:00,2025-08-22T15:04:19-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,15,4,0,0,0,,,,,,0,,fix: examples,fix: examples
+exa-labs/exa-py,c81f69c87f3a72c0caacc9448eb981b292a92bd8,2025-08,2,post,2025-08-22T17:54:44-07:00,2025-08-22T17:54:44-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,13,7,1,13,4,,,,,,0,,fix: types and examples,fix: types and examples
+exa-labs/exa-py,a4d791b47d1d063d7f48c28149ba8c0c24bfdc8a,2025-08,2,post,2025-08-22T18:22:48-07:00,2025-08-22T18:22:48-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,26,9,0,0,0,,,,,,0,,feat: pararellise examples,feat: pararellise examples
+exa-labs/exa-py,1094f35a909adb428a47fb7b84b25c1fe74b54fe,2025-08,2,post,2025-08-22T18:24:45-07:00,2025-08-22T18:24:45-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,116,Merge pull request #116 from exa-labs/websets/add-async-client,"Merge pull request #116 from exa-labs/websets/add-async-client
+
+[webset] add async client"
+exa-labs/exa-py,53dd8c4e59670178f676850b83607e63ac38fdf0,2025-08,2,post,2025-08-22T18:25:26-07:00,2025-08-22T18:25:26-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,bump version,bump version
+exa-labs/exa-py,508a8643ca61f6c807fe6c963016bc350f4ff30b,2025-08,2,post,2025-08-22T18:25:28-07:00,2025-08-22T18:25:28-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' of https://github.com/exa-labs/exa-py,Merge branch 'master' of https://github.com/exa-labs/exa-py
+exa-labs/exa-py,750635263ec2ba56bfde788ebb380cce781a8812,2025-08,2,post,2025-08-24T17:04:49-07:00,2025-08-24T17:04:49-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,6,20,2,3,14,0,,,,,,0,,some updates,some updates
+exa-labs/exa-py,3d7646cddc1742422a2843db1929986cf570a148,2025-08,2,post,2025-08-24T17:09:36-07:00,2025-08-24T17:09:36-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,0,1,1,0,1,,,,,,0,,whoops,whoops
+exa-labs/exa-py,1e56e7573f5d4ef0161aee3387dc77c801b2140b,2025-08,2,post,2025-08-24T17:32:33-07:00,2025-08-24T17:32:33-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,bump version,bump version
+exa-labs/exa-py,9d8a996ef0e7682ced1f45be7e8fa5ab3e71b46d,2025-08,2,post,2025-08-24T17:32:43-07:00,2025-08-24T17:32:43-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,117,Merge pull request #117 from exa-labs/mark/update_research,"Merge pull request #117 from exa-labs/mark/update_research
+
+[research] some updates"
+exa-labs/exa-py,1f6ab731dbe58f08aa20b0db0de64a32a84bef91,2025-08,2,post,2025-08-28T19:34:57-07:00,2025-08-28T19:34:57-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,5,12,2,1,4,0,,,,,,0,,implement + bump version,implement + bump version
+exa-labs/exa-py,6548ee3482c27c5024853494e7bb78f0086a22ed,2025-08,2,post,2025-08-28T19:40:30-07:00,2025-08-28T19:40:30-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,120,Merge pull request #120 from exa-labs/mark/user_location_answer,"Merge pull request #120 from exa-labs/mark/user_location_answer
+
+user location in answer"
+exa-labs/exa-py,73ab06d33389889c742a4669909fc96256d069a8,2025-09,3,post,2025-09-03T20:13:07Z,2025-09-03T20:13:07Z,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,25,25,0,0,0,,,,,dependabot,0,,Bump setuptools in the pip group across 1 directory,"Bump setuptools in the pip group across 1 directory
+
+Bumps the pip group with 1 update in the / directory: [setuptools](https://github.com/pypa/setuptools).
+
+
+Updates `setuptools` from 74.1.3 to 78.1.1
+- [Release notes](https://github.com/pypa/setuptools/releases)
+- [Changelog](https://github.com/pypa/setuptools/blob/main/NEWS.rst)
+- [Commits](https://github.com/pypa/setuptools/compare/v74.1.3...v78.1.1)
+
+---
+updated-dependencies:
+- dependency-name: setuptools
+  dependency-version: 78.1.1
+  dependency-type: direct:development
+  dependency-group: pip
+...
+
+Signed-off-by: dependabot[bot] <ufab77f7a199e1613@users.invalid>"
+exa-labs/exa-py,3681536213079575df5423a3326e83558fb6f8c1,2025-09,3,post,2025-09-05T09:56:36-07:00,2025-09-05T09:56:36-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,5,5,1,5,5,,,,,,0,,websets: fix missing type,websets: fix missing type
+exa-labs/exa-py,0a5d1babacfe102a4d13cde426f7af431aa7a9eb,2025-09,3,post,2025-09-05T09:57:05-07:00,2025-09-05T09:57:05-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into websets/fix-missing-alias,Merge branch 'master' into websets/fix-missing-alias
+exa-labs/exa-py,09bc4a1a175bdb5125685da324a6ddcf3d58b0dc,2025-09,3,post,2025-09-05T09:57:24-07:00,2025-09-05T09:57:24-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,chore: bump version,chore: bump version
+exa-labs/exa-py,1d68a75c3bdfe2eb99e50f9fcdb989e363896eb5,2025-09,3,post,2025-09-05T09:57:34-07:00,2025-09-05T09:57:34-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,125,Merge pull request #125 from exa-labs/websets/fix-missing-alias,"Merge pull request #125 from exa-labs/websets/fix-missing-alias
+
+websets: fix missing type"
+exa-labs/exa-py,f80742169ee11a8247f793c525bfaa99a095769c,2025-09,3,post,2025-09-09T16:35:26-07:00,2025-09-09T16:35:26-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,8,413,24,6,121,24,,,,,,0,,feat: add priority to sdk,feat: add priority to sdk
+exa-labs/exa-py,eee74106a95804efc90e8c73957f4165a75a6447,2025-09,3,post,2025-09-09T18:29:37-07:00,2025-09-09T18:29:37-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,2,10,4,2,10,4,,,,,,0,,test: fix passing header,test: fix passing header
+exa-labs/exa-py,7a5c994cec837303ccd26a5437e483ae3e91c2ef,2025-09,3,post,2025-09-09T18:29:55-07:00,2025-09-09T18:29:55-07:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,chore: bump version,chore: bump version
+exa-labs/exa-py,2b1b5f2ba1087cfddba93b31b423c859a50b8b23,2025-09,3,post,2025-09-09T18:30:07-07:00,2025-09-09T18:30:07-07:00,ud0bce4308bd92260,ud0bce4308bd92260@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,126,Merge pull request #126 from exa-labs/feat/add-priority-to-sdk,"Merge pull request #126 from exa-labs/feat/add-priority-to-sdk
+
+[websets] feat: add priority to sdk"
+exa-labs/exa-py,3bebf562fa38f5c473bf850eeaef41d74d49bd1f,2025-09,3,post,2025-09-12T22:03:26-07:00,2025-09-12T22:03:26-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,121,Merge pull request #121 from exa-labs/dependabot/pip/pip-297a1d6f26,"Merge pull request #121 from exa-labs/dependabot/pip/pip-297a1d6f26
+
+Bump setuptools from 74.1.3 to 78.1.1 in the pip group across 1 directory"
+exa-labs/exa-py,aa4208d5029dbd1fc8c748ef4ac7a5a669bc36e0,2025-09,3,post,2025-09-14T22:36:30Z,2025-09-14T22:36:30Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,2,37,109,0,0,0,,B,devin,identity,devin-ai-integration,0,,Security: Fix CVE-2025-43859 h11 vulnerability,"Security: Fix CVE-2025-43859 h11 vulnerability
+
+- Update httpcore from 1.0.7 to 1.0.9 to fix critical HTTP request smuggling vulnerability
+- This automatically updates h11 from 0.14.0 to 0.16.0 (the secure version)
+- Resolves Dependabot security alert #2: https://github.com/exa-labs/exa-py/security/dependabot/2
+- CVE-2025-43859: h11 accepts some malformed Chunked-Encoding bodies leading to request smuggling
+
+The vulnerability allowed HTTP request smuggling attacks when h11 was used with
+certain reverse proxies. The fix ensures proper validation of chunked encoding
+trailing bytes.
+
+Co-Authored-By: u1ed332231a1f89fd <u1ed332231a1f89fd@users.invalid>"
+exa-labs/exa-py,b2fcedf82615ec130c0ee1749c49b35840c3c5ca,2025-09,3,post,2025-09-14T22:40:23Z,2025-09-14T22:40:23Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,565,530,0,0,0,,B,devin,identity,devin-ai-integration,0,,Fix poetry.lock consistency after httpcore security update,"Fix poetry.lock consistency after httpcore security update
+
+- Regenerate poetry.lock to be consistent with pyproject.toml changes
+- Maintains httpcore 1.0.9 and h11 0.16.0 for CVE-2025-43859 fix
+- Resolves CI dependency installation failures
+
+Co-Authored-By: u1ed332231a1f89fd <u1ed332231a1f89fd@users.invalid>"
+exa-labs/exa-py,89bb7288452a72fdc1b83c56480fbd8e775bcaa9,2025-09,3,post,2025-09-14T22:47:59Z,2025-09-14T22:47:59Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,2,59,917,0,0,0,,B,devin,identity,devin-ai-integration,0,,Fix Poetry 2.2.0 compatibility issues,"Fix Poetry 2.2.0 compatibility issues
+
+- Remove duplicate metadata from [tool.poetry] section to resolve warnings
+- Align dev dependency versions between [tool.poetry.group.dev.dependencies] and [dependency-groups]
+- Fix pytest-asyncio version conflict (^0.24.0 -> ^1.0.0)
+- Regenerate poetry.lock with Poetry 2.2.0 for consistency
+- Maintain security fix: httpcore 1.0.9 and h11 0.16.0
+
+Co-Authored-By: u1ed332231a1f89fd <u1ed332231a1f89fd@users.invalid>"
+exa-labs/exa-py,d93db17e1952bd962432c620545534ea16f24aa0,2025-09,3,post,2025-09-14T22:49:42Z,2025-09-14T22:49:42Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,2,18,2,0,0,0,,B,devin,identity,devin-ai-integration,0,,Fix Examples CI failure: Move python-dotenv to main dependencies,"Fix Examples CI failure: Move python-dotenv to main dependencies
+
+- Examples require python-dotenv to load environment variables
+- Move python-dotenv from dev dependencies to main dependencies
+- Update both [tool.poetry.dependencies] and [project] sections
+- Regenerate poetry.lock with Poetry 2.2.0
+
+Co-Authored-By: u1ed332231a1f89fd <u1ed332231a1f89fd@users.invalid>"
+exa-labs/exa-py,969cd50b09a2aab1af6858769098180c72e595e6,2025-09,3,post,2025-09-14T15:57:20-07:00,2025-09-14T15:57:20-07:00,u1ed332231a1f89fd,u1ed332231a1f89fd@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,127,Merge pull request #127 from exa-labs/devin/1757889146-fix-h11-vulnerability,"Merge pull request #127 from exa-labs/devin/1757889146-fix-h11-vulnerability
+
+Security: Fix CVE-2025-43859 h11 vulnerability"
+exa-labs/exa-py,98f67f69af222caa69be737208d7fdd67d972848,2025-10,4,post,2025-10-08T14:58:33-07:00,2025-10-08T14:58:33-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,19,6,1,19,6,,,,,,0,,deep,deep
+exa-labs/exa-py,2f39fd7190771badff5fb38d402f5b3d475971a5,2025-10,4,post,2025-10-08T15:33:31-07:00,2025-10-08T15:33:31-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,3,22,9,1,1,1,,,,,,0,,bump,bump
+exa-labs/exa-py,4c32fa9a72d3e9ec327fe06daaec8b3594e939b4,2025-10,4,post,2025-10-08T15:33:43-07:00,2025-10-08T15:33:43-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,130,Merge pull request #130 from exa-labs/mark/deep_type,"Merge pull request #130 from exa-labs/mark/deep_type
+
+[deep] type"
+exa-labs/exa-py,4928cc05edb05c8c6b97b4399370abada113b83d,2025-10,4,post,2025-10-09T13:34:57-07:00,2025-10-09T13:34:57-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,4,17,11,3,13,7,,,,,,0,,research-fast,research-fast
+exa-labs/exa-py,ef8793bbc28d6fca52c99fb9aa9ac874c3be5786,2025-10,4,post,2025-10-09T13:47:19-07:00,2025-10-09T13:47:19-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix,fix
+exa-labs/exa-py,598f87d0aac8d237f772138e87173d5301520e82,2025-10,4,post,2025-10-09T14:08:02-07:00,2025-10-09T14:08:02-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,c04500febaf465194bb43ea4d0946351826d8fbd,2025-10,4,post,2025-10-09T14:08:54-07:00,2025-10-09T14:08:54-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,131,Merge pull request #131 from exa-labs/mark/researc_fast,"Merge pull request #131 from exa-labs/mark/researc_fast
+
+[research] fast model"
+exa-labs/exa-py,2fa2553b7c5462a2c773c0b85e7fbfaeda1c8935,2025-10,4,post,2025-10-27T11:09:12-07:00,2025-10-27T11:09:12-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,16,535,814,1,219,794,,,,,,0,,changes,changes
+exa-labs/exa-py,bc1731fe594030ab286b818b6495bb698ff92cb8,2025-10,4,post,2025-10-27T19:08:17-07:00,2025-10-27T19:08:17-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,3,10,13,0,0,0,,,,,,0,,test stuff,test stuff
+exa-labs/exa-py,06793b39126993cc79266f43a9b0e6816cfe3297,2025-10,4,post,2025-10-27T19:14:07-07:00,2025-10-27T19:14:07-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,1,3,2,0,0,0,,,,,,0,,get rid of use_autoprompt,get rid of use_autoprompt
+exa-labs/exa-py,e24dafef8ee75e2a4553768dda7454f2977b0311,2025-10,4,post,2025-10-27T19:18:54-07:00,2025-10-27T19:18:54-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,3,0,773,0,0,0,,,,,,0,,kill stale test,kill stale test
+exa-labs/exa-py,dd3d1c2d4a21cff0c0117c4fc68aeeabd7aab5b4,2025-10,4,post,2025-10-27T19:28:40-07:00,2025-10-27T19:28:40-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump version,bump version
+exa-labs/exa-py,9f144569448e23f2eefc79c0a04f9f8848b4f2f1,2025-10,4,post,2025-10-27T19:29:07-07:00,2025-10-27T19:29:07-07:00,u92d8c18d14086a84,u92d8c18d14086a84@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,132,Merge pull request #132 from exa-labs/mark/contents_shenanigans,"Merge pull request #132 from exa-labs/mark/contents_shenanigans
+
+[contents] some breaking improvements"
+exa-labs/exa-py,adc1039b01145e4419497819a53009bc1b1cc031,2025-11,5,post,2025-11-21T00:22:26Z,2025-11-21T00:22:26Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,3,41,2,1,9,0,,,,,,0,,Add additional_queries parameter for deep search in Exa API,Add additional_queries parameter for deep search in Exa API
+exa-labs/exa-py,9c2c98b01f82b710db5a62e8e289e52165aee4bf,2025-11,5,post,2025-11-21T00:44:39Z,2025-11-21T00:44:39Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,7,5,1,7,5,,,,,,0,,Update additional_queries limit to 5 for deep search in Exa API and clarify num_results behavior in documentation,Update additional_queries limit to 5 for deep search in Exa API and clarify num_results behavior in documentation
+exa-labs/exa-py,89c2e82a7fc6e9d04f452163caeb3d49a8bd9c50,2025-11,5,post,2025-11-21T01:42:16Z,2025-11-21T01:42:16Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,11,2,1,4,0,,,,,,0,,"Enhance Exa API documentation to clarify that deep search always returns context, and update tests to reflect this behavior. Also fix bug causing search in py sdk to never return context","Enhance Exa API documentation to clarify that deep search always returns context, and update tests to reflect this behavior.
+Also fix bug causing search in py sdk to never return context"
+exa-labs/exa-py,c7594c52eefe24ab5ec2cf821b249288ab948c02,2025-11,5,post,2025-11-21T10:59:08Z,2025-11-21T10:59:08Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,133,Merge pull request #133 from exa-labs/miguel/query-variants-for-deep-search-type,"Merge pull request #133 from exa-labs/miguel/query-variants-for-deep-search-type
+
+[exa-py]: Add additional_queries support for deep search type"
+exa-labs/exa-py,c57f56284296dec97f1f6f32861686ab06a2aaa6,2025-11,5,post,2025-11-21T15:55:32Z,2025-11-21T15:55:32Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,4,5,4,1,1,1,,,,,,0,,Bump version to 2.0.1,Bump version to 2.0.1
+exa-labs/exa-py,0d7aca32161fde2eca59c5759ca17a064426050c,2025-11,5,post,2025-11-21T22:40:09+05:30,2025-11-21T22:40:09+05:30,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,GitHub,noreply@github.com,1,0,1,0,3,0,0,0,,,,,,0,,Update README.md,Update README.md
+exa-labs/exa-py,4525d00eab5e147b935fa7e044abc9df413d43bf,2025-12,6,post,2025-12-16T19:57:11Z,2025-12-16T19:57:11Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,1,1,1,1,1,,B,devin,identity,devin-ai-integration,0,,feat(sdk): add people category and remove linkedin profile,"feat(sdk): add people category and remove linkedin profile
+
+Co-Authored-By: ue631120c0b3b7c9f <ue631120c0b3b7c9f@users.invalid>"
+exa-labs/exa-py,584c95b717c4e0a93e028cf3f84aa0bdd84a570d,2025-12,6,post,2025-12-16T23:50:59Z,2025-12-16T23:50:59Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,15,4,1,15,4,,B,devin,identity,devin-ai-integration,0,,feat(sdk): add CATEGORY_OPTIONS Literal type for proper type checking,"feat(sdk): add CATEGORY_OPTIONS Literal type for proper type checking
+
+- Added CATEGORY_OPTIONS Literal type with all valid categories
+- Updated SEARCH_OPTIONS_TYPES and FIND_SIMILAR_OPTIONS_TYPES to use CATEGORY_OPTIONS
+- Runtime validation now rejects invalid categories like 'linkedin profile'
+- Provides IDE autocomplete and type checking for category parameter
+
+Co-Authored-By: ue631120c0b3b7c9f <ue631120c0b3b7c9f@users.invalid>"
+exa-labs/exa-py,27e7535f19251aed05c49e8abd5f2b6247383ff9,2025-12,6,post,2025-12-16T23:57:09Z,2025-12-16T23:57:09Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,2,15,1,2,15,,B,devin,identity,devin-ai-integration,0,,fix(sdk): allow arbitrary strings for category at runtime,"fix(sdk): allow arbitrary strings for category at runtime
+
+- Changed category validation from CATEGORY_OPTIONS Literal to str
+- Removed CATEGORY_OPTIONS Literal type (no longer needed for validation)
+- Keeps backwards compatibility for users passing custom categories
+- Known categories documented in comment: company, research paper, news, pdf, github, tweet, personal site, financial report, people
+
+Co-Authored-By: ue631120c0b3b7c9f <ue631120c0b3b7c9f@users.invalid>"
+exa-labs/exa-py,4ec4613d37aea228f737b33b1d9733602f2a0d39,2025-12,6,post,2025-12-16T19:02:44-08:00,2025-12-16T19:02:44-08:00,u161a72a3bba14223,u161a72a3bba14223@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,136,Merge pull request #136 from exa-labs/entities/sdk,"Merge pull request #136 from exa-labs/entities/sdk
+
+[exa-py]: Update category documentation (add people, remove linkedin profile)"
+exa-labs/exa-py,e87cf083b43ff824f126559af8feba6be478baac,2025-12,6,post,2025-12-19T13:36:59Z,2025-12-19T13:36:59Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,245,6,1,56,6,,,,,,0,,feat: add highlights support for search and contents,"feat: add highlights support for search and contents
+
+Add HighlightsContentsOptions TypedDict for configuring highlight requests
+with query, num_sentences, and highlights_per_url parameters.
+
+Update Result class to include highlights and highlight_scores fields.
+Add highlights to CONTENTS_OPTIONS_TYPES and nest_fields calls.
+
+Add comprehensive unit tests for highlights parsing and API calls,
+plus live integration tests (skipped without API key)."
+exa-labs/exa-py,cbd248a426d49fd424bcd0b5c797eb3e22433863,2025-12,6,post,2025-12-19T17:27:51Z,2025-12-19T17:27:51Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,3,3,0,0,0,,,,,,0,,fix: use example.com instead of openai.com in flaky tests,"fix: use example.com instead of openai.com in flaky tests
+
+openai.com blocks crawlers causing intermittent test failures.
+example.com is a reliable, stable URL for integration tests."
+exa-labs/exa-py,758e5cef4128e53016ccf13318447ff625929edc,2025-12,6,post,2025-12-19T17:41:15Z,2025-12-19T17:41:15Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,fix: replace remaining openai.com URL with example.com,fix: replace remaining openai.com URL with example.com
+exa-labs/exa-py,62bc2cc545f0449eedfabb1339940fc774a80ace,2025-12,6,post,2025-12-19T17:44:49Z,2025-12-19T17:44:49Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,chore: bump version to 2.0.2,chore: bump version to 2.0.2
+exa-labs/exa-py,9bdec0f65de8ca6cae4aec9d39853d632c224998,2025-12,6,post,2025-12-19T18:06:23Z,2025-12-19T18:06:23Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,138,Merge pull request #138 from exa-labs/feat/highlights-support,"Merge pull request #138 from exa-labs/feat/highlights-support
+
+feat: add highlights support for search and contents"
+exa-labs/exa-py,a22867d75a647e4b36480ae42ae89feab4969312,2025-12,6,post,2025-12-19T18:09:39Z,2025-12-19T18:09:39Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,chore: bump version to 2.0.2 in setup.py,chore: bump version to 2.0.2 in setup.py
+exa-labs/exa-py,34fde5b63559c1b81f8f0b5e0f7eaeee6457d923,2025-12,6,post,2025-12-19T18:10:35Z,2025-12-19T18:10:05Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,chore: bump version to 2.0.2 in setup.py,chore: bump version to 2.0.2 in setup.py
+exa-labs/exa-py,d6bd63c066c08caa289400741e168cc7868cd6bf,2026-01,7,post,2026-01-21T13:54:46Z,2026-01-21T13:54:46Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,6,411,4,2,116,2,,B,claude,trailer;identity,,0,,feat: add Entity dataclasses for company/people search results,"feat: add Entity dataclasses for company/people search results
+
+- Add Entity dataclasses (EntityWorkforce, EntityHeadquarters, EntityFinancials,
+  EntityCompanyProperties, EntityDateRange, EntityCompanyRef,
+  EntityWorkHistoryEntry, EntityPersonProperties, CompanyEntity,
+  PersonEntity) for structured entity data in search results
+- Add entities field to _Result and all subclasses
+- Add unit tests for entity types (22 tests)
+- Add integration test for company category search
+- Bump version to 2.1.0
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,5b9d6ab107288ff55903b1d1457b3a6ff78c6941,2026-01,7,post,2026-01-22T01:01:17Z,2026-01-22T01:01:17Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,20,10,1,20,10,,B,claude,trailer;identity,,0,,refactor: rename entity types with full namespace path,"refactor: rename entity types with full namespace path
+
+- EntityWorkforce → EntityCompanyPropertiesWorkforce
+- EntityHeadquarters → EntityCompanyPropertiesHeadquarters
+- EntityFinancials → EntityCompanyPropertiesFinancials
+- EntityCompanyRef → EntityPersonPropertiesCompanyRef
+- EntityWorkHistoryEntry → EntityPersonPropertiesWorkHistoryEntry
+- Add EntityCompanyPropertiesFundingRound dataclass
+- Add funding_latest_round to financials
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,53c8ddf7188657fac588e7561b6f27491d2cd9a9,2026-01,7,post,2026-01-22T01:03:32Z,2026-01-22T01:03:32Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,62,28,0,0,0,,B,claude,trailer;identity,,0,,test: update entity tests with renamed class names,"test: update entity tests with renamed class names
+
+- Update imports to use new namespaced class names
+- Add tests for EntityCompanyPropertiesFundingRound
+- Add test for funding_latest_round in financials
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,d377b2e6919359389accb60b52333d2876f80a41,2026-01,7,post,2026-01-22T02:08:58Z,2026-01-22T02:08:58Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,137,9,1,132,5,,B,claude,trailer;identity,,0,,fix: address PR review comments,"fix: address PR review comments
+
+- Rename `to` to `to_date` in EntityDateRange for consistency with from_date
+- Use Literal types for CompanyEntity.type and PersonEntity.type
+- Improve entities stringification with formatted output
+- Add _parse_entities() helper to parse entities from API responses
+- Add entities parsing to all Result instantiations
+- Handle field mapping: API 'from'/'to' -> Python 'from_date'/'to_date'
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,1e851fe44d765bdc8c879467eca94eb60b901503,2026-01,7,post,2026-01-22T03:03:38Z,2026-01-22T03:03:38Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1,1,1,1,1,,B,claude,trailer;identity,,0,,fix: use slash in User-Agent for entity support,"fix: use slash in User-Agent for entity support
+
+Change User-Agent from ""exa-py 2.1.0"" to ""exa-py/2.1.0"" (slash instead
+of space). The API gates entity responses based on User-Agent format.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,7bb4184e45282fefa54793f05e0b944f27db69a4,2026-01,7,post,2026-01-22T03:13:11Z,2026-01-22T03:13:11Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,144,Merge pull request #144 from exa-labs/feat/entities-sdk-support,"Merge pull request #144 from exa-labs/feat/entities-sdk-support
+
+Add Entity dataclasses for company/people search results"
+exa-labs/exa-py,28968d37be2e490651e548f0dbc80bd5de2fb069,2026-01,7,post,2026-01-21T22:08:17-08:00,2026-01-21T22:08:17-08:00,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,u3ac2af9e29575a3d,u3ac2af9e29575a3d@users.invalid,1,0,3,32,1,1,17,0,,,,,,0,,feat: add web traffic to companies,feat: add web traffic to companies
+exa-labs/exa-py,53d471ec352441708460095130157583dd15ce7b,2026-01,7,post,2026-01-22T10:29:14Z,2026-01-22T10:29:14Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,2,2,1,1,1,,,,,,0,,bump to 2.1.1,bump to 2.1.1
+exa-labs/exa-py,caebddb36fffb424c660b73d04be7c1a3ea3a44f,2026-01,7,post,2026-01-22T10:29:35Z,2026-01-22T10:29:35Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,147,Merge pull request #147 from exa-labs/bump-to-2.1.1,"Merge pull request #147 from exa-labs/bump-to-2.1.1
+
+bump to 2.1.1"
+exa-labs/exa-py,282e7e5f6ef38e345350c41d99472821dcf33aae,2026-01,7,post,2026-01-26T12:18:12Z,2026-01-26T12:18:12Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,2,481,8,2,481,8,,B,devin,identity,devin-ai-integration,0,,feat(exa-py): add strong typing for contents parameter and AST-based doc generation,"feat(exa-py): add strong typing for contents parameter and AST-based doc generation
+
+- Add ContentsOptions TypedDict for strongly-typed contents parameter
+- Update search(), find_similar() and async variants to use ContentsOptions
+- Update docstrings to reference ContentsOptions type
+- Add scripts/generate_docs.py for AST-based documentation generation
+- Script extracts method signatures, type hints, and docstrings to generate markdown
+
+Co-Authored-By: uc59e84b1f63411ad <uc59e84b1f63411ad@users.invalid>"
+exa-labs/exa-py,148d937307be6d36d52e2cf71c75987784156d60,2026-01,7,post,2026-01-26T13:32:44Z,2026-01-26T13:32:44Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,63,0,1,63,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): add Getting Started section with UV/PIP installation tabs,"docs(exa-py): add Getting Started section with UV/PIP installation tabs
+
+Co-Authored-By: uc59e84b1f63411ad <uc59e84b1f63411ad@users.invalid>"
+exa-labs/exa-py,06bd4091c163d17a438098a0bfeb5626975673fc,2026-01,7,post,2026-01-26T13:54:53Z,2026-01-26T13:54:53Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,2,261,0,2,261,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): add examples to SDK method docstrings for auto-generation,"docs(exa-py): add examples to SDK method docstrings for auto-generation
+
+Co-Authored-By: uc59e84b1f63411ad <uc59e84b1f63411ad@users.invalid>"
+exa-labs/exa-py,c8437d3646a0a97ca77a8869ac91d7b8769df29c,2026-01,7,post,2026-01-26T17:20:52Z,2026-01-26T17:20:52Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,4,860,576,3,657,576,,B,claude,trailer;identity,,0,,feat(exa-py): improve doc generator with auto-linking and research support,"feat(exa-py): improve doc generator with auto-linking and research support
+
+- Extract config to gen_config.json for output examples and manual types
+- Auto-infer linkable types from exported typeddicts/dataclasses
+- Add Result Object sections for all methods including research
+- Add Entity types with all nested property types
+- Fix type linking in descriptions and result object tables
+- Remove redundant linkable_types config
+- Add proper docstrings with examples to research client methods
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,587a76cad47325987fe9e2225e1847cf16795830,2026-01,7,post,2026-01-26T17:25:49Z,2026-01-26T17:25:49Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,82,67,1,75,19,,B,claude,trailer;identity,,0,,refactor(exa-py): make research result objects code-first with Pydantic parsing,"refactor(exa-py): make research result objects code-first with Pydantic parsing
+
+- Add Pydantic Field() description extraction to parse_class_def
+- Add class inheritance support for Pydantic BaseModel subclasses
+- Parse research/models.py for ResearchCompletedDto and ListResearchResponseDto
+- Remove manual_result_objects from config - now fully code-first
+- Research result objects now extracted from Pydantic models with descriptions
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,da2f4ab8f1ce2476c427841cd106022c140627a1,2026-01,7,post,2026-01-26T17:33:39Z,2026-01-26T17:33:39Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,14,1,0,0,0,,B,claude,trailer;identity,,0,,feat(exa-py): add research types to documentation,"feat(exa-py): add research types to documentation
+
+- Add CostDollars and ResearchOutput classes to dataclasses export
+- Add ResearchModel, ResearchEvent, ResearchDto as manual types
+- All named types in research result objects are now documented and linked
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,7a7f0cf44596bcf7e7265693e562440015e5c560,2026-01,7,post,2026-01-26T17:47:00Z,2026-01-26T17:47:00Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,19,26,1,18,15,,B,claude,trailer;identity,,0,,refactor(exa-py): auto-discover all classes for documentation,"refactor(exa-py): auto-discover all classes for documentation
+
+- Remove manual dataclasses list from config (only _Result kept for underscore exception)
+- Auto-discover all non-private, non-client classes from parsed files
+- Auto-add discovered classes to linkable types
+- All types referenced anywhere are now automatically documented and linked
+- 66 types now comprehensively documented
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,f0536b313cc03858893221eff18623c909f8443a,2026-01,7,post,2026-01-26T17:50:25Z,2026-01-26T17:50:25Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,4,0,0,0,0,,B,claude,trailer;identity,,0,,docs(exa-py): add JSONSchemaInput to manual types,"docs(exa-py): add JSONSchemaInput to manual types
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,e15d3a32bd439a3e6e8f2bea70e9886bd7ad1edf,2026-01,7,post,2026-01-26T17:52:10Z,2026-01-26T17:52:10Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,15,3,1,12,3,,B,claude,trailer;identity,,0,,"feat(exa-py): add external type links support, link BaseModel to Pydantic docs","feat(exa-py): add external type links support, link BaseModel to Pydantic docs
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,45a04461f207794e6957a97f4bcb5b8e8cb3c019,2026-01,7,post,2026-01-26T17:57:50Z,2026-01-26T17:57:50Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,34,0,0,0,0,AGENTS.md;CLAUDE.md,B,claude,trailer;identity,,0,,docs(exa-py): add AGENTS.md and CLAUDE.md for SDK documentation guidelines,"docs(exa-py): add AGENTS.md and CLAUDE.md for SDK documentation guidelines
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,b62e5559adb984ace9b55edee9ca919a0c0a5da2,2026-01,7,post,2026-01-26T18:16:52Z,2026-01-26T18:16:52Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,148,Merge pull request #148 from exa-labs/devin/1769429521-sdk-typing-and-docgen,"Merge pull request #148 from exa-labs/devin/1769429521-sdk-typing-and-docgen
+
+[exa-py]: Add strong typing for contents parameter and AST-based doc generation"
+exa-labs/exa-py,3ff5b485fa6ba1d7f0c1b221f2687c959e73eae3,2026-01,7,post,2026-01-26T21:33:01Z,2026-01-26T19:58:27Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,107,29,2,107,29,,B,claude,trailer;identity,,0,,feat(exa-py): add Category literal type and code-first type alias extraction,"feat(exa-py): add Category literal type and code-first type alias extraction
+
+- Add Category type alias with literal values for search filtering
+- Update doc generator to auto-extract Literal type aliases from source code
+- Remove 'github' from category options
+- Remove Category from manual_types (now code-first)
+- Exclude AsyncExa/AsyncResearchClient from auto-discovered types
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,e9c558d0b187a0033656416a46a800ff81f723c6,2026-01,7,post,2026-01-26T21:37:48Z,2026-01-26T21:37:48Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,2,21,12,0,0,0,,B,claude,trailer;identity,,0,,ci(exa-py): fix Poetry installation in CI workflows,"ci(exa-py): fix Poetry installation in CI workflows
+
+- Replace curl-based Poetry install with snok/install-poetry@v1 action
+- Pin Poetry version to 1.8.5 for stability
+- Update actions/checkout to v4 and actions/setup-python to v5
+- Update codecov-action to v4
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,2502ffcaa388c9d285135ae85f24a86055d889bf,2026-01,7,post,2026-01-26T21:39:15Z,2026-01-26T21:39:15Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,8,0,0,0,0,,B,claude,trailer;identity,,0,,fix(exa-py): add [tool.poetry] section to pyproject.toml,"fix(exa-py): add [tool.poetry] section to pyproject.toml
+
+Poetry 1.8.5 requires the [tool.poetry] section with name, version,
+description, and authors fields.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,1332a56d93334606fb253c7b28d5bd433d923fcd,2026-01,7,post,2026-01-26T21:41:22Z,2026-01-26T21:40:53Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1554,473,0,0,0,,B,claude,trailer;identity,,0,,chore(exa-py): regenerate poetry.lock for Poetry 1.8.5 compatibility,"chore(exa-py): regenerate poetry.lock for Poetry 1.8.5 compatibility
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,ba3f04d0516a788891be2a9aadea45b5608276fb,2026-01,7,post,2026-01-26T21:48:38Z,2026-01-26T21:48:38Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1,1,0,0,0,,B,claude,trailer;identity,,0,,fix(exa-py): fix user agent header test to match actual format,"fix(exa-py): fix user agent header test to match actual format
+
+The user agent uses ""/"" separator (exa-py/2.1.1), not space.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,1a7a7b27086c7b2ce516d2e4030df0f66c8aed60,2026-01,7,post,2026-01-26T22:17:10Z,2026-01-26T22:17:10Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,150,Merge pull request #150 from exa-labs/feat/category-literal-type,"Merge pull request #150 from exa-labs/feat/category-literal-type
+
+feat(exa-py): add Category literal type and code-first type alias extraction"
+exa-labs/exa-py,6851c8f311f811d34fa8ca8077a175fe01b9cadc,2026-01,7,post,2026-01-26T22:26:27Z,2026-01-26T22:26:27Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,10,8,1,10,8,,B,claude,trailer;identity,,0,,feat(exa-py): add SearchType literal for documented search types,"feat(exa-py): add SearchType literal for documented search types
+
+- Add SearchType = Literal[""auto"", ""fast"", ""deep""] type alias
+- Use Union[SearchType, str] in signatures for backwards compatibility
+- Update docstrings to reference SearchType
+- Docs show SearchType linked while still accepting legacy values
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,12c194906d3541ea82b925369158147d087abba5,2026-01,7,post,2026-01-26T22:33:36Z,2026-01-26T22:33:36Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,20,5,0,0,0,,B,claude,trailer;identity,,0,,ci(exa-py): run batch 3 examples in parallel,"ci(exa-py): run batch 3 examples in parallel
+
+Batch 3 was taking ~27 minutes due to slow examples.
+Running them in parallel should significantly reduce CI time.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,3d7174cb9ec9d63bd4b07c2532c57d63e6cb48c8,2026-01,7,post,2026-01-26T22:38:43Z,2026-01-26T22:38:43Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,151,Merge pull request #151 from exa-labs/feat/search-type-literal,"Merge pull request #151 from exa-labs/feat/search-type-literal
+
+feat(exa-py): add SearchType literal for documented search types"
+exa-labs/exa-py,96bb0008d43bc28e7657fe3fe2d4b01269872bad,2026-01,7,post,2026-01-26T17:42:28-08:00,2026-01-26T17:42:28-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,23,0,1,23,0,,B,claude,trailer;identity,,0,,"feat: add text content filtering options (verbosity, includeSections, excludeSections)","feat: add text content filtering options (verbosity, includeSections, excludeSections)
+
+Add new TextContentsOptions fields:
+- verbosity: ""compact"" (default), ""standard"", ""full""
+- include_sections: filter to specific semantic page sections
+- exclude_sections: exclude specific semantic page sections
+
+Available section tags: header, navigation, banner, body, sidebar, footer, metadata
+
+Note: These options require livecrawl=""always"" to take effect.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,e538d2c90c84346fcfde94f727e13827d5933211,2026-01,7,post,2026-01-26T20:13:41-08:00,2026-01-26T20:13:41-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,152,Merge pull request #152 from exa-labs/lh/text-content-filtering-options,"Merge pull request #152 from exa-labs/lh/text-content-filtering-options
+
+Add text content filtering options (verbosity, includeSections, excludeSections)"
+exa-labs/exa-py,9a3802a41d48d593774becb13eabf1d95b470ad0,2026-01,7,post,2026-01-27T17:08:16Z,2026-01-27T17:08:16Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,3,318,7,3,318,7,,B,devin,identity,devin-ai-integration,0,,"feat: add pagination helpers (list_all, get_all) for WebsetsClient, ItemsClient, and WebhooksClient","feat: add pagination helpers (list_all, get_all) for WebsetsClient, ItemsClient, and WebhooksClient
+
+- Add list_all() and get_all() methods to WebsetsClient and AsyncWebsetsClient
+- Add get_all() method to WebsetItemsClient and AsyncWebsetItemsClient (list_all already existed)
+- Add list_all(), get_all(), list_all_attempts(), get_all_attempts() to WebsetWebhooksClient and AsyncWebsetWebhooksClient
+- Add on_poll callback parameter to wait_until_idle() for progress monitoring
+
+These pagination helpers match the functionality available in exa-js SDK.
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,a25f9ed41ae22c32f7b914c98e2463cc102dbf59,2026-01,7,post,2026-01-27T18:02:36Z,2026-01-27T18:02:36Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,6,6,1,6,6,,B,devin,identity,devin-ai-integration,0,,fix: on_poll callback now receives full Webset object instead of status string,"fix: on_poll callback now receives full Webset object instead of status string
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,95235c0634faf7f69045e7dd948ef50d3f3e1d68,2026-01,7,post,2026-01-27T12:56:53-08:00,2026-01-27T12:53:07-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,18,0,1,18,0,,B,claude,trailer;identity,,0,,feat: add max_age_hours parameter to ContentsOptions,"feat: add max_age_hours parameter to ContentsOptions
+
+Max age in hours for cached content. 0 = always livecrawl,
+-1 = never livecrawl (cache only). Cannot be used together
+with the livecrawl parameter.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,b5f69d385880d5b2549ee71bd374d468c08d0954,2026-01,7,post,2026-01-27T14:00:54-08:00,2026-01-27T14:00:54-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,155,Merge pull request #155 from exa-labs/lh/add-max-age-hours,"Merge pull request #155 from exa-labs/lh/add-max-age-hours
+
+Add max_age_hours parameter to ContentsOptions"
+exa-labs/exa-py,b4ffc7efc1fad381723dfce81fd1a482eb6dbb87,2026-01,7,post,2026-01-27T14:05:13-08:00,2026-01-27T14:05:13-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,2,2,0,0,0,,B,claude,trailer;identity,,0,,chore(exa-py): bump version to 2.2.0,"chore(exa-py): bump version to 2.2.0
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,0b4d1c11f56a0b91721e5d8c70459158e8f2a20a,2026-01,7,post,2026-01-27T14:06:17-08:00,2026-01-27T14:06:17-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,156,Merge pull request #156 from exa-labs/lh/bump-version,"Merge pull request #156 from exa-labs/lh/bump-version
+
+chore: bump version to 2.2.0"
+exa-labs/exa-py,a8418dd9453c532148e396e3a9966e5753d443b5,2026-01,7,post,2026-01-28T03:47:31+05:30,2026-01-28T03:47:31+05:30,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,153,Merge pull request #153 from exa-labs/devin/1769533521-add-pagination-helpers,"Merge pull request #153 from exa-labs/devin/1769533521-add-pagination-helpers
+
+[exa-py]: Add pagination helpers (list_all, get_all) for Websets clients"
+exa-labs/exa-py,192beae426f219fadf5d2f99fd6cd3e0a1803a82,2026-01,7,post,2026-01-28T15:25:48Z,2026-01-28T15:14:52Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,3,48,22,2,35,22,,B,claude,trailer;identity,,0,,docs: document max_age_hours parameter and remove livecrawl from docs,"docs: document max_age_hours parameter and remove livecrawl from docs
+
+- Add max_age_hours documentation with special values (0, -1, 168 example)
+- Remove livecrawl/livecrawl_timeout from docstrings (still functional, just undocumented)
+- Add type_field_overrides support to doc generator for fine-grained control
+- Update ContentsOptions, get_contents, and TextContentsOptions docstrings
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,f711521ab95ca15795d6d2e45ac4df8d24d7ec16,2026-01,7,post,2026-01-28T15:29:04Z,2026-01-28T15:29:04Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,157,Merge pull request #157 from exa-labs/feat/max-age-hours-docs,"Merge pull request #157 from exa-labs/feat/max-age-hours-docs
+
+docs: document max_age_hours and remove livecrawl from docs"
+exa-labs/exa-py,e40f25e8738d8d1ffe42196c7068ea7da8f897ec,2026-01,7,post,2026-01-28T17:50:36Z,2026-01-28T17:50:36Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,128,86,0,0,0,,B,devin,identity,devin-ai-integration,0,,"docs(exa-py): modernize README with badges, clear sections, and examples","docs(exa-py): modernize README with badges, clear sections, and examples
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,da4daee25fbdd88f34511f73a73149119c80f568,2026-01,7,post,2026-01-28T17:56:15Z,2026-01-28T17:56:15Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,1,1,0,0,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): remove discord link,"docs(exa-py): remove discord link
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,ec3085bb076c89fcac0ebc8829644264307471e4,2026-01,7,post,2026-01-28T18:00:46Z,2026-01-28T18:00:46Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,0,2,0,0,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): keep only PyPI version badge,"docs(exa-py): keep only PyPI version badge
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,3819ccb9d52a63fed19005e0efa11deb140ff8c2,2026-01,7,post,2026-01-28T18:08:33Z,2026-01-28T18:08:33Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,8,8,0,0,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): use real-world URLs instead of example.com,"docs(exa-py): use real-world URLs instead of example.com
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,76780d984d00e4d86a88aebdbce544c9f946733e,2026-01,7,post,2026-01-28T18:21:54Z,2026-01-28T18:21:54Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,22,26,0,0,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): use search/find_similar with contents instead of deprecated _and_contents methods,"docs(exa-py): use search/find_similar with contents instead of deprecated _and_contents methods
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,89aa9c3896260638b0970e1168748f0891e08f60,2026-01,7,post,2026-01-28T18:23:33Z,2026-01-28T18:23:33Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,10,9,0,0,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): split code blocks for easier copying,"docs(exa-py): split code blocks for easier copying
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,c417d6b67a3e718ef67a9a4a6b3e58fe023cb7fb,2026-01,7,post,2026-01-28T18:40:00Z,2026-01-28T18:40:00Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,1,1,0,0,0,,B,devin,identity,devin-ai-integration,0,,docs(exa-py): fix research example to use correct method name,"docs(exa-py): fix research example to use correct method name
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,2510cac4e91ad88e463c63ae3f12ce67be0a24d2,2026-01,7,post,2026-01-29T00:16:41+05:30,2026-01-29T00:16:41+05:30,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,158,Merge pull request #158 from exa-labs/devin/1769622592-readme-improvements,"Merge pull request #158 from exa-labs/devin/1769622592-readme-improvements
+
+[exa-py]: Modernize README with badges, clear sections, and examples"
+exa-labs/exa-py,0c8c19e5b06bbbdb4999fd002308935734584e66,2026-01,7,post,2026-01-28T22:17:28Z,2026-01-28T22:17:28Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,1,0,1,4,4,1,4,4,,B,claude,trailer;identity,,0,159,docs: add neural to SearchType literal (#159),"docs: add neural to SearchType literal (#159)
+
+Co-authored-by: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,3c27b0ad714907d4e507712611a9429696e33983,2026-01,7,post,2026-01-29T17:00:40Z,2026-01-29T17:00:40Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,2,0,1,2,0,,B,devin,identity,devin-ai-integration,0,,fix: add user_location parameter to AsyncExa.stream_answer(),"fix: add user_location parameter to AsyncExa.stream_answer()
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,308fc9b017b8f94aeb66acd2891580089acb1687,2026-01,7,post,2026-01-29T17:03:47Z,2026-01-29T17:03:47Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,6,2,1,6,2,,B,devin,identity,devin-ai-integration,0,,fix: add cost_dollars field to AnswerResponse and parse it in answer() methods,"fix: add cost_dollars field to AnswerResponse and parse it in answer() methods
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,56eff5b2bd7b45a4b7392482f7cc00c7544a1a16,2026-01,7,post,2026-01-29T18:34:05Z,2026-01-29T18:34:05Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,14,0,1,14,0,,B,devin,identity,devin-ai-integration,0,,Add search_time field to SearchResponse class,"Add search_time field to SearchResponse class
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,08c11a7665d5c1943bdbdd0758991165d7476b44,2026-01,7,post,2026-01-29T21:29:49-08:00,2026-01-29T21:29:49-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,43,3,1,4,2,,B,claude,trailer;identity,,0,,"feat: add max_characters param for highlights, deprecate legacy params","feat: add max_characters param for highlights, deprecate legacy params
+
+Add max_characters to HighlightsContentsOptions as the primary way to
+control highlight length. Mark num_sentences and highlights_per_url as
+deprecated.
+
+Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,f50a026c58e1a496af8465002d430ba92e67a28d,2026-01,7,post,2026-01-29T21:38:20-08:00,2026-01-29T21:38:20-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,167,Merge pull request #167 from exa-labs/devin/1769711645-add-search-time,"Merge pull request #167 from exa-labs/devin/1769711645-add-search-time
+
+Add search_time field to SearchResponse class"
+exa-labs/exa-py,4af63f58a84408830506ad48ffbd1d3f2f20b4a3,2026-01,7,post,2026-01-29T21:38:28-08:00,2026-01-29T21:38:28-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,162,Merge pull request #162 from exa-labs/devin/1769706017-issue1-async-stream-answer-user-location,"Merge pull request #162 from exa-labs/devin/1769706017-issue1-async-stream-answer-user-location
+
+fix: add user_location parameter to AsyncExa.stream_answer()"
+exa-labs/exa-py,6ef1a78e9bb569226e75c8f8ff66290a60c13681,2026-01,7,post,2026-01-29T21:41:27-08:00,2026-01-29T21:41:27-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,164,Merge pull request #164 from exa-labs/devin/1769706153-issue4-answerresponse-cost-dollars,"Merge pull request #164 from exa-labs/devin/1769706153-issue4-answerresponse-cost-dollars
+
+fix: add cost_dollars field to AnswerResponse and parse it in answer() methods"
+exa-labs/exa-py,af1232d3fa3097ec2f7ee82441753cd9048161bc,2026-01,7,post,2026-01-29T21:54:23-08:00,2026-01-29T21:54:23-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,170,Merge pull request #170 from exa-labs/feat/highlights-max-characters,"Merge pull request #170 from exa-labs/feat/highlights-max-characters
+
+feat: add max_characters highlights param, deprecate legacy params"
+exa-labs/exa-py,57fd860b9a5dcf646483b657cb67a331c266ba65,2026-02,8,post,2026-02-01T23:26:04Z,2026-02-01T23:26:04Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,2,2,0,0,0,,B,devin,identity,devin-ai-integration,0,,chore(exa-py): bump version to 2.3.0,"chore(exa-py): bump version to 2.3.0
+
+Co-Authored-By: u07134764fc6bd08c <u07134764fc6bd08c@users.invalid>"
+exa-labs/exa-py,afdcb927bb67e5be4103171e0c3ef00f523fd4b3,2026-02,8,post,2026-02-01T23:30:41Z,2026-02-01T23:30:41Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,1,1,1,1,1,,B,devin,identity,devin-ai-integration,0,,chore(exa-py): sync setup.py version to 2.3.0,"chore(exa-py): sync setup.py version to 2.3.0
+
+Co-Authored-By: u07134764fc6bd08c <u07134764fc6bd08c@users.invalid>"
+exa-labs/exa-py,42c0cecc337a6a220ed1ae4ff50a892983467568,2026-02,8,post,2026-02-01T15:39:33-08:00,2026-02-01T15:39:33-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,171,Merge pull request #171 from exa-labs/devin/1769988350-bump-version-2.3.0,"Merge pull request #171 from exa-labs/devin/1769988350-bump-version-2.3.0
+
+[exa-py]: bump version to 2.3.0"
+exa-labs/exa-py,b72fbc9903b8c83184180f2f67257f0840874626,2026-02,8,post,2026-02-05T22:00:57Z,2026-02-05T22:00:57Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,1,0,2,13,9,1,12,8,,B,claude,trailer;identity,,0,173,feat: deprecate context parameter in favor of highlights/text (#173),"feat: deprecate context parameter in favor of highlights/text (#173)
+
+Mark the context contents option and response field as deprecated
+across docstrings, type annotations, and doc generation config.
+
+Co-authored-by: Claude Opus 4.5 <noreply@anthropic.com>"
+exa-labs/exa-py,f3ace703f60d9e5292c4df8b250e1f51cc32693d,2026-02,8,post,2026-02-09T19:11:06-08:00,2026-02-09T19:11:06-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,27,5,1,5,5,,,,,,0,,feat(exa-py): add instant search type support,feat(exa-py): add instant search type support
+exa-labs/exa-py,da81b2d93a2551f39fa7e22c961544949ebe9100,2026-02,8,post,2026-02-09T19:15:40-08:00,2026-02-09T19:15:40-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,3,3,1,1,1,,,,,,0,,chore(exa-py): bump minor version to 2.4.0,chore(exa-py): bump minor version to 2.4.0
+exa-labs/exa-py,896c75027e3776a31630b79e188dabc2bd9a8168,2026-02,8,post,2026-02-09T19:29:49-08:00,2026-02-09T19:29:49-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,174,Merge pull request #174 from exa-labs/liamhz/add-instant-search-type,"Merge pull request #174 from exa-labs/liamhz/add-instant-search-type
+
+Add instant search type support to exa-py"
+exa-labs/exa-py,70115a1699da6ca69c2423a38cfcddf426b18db9,2026-02,8,post,2026-02-24T15:39:50-08:00,2026-02-23T14:04:54-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,179,3,1,69,2,,,,,,0,,feat(exa-py): add deep search effort and structured output params,feat(exa-py): add deep search effort and structured output params
+exa-labs/exa-py,89197130c898d668a252c1140446aa9987dbaede,2026-02,8,post,2026-02-24T15:40:02-08:00,2026-02-23T14:26:06-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,19,21,1,7,7,,,,,,0,,bug(exa-py): switch deep search schema param to output_schema,bug(exa-py): switch deep search schema param to output_schema
+exa-labs/exa-py,94c25268a08b7c42b6eead62c54d7550346490dc,2026-02,8,post,2026-02-24T15:40:02-08:00,2026-02-23T15:22:18-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,0,1,0,0,0,,,,,,0,,Remove 'effort' parameter from search results,"Remove 'effort' parameter from search results
+
+Removed 'effort' parameter from search function call."
+exa-labs/exa-py,40b01351e33accc76b43df043e7c99855f7f009c,2026-02,8,post,2026-02-24T15:40:33-08:00,2026-02-24T14:56:05-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,5,32,15,2,10,8,,,,,,0,,feat(exa-py): rename deep effort values and bump version,feat(exa-py): rename deep effort values and bump version
+exa-labs/exa-py,0b9392c9617b0cf290e38a64f0ab77a5d610c064,2026-02,8,post,2026-02-24T17:20:40-08:00,2026-02-24T17:20:40-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,177,Merge pull request #177 from exa-labs/liamhz/deepv3-effort-params-py,"Merge pull request #177 from exa-labs/liamhz/deepv3-effort-params-py
+
+[exa-py]: Add new Deep params: answer, effort and output_schema"
+exa-labs/exa-py,a142368a3fe2560164c89f86fb98594cef14ecfc,2026-02,8,post,2026-02-26T15:34:34-08:00,2026-02-26T15:34:34-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,50,41,1,31,25,,,,,,0,,feat(exa-py): split deep search into dedicated types,feat(exa-py): split deep search into dedicated types
+exa-labs/exa-py,986c5c991cd055bb2cfa729eb641ce9aef8e9f32,2026-02,8,post,2026-02-26T16:01:18-08:00,2026-02-26T16:01:18-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,5,19,1,3,12,,,,,,0,,feat(exa-py): remove deep search answer parameter,feat(exa-py): remove deep search answer parameter
+exa-labs/exa-py,692740def205f8ba9e35468ef392f360a5bbeceb,2026-02,8,post,2026-02-26T17:12:09-08:00,2026-02-26T17:12:09-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,0,42,1,0,37,,,,,,0,,feat(exa-py): remove deep search citations response field,feat(exa-py): remove deep search citations response field
+exa-labs/exa-py,da6e9b92769a1e3dd1eb907420629567c2ee24dd,2026-02,8,post,2026-02-26T17:30:21-08:00,2026-02-26T17:30:21-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,15,15,1,11,11,,,,,,0,,feat(exa-py): rename deep search answer field to output,feat(exa-py): rename deep search answer field to output
+exa-labs/exa-py,fd36271adf0762c4bd184c46d5dc52e940b4efc9,2026-02,8,post,2026-02-26T17:37:21-08:00,2026-02-26T17:37:21-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,4,4,1,1,1,,,,,,0,,chore(exa-py): bump minor sdk version to 2.6.0,chore(exa-py): bump minor sdk version to 2.6.0
+exa-labs/exa-py,564cc1e2e985f12cc9c39e637f5010ac34847bce,2026-02,8,post,2026-02-26T18:02:02-08:00,2026-02-26T18:02:02-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,4,76,13,1,62,8,,,,,,0,,feat(exa-py): model deep output as content and citations,feat(exa-py): model deep output as content and citations
+exa-labs/exa-py,0d4c749a4f22d3ac615ef6ddd59fc80b1990c1c8,2026-02,8,post,2026-02-26T18:02:34-08:00,2026-02-26T18:02:34-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,1,1,0,0,0,,,,,,0,,chore(exa-py): sync lockfile for minor version bump,chore(exa-py): sync lockfile for minor version bump
+exa-labs/exa-py,780b401a9a9561adc3880da21aab2a4d0d1cae9c,2026-02,8,post,2026-02-26T18:17:03-08:00,2026-02-26T18:17:03-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,3,3,0,0,0,,,,,,0,,chore(exa-py): set sdk version to 2.6.0,chore(exa-py): set sdk version to 2.6.0
+exa-labs/exa-py,72e939dd6fb642694ed49f5e6f70c7d0f385cd43,2026-02,8,post,2026-02-26T18:30:21-08:00,2026-02-26T18:30:21-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,0,1,1,0,1,,,,,,0,,bug(exa-py): remove deep output parsing from find_similar_and_contents,bug(exa-py): remove deep output parsing from find_similar_and_contents
+exa-labs/exa-py,7bb70ed753b3f4a2938068383373952e43ea7a9d,2026-02,8,post,2026-02-26T18:32:09-08:00,2026-02-26T18:32:09-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,1,1,1,1,1,,,,,,0,,bug(exa-py): keep deep output on search_and_contents only,bug(exa-py): keep deep output on search_and_contents only
+exa-labs/exa-py,20f63a4308109c4059d8e4316f75a42074ff015d,2026-02,8,post,2026-02-26T18:39:19-08:00,2026-02-26T18:39:19-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,178,Merge pull request #178 from exa-labs/liamhz/deep-search-types,"Merge pull request #178 from exa-labs/liamhz/deep-search-types
+
+[exa-py]: split deep search into dedicated deep types"
+exa-labs/exa-py,7877d897f5b24087228a3c00a1fcc1aa2ce2ecea,2026-02,8,post,2026-02-26T20:55:32-08:00,2026-02-26T20:55:32-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,4,43,8,2,33,6,,,,,,0,,feat(exa-py): add deep output schema modes and bump patch version,feat(exa-py): add deep output schema modes and bump patch version
+exa-labs/exa-py,45bc202e3f7de641219ac63a8be5ee9c27d5fab3,2026-02,8,post,2026-02-26T21:02:51-08:00,2026-02-26T21:02:51-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,6,4,1,6,4,,,,,,0,,fix(exa-py): align AsyncExa deep output_schema type/docs,fix(exa-py): align AsyncExa deep output_schema type/docs
+exa-labs/exa-py,8b662264cc0cd11be778f82b63f32335ea18a23b,2026-02,8,post,2026-02-26T21:04:22-08:00,2026-02-26T21:04:22-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,179,Merge pull request #179 from exa-labs/liamhz/deep-output-schema-types,"Merge pull request #179 from exa-labs/liamhz/deep-output-schema-types
+
+[exa-py]: deep output_schema modes and limits (2.6.1)"
+exa-labs/exa-py,d64c7c6f9293a2a937703c886697b413f6faceed,2026-03,9,post,2026-03-03T16:07:27-08:00,2026-03-03T16:07:27-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,70,20,1,54,15,,,,,,0,,feat(exa-py): switch deep output to field grounding,feat(exa-py): switch deep output to field grounding
+exa-labs/exa-py,6212e1ca0bec463354b527711c3b9df4b19d92f2,2026-03,9,post,2026-03-03T16:46:53-08:00,2026-03-03T16:46:53-08:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,2,2,0,0,0,,,,,,0,,chore(exa-py): bump version to 2.7.0,chore(exa-py): bump version to 2.7.0
+exa-labs/exa-py,839bac3f2445eac4c59f7f434b8252e7e407eed9,2026-03,9,post,2026-03-03T16:54:37-08:00,2026-03-03T16:54:37-08:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,181,Merge pull request #181 from exa-labs/liamhz/deep-output-grounding,"Merge pull request #181 from exa-labs/liamhz/deep-output-grounding
+
+Replace Exa Deep output.citations with field-level output.grounding"
+exa-labs/exa-py,eb24112aa870cab2d6b95260be0b1c0b2494a0b1,2026-03,9,post,2026-03-04T19:24:58-05:00,2026-03-04T19:24:58-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,2,274,0,1,189,0,,B,claude,trailer;identity,,0,,feat(monitors): add list_all/get_all auto-pagination to sync client,"feat(monitors): add list_all/get_all auto-pagination to sync client
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,21ecf8c64e35412c7468a3a753c33a33248d8f62,2026-03,9,post,2026-03-04T19:25:57-05:00,2026-03-04T19:25:57-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,2,240,1,1,180,0,,B,claude,trailer;identity,,0,,feat(monitors): add list_all/get_all auto-pagination to async client,"feat(monitors): add list_all/get_all auto-pagination to async client
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,5851b6b0caee4a9f9192d9627b82a544211c73d2,2026-03,9,post,2026-03-04T19:26:46-05:00,2026-03-04T19:26:46-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,3,97,0,2,49,0,,B,claude,trailer;identity,,0,,feat(monitors): add list_all/get_all auto-pagination for monitor runs,"feat(monitors): add list_all/get_all auto-pagination for monitor runs
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,97c41d535510abbeed4ddb00deff0225d3f8405e,2026-03,9,post,2026-03-04T19:27:36-05:00,2026-03-04T19:27:36-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,4,213,6,3,202,6,,B,claude,trailer;identity,,0,,feat(monitors): add typed TriggerSearchMonitorResponse,"feat(monitors): add typed TriggerSearchMonitorResponse
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,ac4694922a2f4594d9f1abfd766ec3664245cc34,2026-03,9,post,2026-03-04T19:32:10-05:00,2026-03-04T19:32:10-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,3,43,2,3,43,2,,B,claude,trailer;identity,,0,,fix(monitors): export TriggerSearchMonitorResponse and remove unused imports,"fix(monitors): export TriggerSearchMonitorResponse and remove unused imports
+
+- Add TriggerSearchMonitorResponse to __init__.py exports
+- Remove unused Dict import from client.py and async_client.py
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,0661c5007e615ebefffa0a7545c0b57027f4dde6,2026-03,9,post,2026-03-04T20:41:38-05:00,2026-03-04T20:41:38-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,1,36,4,1,36,4,,B,claude,trailer;identity,,0,,docs(monitors): add full Args/Returns docstrings to async list_all/get_all methods,"docs(monitors): add full Args/Returns docstrings to async list_all/get_all methods
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,23c685a420ea5030f9a223c891bfd1beae18843b,2026-03,9,post,2026-03-04T20:42:42-05:00,2026-03-04T20:42:42-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,1,16,0,0,0,0,,,,,,0,,docs(monitors): add Literal type aliases to manual_types for doc generation,docs(monitors): add Literal type aliases to manual_types for doc generation
+exa-labs/exa-py,3d34248861d4ea3d500340819eaa0dcb8ebefa10,2026-03,9,post,2026-03-05T13:52:00-05:00,2026-03-05T13:50:27-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,3,85,0,3,85,0,,,,,,0,,feat(monitors): add base clients and wire up monitors on Exa class,feat(monitors): add base clients and wire up monitors on Exa class
+exa-labs/exa-py,280ec7d72138304d0696a05cf13c5651beed3bb1,2026-03,9,post,2026-03-05T23:01:12-05:00,2026-03-05T23:01:12-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,2,9,10,1,8,9,,,,,,0,,fix(monitors): align GroundingEntry and SearchMonitorRunFailReason with API,fix(monitors): align GroundingEntry and SearchMonitorRunFailReason with API
+exa-labs/exa-py,90055f3abc755cdd3ca21b3b4268742a9b1b7c96,2026-03,9,post,2026-03-06T15:11:03-05:00,2026-03-06T15:11:03-05:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,2,10,10,2,10,10,,,,,,0,,"feat(monitors): accept Union[Dict, Model] for create/update params","feat(monitors): accept Union[Dict, Model] for create/update params"
+exa-labs/exa-py,23547df10031a1103a20e0cd8cf32d65ac199ea0,2026-03,9,post,2026-03-09T17:03:17Z,2026-03-09T17:03:17Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,5,1,1,5,1,,B,devin,identity,devin-ai-integration,0,,feat(websets): add dashboard_url field to Webset model,"feat(websets): add dashboard_url field to Webset model
+
+Co-Authored-By: u02bc82c1d4969037 <u02bc82c1d4969037@users.invalid>"
+exa-labs/exa-py,974f55a64cdf84a88cde38ec381b2ec36dd5d72d,2026-03,9,post,2026-03-09T17:08:10Z,2026-03-09T17:08:10Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,3,13,1,0,0,0,,B,devin,identity,devin-ai-integration,0,,test: add dashboardUrl to mock Webset objects in tests,"test: add dashboardUrl to mock Webset objects in tests
+
+Co-Authored-By: u02bc82c1d4969037 <u02bc82c1d4969037@users.invalid>"
+exa-labs/exa-py,e1c4823753c791daeb6900442b1f9748d141475e,2026-03,9,post,2026-03-10T15:02:03-07:00,2026-03-10T15:02:03-07:00,u02bc82c1d4969037,u02bc82c1d4969037@users.invalid,GitHub,noreply@github.com,1,0,1,2,2,1,2,2,,B,devin,trailer;identity,,0,184,fix(websets): change employees type from Optional[float] to Optional[int] (#184),"fix(websets): change employees type from Optional[float] to Optional[int] (#184)
+
+Co-authored-by: Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>"
+exa-labs/exa-py,9994985798760530d371a385fc60b03c05218aa9,2026-03,9,post,2026-03-10T15:22:19-07:00,2026-03-10T15:22:19-07:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,3,4,4,1,1,1,,B,claude,trailer;identity,,0,,chore(exa-py): bump version to 2.7.1,"chore(exa-py): bump version to 2.7.1
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,8ad93727d55a86a3cbe56efebe49bf96631ec5c3,2026-03,9,post,2026-03-10T15:22:54-07:00,2026-03-10T15:22:54-07:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,185,Merge pull request #185 from exa-labs/chore/bump-version-2.7.1,"Merge pull request #185 from exa-labs/chore/bump-version-2.7.1
+
+chore(exa-py): bump version to 2.7.1"
+exa-labs/exa-py,94a98064f6d32c500ea8d3b95493033e4018f9cd,2026-03,9,post,2026-03-10T15:30:37-07:00,2026-03-10T15:30:37-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,69,0,1,9,0,,,,,,0,,feat(exa-py): expose deep search system_prompt,feat(exa-py): expose deep search system_prompt
+exa-labs/exa-py,b69cf7a6419d3b2f4465b01bd9c432e8e642bc9f,2026-03,9,post,2026-03-10T15:43:19-07:00,2026-03-10T15:43:19-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,4,4,1,1,1,,,,,,0,,chore(exa-py): bump version to 2.8.0,chore(exa-py): bump version to 2.8.0
+exa-labs/exa-py,7506d17a1181c043c555a74501689e66a324125a,2026-03,9,post,2026-03-10T22:46:52Z,2026-03-10T22:46:52Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,4,0,1,4,0,,B,devin,identity,devin-ai-integration,0,,feat(websets): add title field to Webset model,"feat(websets): add title field to Webset model
+
+Co-Authored-By: u02bc82c1d4969037 <u02bc82c1d4969037@users.invalid>"
+exa-labs/exa-py,e7477bcdf74e74d8ebb579920991553635f622c6,2026-03,9,post,2026-03-10T15:46:54-07:00,2026-03-10T15:46:54-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,19,36,1,11,12,,,,,,0,,chore(exa-py): remove deep-max from sdk surface,chore(exa-py): remove deep-max from sdk surface
+exa-labs/exa-py,f304f49353ad0a2eecfa1b52786e513955cd5cc3,2026-03,9,post,2026-03-10T15:48:47-07:00,2026-03-10T15:48:47-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,,Merge branch 'master' into liamhz/deep-systemprompt-py,Merge branch 'master' into liamhz/deep-systemprompt-py
+exa-labs/exa-py,c5dbe95f20e4f94b66847f45142f1e1f43539dd3,2026-03,9,post,2026-03-10T22:52:15Z,2026-03-10T22:52:15Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,3,12,0,0,0,0,,B,devin,identity,devin-ai-integration,0,,test: add title field to mock Webset objects in tests,"test: add title field to mock Webset objects in tests
+
+Co-Authored-By: u02bc82c1d4969037 <u02bc82c1d4969037@users.invalid>"
+exa-labs/exa-py,373f992cbcf1e3da0d13d9a05702c282c8f4bbcf,2026-03,9,post,2026-03-10T15:53:05-07:00,2026-03-10T15:52:57-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,8,6,1,7,5,,,,,,0,,docs(exa-py): clarify deep search system_prompt behavior,docs(exa-py): clarify deep search system_prompt behavior
+exa-labs/exa-py,4a63e5da44588d5a41240632724bf12c2d3a1870,2026-03,9,post,2026-03-10T16:01:59-07:00,2026-03-10T16:01:59-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,186,Merge pull request #186 from exa-labs/liamhz/deep-systemprompt-py,"Merge pull request #186 from exa-labs/liamhz/deep-systemprompt-py
+
+[exa-py]: expose deep search system_prompt"
+exa-labs/exa-py,e191a868e9dccdd185c1bebedf95fa47626e6457,2026-03,9,post,2026-03-10T16:14:01-07:00,2026-03-10T16:14:01-07:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,183,Merge pull request #183 from exa-labs/devin/1773075579-add-dashboard-url,"Merge pull request #183 from exa-labs/devin/1773075579-add-dashboard-url
+
+Add dashboard_url and title fields to Webset model"
+exa-labs/exa-py,f98b7fa69a4c97558496189db6b4d968df6d0edf,2026-03,9,post,2026-03-10T16:19:07-07:00,2026-03-10T16:19:07-07:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,3,4,4,1,1,1,,B,claude,trailer;identity,,0,,chore(exa-py): bump version to 2.8.1,"chore(exa-py): bump version to 2.8.1
+
+Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+exa-labs/exa-py,144abf6e166e1d124d62d12735bbaee71d188e56,2026-03,9,post,2026-03-10T16:21:20-07:00,2026-03-10T16:21:20-07:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,187,Merge pull request #187 from exa-labs/chore/bump-version-2.8.1,"Merge pull request #187 from exa-labs/chore/bump-version-2.8.1
+
+chore(exa-py): bump version to 2.8.1"
+exa-labs/exa-py,fc74d76de4d6c74e3798d73aec705e18853be5de,2026-03,9,post,2026-03-13T02:26:53Z,2026-03-13T02:26:53Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,2,1,1,2,1,,B,devin,identity,devin-ai-integration,0,,fix(exa-py): allow arbitrary strings for search type parameter,"fix(exa-py): allow arbitrary strings for search type parameter
+
+Co-Authored-By: u49aeb96bebd8e242 <u49aeb96bebd8e242@users.invalid>"
+exa-labs/exa-py,3c7c4f737237ca4b75ef8669c704c4664d5518f0,2026-03,9,post,2026-03-13T02:30:59Z,2026-03-13T02:30:59Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,4,12,5,1,1,1,CLAUDE.md,B,claude;devin,identity,devin-ai-integration,0,,chore(exa-py): bump version to 2.9.0 and add version bump rule to CLAUDE.md,"chore(exa-py): bump version to 2.9.0 and add version bump rule to CLAUDE.md
+
+Co-Authored-By: u49aeb96bebd8e242 <u49aeb96bebd8e242@users.invalid>"
+exa-labs/exa-py,03c49e37a371bcebedcecdba5196b22916241ac4,2026-03,9,post,2026-03-12T19:33:18-07:00,2026-03-12T19:33:18-07:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,189,Merge pull request #189 from exa-labs/devin/1773368745-allow-arbitrary-search-type,"Merge pull request #189 from exa-labs/devin/1773368745-allow-arbitrary-search-type
+
+[exa-py]: allow arbitrary strings for search type parameter"
+exa-labs/exa-py,bf15630378101633f918876d33c20843ffb26dee,2026-03,9,post,2026-03-13T13:31:48-07:00,2026-03-13T13:31:48-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,11,69,0,0,0,,,,,,0,,update python README examples for highlights,update python README examples for highlights
+exa-labs/exa-py,660486d834e7aa5aa4cb45e39f70080ef9c705d5,2026-03,9,post,2026-03-13T13:58:14-07:00,2026-03-13T13:58:14-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,7,23,27,0,0,0,,,,,,0,,replace deprecated search_and_contents examples,replace deprecated search_and_contents examples
+exa-labs/exa-py,4aa3b19668c54d9b57d46c68301db0ea21654da1,2026-03,9,post,2026-03-13T14:37:11-07:00,2026-03-13T14:37:11-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,8,23,6,1,3,1,,,,,,0,,make search contents explicit in examples,make search contents explicit in examples
+exa-labs/exa-py,a29b821556887ab79b474174559c952127a39bc4,2026-03,9,post,2026-03-13T14:38:00-07:00,2026-03-13T14:38:00-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,0,2,1,0,1,,,,,,0,,leave deep search contents unspecified,leave deep search contents unspecified
+exa-labs/exa-py,1139b90ab8297a2028439fbc91c4b7472ba236bc,2026-03,9,post,2026-03-13T16:45:53-07:00,2026-03-13T16:45:53-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,1,0,7,0,0,0,,,,,,0,,remove summary get_contents example,remove summary get_contents example
+exa-labs/exa-py,0a6a9ea1a5821a24e8e080b2690c82644636fe2c,2026-03,9,post,2026-03-13T16:46:24-07:00,2026-03-13T16:46:24-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,190,Merge pull request #190 from exa-labs/liamhz/exa-py-highlights-readme-examples,"Merge pull request #190 from exa-labs/liamhz/exa-py-highlights-readme-examples
+
+Remove Find Similar and Research from README, update highlights usage"
+exa-labs/exa-py,b3c840de237c128b1334cb5504ec6096210b3278,2026-03,9,post,2026-03-19T14:16:22-04:00,2026-03-19T14:16:22-04:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,2,95,3,2,95,3,,,,,,0,,feat(monitors): add contents options to search monitor params,"feat(monitors): add contents options to search monitor params
+
+Replace includeText/excludeText with contents field mirroring
+the main search ContentsOptions (text, highlights, summary,
+extras, livecrawl, subpages, etc.)."
+exa-labs/exa-py,8dc47f50ae93632df12b5264ac3a1637f7994915,2026-03,9,post,2026-03-23T13:09:29-07:00,2026-03-23T13:09:29-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,2,1,0,0,0,0,0,0,,,,,,0,,Merge remote-tracking branch 'origin/master' into pr-182,Merge remote-tracking branch 'origin/master' into pr-182
+exa-labs/exa-py,ce062366f02066892c39ca04493d85f2e2003290,2026-03,9,post,2026-03-23T13:12:46-07:00,2026-03-23T13:12:46-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,5,5,1,1,1,,,,,,0,,chore(release): bump version to 2.10.0,chore(release): bump version to 2.10.0
+exa-labs/exa-py,8234b95e7fea50a54fa114f9d34bd10ef2380118,2026-03,9,post,2026-03-23T14:19:04-07:00,2026-03-23T14:19:04-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,42,0,1,10,0,,,,,,0,,fix(async): support patch and delete requests,fix(async): support patch and delete requests
+exa-labs/exa-py,179aeb8afa2eb40b546a0de23dfca37d7e1f4228,2026-03,9,post,2026-03-23T14:36:24-07:00,2026-03-23T14:36:24-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,2323,4,1,64,3,,,,,,0,,docs(monitors): add search monitors to generated spec,docs(monitors): add search monitors to generated spec
+exa-labs/exa-py,9950887d7cd707247b0bfeb0a9dfe08c8a9e8e3e,2026-03,9,post,2026-03-23T14:52:02-07:00,2026-03-23T14:52:02-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,176,23,1,97,0,,,,,,0,,docs(monitors): add method examples,docs(monitors): add method examples
+exa-labs/exa-py,bd34665bd1e941136d3e88dfb39f7710659e48a7,2026-03,9,post,2026-03-23T14:54:34-07:00,2026-03-23T14:54:34-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,12,12,1,1,1,,,,,,0,,docs(monitors): update funding query example,docs(monitors): update funding query example
+exa-labs/exa-py,4ce6ea4c40db7b743e9246fa9c58b53f961cb548,2026-03,9,post,2026-03-23T16:29:32-07:00,2026-03-23T16:29:32-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,182,Merge pull request #182 from exa-labs/feat/search-monitors-sdk,"Merge pull request #182 from exa-labs/feat/search-monitors-sdk
+
+Add Search Monitors SDK client"
+exa-labs/exa-py,5d88be46fdd384a19eaaf113774eef0b809208f5,2026-03,9,post,2026-03-24T20:01:03Z,2026-03-24T20:01:03Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,0,1,1,0,1,,B,devin,identity,devin-ai-integration,0,,feat(exa-py): remove tweet category enum value,"feat(exa-py): remove tweet category enum value
+
+Co-Authored-By: u35323740f2a2c012 <u35323740f2a2c012@users.invalid>"
+exa-labs/exa-py,56c46e93c10767f72f7c29c9ae7a18caa8cb68d8,2026-03,9,post,2026-03-25T02:33:24+05:30,2026-03-25T02:33:24+05:30,u0c98b16ddf1898a3,u0c98b16ddf1898a3@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,192,Merge pull request #192 from exa-labs/devin/1774381857-remove-tweet-category,"Merge pull request #192 from exa-labs/devin/1774381857-remove-tweet-category
+
+Remove `tweet` category enum value"
+exa-labs/exa-py,50b9add576dca965e24d3202da23417563f47c05,2026-03,9,post,2026-03-25T00:48:57Z,2026-03-25T00:48:57Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,3,4,4,1,1,1,,B,claude,trailer;identity,,0,,chore(exa-py): bump version to 2.10.1,"chore(exa-py): bump version to 2.10.1
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+exa-labs/exa-py,8e10006a3e35090a10374e0eb5ad67cddf8448cf,2026-03,9,post,2026-03-25T00:49:18Z,2026-03-25T00:49:18Z,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,193,Merge pull request #193 from exa-labs/chore/bump-version-2.10.1,"Merge pull request #193 from exa-labs/chore/bump-version-2.10.1
+
+chore(exa-py): bump version to 2.10.1"
+exa-labs/exa-py,cc8deeffed3d4119b63667998e58bb7cb441010b,2026-03,9,post,2026-03-25T19:13:33-07:00,2026-03-25T19:13:33-07:00,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,uf6c48d7b7498af12,uf6c48d7b7498af12@users.invalid,1,0,3,5,7,2,4,6,,,,,,0,,feat(monitors): replace cron triggers with interval-based scheduling,"feat(monitors): replace cron triggers with interval-based scheduling
+
+Update SearchMonitorTrigger from { type: ""cron"", expression, timezone }
+to { type: ""interval"", period } to match the backend API change."
+exa-labs/exa-py,a83e0a8f33dc05b86e3725d960b1ab73c83fc2a7,2026-03,9,post,2026-03-26T13:10:54-07:00,2026-03-26T13:10:54-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,4,4,1,1,1,,,,,,0,,Bump version to 2.10.2,Bump version to 2.10.2
+exa-labs/exa-py,c48a1ee3213e7b823e6e48a78545a5a01a709760,2026-03,9,post,2026-03-26T13:25:05-07:00,2026-03-26T13:25:05-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,2,13,19,0,0,0,,,,,,0,,Update monitor docs for interval triggers,Update monitor docs for interval triggers
+exa-labs/exa-py,ffcab908c5d756ea4218d5fa637411b109f280e4,2026-03,9,post,2026-03-26T13:27:12-07:00,2026-03-26T13:27:12-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,194,Merge pull request #194 from exa-labs/feat/interval-triggers,"Merge pull request #194 from exa-labs/feat/interval-triggers
+
+Replace cron triggers with interval-based scheduling for search monitors"
+exa-labs/exa-py,cee87e81ec713c2eaedac0b1ac52ea4a7ad8f819,2026-04,10,post,2026-04-02T17:39:31-07:00,2026-04-02T17:39:31-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,7,230,57,2,38,27,,,,,,0,,Support search schema on all search types,Support search schema on all search types
+exa-labs/exa-py,972065998966f02223b516944f8b2678d2e0cc05,2026-04,10,post,2026-04-02T17:43:29-07:00,2026-04-02T17:43:29-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,3,4,4,1,1,1,,,,,,0,,Bump version to 2.11.0,Bump version to 2.11.0
+exa-labs/exa-py,9be2312e54223488e5038633449933e864a3548a,2026-04,10,post,2026-04-02T17:51:01-07:00,2026-04-02T17:51:01-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,4,327,6,1,190,2,,,,,,0,,Add search streaming support,Add search streaming support
+exa-labs/exa-py,943d3624150dd4465f4e3a482a7a745bf2a5b6c7,2026-04,10,post,2026-04-03T17:03:42-07:00,2026-04-03T17:03:42-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,195,Merge pull request #195 from exa-labs/liamhz/search-output-schema-all-types-py,"Merge pull request #195 from exa-labs/liamhz/search-output-schema-all-types-py
+
+[codex] Support search schema on all search types"
+exa-labs/exa-py,2227b4f95f63e83e162d14c5c086a3210fb769ee,2026-04,10,post,2026-04-08T15:58:07Z,2026-04-08T15:58:07Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,21,0,0,0,0,,B,devin,identity,devin-ai-integration,0,,chore(exa-py): add MIT license,"chore(exa-py): add MIT license
+
+Co-Authored-By: u02bc82c1d4969037 <u02bc82c1d4969037@users.invalid>"
+exa-labs/exa-py,3908ebd48eb0ef5c00400924debe5ee9537bad19,2026-04,10,post,2026-04-08T18:02:22+02:00,2026-04-08T18:02:22+02:00,u02bc82c1d4969037,u02bc82c1d4969037@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,198,Merge pull request #198 from exa-labs/devin/1775663875-add-mit-license,"Merge pull request #198 from exa-labs/devin/1775663875-add-mit-license
+
+chore(exa-py): add MIT license"
+exa-labs/exa-py,135faaed39628bae143735acea263cf4ffbf35cc,2026-04,10,post,2026-04-14T17:58:57Z,2026-04-14T17:58:57Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,1,23,0,1,23,0,,B,devin,identity,devin-ai-integration,0,,feat: add crawl_date field to search result objects,"feat: add crawl_date field to search result objects
+
+Add crawl_date as a first-class field on _Result and all subclasses
+(Result, ResultWithText, ResultWithSummary, ResultWithTextAndSummary).
+
+The Exa API returns crawlDate on search results when the
+include_crawl_date feature flag is enabled, but the SDK was
+dropping it during response parsing. Now it's available as
+result.crawl_date on all result objects.
+
+Co-Authored-By: u6ed2c740f6779a55 <u6ed2c740f6779a55@users.invalid>"
+exa-labs/exa-py,f3e418c5e622ba642ce5476f1a71ed35babe7ba3,2026-04,10,post,2026-04-15T12:32:33Z,2026-04-15T12:32:33Z,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,Devin AI,158243242+devin-ai-integration[bot]@users.noreply.github.com,1,0,4,89,5,1,1,1,,B,devin,identity,devin-ai-integration,0,,chore: bump version to 2.12.0 and add crawl_date tests,"chore: bump version to 2.12.0 and add crawl_date tests
+
+- Bump version in pyproject.toml (2 places) and setup.py from 2.11.0 to 2.12.0
+- Run uv lock to sync uv.lock
+- Add 4 unit tests for crawl_date: parsing, default None, dataclass, async parsing
+
+Co-Authored-By: u6ed2c740f6779a55 <u6ed2c740f6779a55@users.invalid>"
+exa-labs/exa-py,e1ae4daefecf2bca961950763d6e065c0c232536,2026-04,10,post,2026-04-15T13:49:35+01:00,2026-04-15T13:49:35+01:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,B,devin,branch,,0,199,Merge pull request #199 from exa-labs/devin/1776189359-add-crawl-date-field,"Merge pull request #199 from exa-labs/devin/1776189359-add-crawl-date-field
+
+feat: add crawl_date field to search result objects"
+exa-labs/exa-py,6749a6e0fcb92e2b0fc716aa686f9ff8257c5d62,2026-04,10,post,2026-04-15T13:58:00+01:00,2026-04-15T13:58:00+01:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,u671adec2514d0d18,u671adec2514d0d18@users.invalid,1,0,1,1,1,0,0,0,,B,claude,trailer;identity,,0,,fix: use uv run in publish.sh so setuptools is available,"fix: use uv run in publish.sh so setuptools is available
+
+Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>"
+exa-labs/exa-py,af7f88999763f1cb7e3c4a67f4aa24cef5f6eb11,2026-04,10,post,2026-04-15T14:10:10+01:00,2026-04-15T14:10:10+01:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,200,Merge pull request #200 from exa-labs/fix/publish-script-use-uv-run,"Merge pull request #200 from exa-labs/fix/publish-script-use-uv-run
+
+fix: use uv run in publish.sh"
+exa-labs/exa-py,c6c4a6040009b12e8a26200d8d09da60b8ad7a14,2026-04,10,post,2026-04-21T11:09:14-07:00,2026-04-21T11:09:14-07:00,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,uddd6d61cc3c12176,uddd6d61cc3c12176@users.invalid,1,0,5,37,11,2,13,1,,,,,,0,,Add maxPeoplePerCompany to Websets SDK types,Add maxPeoplePerCompany to Websets SDK types
+exa-labs/exa-py,0ddceedf17e13f3113d19839179ca25b12adeb9a,2026-04,10,post,2026-04-21T13:17:25-07:00,2026-04-21T13:17:25-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,201,Merge pull request #201 from exa-labs/liamhz/max-people-per-company-websets-sdk,"Merge pull request #201 from exa-labs/liamhz/max-people-per-company-websets-sdk
+
+[codex] Add maxPeoplePerCompany to Websets Python SDK"
+exa-labs/exa-py,df8d0cfc474fd36c4a395697e4b98a4b563b763b,2026-04,10,post,2026-04-24T18:52:23-04:00,2026-04-24T18:52:23-04:00,u3cb07fefe3c612f5,u3cb07fefe3c612f5@users.invalid,u3cb07fefe3c612f5,u3cb07fefe3c612f5@users.invalid,1,0,1,3,3,0,0,0,,,,,,0,,test_search_monitors.py: fix test on python 3.14,"test_search_monitors.py: fix test on python 3.14
+
+I was packaging this for Nixpkgs and came across this issue.
+
+https://github.com/NixOS/nixpkgs/pull/511210
+
+Link: https://github.com/pytest-dev/pytest-asyncio/issues/658
+Signed-off-by: u3cb07fefe3c612f5 <u3cb07fefe3c612f5@users.invalid>"
+exa-labs/exa-py,f678a2f91ff5142c25f47fe6213bfa7d6bfb9706,2026-04,10,post,2026-04-30T14:35:35+01:00,2026-04-30T14:35:35+01:00,u671adec2514d0d18,u671adec2514d0d18@users.invalid,GitHub,noreply@github.com,2,1,0,0,0,0,0,0,,,,,,0,203,Merge pull request #203 from ethancedwards8/exa-pytest,"Merge pull request #203 from ethancedwards8/exa-pytest
+
+test_search_monitors.py: fix test on python 3.14"
+exa-labs/exa-py,448276cbb1fc527cf413b17119e9dde3813dba5d,2026-05,11,post,2026-05-03T19:51:45-07:00,2026-05-03T19:51:45-07:00,u61560048567bbbd8,u61560048567bbbd8@users.invalid,GitHub,noreply@github.com,1,0,11,328,141,4,189,55,,,,,,0,204,Make deprecated SDK surfaces obvious (#204),"Make deprecated SDK surfaces obvious (#204)
+
+## Summary
+
+Makes deprecated SDK surfaces obvious to humans, IDE/type-checking
+tools, schema consumers, generated docs, and LLMs while preserving
+backward compatibility.
+
+## What Changed
+
+- Added PEP 702 `@deprecated` markers to legacy `JSONSchema`,
+`search_and_contents()`, `find_similar()/findSimilar`, and
+`find_similar_and_contents()` for sync/async clients, including
+overloads where applicable.
+- Reworded public docstrings and generated SDK docs so `search()` is the
+clear replacement for `findSimilar`, `search_and_contents()`, and
+`find_similar_and_contents()`.
+- Labeled deprecated content fields directly at their public
+definitions: `contents.context`, `SearchResponse.context`,
+`ContextContentsOptions`, `num_sentences`, and `highlights_per_url`.
+- Uses native Pydantic `Field(deprecated=...)` metadata for deprecated
+Search Monitor schema fields, and updates the docs generator to extract
+those descriptions/deprecation messages from `Field(...)` calls.
+- Regenerated `docs/python-sdk-specification.mdx`, made compatibility
+tests explicitly describe deprecated usage, and bumped package metadata
+plus `uv.lock` to `2.12.2`.
+
+## Compatibility
+
+Deprecated paths still call the existing endpoints and remain covered by
+compatibility tests; this PR changes discoverability and warnings, not
+wire behavior.
+
+## Validation
+
+- `python3 -m compileall -q exa_py scripts tests`
+- `diff -u docs/python-sdk-specification.mdx <(python3
+scripts/generate_docs.py)`
+- `git diff --check`
+- `.venv/bin/python -m pytest tests/unit` on Python 3.13.13: `175
+passed, 14 skipped, 2 warnings`
+- `.venv/bin/python -m pytest
+tests/integration/test_find_similar_integration.py`: `9 skipped` without
+`EXA_API_KEY`; also reports the file's existing unknown `timeout` mark
+warnings"
+exa-labs/exa-py,d7f29d8676cbf3c407d4f54217f9637b42256c0a,2026-05,11,post,2026-05-13T10:51:25-07:00,2026-05-13T10:51:25-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,1,0,23,1934,44,9,1284,12,,,,,,0,207,Add Agent API support (#207),"Add Agent API support (#207)
+
+## Summary
+
+Adds beta Agent runs support to the Python SDK and bumps the package
+minor version to `2.13.0`.
+
+The public namespace is `exa.beta.agent.runs`, so users create and
+manage runs rather than agents directly. Every Agent API REST call
+requires the caller to pass `betas=[""agent-2026-05-07""]`; the SDK uses
+that value to set the `Exa-Beta` header instead of silently opting the
+request into beta behavior.
+
+The new sync and async runs clients cover run creation, retrieval,
+listing, pagination helpers, cancellation, deletion, polling, stored
+event listing, and create-time SSE streaming. The README includes a
+compact structured company-list example using
+`exa.beta.agent.runs.create(...)` and `poll_until_finished(...)`.
+
+## Validation
+
+- `.venv/bin/pytest tests/unit`
+- `.venv/bin/python -m compileall exa_py/agent exa_py/api.py`"
+exa-labs/exa-py,42fde906ecd069c15ad4888e1585b395a0db7edf,2026-06,12,post,2026-06-03T17:12:02+02:00,2026-06-03T17:12:02+02:00,u02bc82c1d4969037,u02bc82c1d4969037@users.invalid,GitHub,noreply@github.com,1,0,6,40,7,2,2,2,,B,devin,trailer;identity,,0,211,fix(monitors): accept structured object in SearchMonitorRunOutput.content (#211),"fix(monitors): accept structured object in SearchMonitorRunOutput.content (#211)
+
+## Summary
+A search monitor configured with an `outputSchema` returns
+`output.content` as a structured JSON **object**, but the SDK typed it
+as `Optional[str]`. Retrieving such a run (`monitors.runs.get` /
+`monitors.runs.list`) therefore raised a pydantic `ValidationError` —
+the SDK rejecting the API's own response.
+
+Fix is a one-line type widening that mirrors the already-correct
+`DeepSearchOutput.content`:
+
+```diff
+ class SearchMonitorRunOutput(BaseModel):
+     results: Optional[List[Dict[str, Any]]] = None
+-    content: Optional[str] = None
++    content: Optional[Union[str, Dict[str, Any]]] = None
+     grounding: Optional[List[GroundingEntry]] = None
+```
+
+### Reproduction (before)
+Triggering a monitor with an `outputSchema` and listing its runs
+crashed:
+```
+ValidationError: 1 validation error for ListSearchMonitorRunsResponse
+data.0.output.content
+  Input should be a valid string [type=string_type, input_value={'summary': ...}, input_type=dict]
+```
+After the fix, the same call validates and `run.output.content` is the
+dict the API returned. Verified end-to-end against the live API (create
+monitor → trigger → list/get run).
+
+## Changes
+- `exa_py/monitors/types.py`: widen `SearchMonitorRunOutput.content` to
+`Optional[Union[str, Dict[str, Any]]]`.
+- `tests/unit/test_search_monitors.py`: add regression tests for
+structured (dict) and string `content` via `runs.get` and `runs.list`.
+- Version bump `2.13.0` → `2.13.1` (`pyproject.toml` ×2, `setup.py`),
+`uv lock` synced, and regenerated `docs/python-sdk-specification.mdx`.
+
+Link to Devin session:
+https://app.devin.ai/sessions/766bce30752c42d3a86863884adc7631
+Requested by: @maxwbuckley
+<!-- devin-review-badge-begin -->
+
+---
+
+<a href=""https://app.devin.ai/review/exa-labs/exa-py/pull/211""
+target=""_blank"">
+  <picture>
+<source media=""(prefers-color-scheme: dark)""
+srcset=""https://static.devin.ai/assets/gh-open-in-devin-review-dark.svg?v=1"">
+<img
+src=""https://static.devin.ai/assets/gh-open-in-devin-review-light.svg?v=1""
+alt=""Open in Devin Review"">
+  </picture>
+</a>
+<!-- devin-review-badge-end -->
+
+---------
+
+Co-authored-by: Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>"
+exa-labs/exa-py,98d716b4ac85f2193fb96112b5c675b5424e4e85,2026-06,12,post,2026-06-08T16:38:16-07:00,2026-06-08T16:38:16-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,1,0,5,8,7,2,2,2,,,,,,0,212,Allow decimal Agent ACUs (#212),"Allow decimal Agent ACUs (#212)
+
+## Summary
+
+Update the Python SDK Agent usage model so `agent_compute_units` accepts
+decimal values returned by the Agent API.
+
+## Details
+
+The Agent API now reports ACUs as fractional values instead of whole
+integers. This changes the Pydantic model for Agent usage from
+`Optional[int]` to `Optional[float]`, updates the Agent unit-test
+fixture to use a decimal ACU value, and asserts that the parsed model
+preserves the decimal value.
+
+This also bumps the SDK version from `2.13.1` to `2.13.2` in the
+required version locations and syncs `uv.lock`.
+
+## OpenAPI
+
+No change is needed in the separate `openapi-spec` repo: `origin/master`
+there does not include the Agent API or `agentComputeUnits`. The public
+Agent OpenAPI schema is owned by Nova in the monorepo and has already
+been updated to `type: number`.
+
+## Validation
+
+- `uv run pytest tests/unit/test_agent.py`
+- `uv lock`
+- `uv run python scripts/generate_docs.py >
+docs/python-sdk-specification.mdx`
+- `git diff --check`
+
+<!-- devin-review-badge-begin -->
+
+---
+
+<a href=""https://app.devin.ai/review/exa-labs/exa-py/pull/212""
+target=""_blank"">
+  <picture>
+<source media=""(prefers-color-scheme: dark)""
+srcset=""https://static.devin.ai/assets/gh-open-in-devin-review-dark.svg?v=1"">
+<img
+src=""https://static.devin.ai/assets/gh-open-in-devin-review-light.svg?v=1""
+alt=""Open in Devin Review"">
+  </picture>
+</a>
+<!-- devin-review-badge-end -->"
+exa-labs/exa-py,6b055f4b7da1317732cb1996d163bc2b52b12d37,2026-06,12,post,2026-06-14T20:33:51-07:00,2026-06-14T20:33:51-07:00,ub94ce054408f5eb9,ub94ce054408f5eb9@users.invalid,GitHub,noreply@github.com,1,0,5,51,2,0,0,0,,,,,,0,213,Add release-please for version tracking (#213),"Add release-please for version tracking (#213)
+
+Adds release-please so version bumps and the changelog are managed
+automatically from commit titles. Merging the generated Release PR cuts
+a git tag + GitHub Release. No publishing is wired up yet — that's a
+follow-up once PyPI access is ready.
+
+Co-authored-by: udf6e40dbb7d53274 <udf6e40dbb7d53274@users.invalid>"
+exa-labs/exa-py,912944f57756d6ffa118076313340b4107fedda6,2026-06,12,post,2026-06-16T05:12:28-07:00,2026-06-16T05:12:28-07:00,u3d105aadccb9cde7,u3d105aadccb9cde7@users.invalid,GitHub,noreply@github.com,1,0,8,647,217,6,487,182,,,,,,0,215,Remove Agent beta header requirement (#215),"Remove Agent beta header requirement (#215)
+
+Moves Agent runs to the primary `exa.agent` namespace while keeping
+`exa.beta.agent` as a compatibility wrapper. Legacy `betas` values are
+optional and, when supplied, are sent as `Exa-Beta` from the beta
+namespace; no package version or lockfile changes are included.
+Validated with Agent unit tests, a local wheel smoke test, a Pyright
+compatibility script, and production API smoke calls."
+exa-labs/exa-py,87f75670ee20941188ba42e77793363aa01b9f6a,2026-06,12,post,2026-06-16T06:29:34-07:00,2026-06-16T06:29:34-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,1,0,3,4,4,1,1,1,,,,,,0,216,[codex] Bump exa-py version to 2.14.0 (#216),"[codex] Bump exa-py version to 2.14.0 (#216)
+
+## Summary
+
+Bumps the exa-py package version to 2.14.0 after the agent API beta
+header requirement was removed from master.
+
+Updated version metadata in:
+- pyproject.toml
+- setup.py
+- uv.lock
+
+## Validation
+
+- `uv run pytest tests/unit` passed: 206 passed, 14 skipped
+- `uv run pytest` was also attempted first, but the repo default pytest
+config targets `exa_py` and collected 0 tests"
+exa-labs/exa-py,bd8500a9b576ea99da6bdef95f88ebfc3606f748,2026-06,12,post,2026-06-16T06:42:58-07:00,2026-06-16T06:42:58-07:00,u07134764fc6bd08c,u07134764fc6bd08c@users.invalid,GitHub,noreply@github.com,1,0,1,2,0,0,0,0,,,,,,0,217,feat(agent): remove beta header requirement (#217),"feat(agent): remove beta header requirement (#217)
+
+## Summary
+
+Documents that the Agent API is available without a beta header.
+
+This PR intentionally uses a Conventional Commit title so release-please
+can detect the Agent API beta-header removal as a minor release trigger
+and open the 2.14.0 release PR for exa-py.
+
+## Validation
+
+- Not run; README-only change.
+
+<!-- devin-review-badge-begin -->
+
+---
+
+<a href=""https://app.devin.ai/review/exa-labs/exa-py/pull/217""
+target=""_blank"">
+  <picture>
+<source media=""(prefers-color-scheme: dark)""
+srcset=""https://static.devin.ai/assets/gh-open-in-devin-review-dark.svg?v=1"">
+<img
+src=""https://static.devin.ai/assets/gh-open-in-devin-review-light.svg?v=1""
+alt=""Open in Devin Review"">
+  </picture>
+</a>
+<!-- devin-review-badge-end -->"
+exa-labs/exa-py,fc1cd20e21b3db194860f134ab565c4f13d29335,2026-06,12,post,2026-06-16T06:45:17-07:00,2026-06-16T06:45:17-07:00,github-actions[bot],41898282+github-actions[bot]@users.noreply.github.com,GitHub,noreply@github.com,1,0,2,9,1,0,0,0,,,,,github-actions,0,218,chore(master): release 2.14.0 (#218),"chore(master): release 2.14.0 (#218)
+
+:robot: I have created a release *beep* *boop*
+---
+
+
+##
+[2.14.0](https://github.com/exa-labs/exa-py/compare/v2.13.2...v2.14.0)
+(2026-06-16)
+
+
+### Features
+
+* **agent:** remove beta header requirement
+([#217](https://github.com/exa-labs/exa-py/issues/217))
+([bd8500a](https://github.com/exa-labs/exa-py/commit/bd8500a9b576ea99da6bdef95f88ebfc3606f748))
+
+---
+This PR was generated with [Release
+Please](https://github.com/googleapis/release-please). See
+[documentation](https://github.com/googleapis/release-please#release-please).
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+exa-labs/exa-py,1577e2cc987daab71716856feaa2b4a4781b830f,2026-06,12,post,2026-06-24T12:43:47-07:00,2026-06-24T12:43:47-07:00,u61560048567bbbd8,u61560048567bbbd8@users.invalid,GitHub,noreply@github.com,1,0,3,75,5,1,8,5,,,,,,0,221,[codex] Allow Exa to read EXA_API_KEY by default (#221),"[codex] Allow Exa to read EXA_API_KEY by default (#221)
+
+Allows Exa() and AsyncExa() to omit api_key and read EXA_API_KEY from
+the environment, matching the documented setup path.
+Adds unit coverage for env fallback and missing-key errors, plus live
+integration coverage that skips when EXA_API_KEY is not set.
+Validated with `uv run pytest tests/unit/`, `uv run pytest
+tests/integration/test_env_api_key_integration.py -v`, docs generation,
+and diff checks."
+exa-labs/exa-py,b7c57e824be86d5208c6b09b0a17cd704717cc1e,2026-06,12,post,2026-06-24T16:26:00-07:00,2026-06-24T16:26:00-07:00,u61560048567bbbd8,u61560048567bbbd8@users.invalid,GitHub,noreply@github.com,1,0,8,104,4,5,47,1,,B,claude;devin,trailer;identity;message,,0,222,feat(agent): add Exa Connect data_sources support (#222),"feat(agent): add Exa Connect data_sources support (#222)
+
+Adds Exa Connect `data_sources` support to the Agent API: a new
+`AgentDataSource` model and `AgentDataSourceProvider` type, threaded
+through the `data_sources` parameter on all create methods (sync/async,
+standard/beta) and serialized as `dataSources`. Adds per-provider
+parsing of `data_sources` on `AgentUsage` and `AgentCostDollars` from
+run responses. Includes unit tests covering serialization (sync + async)
+and usage/cost parsing, plus a README example. Bumps the package version
+to 2.15.0.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+---------
+
+Co-authored-by: Devin AI <158243242+devin-ai-integration[bot]@users.noreply.github.com>
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+exa-labs/exa-py,fc1d01082843ac316b59b0439c28c5624e946c11,2026-06,12,post,2026-06-30T16:50:28-07:00,2026-06-30T16:50:28-07:00,ub94ce054408f5eb9,ub94ce054408f5eb9@users.invalid,GitHub,noreply@github.com,1,0,1,31,2,0,0,0,,,,,,0,224,add pypi workflow (#224),"add pypi workflow (#224)
+
+add pypi workflow"

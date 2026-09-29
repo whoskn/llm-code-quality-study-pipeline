@@ -1,0 +1,85 @@
+# The symlink census: every tracked symlink of every monthly snapshot of every sampled
+# repo, with the kind of thing its target turns out to be and, for a directory, how many
+# measured files a file-system walk therefore sees twice.
+#
+# Unlike the other stages this one writes no volume. The census is a few thousand rows
+# for the whole sample, the clone is blobless and nothing is resumed, so the rows go to
+# stdout and are read back out of the pod logs by `make symlinks-fetch`.
+#
+# Drive it through `make symlinks`: completions is the row count of the sample CSV, and
+# Job specs are immutable, so the Job is deleted and reapplied rather than edited.
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ba-symlinks
+  labels:
+    app: ba-symlinks
+spec:
+  completionMode: Indexed
+  completions: __COMPLETIONS__
+  parallelism: 16
+  backoffLimitPerIndex: 2
+  maxFailedIndexes: __MAXFAILED__
+  ttlSecondsAfterFinished: 172800
+  template:
+    metadata:
+      labels:
+        app: ba-symlinks
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: symlinks
+          image: python:3.13
+          command: ["python3", "/app/scripts/scan/symlinks_repo.py"]
+          args:
+            - --sample=/sample/sample.csv
+            - --work=/work
+            - --pre-months=__PRE__
+            - --post-months=__POST__
+          env:
+            - name: JOB_COMPLETION_INDEX
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.annotations['batch.kubernetes.io/job-completion-index']
+            # the blobless clone leaves the symlink blobs on the server, so reading a
+            # link target is a lazy fetch and still needs the token
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: github-token
+                  key: token
+                  optional: true
+            - name: HOME
+              value: /work
+            - name: PYTHONPATH
+              value: /app
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          volumeMounts:
+            - name: work
+              mountPath: /work
+            - name: scripts
+              mountPath: /app/scripts/scan
+            - name: sample
+              mountPath: /sample
+          resources:
+            requests:
+              cpu: "1"
+              memory: 512Mi
+              # trees and commits only: an order of magnitude under a full clone
+              ephemeral-storage: 4Gi
+            limits:
+              cpu: "2"
+              memory: 2Gi
+              ephemeral-storage: 20Gi
+      volumes:
+        - name: work
+          emptyDir:
+            sizeLimit: 20Gi
+        - name: scripts
+          configMap:
+            name: ba-symlinks-scripts
+        - name: sample
+          configMap:
+            name: ba-symlinks-sample

@@ -1,0 +1,164 @@
+# Shard the clone + m0 dating stage (stage 03 -> 04) across 10 pods.
+# Pod ba-dater-<i> takes the pool rows with NR % 10 == i and handles them one at a time:
+# bare blobless clone -> date_repo.py -> row appended to history_<i>.csv -> clone deleted.
+# Peak disk is JOBS clones, not a whole shard, and the CSV on the PVC is current after
+# every repo, so a crash costs only the repos in flight. The pod idles at the end so the
+# CSV can be copied out.
+#
+# Drive it through `make date`, never `kubectl apply -f` on this file alone: the
+# ba-date-scripts and ba-pool ConfigMaps and the github-token Secret are created by the
+# Makefile from scripts/dataset/date_repo.py, data/03_pool/pool_names.txt and
+# $GITHUB_TOKEN, and the StatefulSet is deleted first so its pods remount the current
+# script. Applying this file by itself leaves whatever those three happen to be already.
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ba-dater
+spec:
+  clusterIP: None
+  selector:
+    app: ba-dater
+  ports:
+    - name: none
+      port: 9999
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ba-date-shard
+data:
+  one.sh: |
+    #!/bin/sh
+    # one.sh owner/name: bare blobless clone -> row appended to $CSV -> clone deleted.
+    # $CSV is the only durable record and it grows one repo at a time, so a crash costs
+    # at most the repos in flight. It is also the resume marker: a repo whose row is
+    # already there is skipped.
+    d="$OUT/clones/$(printf '%s' "$1" | sed 's|/|__|g')"
+    awk -F, -v r="$d" '$1 == r { hit = 1 } END { exit !hit }' "$CSV" && exit 0
+    rm -rf "$d"
+    if git clone --bare --filter=blob:none -q "https://github.com/$1.git" "$d"; then
+      # measure into a temp file first: appending a half-written row would corrupt $CSV
+      if python /scripts/date_repo.py "$d" > "$d.row"; then
+        # one append per repo, serialised against the other JOBS workers
+        flock "$CSV.lock" sh -c 'tail -n +2 "$1" >> "$2"' _ "$d.row" "$CSV"
+      else
+        echo "FAIL-MEASURE $1"
+      fi
+    else
+      echo "FAIL-CLONE $1"
+    fi
+    rm -rf "$d" "$d.row"
+
+  shard.sh: |
+    #!/bin/sh
+    set -eu
+    ORD="${HOSTNAME##*-}"
+    export CSV="$OUT/history_$ORD.csv"
+    mkdir -p "$OUT/clones"
+    if [ -f "$OUT/done" ]; then
+      echo "shard $ORD already complete"
+      exec sleep infinity
+    fi
+
+    if ! command -v git >/dev/null 2>&1 || ! command -v flock >/dev/null 2>&1; then
+      apt-get update -qq
+      apt-get install -y -qq --no-install-recommends git util-linux
+    fi
+    # keep the token out of any file on the PVC. `if`, not `&&`: under set -e an empty
+    # token would make the test the failing last command of the statement and kill the shard
+    if [ -n "${GITHUB_TOKEN:-}" ]; then
+      git config --global credential.helper \
+        '!f(){ echo username=x-access-token; echo "password=$GITHUB_TOKEN"; };f'
+    fi
+
+    # every pool row lands in exactly one shard: NR % SHARDS == ordinal
+    awk -v n="$SHARDS" -v i="$ORD" 'NR % n == i' /pool/pool_names.txt > "$OUT/names.txt"
+    echo "shard $ORD of $SHARDS: $(wc -l < "$OUT/names.txt") repos"
+
+    # header once, and never on a resume: $CSV already holds the measured repos
+    [ -f "$CSV" ] || python -c "import sys; sys.path.insert(0, '/scripts'); \
+      import date_repo; print(','.join(date_repo.COLUMNS))" > "$CSV"
+
+    xargs -P "$JOBS" -n 1 /shard/one.sh < "$OUT/names.txt"
+    rmdir "$OUT/clones" 2>/dev/null \
+      || echo "shard $ORD: clones left behind: $(ls "$OUT/clones")"
+
+    touch "$OUT/done"
+    echo "shard $ORD: measured $(($(wc -l < "$CSV") - 1)) of $(wc -l < "$OUT/names.txt")"
+    exec sleep infinity
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: ba-dater
+spec:
+  serviceName: ba-dater
+  replicas: 10
+  podManagementPolicy: Parallel
+  selector:
+    matchLabels:
+      app: ba-dater
+  template:
+    metadata:
+      labels:
+        app: ba-dater
+    spec:
+      terminationGracePeriodSeconds: 5
+      containers:
+        - name: dater
+          image: python:3.13-slim
+          command: ["/bin/sh", "/shard/shard.sh"]
+          env:
+            - name: SHARDS
+              value: "10"
+            - name: JOBS
+              value: "4"
+            - name: OUT
+              value: /data
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: github-token
+                  key: token
+                  optional: true
+          volumeMounts:
+            - name: data
+              mountPath: /data
+            - name: shard
+              mountPath: /shard
+            - name: scripts
+              mountPath: /scripts
+            - name: pool
+              mountPath: /pool
+          resources:
+            requests:
+              cpu: "500m"
+              memory: 512Mi
+            limits:
+              cpu: "2"
+              memory: 2Gi
+          readinessProbe:
+            exec:
+              command: ["test", "-f", "/data/done"]
+            initialDelaySeconds: 30
+            periodSeconds: 30
+      volumes:
+        - name: shard
+          configMap:
+            name: ba-date-shard
+            defaultMode: 0755
+        - name: scripts
+          configMap:
+            name: ba-date-scripts
+        - name: pool
+          configMap:
+            name: ba-pool
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 3Gi
